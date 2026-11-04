@@ -72,6 +72,11 @@ add("load_game", 0, frames=4400, route="150 -;8 down;30 -;8 circle;300 -;8 circl
 add("free_roam", 1, 0, jump=0x800DB834, frames=2800, proof="free roam")
 add("partner_menu", 1, 0, jump=0x800DB834, frames=3000, route="600 -;8 triangle;240 -", proof="partner menu")
 add("partner_pick", 1, 0, jump=0x800DB834, frames=3400, route="600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -", proof="partner menu, first row picked")
+# The game's own route, from main's call of the routine that holds it (0x800CCF40): a candidate bit makes "Partner Up" ask
+# (0x800C59E8); yes shows the 1)-4) box; circle picks option 1.
+add("partner_prompt", 1, 0, jump=0x800DB8F4, frames=3400, flags="mask=2", route="600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -", proof="partner prompt with Hitomi's name")
+add("partner_choice", 1, 0, jump=0x800DB8F4, frames=3800, flags="mask=2", route="600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -;8 circle;300 -", proof="choice box the game opened itself")
+add("partner_answer", 1, 0, jump=0x800DB8F4, frames=4200, flags="mask=2", route="600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -;8 circle;300 -;8 circle;300 -", proof="first option picked")
 # The real 1)-4) string (0x800DCCB2, shown by 0x800CD750 in window 1), poked while the partner menu keeps the window array alive: the array is freed when text closes.
 add("choice_box", 1, 0, jump=0x800DB834, frames=3600, route="600 -;8 triangle;1500 -", say=0x800DCCB2, say_win=1, say_wait=900, proof="dialogue choice box")
 add("credits", 7, 0, jump=0x800D6910, frames=6000, proof="staff roll")

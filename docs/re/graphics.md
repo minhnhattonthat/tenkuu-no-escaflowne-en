@@ -4,7 +4,22 @@
 
 Rendering uses each TIM's first CLUT. A label drawn in a different palette could read differently, not disappear.
 
-## Needs English
+## Done in phase 8 (`tools/gfx.py`, `tools/staff.py`, checked by `tests/test_gfx.py`)
+
+| # | State |
+|---|---|
+| 1 | English: "THE VISION OF" and "ESCAFLOWNE" in Cinzel, sheared, each column coloured as the Japanese was there. Sphere and star kept. An approximation of the official logo, not a copy of it. |
+| 2 | English in all three copies: the row's own (c), then `SUNRISE / TV TOKYO` in the dialogue font. |
+| 3 | English, Liberation Serif, at each row's old centre. Titles: "Another World: Gaea", "The Mystic Moon", "The Blue-Eyed Prince", "Paradise Lost", "Operation: Golden Rule of Love", "Angel of Black Wings", "Eternal Feelings". Accent ramp brightened in each card's CLUT, since a thin Latin stroke was unreadable in the dark blue. |
+| 4 | English from `data/credits.tsv`, dialogue font, one sprite per line; roll order and spacing kept. |
+| 5 | **Kept Japanese, never drawn.** With ST_TITL filled with one loud colour (`work/qa/st`, ch1, ch3, ch7 cards and title), nothing showed. Not reachable as far as that run sees. |
+| 6 | English in all 78 copies (39 MDATs, 2 VRAM pages each): "UNDER CONSTRUCTION". Portrait-sized, so probably a missing-face stand-in. Still never seen in a run. |
+
+**Staff roll format (STAFF.BIN, overlay at 0x801D8000).** Layout list at 0x801D8CBC: hwords (line, x, dy), ending in -1; each record advances the roll by dy, then draws that line at x. A line can be used twice (78, 96). Four line tables, one per sheet, at 0x801D90B4, 0x801D93DC, 0x801D9730, 0x801D9A18: count, a zero hword, then per line n and n records of six hwords (u, v, x, y, w, h). y is 128 throughout and the code adds 0x70 and the roll. At most 300 sprites in all and 44 at once (task buffers at +0x7C and +0xE8C). The polygon drops a sprite's last columns, so `staff.PAD` keeps a blank margin ("Chid" drew as "Chic" without it).
+
+**LZ header.** Located the decompressor: 0x800157CC. Byte 0 is 0xF0 ^ distance bits (0xFA = 10 bits, 0xF8 = 8 bits with a different path), then a 24-bit **token count** (literals plus refs), which is how it stops; there is no output size. `lz.compress` writes this, and the tests run the real routine under unicorn.
+
+## Needs English (survey, phase 1; see above for what became of each row)
 
 | # | Screen | Source | Format | Japanese | Plan |
 |---|---|---|---|---|---|

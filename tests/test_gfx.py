@@ -157,6 +157,34 @@ def test_cards_keep_size_and_header_and_draw_in_their_own_palette(edited, n):
     assert n == 6 or any(max(gfx.rgb(t["clut"][i])) - min(gfx.rgb(t["clut"][i])) >= 16 for i in np.unique(b))
 
 
+@needs_tree
+def test_placeholder_is_replaced_in_every_mdat_and_nothing_else_moves(edited):
+    src = (extract.TREE / gfx.PLACEHOLDER_SRC).read_bytes()
+    streams = [src[off:staff.stream_tim(src, off)[2]] for off in gfx.PLACEHOLDER_OFFS]
+    mdats = sorted((extract.TREE / "ESCA/BG").rglob("MDAT*.BIN"))
+    assert len(mdats) == 39
+    for path in mdats:
+        rel = path.relative_to(extract.TREE).as_posix()
+        orig, new = path.read_bytes(), edited[rel]
+        assert len(orig) == len(new)
+        spans = []
+        for s in streams:
+            at = orig.find(s)
+            assert at >= 0 and orig.find(s, at + 1) < 0, rel
+            assert new.find(s) < 0, rel
+            spans.append((at, at + len(s)))
+        stray = [i for i in range(len(orig)) if orig[i] != new[i] and not any(a <= i < b for a, b in spans)]
+        assert not stray, rel
+
+
+@needs_tree
+def test_game_decompressor_reads_the_new_placeholder(edited):
+    new = edited[gfx.PLACEHOLDER_SRC]
+    for off in gfx.PLACEHOLDER_OFFS:
+        dec, t, end = staff.stream_tim(new, off)
+        assert game_decompress(new[off:end], len(dec)) == dec and t["w"] == 60 and t["h"] == 160
+
+
 def test_font_files_are_listed_with_a_licence():
     table = (ROOT / "docs/fonts.md").read_text(encoding="utf-8")
     for path in (gfx.SERIF, gfx.DISPLAY):

@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import extract  # noqa: E402
 import font  # noqa: E402
+import lz  # noqa: E402
 import staff  # noqa: E402
 import timscan  # noqa: E402
 
@@ -38,6 +39,9 @@ LOGO_RECT = (0, 0, 240, 125)  # x0, y0, x1, y1: ESCA111's logo; the menu words b
 COPYRIGHT = "SUNRISE / TV TOKYO"
 COPYRIGHT_TEXT_X = 18  # after the row's own (c) glyph
 COPYRIGHT_END_X = 160
+PLACEHOLDER = ("UNDER", "CONSTR-", "UCTION")
+PLACEHOLDER_SRC = "ESCA/BG/00/MDAT01A.BIN"
+PLACEHOLDER_OFFS = (0x38790, 0x3993C)  # stream starts, the 4-byte header included; docs/re/graphics.md row 6
 
 
 def tree_bytes(rel):
@@ -256,8 +260,51 @@ def title_files():
     return out
 
 
+def placeholder_tim(dec, t):
+    """The portrait-sized "under construction" picture: English, white letters with the Japanese's yellow edge."""
+    old = pixels(dec, t)
+    pal = t["clut"]
+    bg = int(np.bincount(old.ravel()).argmax())
+    white = max(range(256), key=lambda i: (rgb(pal[i])[2] > 200, luma(pal[i])) if i in set(old.ravel().tolist()) else (False, -1))
+    yellow = int(np.bincount(old[(old != bg) & (old != white)]).argmax())
+    new = np.full_like(old, bg)
+    for (text, y) in zip(PLACEHOLDER, (44, 80, 116)):
+        f = serif(22)
+        m = text_mask(text, f, old.shape[1], old.shape[0], old.shape[1] // 2, y)[0] > 110
+        grown = m.copy()
+        grown[1:] |= m[:-1]
+        grown[:-1] |= m[1:]
+        grown[:, 1:] |= m[:, :-1]
+        grown[:, :-1] |= m[:, 1:]
+        new[grown] = yellow
+        new[m] = white
+    return with_pixels(dec, t, new)
+
+
+def placeholder_files():
+    """Every copy of the picture, in every MDAT: same stream start, shorter stream, zero padded, so no pointer moves.
+    Found by the disc's exact stream bytes, one variant per VRAM page."""
+    src = tree_bytes(PLACEHOLDER_SRC)
+    variants = {}
+    for off in PLACEHOLDER_OFFS:
+        dec, t, end = staff.stream_tim(src, off)
+        new = lz.compress(placeholder_tim(dec, t))
+        if len(new) > end - off:
+            raise OverflowError(f"placeholder stream {len(new)} bytes, slot {end - off}")
+        variants[src[off:end]] = new + bytes(end - off - len(new))
+    out = {}
+    for path in sorted((extract.TREE / "ESCA/BG").rglob("MDAT*.BIN")):
+        d = path.read_bytes()
+        for old, new in variants.items():
+            d = d.replace(old, new)
+        if d != path.read_bytes():
+            out[path.relative_to(extract.TREE).as_posix()] = d
+    return out
+
+
 def edited():
     out = title_files()
+    out.update(placeholder_files())
     for n in CARDS:
         rel, data = card(n)
         out[rel] = data
@@ -268,8 +315,14 @@ def edited():
 def save_pngs(out):
     out = Path(out)
     out.mkdir(parents=True, exist_ok=True)
+    src = tree_bytes(PLACEHOLDER_SRC)
+    dec, t, _end = staff.stream_tim(src, PLACEHOLDER_OFFS[0])
+    im = timscan.render(placeholder_tim(dec, t), t).convert("RGB")
+    im.save(out / "PLACEHOLDER.png")
     for rel, data in edited().items():
         name = Path(rel).stem
+        if name.startswith("MDAT"):
+            continue
         if rel.endswith(".TIM"):
             t = timscan.parse(data, 0)
             sheets = [(name, data, t)]

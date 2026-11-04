@@ -140,6 +140,9 @@ load_game	0	0	-	4400	0	150 -;8 down;30 -;8 circle;300 -;8 circle;300 -;8 circle;
 free_roam	1	0	0x800db834	2800	0	-	-	-	-	-	-	-	free roam
 partner_menu	1	0	0x800db834	3000	0	600 -;8 triangle;240 -	-	-	-	-	-	-	partner menu
 partner_pick	1	0	0x800db834	3400	0	600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -	-	-	-	-	-	-	partner menu, first row picked
+partner_prompt	1	0	0x800db8f4	3400	0	600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -	-	mask=2	-	-	-	-	partner prompt with Hitomi's name
+partner_choice	1	0	0x800db8f4	3800	0	600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -;8 circle;300 -	-	mask=2	-	-	-	-	choice box the game opened itself
+partner_answer	1	0	0x800db8f4	4200	0	600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -;8 circle;300 -;8 circle;300 -	-	mask=2	-	-	-	-	first option picked
 choice_box	1	0	0x800db834	3600	0	600 -;8 triangle;1500 -	-	-	-	0x800dccb2	1	900	dialogue choice box
 credits	7	0	0x800d6910	6000	0	-	-	-	-	-	-	-	staff roll
 ending_tie	7	0	0x800d687c	9000	0	-	-	-	0x8009AE6C=0 0x8009AE40=0	-	-	-	ending FMV 0x2C then staff roll

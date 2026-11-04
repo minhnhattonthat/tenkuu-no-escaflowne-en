@@ -60,6 +60,7 @@ local tab = chapter > 0 and TABLES[chapter] or nil
 local flags = sc.flags or ""
 local god = (GOD or 0) ~= 0 or flags:find("god")
 local lose, win = flags:find("lose"), flags:find("win")
+local partner_mask = tonumber(flags:match("mask=(%d+)"))
 if sc.pokes then
   sc.poke_list = {}
   for a, v in sc.pokes:gmatch("(0x%x+)=(%-?%w+)") do sc.poke_list[#sc.poke_list + 1] = { tonumber(a), tonumber(v) } end
@@ -93,6 +94,14 @@ L.on_frame(function(n)
     if not poked and n > done_at + 900 and s16(r16(p + HP_PLAYER)) > 0 then
       if lose then w16(p + HP_PLAYER, 0); L.log(n .. " poke lose"); poked = true end
       if win then w16(p + HP_ENEMY, 0); L.log(n .. " poke win"); poked = true end
+    end
+  end
+  if partner_mask and done_at then  -- candidates: a bit mask at +2 in task 0xE9's data, read by the partner menu (0x800CD6DC)
+    local slot = r8(0x800A2350 + 0xE9)
+    local task = r32(0x800A5300 + (slot >> 4) * 64 + (slot & 15) * 4)
+    if task >= 0x80000000 and task < 0x80200000 and r8(task + 0x12) == 0xE9 then
+      local data = r32(task + 4)
+      if data >= 0x80000000 and data < 0x80200000 then w16(data + 2, partner_mask) end
     end
   end
   if say and done_at and not said and n > done_at + (tonumber(sc.say_wait) or 600) then
