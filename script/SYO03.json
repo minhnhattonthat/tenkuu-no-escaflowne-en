@@ -5115,8 +5115,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I believe in them. | In the way Allen believes in Van!\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I believe in them.{wait}{clear}{nl}In the way Allen believes in Van!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"I believe in them. | In the feelings behind Allen's faith in Van!\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I believe in them.{wait}{clear}{nl}In the feelings behind Allen's faith{nl}in Van!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_268",

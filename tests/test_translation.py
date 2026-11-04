@@ -22,6 +22,48 @@ def test_every_translated_line_passes_its_batch_check():
     assert not bad, "\n".join(bad[:20])
 
 
+def test_name_table_fits_its_tag_and_follows_names_tsv():
+    names, n = fit.load_names(), 0
+    for doc in batches.docs().values():
+        for e in doc["entries"]:
+            if e.get("form") == "name":
+                name = names[e["jp"].replace("{end}", "")]
+                assert e["en"] == name + "{end}", e["id"]
+                assert fit.width(name) <= fit.WINDOWS["name_tag"]["px"], e["id"]
+                n += 1
+    assert n == 49
+
+
+def test_scene_menu_rows_fit_their_box_together():
+    for path, doc in batches.docs().items():
+        rows = sum(len(fit.raw_rows(e["en"])) for e in doc["entries"] if e.get("region") == "menu" and "en" in e and not e.get("dead"))
+        assert rows <= fit.WINDOWS["scene_menu"]["rows"], path.stem
+
+
+def test_partner_swap_prompt_fits_with_the_two_widest_partners():
+    names = fit.load_names()
+    wide = sorted(fit.width(names[n]) for n in fit.WINDOWS["partner_prompt"]["names"])[-2:]
+    en = {e["id"]: e["en"] for e in batches.docs()[batches.SCRIPT / "common.json"]["entries"] if "en" in e}
+    first = fit.raw_rows(en["common_099"])[0]
+    assert sum(wide) + fit.width(fit.raw_rows(en["common_098"])[0]) + fit.width(first) + 2 <= fit.WINDOWS["partner_prompt"]["px"]
+
+
+def test_raw_rows_are_measured_against_their_box():
+    long = "{mark2}　" + "End Partnership " * 2 + "{nl2}{end}"
+    assert fit.raw_box({"id": "common_002", "form": "menu"}) == "partner_menu"
+    assert fit.raw_lint({"id": "common_002", "form": "menu"}, long)  # over 140 px
+    assert not fit.raw_lint({"id": "common_012", "form": "menu"}, long)  # the card menu holds 224
+    assert fit.raw_lint({"id": "common_012", "form": "menu"}, "a{nl}" * 7 + "{end}")  # over 6 rows
+    assert fit.raw_lint({"id": "common_097", "form": "fragment"}, "x{end}", 224)  # follows the name
+    assert fit.width("　a") == fit.INDENT_PX + fit.width("a") and fit.width("　") == fit.INDENT_PX
+
+
+def test_raw_blanks_match_the_jp():
+    e = {"id": "common_012", "form": "menu", "jp": "　{mark1}あ{nl2}{end}"}
+    assert not batches.problems(e, "　{mark1}a{nl2}{end}", {"x": "x"}, [])
+    assert any("blanks" in p for p in batches.problems(e, "{mark1}a{nl2}{end}", {"x": "x"}, []))
+
+
 def test_fill_rows_wraps_to_the_box_and_breaks_pages_at_sentences():
     pages = fit.fill_rows("A short sentence ends here. " * 12, 2)
     assert len(pages[0]) <= 2 and all(len(p) <= 3 for p in pages)

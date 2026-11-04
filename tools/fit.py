@@ -9,6 +9,7 @@ Authored text (`tl` in script/*.json):
 A text that outgrows its page runs on to an extra page, at a sentence end if the page has one. The engine ignores a
 newline at column 0 (0x8003B10C), so `{clear}{nl2}` starts on row 0: a page holds 3 rows, or 2 under a name tag.
 """
+import json
 import re
 import sys
 from pathlib import Path
@@ -17,10 +18,11 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import font  # noqa: E402
 
-BODY_PX = 208
-CHOICE_PX = 224
-CHOICE_ROWS = 7
-INDENT_PX = 12
+WINDOWS = json.loads((ROOT / "data/windows.json").read_text(encoding="utf-8"))
+BODY_PX = WINDOWS["dialogue"]["px_body"]
+CHOICE_PX = WINDOWS["choice"]["px"]
+CHOICE_ROWS = WINDOWS["choice"]["rows"]
+INDENT_PX = font.FULLWIDTH_PX
 STUB_CHARS = 6  # a last row shorter than this is one orphaned word
 STUB_PAGE_WORDS = 3  # an extra page must carry more than this, or it costs a button press for a scrap
 NEXT_PAGE = "{wait}{clear}{nl}"
@@ -325,6 +327,36 @@ def lint(en):
                 bad.append(f"{width(r)} px: {r}")
         if len(rows) > 1 and len(rows[-1]) < STUB_CHARS:
             bad.append(f"stub last row: {rows}")
+    return bad
+
+
+def raw_box(e):
+    """The data/windows.json key a hand-written entry draws in."""
+    if e.get("form") == "fragment":
+        return "partner_prompt"
+    if e.get("region") == "menu":
+        return "scene_menu"
+    if e.get("form") == "menu":
+        return "partner_menu" if int(e["id"].split("_")[1]) <= 5 else "card_menu"
+    return "dialogue"  # battle_001: if it draws at all, the battle text window is the dialogue window
+
+
+def raw_rows(en):
+    """A hand-written token string as its rows, tokens gone. A blank row counts; a trailing newline opens none."""
+    rows = [TOKEN.sub("", r) for r in re.split(r"\{nl2?\}", en)]
+    return rows[:-1] if len(rows) > 1 and not rows[-1] else rows
+
+
+def raw_lint(e, en, name_px=0):
+    """Rows and pixels against the entry's box. A fragment's first row follows a name of name_px at runtime."""
+    box = WINDOWS[raw_box(e)]
+    rows, bad = raw_rows(en), []
+    if len(rows) > box["rows"]:
+        bad.append(f"{len(rows)} rows, {raw_box(e)} holds {box['rows']}")
+    for n, r in enumerate(rows):
+        px = width(r) + (name_px if not n and e.get("form") == "fragment" else 0)
+        if px > box["px"]:
+            bad.append(f"{px} px, {raw_box(e)} holds {box['px']}: {r!r}")
     return bad
 
 

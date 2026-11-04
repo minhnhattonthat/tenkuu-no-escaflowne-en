@@ -306,7 +306,8 @@ vwf_finish:
 .endarea
 
 ; --- part 2: one glyph into a buffer. t0 = window, t1 = glyph index, t3 = advance, t5 = pen
-.org 0x80011C28             ; over libgpu's debug format strings, read only by its dump calls and at debug level > 0
+.org 0x80011C28             ; over libgpu's debug format strings. All but one are gated at debug level >= 2. ResetGraph:jtb (0x80011D2C)
+                            ; prints at ResetGraph(0): tests/test_romdiff.py keeps that address free of %
 .area 0x80011F50 - 0x80011C28
 vwf_glyph:
     lh    at, 0x1E(fp)          ; two buffers, then wait for their uploads: same as the original

@@ -22,6 +22,7 @@ TL = ROOT / "work/tl"
 SCRIPT = ROOT / "script"
 FORMS = ("dlg", "narration", "choice")
 AUTHOR_MARKS = re.compile(r"\s[|^#/]\s")
+JOIN_SPACES = {"common_097", "common_098", "common_099"}  # their spaces join them to a name at runtime
 KANA_NAME = "ァ-ヶーぁ-ん"
 # honorifics the ruling keeps, only after a name (貴様, お嬢さん and the like aren't honorifics)
 HONORIFICS = [
@@ -96,6 +97,12 @@ def tokens_of(text):
     return sorted(t for t in re.findall(r"\{[^}]*\}", text) if t not in ("{nl}", "{nl2}"))
 
 
+def blanks(text):
+    """(leading, trailing) blank characters, tokens ignored."""
+    t = re.sub(r"\{[^}]*\}", "", text)
+    return len(t) - len(t.lstrip(" 　")), len(t) - len(t.rstrip(" 　"))
+
+
 def control_problems(jp, en):
     """Control codes match the JP. Extra pages may add {wait} and {clear}, but never remove one."""
     pager = ("{wait}", "{clear}")
@@ -115,6 +122,11 @@ def problems(e, text, names, gloss):
         bad = [] if stripped.isascii() else ["raw text not ASCII"]
         if tokens_of(text) != tokens_of(e["jp"]):
             bad.append(f"tokens differ from the JP: {tokens_of(e['jp'])}")
+        if stripped.isascii():
+            partners = [fit.width(names[n]) for n in fit.WINDOWS["partner_prompt"]["names"] if n in names]
+            bad += fit.raw_lint(e, text, max(partners, default=0))
+        if e["id"] not in JOIN_SPACES and blanks(text) != blanks(e["jp"]):
+            bad.append(f"leading or trailing blanks differ from the JP: {blanks(e['jp'])}, {blanks(text)}")
         return bad
     bad = []
     try:

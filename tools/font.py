@@ -10,6 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ROWS = 12
+FULLWIDTH_PX = 12
 
 
 def load(path=None):
@@ -42,7 +43,9 @@ class Font:
         return bytes(w + 1 for w, _ in order) + b"".join(bytes(rows) for _, rows in order)
 
     def width(self, text):
-        return sum(self.glyphs[c][0] + 1 for c in text) - (1 if text else 0)
+        """A fullwidth space is one 12 px Shift-JIS cell, which has no 1 px gap to drop at the end."""
+        px = sum(FULLWIDTH_PX if c == "　" else self.glyphs[c][0] + 1 for c in text)
+        return px - (1 if text and text[-1] != "　" else 0)
 
 
 def sheet(path):

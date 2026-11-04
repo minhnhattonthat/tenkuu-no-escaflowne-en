@@ -294,7 +294,7 @@ def write_layout(out, files):
         if xml.count(tag) != 1:
             raise ValueError(f"{tag} found {xml.count(tag)} times in layout.xml")
         xml = xml.replace(tag, f'<file name="{Path(tree_rel).name}" source="{(out / tree_rel).as_posix()}" type="data"')
-    path = ROOT / "work/layout_en.xml"
+    path = out.parent / f"layout_{out.name}.xml"  # beside out/: a test's temp build never touches work/layout_en.xml
     path.write_text(xml, encoding="utf-8", newline="\n")
     return path
 
@@ -320,14 +320,16 @@ def insert(out=None, mode="en", qa=None, quiet=False):
         tree_rel = extract.tree_path(name)
         if name == "SLPS_010":
             if mode == "en":
-                exe = bytearray((out / EXE).read_bytes())
+                w = Writer(name, (extract.TREE / EXE).read_bytes())
+                w.d = bytearray((out / EXE).read_bytes())  # the assembled hook stays; the log's old bytes are the disc's
                 for e in entries:
                     if "en" in e:  # the memory-card title: the BIOS draws it, Shift-JIS only
-                        off, data = int(e["off"], 16), e["en"].replace("{end}", "").encode("cp932") + b"\0"
+                        data = e["en"].replace("{end}", "").encode("cp932") + b"\0"
                         if len(data) > e["size"]:
                             raise ValueError(f"{e['id']}: {len(data)} bytes, its span holds {e['size']}")
-                        exe[off:off + len(data)] = data
-                (out / EXE).write_bytes(exe)
+                        w.put(int(e["off"], 16), data, f"title {e['id']}")
+                (out / EXE).write_bytes(w.d)
+                logs += [f"{name} {ln}" for ln in w.log]
             continue
         orig = (extract.TREE / tree_rel).read_bytes()
         if not any(text_of(e, mode, qa, fnt, LINE_PX) is not None for e in entries):

@@ -53,6 +53,7 @@
     "x0": 56,
     "px": 224,
     "rows": 3,
-    "state": "guess: queued on window 0 by 0x800C59E8 (static read), the dialogue window; partner_pick can't reach it in chapter 1; phase 8's story run must show it"
+    "names": ["バァン", "ひとみ", "バルガス", "アレン", "フォルケン", "ガデス", "モグラ男", "メルル", "ミラーナ", "エリーズ", "シド王子", "ドライデン", "地竜", "レフィーヌ", "ディランドゥ", "ギムル"],
+    "state": "guess: queued on window 0 by 0x800C59E8 (static read), the dialogue window; partner_pick can't reach it in chapter 1; phase 8's story run must show it. names: the first 16 of the name table, the only ones a candidate can be (callers test a 16-bit mask, 0x800CD700)"
   }
 }

@@ -39,7 +39,7 @@ EXE loads 0x80010000-0x8009B000. Internal zero runs (file offset):
 | VA | Bytes | Holds |
 |---|---|---|
 | 0x80010254-0x800104AC | 600 | hook parts 1 and 3 |
-| 0x80011C28-0x80011F50 | 808 | hook part 2, pair table; was libgpu's debug format strings, read only by its dump calls at debug level > 0 |
+| 0x80011C28-0x80011F50 | 808 | hook part 2, pair table; was libgpu's debug format strings: gated at level >= 2, except `ResetGraph:jtb` at 0x80011D2C, printed at `ResetGraph(0)` (0x80063360). Hook part 2 leaves a NUL there; a `%` at that address would reach the BIOS printf with junk arguments, so `tests/test_romdiff.py` forbids one |
 | 0x80039AD4-0x8003A1A8 | 1,748 | smaller renderer, then the font (1,235 bytes) |
 
 **Other low RAM:** 0x8000BED2-0x8000E000 (8,494) and 0x8000E5A0-0x80010000 (6,752) below the EXE are zero at runtime, but the BIOS and libraries may use them. Not loadable from the EXE image without extending the load range. Avoid.
