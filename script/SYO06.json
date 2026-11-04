@@ -393,7 +393,7 @@
     }
    ],
    "tl": "\"But I don't know. | If I can go on and live with Dryden like this...\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"But I don't know.{wait}{clear}{nl}If I can go on and live with Dryden like{nl}this...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"But I don't know.{wait}{clear}{nl}If I can go on and live with Dryden{nl}like this...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_022",
@@ -507,7 +507,7 @@
     }
    ],
    "tl": "\"Please. Do it to help me out, a reading...\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Please. Do it to help me out, a{nl}reading...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Please. Do it to help me out,{nl}a reading...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_028",
@@ -526,7 +526,7 @@
     }
    ],
    "tl": "\"But if I bring on some strange future again...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"But if I bring on some strange future{nl}again...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"But if I bring on some strange{nl}future again...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_029",
@@ -716,7 +716,7 @@
     }
    ],
    "tl": "\"Don't worry, this card represents good fortune. | In other words, marrying Dryden-san will make you happy.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Don't worry, this card represents good{nl}fortune.{wait}{clear}{nl}In other words, marrying Dryden-san will{nl}make you happy.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Don't worry, this card represents{nl}good fortune.{wait}{clear}{nl}In other words, marrying Dryden-san will{nl}make you happy.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_039",
@@ -887,7 +887,7 @@
     }
    ],
    "tl": "\"But should the dragon influence things again...\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"But should the dragon influence things{nl}again...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"But should the dragon influence{nl}things again...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_048",
@@ -1360,7 +1360,7 @@
     }
    ],
    "tl": "\"Did this happen because I swapped fate?\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303037}\"Did this happen because I swapped{nl}fate?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303037}\"Did this happen because I{nl}swapped fate?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_071",
@@ -1480,7 +1480,7 @@
     }
    ],
    "tl": "\"The cards said this marriage was actually a bad one... | But I thought I could change it, with the power of will... I thought I could change it...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The cards said this marriage was{nl}actually a bad one...{wait}{clear}{nl}But I thought I could change it, with the{nl}power of will... I thought I could change{nl}it...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The cards said this marriage was{nl}actually a bad one...{wait}{clear}{nl}But I thought I could change it, with the{nl}power of will... I thought I could{nl}change it...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_077",
@@ -1980,7 +1980,7 @@
     }
    ],
    "tl": "\"It's not your fault. | Even if I'd followed the reading and called off the wedding, they'd have attacked. | Besides, I don't believe in fortune-telling.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"It's not your fault.{wait}{clear}{nl}Even if I'd followed the reading and{nl}called off the wedding, they'd have{nl}attacked.{wait}{clear}{nl}Besides, I don't believe in{nl}fortune-telling.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"It's not your fault.{wait}{clear}{nl}Even if I'd followed the reading and{nl}called off the wedding, they'd{nl}have attacked.{wait}{clear}{nl}Besides, I don't believe{nl}in fortune-telling.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_103",
@@ -2018,7 +2018,7 @@
     }
    ],
    "tl": "\"Hitomi. | It's because I asked you to do that, isn't it? I'm sorry. | I'm truly sorry. For making you suffer too... | Will you forgive me?\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Hitomi.{wait}{clear}{nl}It's because I asked you to do that,{nl}isn't it? I'm sorry.{wait}{clear}{nl}I'm truly sorry. For making you suffer{nl}too...{wait}{clear}{nl}Will you forgive me?\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Hitomi.{wait}{clear}{nl}It's because I asked you to do that,{nl}isn't it? I'm sorry.{wait}{clear}{nl}I'm truly sorry. For making you{nl}suffer too...{wait}{clear}{nl}Will you forgive me?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo06_105",
@@ -2075,7 +2075,7 @@
     }
    ],
    "tl": "\"It cannot be helped. It is for our ideal future.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"It cannot be helped. It is for our ideal{nl}future.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"It cannot be helped. It is for our{nl}ideal future.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo06_108",
@@ -2189,7 +2189,7 @@
     }
    ],
    "tl": "\"They've noticed Hitomi... | Hitomi's 'power,' it seems. They'll attack again. | But they're protected by this so-called good fortune... | In fact, we couldn't even get close to them.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"They've noticed Hitomi...{wait}{clear}{nl}Hitomi's 'power,' it seems. They'll attack{nl}again.{wait}{clear}{nl}But they're protected by this so-called{nl}good fortune...{wait}{clear}{nl}In fact, we couldn't even get close to{nl}them.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"They've noticed Hitomi...{wait}{clear}{nl}Hitomi's 'power,' it seems. They'll{nl}attack again.{wait}{clear}{nl}But they're protected by this so-called{nl}good fortune...{wait}{clear}{nl}In fact, we couldn't even get close{nl}to them.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_114",
@@ -2384,7 +2384,7 @@
     }
    ],
    "tl": "\"Stay here, Merle. I'm going to look for Hitomi.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Stay here, Merle. I'm going to look for{nl}Hitomi.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Stay here, Merle. I'm going to look{nl}for Hitomi.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_123",
@@ -2422,7 +2422,7 @@
     }
    ],
    "tl": "\"The young lady, eh? Saw her at the harbor up ahead, I did. | Had some woman with her, like a leopard...\"",
-   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"The young lady, eh? Saw her at the{nl}harbor up ahead, I did.{wait}{clear}{nl}Had some woman with her, like a{nl}leopard...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"The young lady, eh? Saw her at the{nl}harbor up ahead, I did.{wait}{clear}{nl}Had some woman with her, like{nl}a leopard...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_125",
@@ -2650,7 +2650,7 @@
     }
    ],
    "tl": "\"The only one I can trust is Folken-sama!\"",
-   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"The only one I can trust is{nl}Folken-sama!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"The only one I can trust{nl}is Folken-sama!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_137",
@@ -2669,7 +2669,7 @@
     }
    ],
    "tl": "\"This woman... she really feels for Folken-san...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"This woman... she really feels for{nl}Folken-san...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"This woman... she really feels{nl}for Folken-san...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo06_138",
@@ -2707,7 +2707,7 @@
     }
    ],
    "tl": "\"The girl's shadow is rising into view at this very moment. | Send the fortune-enhanced soldiers at once.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"The girl's shadow is rising into view at{nl}this very moment.{wait}{clear}{nl}Send the fortune-enhanced soldiers at{nl}once.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"The girl's shadow is rising into view at{nl}this very moment.{wait}{clear}{nl}Send the fortune-enhanced soldiers{nl}at once.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_140",
@@ -2827,7 +2827,7 @@
     }
    ],
    "tl": "\"You can't go back to Folken-san! | Please, run away somewhere far off! Letting them tamper with your body with those weird machines! Getting torn up like that... | Even if it's for someone you love, it's wrong!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You can't go back to Folken-san!{wait}{clear}{nl}Please, run away somewhere far off!{nl}Letting them tamper with your body{nl}with those weird machines!{wait}{clear}{nl}Getting torn up like that...{wait}{clear}{nl}Even if it's for someone you love, it's{nl}wrong!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You can't go back to Folken-san!{wait}{clear}{nl}Please, run away somewhere far off!{nl}Letting them tamper with your body{nl}with those weird machines!{wait}{clear}{nl}Getting torn up like that...{wait}{clear}{nl}Even if it's for someone you love,{nl}it's wrong!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_146",
@@ -3774,7 +3774,7 @@
     }
    ],
    "tl": "\"Don't worry about us. | We were happy to have known you, Folken-sama.\"",
-   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}{voice:30303239}\"Don't worry about us.{wait}{clear}{nl}{voice:30303330}We were happy to have known you,{nl}Folken-sama.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}{voice:30303239}\"Don't worry about us.{wait}{clear}{nl}{voice:30303330}We were happy to have known{nl}you, Folken-sama.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_193",
@@ -3799,7 +3799,7 @@
     }
    ],
    "tl": "\"Since we can die with you at our side, Folken-sama...\"",
-   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}{voice:30303331}\"Since we can die with you at our side,{nl}Folken-sama...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}{voice:30303331}\"Since we can die with you at our{nl}side, Folken-sama...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_194",
@@ -3874,7 +3874,7 @@
     }
    ],
    "tl": "\"A reaction... Artificially enhanced good fortune | gave rise to a reaction, misfortune. But this experiment has yielded great results. | Now our fate equation will...\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303334}\"A reaction... Artificially enhanced good{nl}fortune{wait}{clear}{nl}{voice:30303335}gave rise to a reaction, misfortune. But{nl}this experiment has yielded great{nl}results.{wait}{clear}{nl}{voice:30303337}Now our fate equation will...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303334}\"A reaction... Artificially enhanced{nl}good fortune{wait}{clear}{nl}{voice:30303335}gave rise to a reaction, misfortune. But{nl}this experiment has yielded{nl}great results.{wait}{clear}{nl}{voice:30303337}Now our fate equation will...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_197",
@@ -3943,7 +3943,7 @@
     }
    ],
    "tl": "\"Fanelia, protected by the dragon, destroyed | by one of the dragon's blood...\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Fanelia, protected by the dragon,{nl}destroyed{wait}{clear}{nl}by one of the dragon's blood...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Fanelia, protected by the{nl}dragon, destroyed{wait}{clear}{nl}by one of the dragon's blood...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo06_200",
@@ -4000,7 +4000,7 @@
     }
    ],
    "tl": "\"I'd like to think we've made some progress...\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I'd like to think we've made some{nl}progress...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I'd like to think we've made{nl}some progress...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_203",
@@ -4057,7 +4057,7 @@
     }
    ],
    "tl": "\"I'll avenge my people. As King of Fanelia...\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I'll avenge my people. As King of{nl}Fanelia...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I'll avenge my people. As King{nl}of Fanelia...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_206",
@@ -4436,7 +4436,7 @@
     }
    ],
    "tl": "\"Whaaat? | Don't tell me that girl seduced Van-sama?!\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Whaaat?{wait}{clear}{nl}Don't tell me that girl seduced{nl}Van-sama?!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Whaaat?{wait}{clear}{nl}Don't tell me that girl{nl}seduced Van-sama?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_225",
@@ -4524,7 +4524,7 @@
     }
    ],
    "tl": "\"What do you think you're doing, tagging along?\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"What do you think you're doing, tagging{nl}along?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"What do you think you're doing,{nl}tagging along?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_229",
@@ -4581,7 +4581,7 @@
     }
    ],
    "tl": "\"That howl was a message from Folken-san, wasn't it? | Surely once you meet, you'll understand?!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"That howl was a message from{nl}Folken-san, wasn't it?{wait}{clear}{nl}Surely once you meet, you'll{nl}understand?!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"That howl was a message from{nl}Folken-san, wasn't it?{wait}{clear}{nl}Surely once you meet,{nl}you'll understand?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_232",
@@ -4733,7 +4733,7 @@
     }
    ],
    "tl": "\"Do you think I would set a trap for my brother?\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Do you think I would set a trap for my{nl}brother?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Do you think I would set a trap for{nl}my brother?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_240",
@@ -4999,7 +4999,7 @@
     }
    ],
    "tl": "\"Van, your anger and fear are drawing the dragons. | As a drop of water spreads ripples, wherever there is anger and fear, strife arises. | I will change human fate. To build a new world free of anger and fear.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Van, your anger and fear are drawing{nl}the dragons.{wait}{clear}{nl}As a drop of water spreads ripples,{nl}wherever there is anger and fear, strife{nl}arises.{wait}{clear}{nl}I will change human fate. To build a new{nl}world free of anger and fear.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Van, your anger and fear are drawing{nl}the dragons.{wait}{clear}{nl}As a drop of water spreads ripples,{nl}wherever there is anger and fear,{nl}strife arises.{wait}{clear}{nl}I will change human fate. To build a new{nl}world free of anger and fear.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_254",
@@ -5233,7 +5233,7 @@
     }
    ],
    "tl": "\"I wanted to lift from your gentle shoulders the King of Fanelia's burden, | a burden fated for war. | And my wish was for us to see the new world together. | But Dornkirk's way, our way, which pays no heed to human life, was wrong. | Van... together, we must stop Dornkirk...\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303435}\"I wanted to lift from your gentle{nl}shoulders the King of Fanelia's burden,{wait}{clear}{nl}{voice:30303436}a burden fated for war.{wait}{clear}{nl}{voice:30303437}And my wish was for us to see the new{nl}world together.{wait}{clear}{nl}{voice:30303438}But Dornkirk's way, our way, which pays{nl}no heed to human life, was wrong.{wait}{clear}{nl}{voice:30303439}Van... together, we must stop{nl}Dornkirk...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303435}\"I wanted to lift from your gentle{nl}shoulders the King of Fanelia's burden,{wait}{clear}{nl}{voice:30303436}a burden fated for war.{wait}{clear}{nl}{voice:30303437}And my wish was for us to see the new{nl}world together.{wait}{clear}{nl}{voice:30303438}But Dornkirk's way, our way, which pays{nl}no heed to human life, was wrong.{wait}{clear}{nl}{voice:30303439}Van... together, we must{nl}stop Dornkirk...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_266",
@@ -5453,7 +5453,7 @@
    "speaker": "ひとみ",
    "dead": true,
    "tl": "\"Why did so many land dragons come out...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Why did so many land dragons come{nl}out...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Why did so many land dragons{nl}come out...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo06_278",

@@ -195,6 +195,25 @@ def test_glyphs_compose_across_words(exe):
     assert run.field(0x34) == 2
 
 
+def test_fullwidth_indent_drops_a_stale_pen(exe):
+    """EXIT at 3 indents leaves the pen at 59, which rounds to 5 indents' word: its T's arm drew before the next string."""
+    run = Run(exe, pen_x=9)
+    for ch in "EXIT":
+        run.byte(ord(ch))
+    assert (run.field(0x4C0, "<H") + 3) // 4 == 15
+    stub(run.m, KROM, [0x03E00008, 0x2402FFFF])  # jr ra / li v0,-1
+    run.m.reg_write(UC_MIPS_REG_5, WIN + 0xC4)
+    run.m.reg_write(UC_MIPS_REG_6, WIN + 0x100)
+    run.m.reg_write(UC_MIPS_REG_31, STOP)
+    run.m.emu_start(RENDER, STOP, count=200000)
+    run.m.mem_write(WIN + 0x36, struct.pack("<h", 15))
+    run.uploads.clear()
+    run.byte(ord("O"))
+    fnt = font.Font()
+    assert run.uploads[0][0][0] == 388 + 15
+    assert run.field(0x4C0, "<H") == 60 + fnt.width("O") + 1
+
+
 def test_pair_code_draws_two_characters(exe):
     dt = dte.Dte()
     run = Run(exe)

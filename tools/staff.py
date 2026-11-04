@@ -27,7 +27,11 @@ LEFT_X, RIGHT_X = 16, 192
 HEADINGS = {3, 42, 81, 97}  # centred on the screen
 INK, SHADOW = 15, 1  # the sheets' CLUT is a grey ramp: 0 transparent, 15 near white
 GAP = 2  # between lines on a sheet
-PAD = 3  # blank columns kept at a sprite's right: the roll's polygon drops the last ones (seen: "Chid" drew as "Chic")
+PAD = 3  # blank columns kept at a sprite's right, so a line never touches the next sprite on its sheet
+# The roll's quad spans w px but w-1 texels (h likewise), which doubled a column mid-line ("Ikue Otani") and cost the
+# last one. Kanji hid it. These `addiu $v0,$v0,-1` go, for a 1:1 mapping; u+w and v+h must then stay under 256 (a byte).
+ONE_TO_ONE = [a - BASE for a in (0x801D81F4, 0x801D8220)]
+MINUS_ONE = struct.pack("<I", 0x2442FFFF)
 
 
 def hw(d, o):
@@ -106,6 +110,9 @@ def new_x(line, old_x, w):
 def build(orig):
     """English STAFF.BIN, same size: new tables, sheets and x positions. Raises when a sheet or a stream's slot is full."""
     d = bytearray(orig)
+    for o in ONE_TO_ONE:
+        assert orig[o:o + 4] == MINUS_ONE
+        d[o:o + 4] = bytes(4)
     fnt, credits = font.Font(), load_credits()
     first = 0
     widths = {n: fnt.width(t) for n, t in credits.items()}
@@ -114,14 +121,14 @@ def build(orig):
         y = lines[0][0][3]  # every sprite's own y: the rows start below the screen
         sheet = np.zeros((256, 256), dtype=np.uint8)
         table = struct.pack("<hh", len(lines), hw(orig, t + 2))
-        pens = [0] * (256 // ROW_H)  # next free u per row: each line takes the first row with room
+        pens = [0] * (256 // ROW_H - 1)  # next free u per row: each line takes the first row with room
         for i in range(len(lines)):
             text = credits[first + i]
             if not text:
                 table += struct.pack("<h", 0)
                 continue
             w = widths[first + i] + PAD
-            row = next((r for r, pen in enumerate(pens) if pen + w <= 256), None)
+            row = next((r for r, pen in enumerate(pens) if pen + w < 256), None)
             if row is None:
                 raise OverflowError(f"sheet {s} is full at line {first + i}")
             draw_text(sheet, text, pens[row], row * ROW_H, fnt)

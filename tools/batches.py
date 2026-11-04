@@ -243,6 +243,20 @@ def merge(batches):
     print(f"merged {count} entries")
 
 
+def refit():
+    """Re-render every merged line after fit.py changes."""
+    names = fit.load_names()
+    changed = 0
+    for path, doc in docs().items():
+        for e in doc["entries"]:
+            if translatable(e) and "tl" in e:
+                en = fit.render(e, e["tl"], names)
+                changed += en != e["en"]
+                e["en"] = en
+        save(path, doc)
+    print(f"refit {changed} lines")
+
+
 def sync_rows(entries):
     """Every batch file follows the merged text, so re-checking or re-merging an older one can't bring an old draft back."""
     for p in sorted(TL.glob("*.out.tsv")):
@@ -265,7 +279,7 @@ def status():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("cmd", choices=["split", "check", "merge", "status"])
+    ap.add_argument("cmd", choices=["split", "check", "merge", "status", "refit"])
     ap.add_argument("batches", nargs="*")
     ap.add_argument("--size", type=int, default=120)
     a = ap.parse_args()
@@ -275,5 +289,7 @@ if __name__ == "__main__":
         sys.exit(0 if all([check(b) for b in a.batches]) else 1)
     elif a.cmd == "merge":
         merge(a.batches)
+    elif a.cmd == "refit":
+        refit()
     else:
         status()

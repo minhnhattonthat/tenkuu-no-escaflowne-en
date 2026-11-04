@@ -15,7 +15,7 @@ Rendering uses each TIM's first CLUT. A label drawn in a different palette could
 | 5 | **Kept Japanese, never drawn.** With ST_TITL filled with one loud colour (`work/qa/st`, ch1, ch3, ch7 cards and title), nothing showed. Not reachable as far as that run sees. |
 | 6 | English in all 78 copies (39 MDATs, 2 VRAM pages each): "UNDER CONSTRUCTION". Portrait-sized, so probably a missing-face stand-in. Still never seen in a run. |
 
-**Staff roll format (STAFF.BIN, overlay at 0x801D8000).** Layout list at 0x801D8CBC: hwords (line, x, dy), ending in -1; each record advances the roll by dy, then draws that line at x. A line can be used twice (78, 96). Four line tables, one per sheet, at 0x801D90B4, 0x801D93DC, 0x801D9730, 0x801D9A18: count, a zero hword, then per line n and n records of six hwords (u, v, x, y, w, h). y is 128 throughout and the code adds 0x70 and the roll. At most 300 sprites in all and 44 at once (task buffers at +0x7C and +0xE8C). The polygon drops a sprite's last columns, so `staff.PAD` keeps a blank margin ("Chid" drew as "Chic" without it).
+**Staff roll format (STAFF.BIN, overlay at 0x801D8000).** Layout list at 0x801D8CBC: hwords (line, x, dy), ending in -1; each record advances the roll by dy, then draws that line at x. A line can be used twice (78, 96). Four line tables, one per sheet, at 0x801D90B4, 0x801D93DC, 0x801D9730, 0x801D9A18: count, a zero hword, then per line n and n records of six hwords (u, v, x, y, w, h). y is 128 throughout and the code adds 0x70 and the roll. At most 300 sprites in all and 44 at once (task buffers at +0x7C and +0xE8C). The game's quad spans w px but w-1 texels (h likewise; 0x801D81F4, 0x801D8220), so a column doubled mid-line and the last was lost ("Chid" drew as "Chic", "Ikue Otani" had a thick O). `staff.ONE_TO_ONE` removes both `-1`s, so u+w and v+h must stay under 256.
 
 **LZ header.** Located the decompressor: 0x800157CC. Byte 0 is 0xF0 ^ distance bits (0xFA = 10 bits, 0xF8 = 8 bits with a different path), then a 24-bit **token count** (literals plus refs), which is how it stops; there is no output size. `lz.compress` writes this, and the tests run the real routine under unicorn.
 
@@ -63,4 +63,6 @@ Partner menu, SAVE/LOAD, memory-card messages, YES/NO, LOAD/EXIT window on title
 
 The rule stays: a row counts as done only with a zoomed cold-boot shot in phase 8.
 
-**FMV dialogue:** FMVs have spoken Japanese and no on-screen text, so nothing burned in needs replacing. Subtitling them is optional engine work; see `docs/status.md`.
+**FMV text:** one frame per 45 of all 57 videos was read (`work/qa/fmv_dense`, frames every 3 s; the first survey's 3 a video missed this): the only text is the opening's logo, `SC01.STR` frames 66-148, with `(c) 1996 SUNRISE, INC.` in English. `tools/fmv.py` redraws it in English, cached in `work/fmv`; the build needs Java and `tools/jpsxdec` for that. It stays approximate in the fade-out's dimmest frames: Hitomi walks through it, thin slivers of the old letters survive around frames 135-138 and her navy collar picks up the plate's blue in 144-147.
+
+**FMV dialogue:** spoken Japanese, no subtitles. Subtitling them is optional engine work; see `docs/status.md`.

@@ -15,6 +15,7 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import extract  # noqa: E402
+import fmv  # noqa: E402
 import font  # noqa: E402
 import lz  # noqa: E402
 import staff  # noqa: E402
@@ -309,6 +310,7 @@ def edited():
         rel, data = card(n)
         out[rel] = data
     out["ESCA/PRG/STAFF.BIN"] = staff.build(tree_bytes("ESCA/PRG/STAFF.BIN"))
+    out[fmv.TREE_PATH] = fmv.build()
     return out
 
 

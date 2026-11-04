@@ -190,7 +190,7 @@
     }
    ],
    "tl": "\"Folken-san's defection changed everything. | The danger from Zaibach became real, and Asturia formed a military alliance with its neighbors. | Asturia took Folken-san in, to get information on Zaibach, but... | Van still...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303030}\"Folken-san's defection changed{nl}everything.{wait}{clear}{nl}{voice:30303031}The danger from Zaibach became real,{nl}and Asturia formed a military alliance{nl}with its neighbors.{wait}{clear}{nl}{voice:30303032}Asturia took Folken-san in, to get{nl}information on Zaibach, but...{wait}{clear}{nl}{voice:30303033}Van still...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303030}\"Folken-san's defection{nl}changed everything.{wait}{clear}{nl}{voice:30303031}The danger from Zaibach became real,{nl}and Asturia formed a military alliance{nl}with its neighbors.{wait}{clear}{nl}{voice:30303032}Asturia took Folken-san in, to get{nl}information on Zaibach, but...{wait}{clear}{nl}{voice:30303033}Van still...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_011",
@@ -532,7 +532,7 @@
     }
    ],
    "tl": "\"I'll go back to the castle by myself in a while.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I'll go back to the castle by myself in a{nl}while.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I'll go back to the castle by myself in{nl}a while.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_029",
@@ -817,7 +817,7 @@
     }
    ],
    "tl": "\"Even so... my wish to trust you should get through. | Even if it doesn't come across very well...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Even so... my wish to trust you should{nl}get through.{wait}{clear}{nl}Even if it doesn't come across very{nl}well...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Even so... my wish to trust you should{nl}get through.{wait}{clear}{nl}Even if it doesn't come across{nl}very well...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_044",
@@ -956,7 +956,7 @@
     }
    ],
    "tl": "\"Prince Chid of the Duchy of Freid is the proof | that Princess Marlene, Princess Millerna's sister, and I gave in to a forbidden love... Prince Chid is mine and Princess Marlene's...\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}{voice:30303034}\"Prince Chid of the Duchy of Freid is{nl}the proof{wait}{clear}{nl}{voice:30303035}that Princess Marlene, Princess{nl}Millerna's sister, and I gave in to a{nl}forbidden love...{wait}{clear}{nl}Prince Chid is mine and Princess{nl}Marlene's...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}{voice:30303034}\"Prince Chid of the Duchy of Freid is{nl}the proof{wait}{clear}{nl}{voice:30303035}that Princess Marlene, Princess{nl}Millerna's sister, and I gave in to a{nl}forbidden love...{wait}{clear}{nl}Prince Chid is mine and{nl}Princess Marlene's...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_051",
@@ -1303,7 +1303,7 @@
     }
    ],
    "tl": "\"I am Dilandau-sama's soldier. The only one...\"",
-   "en": "{clear}{nameon}{color3}26Jajuka{expr:3230}{nameoff}{color2}{nl}\"I am Dilandau-sama's soldier. The only{nl}one...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Jajuka{expr:3230}{nameoff}{color2}{nl}\"I am Dilandau-sama's soldier. The{nl}only one...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_068",
@@ -1676,7 +1676,7 @@
     }
    ],
    "tl": "\"She's going out with a guy, | but it turns out he's actually a playboy...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"She's going out with a guy,{wait}{clear}{nl}but it turns out he's actually a{nl}playboy...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"She's going out with a guy,{wait}{clear}{nl}but it turns out he's actually{nl}a playboy...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_087",
@@ -2067,7 +2067,7 @@
     }
    ],
    "tl": "\"Why can't you think of anything but fighting?\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Why can't you think of anything but{nl}fighting?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Why can't you think of anything{nl}but fighting?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_106",
@@ -2514,7 +2514,7 @@
     }
    ],
    "tl": "\"That's a lie. | Merle has always been by your side, Van-sama. I know you very well. | You're worried about Hitomi, Van-sama. | You love Hitomi... don't you? | You haven't noticed your own feelings, Van-sama. | Merle has known for a long time. Hitomi always said it, didn't she? | That your feelings reach people. Yours will reach her, Van-sama, I know it. | They'll reach Hitomi.\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"That's a lie.{wait}{clear}{nl}Merle has always been by your side,{nl}Van-sama. I know you very well.{wait}{clear}{nl}You're worried about Hitomi, Van-sama.{wait}{clear}{nl}You love Hitomi... don't you?{wait}{clear}{nl}You haven't noticed your own feelings,{nl}Van-sama.{wait}{clear}{nl}Merle has known for a long time. Hitomi{nl}always said it, didn't she?{wait}{clear}{nl}That your feelings reach people. Yours{nl}will reach her, Van-sama, I know it.{wait}{clear}{nl}They'll reach Hitomi.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"That's a lie.{wait}{clear}{nl}Merle has always been by your side,{nl}Van-sama. I know you very well.{wait}{clear}{nl}You're worried about Hitomi, Van-sama.{wait}{clear}{nl}You love Hitomi... don't you?{wait}{clear}{nl}You haven't noticed your own{nl}feelings, Van-sama.{wait}{clear}{nl}Merle has known for a long time. Hitomi{nl}always said it, didn't she?{wait}{clear}{nl}That your feelings reach people. Yours{nl}will reach her, Van-sama, I know it.{wait}{clear}{nl}They'll reach Hitomi.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_127",
@@ -2665,7 +2665,7 @@
     }
    ],
    "tl": "\"Yes. It's been ten years, but my sister... | I couldn't mistake Celena. Wherever she's been all this time, the poor thing has lost her memory.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Yes. It's been ten years, but my{nl}sister...{wait}{clear}{nl}I couldn't mistake Celena. Wherever{nl}she's been all this time, the poor thing{nl}has lost her memory.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Yes. It's been ten years, but{nl}my sister...{wait}{clear}{nl}I couldn't mistake Celena. Wherever{nl}she's been all this time, the poor thing{nl}has lost her memory.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_134",
@@ -2722,7 +2722,7 @@
     }
    ],
    "tl": "\"I understand. She is the sister of a Knight Caeli. | I will take her into my care at the palace.\"",
-   "en": "{clear}{nameon}{color3}03Eries{nameoff}{color2}{nl}\"I understand. She is the sister of a{nl}Knight Caeli.{wait}{clear}{nl}I will take her into my care at the{nl}palace.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}03Eries{nameoff}{color2}{nl}\"I understand. She is the sister of a{nl}Knight Caeli.{wait}{clear}{nl}I will take her into my care at{nl}the palace.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_137",
@@ -2779,7 +2779,7 @@
     }
    ],
    "tl": "\"Celena? | Where is this...? What am I doing? Aaaaah!!\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Celena?{wait}{clear}{nl}Where is this...? What am I doing?{nl}Aaaaah!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Celena?{wait}{clear}{nl}Where is this...? What am I{nl}doing? Aaaaah!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_140",
@@ -2912,7 +2912,7 @@
     }
    ],
    "tl": "\"Human experiments... Celena. My Celena...\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Human experiments... Celena. My{nl}Celena...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Human experiments... Celena.{nl}My Celena...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_147",
@@ -3612,7 +3612,7 @@
     }
    ],
    "tl": "\"This war will be over soon. | But whichever side wins, the people it's hurt will still be there. With those people, I want to start over. | Even a guy like me must still be good for something. | I'll live as a merchant. Among the people. | That's the shortest road to becoming the man you deserve.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}{voice:30303534}\"This war will be over soon.{wait}{clear}{nl}{voice:30303535}But whichever side wins, the people it's{nl}hurt will still be there. With those people,{nl}I want to start over.{wait}{clear}{nl}{voice:30303536}Even a guy like me must still be good for{nl}something.{wait}{clear}{nl}{voice:30303537}I'll live as a merchant. Among the people.{wait}{clear}{nl}{voice:30303538}That's the shortest road to becoming{nl}the man you deserve.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}{voice:30303534}\"This war will be over soon.{wait}{clear}{nl}{voice:30303535}But whichever side wins, the people it's{nl}hurt will still be there. With those people,{nl}I want to start over.{wait}{clear}{nl}{voice:30303536}Even a guy like me must still be good{nl}for something.{wait}{clear}{nl}{voice:30303537}I'll live as a merchant. Among the people.{wait}{clear}{nl}{voice:30303538}That's the shortest road to becoming{nl}the man you deserve.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_181",
@@ -3700,7 +3700,7 @@
     }
    ],
    "tl": "\"Folken-san, please tell me. | How to call the pillar of light and go to Zaibach! | I'll meet Dornkirk and ask him. Ask him to stop this war!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Folken-san, please tell me.{wait}{clear}{nl}How to call the pillar of light and go to{nl}Zaibach!{wait}{clear}{nl}I'll meet Dornkirk and ask him. Ask him{nl}to stop this war!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Folken-san, please tell me.{wait}{clear}{nl}How to call the pillar of light and go{nl}to Zaibach!{wait}{clear}{nl}I'll meet Dornkirk and ask him. Ask him{nl}to stop this war!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_185",
@@ -3833,7 +3833,7 @@
     }
    ],
    "tl": "\"No... | If he goes to Dornkirk, Folken-san will die?!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No...{wait}{clear}{nl}If he goes to Dornkirk, Folken-san will{nl}die?!\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No...{wait}{clear}{nl}If he goes to Dornkirk, Folken-san{nl}will die?!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_192",
@@ -4206,7 +4206,7 @@
     }
    ],
    "tl": "\"I am one of Zaibach's four generals, Adelphos. | King of Fanelia, face me!!\"",
-   "en": "{clear}{nameon}{color3}19Adelphos{nameoff}{color2}{nl}\"I am one of Zaibach's four generals,{nl}Adelphos.{wait}{clear}{nl}King of Fanelia, face me!!\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}19Adelphos{nameoff}{color2}{nl}\"I am one of Zaibach's four{nl}generals, Adelphos.{wait}{clear}{nl}King of Fanelia, face me!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_211",
@@ -4263,7 +4263,7 @@
     }
    ],
    "tl": "\"What is this? There's nothing... nothing left.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"What is this? There's nothing... nothing{nl}left.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"What is this? There's nothing...{nl}nothing left.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_214",
@@ -4320,7 +4320,7 @@
     }
    ],
    "tl": "\"I have to stop this fighting. Van is suffering.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I have to stop this fighting. Van is{nl}suffering.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I have to stop this fighting. Van{nl}is suffering.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_217",
@@ -4592,7 +4592,7 @@
     }
    ],
    "tl": "\"No, I won't have that! | If you die, Folken-san, Van will be all alone! | I don't want to see Van grieve!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No, I won't have that!{wait}{clear}{nl}If you die, Folken-san, Van will be all{nl}alone!{wait}{clear}{nl}I don't want to see Van grieve!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No, I won't have that!{wait}{clear}{nl}If you die, Folken-san, Van will be{nl}all alone!{wait}{clear}{nl}I don't want to see Van grieve!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_231",
@@ -4843,7 +4843,7 @@
     }
    ],
    "tl": "\"How far will you go in toying with fate?!\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303739}\"How far will you go in toying with{nl}fate?!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303739}\"How far will you go in toying{nl}with fate?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_242",
@@ -4868,7 +4868,7 @@
     }
    ],
    "tl": "\"A foolish question. You know my true purpose.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303830}\"A foolish question. You know my true{nl}purpose.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303830}\"A foolish question. You know my{nl}true purpose.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_243",
@@ -5050,7 +5050,7 @@
     }
    ],
    "tl": "\"I see... This is the very center where fate is altered. | The place where action and reaction are strongest. | But with this the war ends. True peace for Gaea... | Van...\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303835}\"I see... This is the very center where{nl}fate is altered.{wait}{clear}{nl}{voice:30303836}The place where action and reaction are{nl}strongest.{wait}{clear}{nl}{voice:30303837}But with this the war ends. True peace{nl}for Gaea...{wait}{clear}{nl}{voice:30303838}Van...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303835}\"I see... This is the very center where{nl}fate is altered.{wait}{clear}{nl}{voice:30303836}The place where action and reaction{nl}are strongest.{wait}{clear}{nl}{voice:30303837}But with this the war ends. True peace{nl}for Gaea...{wait}{clear}{nl}{voice:30303838}Van...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_251",
@@ -5119,7 +5119,7 @@
     }
    ],
    "tl": "\"Van is crying. Van... | Why... why does... why does only this kind of thing happen? | I can't take it. I don't want to see any more. This... this fate... I can't take it anymore!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van is crying. Van...{wait}{clear}{nl}Why... why does... why does only this{nl}kind of thing happen?{wait}{clear}{nl}I can't take it. I don't want to see any{nl}more. This... this fate... I can't take it{nl}anymore!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van is crying. Van...{wait}{clear}{nl}Why... why does... why does only this{nl}kind of thing happen?{wait}{clear}{nl}I can't take it. I don't want to see any{nl}more. This... this fate... I can't take{nl}it anymore!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_254",
@@ -5573,7 +5573,7 @@
     }
    ],
    "tl": "\"I won't let you hurt Dilandau-sama any further!\"",
-   "en": "{clear}{nameon}{color3}26Jajuka{expr:3230}{nameoff}{color2}{nl}\"I won't let you hurt Dilandau-sama any{nl}further!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Jajuka{expr:3230}{nameoff}{color2}{nl}\"I won't let you hurt Dilandau-sama{nl}any further!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_276",
@@ -5793,7 +5793,7 @@
     }
    ],
    "tl": "\"That one is a man possessed by war! | I'll kill him and cut out the root of Gaea's troubles.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30313035}\"That one is a man possessed by war!{wait}{clear}{nl}{voice:30313036}I'll kill him and cut out the root of Gaea's{nl}troubles.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30313035}\"That one is a man possessed by war!{wait}{clear}{nl}{voice:30313036}I'll kill him and cut out the root of{nl}Gaea's troubles.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_286",
@@ -6100,7 +6100,7 @@
     }
    ],
    "tl": "\"To think he'd become so great a swordsman... | He reminds me of Balgus-dono!\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}{voice:30313233}\"To think he'd become so great a{nl}swordsman...{wait}{clear}{nl}{voice:30313234}He reminds me of Balgus-dono!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}{voice:30313233}\"To think he'd become so great{nl}a swordsman...{wait}{clear}{nl}{voice:30313234}He reminds me of Balgus-dono!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_299",
@@ -6359,7 +6359,7 @@
     }
    ],
    "tl": "\"This evil fate won't stop. | At this rate Gaea will end up like Atlantis.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"This evil fate won't stop.{wait}{clear}{nl}At this rate Gaea will end up like{nl}Atlantis.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"This evil fate won't stop.{wait}{clear}{nl}At this rate Gaea will end up{nl}like Atlantis.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_312",
@@ -6568,7 +6568,7 @@
     }
    ],
    "tl": "\"A person's will can at times move even the heavens. | But when will overlaps with will, a great resentment is born. | If that can be erased, people can change.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"A person's will can at times move even{nl}the heavens.{wait}{clear}{nl}But when will overlaps with will, a great{nl}resentment is born.{wait}{clear}{nl}If that can be erased, people can{nl}change.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"A person's will can at times move even{nl}the heavens.{wait}{clear}{nl}But when will overlaps with will, a great{nl}resentment is born.{wait}{clear}{nl}If that can be erased, people{nl}can change.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_323",

@@ -12,6 +12,7 @@ from unicorn.mips_const import UC_MIPS_REG_29, UC_MIPS_REG_31, UC_MIPS_REG_4, UC
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import extract  # noqa: E402
+import fmv  # noqa: E402
 import font  # noqa: E402
 import gfx  # noqa: E402
 import lz  # noqa: E402
@@ -75,6 +76,11 @@ def test_staff_changes_only_tables_streams_and_layout_x(edited):
         allowed.update(range(off, staff.stream_tim(orig, off)[2]))
     n = len(staff.read_layout(orig))
     allowed.update(staff.LAYOUT + i * 6 + b for i in range(n) for b in (2, 3))  # x only
+    allowed.update(o + b for o in staff.ONE_TO_ONE for b in range(4))
+    for o in staff.ONE_TO_ONE:
+        assert new[o:o + 4] == bytes(4)
+    for u, v, _x, _y, w, h in (s for lines in staff.read_all(new) for line in lines for s in line):
+        assert u + w < 256 and v + h < 256, "the quad's far corner is a byte"
     stray = [i for i in range(len(orig)) if orig[i] != new[i] and i not in allowed]
     assert not stray, [hex(i) for i in stray[:10]]
     assert [(ln, dy) for ln, _x, dy in staff.read_layout(new)] == [(ln, dy) for ln, _x, dy in staff.read_layout(orig)]
@@ -175,6 +181,17 @@ def test_placeholder_is_replaced_in_every_mdat_and_nothing_else_moves(edited):
             spans.append((at, at + len(s)))
         stray = [i for i in range(len(orig)) if orig[i] != new[i] and not any(a <= i < b for a, b in spans)]
         assert not stray, rel
+
+
+@needs_tree
+def test_opening_video_changes_only_the_logos_video_sectors(edited):
+    orig, new = (extract.TREE / fmv.TREE_PATH).read_bytes(), edited[fmv.TREE_PATH]
+    assert len(orig) == len(new)
+    size = 2336
+    changed = [s for s in range(len(orig) // size) if orig[s * size:(s + 1) * size] != new[s * size:(s + 1) * size]]
+    assert changed and max(changed) < (fmv.FADE_OUT[1] + 1) * 11  # about 10 sectors a frame
+    assert min(changed) >= fmv.FADE_IN[0] * 9
+    assert not [s for s in changed if orig[s * size + 2] & 4], "an XA audio sector changed: the voices would go"
 
 
 @needs_tree

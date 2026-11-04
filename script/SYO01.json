@@ -1900,7 +1900,7 @@
     }
    ],
    "tl": "\"If I break the 13-second barrier, I'd like you to be my first kiss. Please.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303033}\"If I break the 13-second barrier, I'd like{nl}you to be my first kiss. Please.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303033}\"If I break the 13-second barrier, I'd{nl}like you to be my first kiss. Please.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo01_116",
@@ -1918,7 +1918,7 @@
     }
    ],
    "tl": "I confessed to Senpai, and stood at my starting line. | But I had no idea that confession would set off everything that was about to happen, | no way of knowing it back then. | And then...",
-   "en": "{voice:30303034}I confessed to Senpai, and stood at my{nl}starting line.{wait}{clear}{nl}{voice:30303035}But I had no idea that confession would{nl}set off everything that was about to{nl}happen,{wait}{clear}{nl}{voice:30303036}no way of knowing it back then.{wait}{clear}{nl}{voice:30303037}And then...{wait}{nl2}{end}"
+   "en": "{voice:30303034}I confessed to Senpai, and stood at my{nl}starting line.{wait}{clear}{nl}{voice:30303035}But I had no idea that confession would{nl}set off everything that was about{nl}to happen,{wait}{clear}{nl}{voice:30303036}no way of knowing it back then.{wait}{clear}{nl}{voice:30303037}And then...{wait}{nl2}{end}"
   },
   {
    "id": "syo01_117",
@@ -2069,7 +2069,7 @@
     }
    ],
    "tl": "\"I'm Van of Fanelia! I'm hunting a land dragon. | Where is this... huh?!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303131}\"I'm Van of Fanelia! I'm hunting a land{nl}dragon.{wait}{clear}{nl}{voice:30303132}Where is this... huh?!\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303131}\"I'm Van of Fanelia! I'm hunting a{nl}land dragon.{wait}{clear}{nl}{voice:30303132}Where is this... huh?!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_124",
@@ -2233,7 +2233,7 @@
     }
    ],
    "tl": "\"I'm not so weak that a woman needs to worry about me! | You want a reward? | Then come to the castle. But don't get cocky. | The reward is an apology for dragging you into my dragon hunt. | It's not as if I beat that dragon thanks to you!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I'm not so weak that a woman needs to{nl}worry about me!{wait}{clear}{nl}You want a reward?{wait}{clear}{nl}Then come to the castle. But don't get{nl}cocky.{wait}{clear}{nl}The reward is an apology for dragging{nl}you into my dragon hunt.{wait}{clear}{nl}It's not as if I beat that dragon thanks{nl}to you!\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I'm not so weak that a woman needs to{nl}worry about me!{wait}{clear}{nl}You want a reward?{wait}{clear}{nl}Then come to the castle. But don't{nl}get cocky.{wait}{clear}{nl}The reward is an apology for dragging{nl}you into my dragon hunt.{wait}{clear}{nl}It's not as if I beat that dragon thanks{nl}to you!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_132",
@@ -2252,7 +2252,7 @@
     }
    ],
    "tl": "\"What?! Who do you think you are?! | I thought you were going to die, I really thought you were going to die... | so... I was scared, you know! I was so scared!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What?! Who do you think you are?!{wait}{clear}{nl}I thought you were going to die, I really{nl}thought you were going to die...{wait}{clear}{nl}so... I was scared, you know! I was so{nl}scared!\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What?! Who do you think you are?!{wait}{clear}{nl}I thought you were going to die, I really{nl}thought you were going to die...{wait}{clear}{nl}so... I was scared, you know! I was{nl}so scared!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_133",
@@ -2366,7 +2366,7 @@
     }
    ],
    "tl": "\"Was that a dream... or an illusion... | Hearing out of nowhere that my dear senpai was going abroad. That guy appearing before me, and the huge dragon... | And now this strange world I'm in, with the moon and the Earth floating in the sky...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Was that a dream... or an illusion...{wait}{clear}{nl}Hearing out of nowhere that my dear{nl}senpai was going abroad.{wait}{clear}{nl}That guy appearing before me, and the{nl}huge dragon...{wait}{clear}{nl}And now this strange world I'm in, with{nl}the moon and the Earth floating in the{nl}sky...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Was that a dream... or an illusion...{wait}{clear}{nl}Hearing out of nowhere that my dear{nl}senpai was going abroad.{wait}{clear}{nl}That guy appearing before me, and the{nl}huge dragon...{wait}{clear}{nl}And now this strange world I'm in, with{nl}the moon and the Earth floating in{nl}the sky...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_139",
@@ -2679,7 +2679,7 @@
     }
    ],
    "tl": "\"Van-sama. | Hurry, escape in Escaflowne with Hitomi-sama!\"",
-   "en": "{clear}{nameon}{color3}01Balgus{nameoff}{color2}{nl}\"Van-sama.{wait}{clear}{nl}Hurry, escape in Escaflowne with{nl}Hitomi-sama!\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}01Balgus{nameoff}{color2}{nl}\"Van-sama.{wait}{clear}{nl}Hurry, escape in Escaflowne{nl}with Hitomi-sama!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_157",
@@ -2698,7 +2698,7 @@
     }
    ],
    "tl": "\"Van-sama, take Hitomi-sama and escape in Escaflowne! | Escaflowne lies sleeping in the cathedral.\"",
-   "en": "{clear}{nameon}{color3}01Balgus{nameoff}{color2}{nl}\"Van-sama, take Hitomi-sama and{nl}escape in Escaflowne!{wait}{clear}{nl}Escaflowne lies sleeping in the{nl}cathedral.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}01Balgus{nameoff}{color2}{nl}\"Van-sama, take Hitomi-sama and{nl}escape in Escaflowne!{wait}{clear}{nl}Escaflowne lies sleeping in{nl}the cathedral.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_158",
@@ -2717,7 +2717,7 @@
     }
    ],
    "tl": "\"Van-sama, in the battles ahead, you may find you can't go any further. | When that happens, look for a partner to act with you. | Acting with a partner moves events forward.\"",
-   "en": "{clear}{nameon}{color3}06Fanelian Soldier{nameoff}{color2}{nl}\"Van-sama, in the battles ahead, you{nl}may find you can't go any further.{wait}{clear}{nl}When that happens, look for a partner{nl}to act with you.{wait}{clear}{nl}Acting with a partner moves events{nl}forward.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}06Fanelian Soldier{nameoff}{color2}{nl}\"Van-sama, in the battles ahead, you{nl}may find you can't go any further.{wait}{clear}{nl}When that happens, look for a partner{nl}to act with you.{wait}{clear}{nl}Acting with a partner moves{nl}events forward.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_159",
@@ -2755,7 +2755,7 @@
     }
    ],
    "tl": "\"Van-sama, about partners. | When you find someone you want to act with, stand next to that person and press the Triangle button, | then use the 'Partner Up' command to form a partnership. | And when you want to stop acting with your current partner, | press the Triangle button while you are together, | and use the 'End Partnership' command. | To change from your current partner to someone else, | stand next to the new person, press the Triangle button, and use 'Partner Up', | and that person becomes your new partner.\"",
-   "en": "{clear}{nameon}{color3}28Fanelian Soldier{nameoff}{color2}{nl}\"Van-sama, about partners.{wait}{clear}{nl}When you find someone you want to act{nl}with, stand next to that person and{nl}press the Triangle button,{wait}{clear}{nl}then use the 'Partner Up' command to{nl}form a partnership.{wait}{clear}{nl}And when you want to stop acting with{nl}your current partner,{wait}{clear}{nl}press the Triangle button while you are{nl}together,{wait}{clear}{nl}and use the 'End Partnership' command.{wait}{clear}{nl}To change from your current partner to{nl}someone else,{wait}{clear}{nl}stand next to the new person, press{nl}the Triangle button, and use{nl}'Partner Up',{wait}{clear}{nl}and that person becomes your new{nl}partner.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}28Fanelian Soldier{nameoff}{color2}{nl}\"Van-sama, about partners.{wait}{clear}{nl}When you find someone you want to act{nl}with, stand next to that person and{nl}press the Triangle button,{wait}{clear}{nl}then use the 'Partner Up' command to{nl}form a partnership.{wait}{clear}{nl}And when you want to stop acting with{nl}your current partner,{wait}{clear}{nl}press the Triangle button while you{nl}are together,{wait}{clear}{nl}and use the 'End Partnership' command.{wait}{clear}{nl}To change from your current partner to{nl}someone else,{wait}{clear}{nl}stand next to the new person, press{nl}the Triangle button, and use{nl}'Partner Up',{wait}{clear}{nl}and that person becomes your{nl}new partner.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_161",
@@ -2812,7 +2812,7 @@
     }
    ],
    "tl": "\"I, Van Fanel, new King of Fanelia... | do seal a pact of blood with thee, Escaflowne. | O sleeping dragon, awaken now!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I, Van Fanel, new King of Fanelia...{wait}{clear}{nl}do seal a pact of blood with thee,{nl}Escaflowne.{wait}{clear}{nl}O sleeping dragon, awaken now!\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I, Van Fanel, new King of Fanelia...{wait}{clear}{nl}do seal a pact of blood with{nl}thee, Escaflowne.{wait}{clear}{nl}O sleeping dragon, awaken now!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_164",
@@ -3070,7 +3070,7 @@
     }
    ],
    "tl": "\"I hate to admit it, but I'll let you off for today. | Next time we meet, it won't go like this.\"",
-   "en": "{clear}{nameon}{color3}26Refine{expr:3232}{nameoff}{color2}{nl}\"I hate to admit it, but I'll let you off for{nl}today.{wait}{clear}{nl}Next time we meet, it won't go like this.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Refine{expr:3232}{nameoff}{color2}{nl}\"I hate to admit it, but I'll let you off{nl}for today.{wait}{clear}{nl}Next time we meet, it won't go like this.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_176",
@@ -3127,7 +3127,7 @@
     }
    ],
    "tl": "\"Giving off so much killing intent is unwise.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Giving off so much killing intent is{nl}unwise.\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Giving off so much killing intent{nl}is unwise.\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_179",
@@ -3593,7 +3593,7 @@
     }
    ],
    "tl": "\"Allen, I apologize for entering your country unannounced. | So give me back Escaflowne, my guymelef!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Allen, I apologize for entering your{nl}country unannounced.{wait}{clear}{nl}So give me back Escaflowne, my{nl}guymelef!\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Allen, I apologize for entering your{nl}country unannounced.{wait}{clear}{nl}So give me back Escaflowne,{nl}my guymelef!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_201",
@@ -3878,7 +3878,7 @@
     }
    ],
    "tl": "\"I hear Fanelia, to the west, was attacked.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I hear Fanelia, to the west, was{nl}attacked.\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I hear Fanelia, to the west,{nl}was attacked.\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_216",
@@ -3897,7 +3897,7 @@
     }
    ],
    "tl": "\"Oh, that shabby little country? | I'd guess it got eaten by the dragons that roam the valley. | A fitting end for a backwater nation, wouldn't you say? In any case... | it's a land of cowards, whose king even vanished. | Whatever happens to it, I couldn't care less. Heh heh heh heh!\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Oh, that shabby little country?{wait}{clear}{nl}I'd guess it got eaten by the dragons{nl}that roam the valley.{wait}{clear}{nl}A fitting end for a backwater nation,{nl}wouldn't you say? In any case...{wait}{clear}{nl}it's a land of cowards, whose king even{nl}vanished.{wait}{clear}{nl}Whatever happens to it, I couldn't care{nl}less. Heh heh heh heh!\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Oh, that shabby little country?{wait}{clear}{nl}I'd guess it got eaten by the dragons{nl}that roam the valley.{wait}{clear}{nl}A fitting end for a backwater nation,{nl}wouldn't you say? In any case...{wait}{clear}{nl}it's a land of cowards, whose king{nl}even vanished.{wait}{clear}{nl}Whatever happens to it, I couldn't care{nl}less. Heh heh heh heh!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_217",
@@ -4030,7 +4030,7 @@
     }
    ],
    "tl": "\"Get out of here and go back to Fanelia!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Get out of here and go back to{nl}Fanelia!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Get out of here and go back{nl}to Fanelia!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo01_224",
@@ -4106,7 +4106,7 @@
     }
    ],
    "tl": "\"That's enough. | Now, will you kindly step down from your guymelef?\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"That's enough.{wait}{clear}{nl}Now, will you kindly step down from your{nl}guymelef?\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"That's enough.{wait}{clear}{nl}Now, will you kindly step down from{nl}your guymelef?\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_228",
@@ -4459,7 +4459,7 @@
     }
    ],
    "tl": "\"It burned... All of it... it all burned down. | Waaaaah!! | All the samurai at the castle died, and the ones who lived got scattered everywhere... | There's nobody... nobody left. I was looking for you, Van-sama... I looked and looked...\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303434}\"It burned... All of it... it all burned down.{wait}{clear}{nl}{voice:30303435}Waaaaah!!{wait}{clear}{nl}{voice:30303436}All the samurai at the castle died, and{nl}the ones who lived got scattered{nl}everywhere...{wait}{clear}{nl}{voice:30303437}There's nobody... nobody left. I was{nl}looking for you, Van-sama... I looked and{nl}looked...\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303434}\"It burned... All of it... it all burned down.{wait}{clear}{nl}{voice:30303435}Waaaaah!!{wait}{clear}{nl}{voice:30303436}All the samurai at the castle died, and{nl}the ones who lived got{nl}scattered everywhere...{wait}{clear}{nl}{voice:30303437}There's nobody... nobody left. I was{nl}looking for you, Van-sama... I looked{nl}and looked...\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_245",
@@ -4535,7 +4535,7 @@
     }
    ],
    "tl": "\"I'm sorry... for causing you all this trouble...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I'm sorry... for causing you all this{nl}trouble...\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I'm sorry... for causing you all{nl}this trouble...\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_249",
@@ -4668,7 +4668,7 @@
     }
    ],
    "tl": "\"It's all right. That was long ago. Let me see... | She was a beautiful woman. A gentle woman who loved flowers. | But one day my sister was spirited away, and vanished without a trace... | From that day on, my mother took to her sickbed from grief... | If my sister is alive, she would be just about your age.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"It's all right. That was long ago. Let me{nl}see...{wait}{clear}{nl}She was a beautiful woman. A gentle{nl}woman who loved flowers.{wait}{clear}{nl}But one day my sister was spirited{nl}away, and vanished without a trace...{wait}{clear}{nl}From that day on, my mother took to{nl}her sickbed from grief...{wait}{clear}{nl}If my sister is alive, she would be just{nl}about your age.\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"It's all right. That was long ago. Let{nl}me see...{wait}{clear}{nl}She was a beautiful woman. A gentle{nl}woman who loved flowers.{wait}{clear}{nl}But one day my sister was spirited{nl}away, and vanished without a trace...{wait}{clear}{nl}From that day on, my mother took to{nl}her sickbed from grief...{wait}{clear}{nl}If my sister is alive, she would be just{nl}about your age.\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_256",
@@ -4706,7 +4706,7 @@
     }
    ],
    "tl": "\"What's come over me... talking about my family...\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What's come over me... talking about my{nl}family...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What's come over me... talking about{nl}my family...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_258",
@@ -4972,7 +4972,7 @@
     }
    ],
    "tl": "\"Sure thing. Let's go together, Your Majesty.\"",
-   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Sure thing. Let's go together, Your{nl}Majesty.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Sure thing. Let's go together,{nl}Your Majesty.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_272",
@@ -5181,7 +5181,7 @@
     }
    ],
    "tl": "\"My brother taught me... | That they'll neutralize nearly any poison...\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"My brother taught me...{wait}{clear}{nl}That they'll neutralize nearly any{nl}poison...\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"My brother taught me...{wait}{clear}{nl}That they'll neutralize nearly{nl}any poison...\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_283",
@@ -5257,7 +5257,7 @@
     }
    ],
    "tl": "\"Oh... You did all this for me...? Mmm! Van-sama...\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Oh... You did all this for me...? Mmm!{nl}Van-sama...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Oh... You did all this for me...?{nl}Mmm! Van-sama...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_287",
@@ -5395,7 +5395,7 @@
     }
    ],
    "tl": "\"Hold still. | Poison from the grass got in through your wound. This will bring down the fever.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hold still.{wait}{clear}{nl}Poison from the grass got in through{nl}your wound. This will bring down the{nl}fever.\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hold still.{wait}{clear}{nl}Poison from the grass got in through{nl}your wound. This will bring down{nl}the fever.\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_295",
@@ -5433,7 +5433,7 @@
     }
    ],
    "tl": "\"Oh... You did all this for me...? Mmm! Van-sama...\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Oh... You did all this for me...? Mmm!{nl}Van-sama...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Oh... You did all this for me...?{nl}Mmm! Van-sama...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_297",
@@ -5490,7 +5490,7 @@
     }
    ],
    "tl": "\"Relax, we've moved it onto the Crusade.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Relax, we've moved it onto the{nl}Crusade.\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Relax, we've moved it onto{nl}the Crusade.\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_300",
@@ -5566,7 +5566,7 @@
     }
    ],
    "tl": "\"I can't let there be any more casualties!!\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I can't let there be any more{nl}casualties!!\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I can't let there be any{nl}more casualties!!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_304",
@@ -5585,7 +5585,7 @@
     }
    ],
    "tl": "\"You call yourself a samurai?! | I won't run. I won't turn my back on an enemy!! | To avenge the people of Fanelia, I'll fight to the death!!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"You call yourself a samurai?!{wait}{clear}{nl}I won't run. I won't turn my back on an{nl}enemy!!{wait}{clear}{nl}To avenge the people of Fanelia, I'll fight{nl}to the death!!\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"You call yourself a samurai?!{wait}{clear}{nl}I won't run. I won't turn my back on{nl}an enemy!!{wait}{clear}{nl}To avenge the people of Fanelia, I'll fight{nl}to the death!!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_305",
@@ -5604,7 +5604,7 @@
     }
    ],
    "tl": "\"Recklessly choosing death is not courage!!\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Recklessly choosing death is not{nl}courage!!\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Recklessly choosing death is{nl}not courage!!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_306",
@@ -5680,7 +5680,7 @@
     }
    ],
    "tl": "\"We're moving headquarters onto the Crusade! | I won't hand you or Escaflowne to Zaibach! | On the name of Allen Schezar!\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"We're moving headquarters onto the{nl}Crusade!{wait}{clear}{nl}I won't hand you or Escaflowne to{nl}Zaibach!{wait}{clear}{nl}On the name of Allen Schezar!\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"We're moving headquarters onto{nl}the Crusade!{wait}{clear}{nl}I won't hand you or Escaflowne{nl}to Zaibach!{wait}{clear}{nl}On the name of Allen Schezar!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_310",
@@ -5900,7 +5900,7 @@
     }
    ],
    "tl": "\"Um... I... | I may be able to find out where Van is...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Um... I...{wait}{clear}{nl}I may be able to find out where Van{nl}is...\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Um... I...{wait}{clear}{nl}I may be able to find out where{nl}Van is...\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_320",
@@ -5938,7 +5938,7 @@
     }
    ],
    "tl": "\"That wasn't a coincidence! I can feel things! | Um... ever since I was a kid, my hunches have tended to come true... | Well... I don't really understand it myself, but this power keeps getting stronger!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"That wasn't a coincidence! I can feel{nl}things!{wait}{clear}{nl}Um... ever since I was a kid, my hunches{nl}have tended to come true...{wait}{clear}{nl}Well... I don't really understand it myself,{nl}but this power keeps getting stronger!\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"That wasn't a coincidence! I can{nl}feel things!{wait}{clear}{nl}Um... ever since I was a kid, my hunches{nl}have tended to come true...{wait}{clear}{nl}Well... I don't really understand it myself,{nl}but this power keeps getting stronger!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_322",
@@ -5957,7 +5957,7 @@
     }
    ],
    "tl": "\"Even so, | this is the duty of us knights... You do understand?\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Even so,{wait}{clear}{nl}this is the duty of us knights... You do{nl}understand?\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Even so,{wait}{clear}{nl}this is the duty of us knights... You{nl}do understand?\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_323",
@@ -6033,7 +6033,7 @@
     }
    ],
    "tl": "\"It's right on target... | His sister going missing, his mother dying... it was all because of his father...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"It's right on target...{wait}{clear}{nl}His sister going missing, his mother{nl}dying... it was all because of his{nl}father...\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"It's right on target...{wait}{clear}{nl}His sister going missing, his mother{nl}dying... it was all because of{nl}his father...\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_327",
@@ -6071,7 +6071,7 @@
     }
    ],
    "tl": "\"Oh no... he seems kind of angry... | Did I say something bad...? | But... I have to make Allen-san believe in me...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Oh no... he seems kind of angry...{wait}{clear}{nl}Did I say something bad...?{wait}{clear}{nl}But... I have to make Allen-san believe in{nl}me...\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Oh no... he seems kind of angry...{wait}{clear}{nl}Did I say something bad...?{wait}{clear}{nl}But... I have to make Allen-san believe{nl}in me...\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_329",
@@ -6223,7 +6223,7 @@
     }
    ],
    "tl": "\"You've awakened... | You fell into our hands through Refine's attack.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"You've awakened...{wait}{clear}{nl}You fell into our hands through Refine's{nl}attack.\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"You've awakened...{wait}{clear}{nl}You fell into our hands through{nl}Refine's attack.\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_337",
@@ -6261,7 +6261,7 @@
     }
    ],
    "tl": "\"You are inside a floating fortress of Zaibach.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"You are inside a floating fortress of{nl}Zaibach.\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"You are inside a floating fortress{nl}of Zaibach.\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_339",
@@ -6444,7 +6444,7 @@
     }
    ],
    "tl": "\"No, please let me continue. | If only I had something, some clue from him...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No, please let me continue.{wait}{clear}{nl}If only I had something, some clue from{nl}him...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No, please let me continue.{wait}{clear}{nl}If only I had something, some clue{nl}from him...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_348",
@@ -6501,7 +6501,7 @@
     }
    ],
    "tl": "\"This is where the 'wandering lands' gather...\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"This is where the 'wandering lands'{nl}gather...\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"This is where the 'wandering{nl}lands' gather...\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_351",
@@ -6877,7 +6877,7 @@
     }
    ],
    "tl": "\"Hard to starboard! | We head for the Asturian capital, 'Palas'!\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Hard to starboard!{wait}{clear}{nl}We head for the Asturian capital,{nl}'Palas'!\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Hard to starboard!{wait}{clear}{nl}We head for the Asturian{nl}capital, 'Palas'!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_372",
@@ -6977,7 +6977,7 @@
    "speaker": "バァン",
    "dead": true,
    "tl": "\"The cathedral. Escaflowne is just ahead...\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"The cathedral. Escaflowne is just{nl}ahead...\"{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"The cathedral. Escaflowne is{nl}just ahead...\"{end}"
   },
   {
    "id": "syo01_378",
@@ -7171,7 +7171,7 @@
     }
    ],
    "tl": "\"Van, what on earth is going on?! What's happening?\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van, what on earth is going on?! What's{nl}happening?\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van, what on earth is going on?!{nl}What's happening?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_389",

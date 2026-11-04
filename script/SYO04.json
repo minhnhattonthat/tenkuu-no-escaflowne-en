@@ -348,7 +348,7 @@
    "speaker": "ガデス",
    "dead": true,
    "tl": "\"Who'd have thought the king was a Draconian...\"",
-   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Who'd have thought the king was a{nl}Draconian...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Who'd have thought the king was{nl}a Draconian...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_020",
@@ -367,7 +367,7 @@
     }
    ],
    "tl": "\"The power of Atlantis, and now a Draconian. | Why, after all this time... Things that remind me of that man keep happening around me...\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"The power of Atlantis, and now a{nl}Draconian.{wait}{clear}{nl}Why, after all this time... Things that{nl}remind me of that man keep happening{nl}around me...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"The power of Atlantis, and now{nl}a Draconian.{wait}{clear}{nl}Why, after all this time... Things that{nl}remind me of that man keep happening{nl}around me...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_021",
@@ -386,7 +386,7 @@
     }
    ],
    "tl": "\"His pulse is irregular. At this rate, it's dangerous!\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"His pulse is irregular. At this rate, it's{nl}dangerous!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"His pulse is irregular. At this rate,{nl}it's dangerous!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_022",
@@ -424,7 +424,7 @@
     }
    ],
    "tl": "\"You're a doctor, aren't you?! Do something!\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"You're a doctor, aren't you?! Do{nl}something!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"You're a doctor, aren't you?!{nl}Do something!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_024",
@@ -747,7 +747,7 @@
     }
    ],
    "tl": "\"Where did it come from? You and I are engaged! | And me, I'm rich, with business booming! | As learned as any scholar!! Not to brag... but I'm good-looking too! | Any problems with that?\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Where did it come from? You and I are{nl}engaged!{wait}{clear}{nl}And me, I'm rich, with business booming!{wait}{clear}{nl}As learned as any scholar!! Not to{nl}brag... but I'm good-looking too!{wait}{clear}{nl}Any problems with that?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Where did it come from? You and I{nl}are engaged!{wait}{clear}{nl}And me, I'm rich, with business booming!{wait}{clear}{nl}As learned as any scholar!! Not to{nl}brag... but I'm good-looking too!{wait}{clear}{nl}Any problems with that?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_041",
@@ -823,7 +823,7 @@
     }
    ],
    "tl": "\"Well, more haste, less speed, as they say... | And you didn't come all this way to talk about that, did you? Let's get down to business.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Well, more haste, less speed, as they{nl}say...{wait}{clear}{nl}And you didn't come all this way to talk{nl}about that, did you? Let's get down to{nl}business.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Well, more haste, less speed, as{nl}they say...{wait}{clear}{nl}And you didn't come all this way to talk{nl}about that, did you? Let's get down{nl}to business.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_045",
@@ -867,7 +867,7 @@
     }
    ],
    "tl": "\"All that remains is to break the seal. | How dare he act on his own... that Dilandau.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"All that remains is to break the seal.{wait}{clear}{nl}How dare he act on his own... that{nl}Dilandau.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"All that remains is to break the seal.{wait}{clear}{nl}How dare he act on his own...{nl}that Dilandau.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_047",
@@ -892,7 +892,7 @@
     }
    ],
    "tl": "\"Ha ha haaa! We've got the power spot. | Now I'll do as I please. Just you wait, Van!!\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303032}\"Ha ha haaa! We've got the power spot.{wait}{clear}{nl}{voice:30303033}Now I'll do as I please. Just you wait,{nl}Van!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303032}\"Ha ha haaa! We've got the power spot.{wait}{clear}{nl}{voice:30303033}Now I'll do as I please. Just you{nl}wait, Van!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_048",
@@ -917,7 +917,7 @@
     }
    ],
    "tl": "\"So this is an Ispano-made guymelef!! | Ah! All cut up like this! You samurai, honestly...! | Let's see, now... Oho.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"So this is an Ispano-made guymelef!!{wait}{clear}{nl}Ah! All cut up like this! You samurai,{nl}honestly...!{wait}{clear}{nl}Let's see, now... Oho.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"So this is an Ispano-made guymelef!!{wait}{clear}{nl}Ah! All cut up like this! You{nl}samurai, honestly...!{wait}{clear}{nl}Let's see, now... Oho.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_049",
@@ -1061,7 +1061,7 @@
     }
    ],
    "tl": "\"Hah, spare me the '-dono.' Dryden is fine.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hah, spare me the '-dono.' Dryden is{nl}fine.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hah, spare me the '-dono.' Dryden{nl}is fine.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_055",
@@ -1193,7 +1193,7 @@
     }
    ],
    "tl": "\"The Ispano are a clan who received the wisdom of Atlantis. | The guymelefs they build choose their masters through a blood pact. | Until that master dies. At times the guymelef itself becomes the master and fights. | When the guymelef falls wounded, its master falls too...\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The Ispano are a clan who received the{nl}wisdom of Atlantis.{wait}{clear}{nl}The guymelefs they build choose their{nl}masters through a blood pact.{wait}{clear}{nl}Until that master dies. At times the{nl}guymelef itself becomes the master and{nl}fights.{wait}{clear}{nl}When the guymelef falls wounded, its{nl}master falls too...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The Ispano are a clan who received the{nl}wisdom of Atlantis.{wait}{clear}{nl}The guymelefs they build choose their{nl}masters through a blood pact.{wait}{clear}{nl}Until that master dies. At times the{nl}guymelef itself becomes the master{nl}and fights.{wait}{clear}{nl}When the guymelef falls wounded, its{nl}master falls too...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_061",
@@ -1288,7 +1288,7 @@
     }
    ],
    "tl": "\"There's a way, for an Ispano-made guymelef.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"There's a way, for an Ispano-made{nl}guymelef.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"There's a way, for an{nl}Ispano-made guymelef.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_066",
@@ -1364,7 +1364,7 @@
     }
    ],
    "tl": "\"The Ispano clan, the ones who built Escaflowne!!\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The Ispano clan, the ones who built{nl}Escaflowne!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The Ispano clan, the ones who{nl}built Escaflowne!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_070",
@@ -2200,7 +2200,7 @@
     }
    ],
    "tl": "\"Van, be careful with Escaflowne. | No, I think you shouldn't get in it anymore. | If Escaflowne gets hurt, the same thing will happen again. | If... if Escaflowne gets destroyed, you'll...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van, be careful with Escaflowne.{wait}{clear}{nl}No, I think you shouldn't get in it{nl}anymore.{wait}{clear}{nl}If Escaflowne gets hurt, the same thing{nl}will happen again.{wait}{clear}{nl}If... if Escaflowne gets destroyed,{nl}you'll...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van, be careful with Escaflowne.{wait}{clear}{nl}No, I think you shouldn't get in{nl}it anymore.{wait}{clear}{nl}If Escaflowne gets hurt, the same thing{nl}will happen again.{wait}{clear}{nl}If... if Escaflowne gets{nl}destroyed, you'll...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_114",
@@ -2257,7 +2257,7 @@
     }
    ],
    "tl": "\"Warriors, coming? Ispano no get involved. | You, get out...\"",
-   "en": "{clear}{nameon}{color3}26Ispano Chief Engineer{expr:3134}{nameoff}{color2}{nl}\"Warriors, coming? Ispano no get{nl}involved.{wait}{clear}{nl}You, get out...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Ispano Chief Engineer{expr:3134}{nameoff}{color2}{nl}\"Warriors, coming? Ispano no{nl}get involved.{wait}{clear}{nl}You, get out...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_117",
@@ -2352,7 +2352,7 @@
     }
    ],
    "tl": "\"Blood pact... | Pact uses dragon god blood. Ispano no guarantee.\"",
-   "en": "{clear}{nameon}{color3}26Ispano Chief Engineer{expr:3134}{nameoff}{color2}{nl}\"Blood pact...{wait}{clear}{nl}Pact uses dragon god blood. Ispano no{nl}guarantee.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Ispano Chief Engineer{expr:3134}{nameoff}{color2}{nl}\"Blood pact...{wait}{clear}{nl}Pact uses dragon god blood. Ispano{nl}no guarantee.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_122",
@@ -2561,7 +2561,7 @@
     }
    ],
    "tl": "\"Please don't get in Escaflowne anymore.\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Please don't get in Escaflowne{nl}anymore.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Please don't get in{nl}Escaflowne anymore.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_133",
@@ -2694,7 +2694,7 @@
     }
    ],
    "tl": "\"Stop it, Van!! | Leave the fighting to Allen-san and the others!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Stop it, Van!!{wait}{clear}{nl}Leave the fighting to Allen-san and the{nl}others!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Stop it, Van!!{wait}{clear}{nl}Leave the fighting to Allen-san and{nl}the others!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_140",
@@ -2998,7 +2998,7 @@
     }
    ],
    "tl": "\"No! Something's wrong with Escaflowne!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303132}\"No! Something's wrong with{nl}Escaflowne!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303132}\"No! Something's wrong{nl}with Escaflowne!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_156",
@@ -3422,7 +3422,7 @@
     }
    ],
    "tl": "\"Nooo!! Hey, you stupid woman! | Don't give up!! Bring Van-sama back, you hear?! | Hey, are you listening?! Nnngh! Nnngh! Nnngh! Van-samaaa!!\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303136}\"Nooo!! Hey, you stupid woman!{wait}{clear}{nl}{voice:30303137}Don't give up!! Bring Van-sama back, you{nl}hear?!{wait}{clear}{nl}{voice:30303138}Hey, are you listening?! Nnngh! Nnngh!{nl}Nnngh! Van-samaaa!!\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303136}\"Nooo!! Hey, you stupid woman!{wait}{clear}{nl}{voice:30303137}Don't give up!! Bring Van-sama back,{nl}you hear?!{wait}{clear}{nl}{voice:30303138}Hey, are you listening?! Nnngh! Nnngh!{nl}Nnngh! Van-samaaa!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_178",
@@ -3498,7 +3498,7 @@
     }
    ],
    "tl": "\"Yeah. | We have to look for a way back from here...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Yeah.{wait}{clear}{nl}We have to look for a way back from{nl}here...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Yeah.{wait}{clear}{nl}We have to look for a way back{nl}from here...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_182",
@@ -3954,7 +3954,7 @@
     }
    ],
    "tl": "\"It's a trial every swordsman must overcome. | The sword is a way of polishing oneself.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"It's a trial every swordsman must{nl}overcome.{wait}{clear}{nl}The sword is a way of polishing oneself.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"It's a trial every swordsman{nl}must overcome.{wait}{clear}{nl}The sword is a way of polishing oneself.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_206",
@@ -4023,7 +4023,7 @@
     }
    ],
    "tl": "\"Hitomi's strange power, from the Mystic Moon... | Van, with Draconian blood... Escaflowne... | And Zaibach, after the power spot... One strange thing after another. | Ahh, it itches. Something's bugging me.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hitomi's strange power, from the{nl}Mystic Moon...{wait}{clear}{nl}Van, with Draconian blood...{nl}Escaflowne...{wait}{clear}{nl}And Zaibach, after the power spot...{nl}One strange thing after another.{wait}{clear}{nl}Ahh, it itches. Something's bugging me.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hitomi's strange power, from the{nl}Mystic Moon...{wait}{clear}{nl}Van, with Draconian{nl}blood... Escaflowne...{wait}{clear}{nl}And Zaibach, after the power spot...{nl}One strange thing after another.{wait}{clear}{nl}Ahh, it itches. Something's bugging me.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_209",
@@ -4080,7 +4080,7 @@
     }
    ],
    "tl": "\"What a way to put it... | When I'd changed my mind about you, and meant to apologize for my rudeness!\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What a way to put it...{wait}{clear}{nl}When I'd changed my mind about you,{nl}and meant to apologize for my{nl}rudeness!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What a way to put it...{wait}{clear}{nl}When I'd changed my mind about you,{nl}and meant to apologize for{nl}my rudeness!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_212",
@@ -4213,7 +4213,7 @@
     }
    ],
    "tl": "\"My father's last journal, left in his study.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"My father's last journal, left in his{nl}study.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"My father's last journal, left in{nl}his study.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_219",
@@ -4364,7 +4364,7 @@
     }
    ],
    "tl": "\"My old man was always telling me how your father | chased after the secret treasures of Atlantis. | Oh, I'll be borrowing this for a while.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}{voice:30303238}\"My old man was always telling me how{nl}your father{wait}{clear}{nl}{voice:30303239}chased after the secret treasures of{nl}Atlantis.{wait}{clear}{nl}{voice:30303330}Oh, I'll be borrowing this for a while.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}{voice:30303238}\"My old man was always telling me how{nl}your father{wait}{clear}{nl}{voice:30303239}chased after the secret treasures{nl}of Atlantis.{wait}{clear}{nl}{voice:30303330}Oh, I'll be borrowing this for a while.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_226",
@@ -4440,7 +4440,7 @@
     }
    ],
    "tl": "\"Ohhh, why did I have to say that right then... | Now I just look like some shallow girl.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Ohhh, why did I have to say that right{nl}then...{wait}{clear}{nl}Now I just look like some shallow girl.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Ohhh, why did I have to say that{nl}right then...{wait}{clear}{nl}Now I just look like some shallow girl.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_230",
@@ -4535,7 +4535,7 @@
     }
    ],
    "tl": "\"This girl has a man she's seeing, | but it seems he's actually a playboy, and it's come out that he even has a secret child...\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"This girl has a man she's seeing,{wait}{clear}{nl}but it seems he's actually a playboy, and{nl}it's come out that he even has a secret{nl}child...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"This girl has a man she's seeing,{wait}{clear}{nl}but it seems he's actually a playboy, and{nl}it's come out that he even has a{nl}secret child...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_235",
@@ -4972,7 +4972,7 @@
     }
    ],
    "tl": "\"To see which one's right for her. My readings for others are pretty accurate.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"To see which one's right for her.{wait}{clear}{nl}My readings for others are pretty{nl}accurate.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"To see which one's right for her.{wait}{clear}{nl}My readings for others are{nl}pretty accurate.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_258",
@@ -5029,7 +5029,7 @@
     }
    ],
    "tl": "\"Which do you like, Van-sama or Allen-san?!\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Which do you like, Van-sama or{nl}Allen-san?!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Which do you like, Van-sama{nl}or Allen-san?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_261",
@@ -5218,7 +5218,7 @@
     }
    ],
    "tl": "\"Let's go say hello, as a little gift for Folken-sama.\"",
-   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"Let's go say hello, as a little gift for{nl}Folken-sama.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"Let's go say hello, as a little gift{nl}for Folken-sama.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_270",
@@ -5711,7 +5711,7 @@
     }
    ],
    "tl": "\"Please don't push yourself too hard, Van-sama.\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Please don't push yourself too hard,{nl}Van-sama.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Please don't push yourself too{nl}hard, Van-sama.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_295",
@@ -5901,7 +5901,7 @@
     }
    ],
    "tl": "\"That's because they're jealous of you, Folken-sama.\"",
-   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"That's because they're jealous of you,{nl}Folken-sama.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"That's because they're jealous of{nl}you, Folken-sama.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_305",
@@ -6053,7 +6053,7 @@
     }
    ],
    "tl": "\"And our hearts... are for you, Folken-sama...\"",
-   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"And our hearts... are for you,{nl}Folken-sama...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"And our hearts... are for{nl}you, Folken-sama...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_313",
@@ -6072,7 +6072,7 @@
     }
    ],
    "tl": "\"Well, that was a pain, that was a pain!! | Took me a while to notice it was written in Mystic Moon letters. | So... we're all going to the Mystic Valley together.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Well, that was a pain, that was a pain!!{wait}{clear}{nl}Took me a while to notice it was written{nl}in Mystic Moon letters.{wait}{clear}{nl}So... we're all going to the Mystic Valley{nl}together.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Well, that was a pain, that was a pain!!{wait}{clear}{nl}Took me a while to notice it was written{nl}in Mystic Moon letters.{wait}{clear}{nl}So... we're all going to the Mystic{nl}Valley together.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_314",
@@ -6167,7 +6167,7 @@
     }
    ],
    "tl": "\"Honestly... | What twist of fate brought you all together, | all these people tied to the Mystic Valley.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Honestly...{wait}{clear}{nl}What twist of fate brought you all{nl}together,{wait}{clear}{nl}all these people tied to the Mystic{nl}Valley.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Honestly...{wait}{clear}{nl}What twist of fate brought you{nl}all together,{wait}{clear}{nl}all these people tied to the{nl}Mystic Valley.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_319",
@@ -6205,7 +6205,7 @@
     }
    ],
    "tl": "\"How many days has it been? | In my fading consciousness, that girl's voice comes back to me. And then... | The Asgard continent appeared before me. The gods guide me. This is fate!! | That encounter in my youth, guided by strange fate... and then the sudden parting... | To confirm my feelings for that girl, carved so deep into my heart. | The Mystic Valley holds everything. Everything I seek...\"",
-   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"How many days has it been?{wait}{clear}{nl}In my fading consciousness, that girl's{nl}voice comes back to me. And then...{wait}{clear}{nl}The Asgard continent appeared before{nl}me. The gods guide me. This is fate!!{wait}{clear}{nl}That encounter in my youth, guided by{nl}strange fate... and then the sudden{nl}parting...{wait}{clear}{nl}To confirm my feelings for that girl,{nl}carved so deep into my heart.{wait}{clear}{nl}The Mystic Valley holds everything.{nl}Everything I seek...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"How many days has it been?{wait}{clear}{nl}In my fading consciousness, that girl's{nl}voice comes back to me. And then...{wait}{clear}{nl}The Asgard continent appeared before{nl}me. The gods guide me. This is fate!!{wait}{clear}{nl}That encounter in my youth, guided by{nl}strange fate... and then the{nl}sudden parting...{wait}{clear}{nl}To confirm my feelings for that girl,{nl}carved so deep into my heart.{wait}{clear}{nl}The Mystic Valley holds everything.{nl}Everything I seek...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_321",
@@ -6224,7 +6224,7 @@
     }
    ],
    "tl": "\"Don't make me laugh!! | He threw away his house and family! And what he was searching for was a woman!! | Pathetic...\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Don't make me laugh!!{wait}{clear}{nl}He threw away his house and family! And{nl}what he was searching for was a{nl}woman!!{wait}{clear}{nl}Pathetic...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Don't make me laugh!!{wait}{clear}{nl}He threw away his house and family! And{nl}what he was searching for was{nl}a woman!!{wait}{clear}{nl}Pathetic...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_322",
@@ -6300,7 +6300,7 @@
     }
    ],
    "tl": "\"Can't see a thing. | It's nothing but ocean, way out there, Sergeant!!\"",
-   "en": "{clear}{nameon}{color3}24Reeden{nameoff}{color2}{nl}\"Can't see a thing.{wait}{clear}{nl}It's nothing but ocean, way out there,{nl}Sergeant!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}24Reeden{nameoff}{color2}{nl}\"Can't see a thing.{wait}{clear}{nl}It's nothing but ocean, way out{nl}there, Sergeant!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_326",
@@ -6395,7 +6395,7 @@
     }
    ],
    "tl": "\"I met an old man. | There was another who believed in the Mystic Valley, and traveled in search of it. | I asked his name, and the old man answered, Isaac. His story was very interesting. | He too was searching for the Mystic Valley. Seeking the mystery of Atlantis... | And to my surprise, Isaac says that he came from the Mystic Moon, just like that girl.\"",
-   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"I met an old man.{wait}{clear}{nl}There was another who believed in the{nl}Mystic Valley, and traveled in search{nl}of it.{wait}{clear}{nl}I asked his name, and the old man{nl}answered, Isaac. His story was very{nl}interesting.{wait}{clear}{nl}He too was searching for the Mystic{nl}Valley. Seeking the mystery of Atlantis...{wait}{clear}{nl}And to my surprise, Isaac says that he{nl}came from the Mystic Moon, just like{nl}that girl.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"I met an old man.{wait}{clear}{nl}There was another who believed in the{nl}Mystic Valley, and traveled in search{nl}of it.{wait}{clear}{nl}I asked his name, and the old man{nl}answered, Isaac. His story was{nl}very interesting.{wait}{clear}{nl}He too was searching for the Mystic{nl}Valley. Seeking the mystery of Atlantis...{wait}{clear}{nl}And to my surprise, Isaac says that he{nl}came from the Mystic Moon, just like{nl}that girl.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_331",
@@ -6660,7 +6660,7 @@
     }
    ],
    "tl": "\"Hah, that's a relief. I'm not interested either.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hah, that's a relief. I'm not interested{nl}either.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hah, that's a relief. I'm not{nl}interested either.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_344",
@@ -6850,7 +6850,7 @@
     }
    ],
    "tl": "\"I don't think that's it. | Because you kept your father's journal, Allen-san. | You could have thrown it away, but you didn't. | Somewhere inside, you must have wanted to know about him... | You're a kind person, Allen-san. You couldn't hate someone that much. | If your heart had really gone cold, then I... | none of us would have come to like you. | You want to forgive your father, don't you?\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I don't think that's it.{wait}{clear}{nl}Because you kept your father's journal,{nl}Allen-san.{wait}{clear}{nl}You could have thrown it away, but you{nl}didn't.{wait}{clear}{nl}Somewhere inside, you must have{nl}wanted to know about him...{wait}{clear}{nl}You're a kind person, Allen-san. You{nl}couldn't hate someone that much.{wait}{clear}{nl}If your heart had really gone cold,{nl}then I...{wait}{clear}{nl}none of us would have come to like you.{wait}{clear}{nl}You want to forgive your father,{nl}don't you?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I don't think that's it.{wait}{clear}{nl}Because you kept your father's{nl}journal, Allen-san.{wait}{clear}{nl}You could have thrown it away, but{nl}you didn't.{wait}{clear}{nl}Somewhere inside, you must have{nl}wanted to know about him...{wait}{clear}{nl}You're a kind person, Allen-san. You{nl}couldn't hate someone that much.{wait}{clear}{nl}If your heart had really gone cold,{nl}then I...{wait}{clear}{nl}none of us would have come to like you.{wait}{clear}{nl}You want to forgive your father,{nl}don't you?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_354",
@@ -6964,7 +6964,7 @@
     }
    ],
    "tl": "\"Hang in there!! It can't be much farther!\"",
-   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Hang in there!! It can't be much{nl}farther!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Hang in there!! It can't be{nl}much farther!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_360",
@@ -7248,7 +7248,7 @@
     }
    ],
    "tl": "\"We will definitely bring back your little brother!\"",
-   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}{voice:30303434}\"We will definitely bring back your little{nl}brother!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}{voice:30303434}\"We will definitely bring back your{nl}little brother!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_374",
@@ -7740,7 +7740,7 @@
     }
    ],
    "tl": "\"This is... a stone monument in Atlantean script. | No doubt about it. These are the ruins of Atlantis. The Mystic Valley.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"This is... a stone monument in Atlantean{nl}script.{wait}{clear}{nl}No doubt about it. These are the ruins{nl}of Atlantis. The Mystic Valley.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"This is... a stone monument in{nl}Atlantean script.{wait}{clear}{nl}No doubt about it. These are the ruins{nl}of Atlantis. The Mystic Valley.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_398",
@@ -7778,7 +7778,7 @@
     }
    ],
    "tl": "\"Age... of the New Nebula... Thirteenth... Moon.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Age... of the New Nebula... Thirteenth...{nl}Moon.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Age... of the New Nebula...{nl}Thirteenth... Moon.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_400",
@@ -7847,7 +7847,7 @@
     }
    ],
    "tl": "\"The M-Mystic Moon!! | Atlantis was a people of the Mystic Moon?!\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The M-Mystic Moon!!{wait}{clear}{nl}Atlantis was a people of the Mystic{nl}Moon?!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The M-Mystic Moon!!{wait}{clear}{nl}Atlantis was a people of the{nl}Mystic Moon?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_403",
@@ -8005,7 +8005,7 @@
     }
    ],
    "tl": "\"Van-sama. | You must not turn away from your own fate. | The Draconians are the descendants of Atlantis. | To face this and fight, so that Gaea does not follow Atlantis's path, is your fate. | You must fight, together with Escaflowne.\"",
-   "en": "{clear}{nameon}{color3}01Balgus{nameoff}{color2}{nl}\"Van-sama.{wait}{clear}{nl}You must not turn away from your{nl}own fate.{wait}{clear}{nl}The Draconians are the descendants of{nl}Atlantis.{wait}{clear}{nl}To face this and fight, so that Gaea{nl}does not follow Atlantis's path, is{nl}your fate.{wait}{clear}{nl}You must fight, together with{nl}Escaflowne.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}01Balgus{nameoff}{color2}{nl}\"Van-sama.{wait}{clear}{nl}You must not turn away from your{nl}own fate.{wait}{clear}{nl}The Draconians are the descendants{nl}of Atlantis.{wait}{clear}{nl}To face this and fight, so that Gaea{nl}does not follow Atlantis's path, is{nl}your fate.{wait}{clear}{nl}You must fight, together{nl}with Escaflowne.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_411",
@@ -8461,7 +8461,7 @@
     }
    ],
    "tl": "\"Stop this. | You must not use the power of will. Your will springs from anxiety... | That will is drawing your anxiety into reality.\"",
-   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"Stop this.{wait}{clear}{nl}You must not use the power of will. Your{nl}will springs from anxiety...{wait}{clear}{nl}That will is drawing your anxiety into{nl}reality.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"Stop this.{wait}{clear}{nl}You must not use the power of will. Your{nl}will springs from anxiety...{wait}{clear}{nl}That will is drawing your anxiety{nl}into reality.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_435",
@@ -8556,7 +8556,7 @@
     }
    ],
    "tl": "\"Your anxious heart, amplified by fortune-telling, | has chosen sad endings from among the many possible futures. | Even now, your heart is full of anxiety.\"",
-   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"Your anxious heart, amplified by{nl}fortune-telling,{wait}{clear}{nl}has chosen sad endings from among the{nl}many possible futures.{wait}{clear}{nl}Even now, your heart is full of anxiety.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"Your anxious heart, amplified{nl}by fortune-telling,{wait}{clear}{nl}has chosen sad endings from among the{nl}many possible futures.{wait}{clear}{nl}Even now, your heart is full of anxiety.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_440",
@@ -8708,7 +8708,7 @@
     }
    ],
    "tl": "\"Dornkirk-sama. We have obtained the item.\"",
-   "en": "{clear}{nameon}{color3}04Zaibach Soldier{nameoff}{color2}{nl}\"Dornkirk-sama. We have obtained the{nl}item.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}04Zaibach Soldier{nameoff}{color2}{nl}\"Dornkirk-sama. We have obtained{nl}the item.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_448",
@@ -8765,7 +8765,7 @@
     }
    ],
    "tl": "\"You... why? | Why do you still look just as you did then... | I see. So that's the mystery of Atlantis, the power of will... My will back then... | wasn't mistaken. | I want you... to keep this. | Wishes come true. However far apart, across time, across space...\"",
-   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"You... why?{wait}{clear}{nl}Why do you still look just as you did{nl}then...{wait}{clear}{nl}I see. So that's the mystery of Atlantis,{nl}the power of will... My will back then...{wait}{clear}{nl}wasn't mistaken.{wait}{clear}{nl}I want you... to keep this.{wait}{clear}{nl}Wishes come true. However far apart,{nl}across time, across space...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"You... why?{wait}{clear}{nl}Why do you still look just as you{nl}did then...{wait}{clear}{nl}I see. So that's the mystery of Atlantis,{nl}the power of will... My will back then...{wait}{clear}{nl}wasn't mistaken.{wait}{clear}{nl}I want you... to keep this.{wait}{clear}{nl}Wishes come true. However far apart,{nl}across time, across space...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_451",
@@ -8803,7 +8803,7 @@
     }
    ],
    "tl": "\"For my house I married, had a child, and tried to live by killing my own self. | People want to escape the one thread of fate. | But when I met that girl again, I understood. | I did love Encia. And you, Allen...\"",
-   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"For my house I married, had a child, and{nl}tried to live by killing my own self.{wait}{clear}{nl}People want to escape the one thread{nl}of fate.{wait}{clear}{nl}But when I met that girl again, I{nl}understood.{wait}{clear}{nl}I did love Encia. And you, Allen...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"For my house I married, had a child, and{nl}tried to live by killing my own self.{wait}{clear}{nl}People want to escape the one thread{nl}of fate.{wait}{clear}{nl}But when I met that girl again,{nl}I understood.{wait}{clear}{nl}I did love Encia. And you, Allen...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_453",
@@ -8841,7 +8841,7 @@
     }
    ],
    "tl": "\"How foolish people are. The power of Atlantis... | Human will... We don't even notice our own feelings. Encia... | Allen, be true to yourself. Cherish your feelings.\"",
-   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"How foolish people are. The power of{nl}Atlantis...{wait}{clear}{nl}Human will... We don't even notice our{nl}own feelings. Encia...{wait}{clear}{nl}Allen, be true to yourself. Cherish your{nl}feelings.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"How foolish people are. The power{nl}of Atlantis...{wait}{clear}{nl}Human will... We don't even notice our{nl}own feelings. Encia...{wait}{clear}{nl}Allen, be true to yourself. Cherish{nl}your feelings.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_455",
@@ -9093,7 +9093,7 @@
     }
    ],
    "tl": "\"We will bring back your brother, without fail.\"",
-   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}{voice:30303634}\"We will bring back your brother, without{nl}fail.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}{voice:30303634}\"We will bring back your brother,{nl}without fail.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_467",
@@ -9370,7 +9370,7 @@
     }
    ],
    "tl": "\"If an anxious heart called forth bad events, | then the opposite must also be possible. Hitomi, believe in him...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi's Grandma{expr:3138}{nameoff}{color2}{nl}\"If an anxious heart called forth bad{nl}events,{wait}{clear}{nl}then the opposite must also be possible.{nl}Hitomi, believe in him...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi's Grandma{expr:3138}{nameoff}{color2}{nl}\"If an anxious heart called forth{nl}bad events,{wait}{clear}{nl}then the opposite must also be possible.{nl}Hitomi, believe in him...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_480",
@@ -9503,7 +9503,7 @@
     }
    ],
    "tl": "\"The power of Atlantis must not be awakened.\"",
-   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"The power of Atlantis must not be{nl}awakened.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"The power of Atlantis must not{nl}be awakened.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_487",
@@ -9560,7 +9560,7 @@
     }
    ],
    "tl": "\"Do not forget, Van. | It is your will that decides the fate of Gaea.\"",
-   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"Do not forget, Van.{wait}{clear}{nl}It is your will that decides the fate of{nl}Gaea.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"Do not forget, Van.{wait}{clear}{nl}It is your will that decides the fate{nl}of Gaea.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_490",

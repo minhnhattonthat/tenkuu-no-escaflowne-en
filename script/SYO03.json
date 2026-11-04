@@ -89,7 +89,7 @@
     }
    ],
    "tl": "\"Third Princess of the Kingdom of Asturia, | Millerna Sara Aston-sama, has arrived.\"",
-   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Third Princess of the Kingdom of{nl}Asturia,{wait}{clear}{nl}Millerna Sara Aston-sama, has arrived.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Third Princess of the Kingdom{nl}of Asturia,{wait}{clear}{nl}Millerna Sara Aston-sama, has arrived.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_006",
@@ -108,7 +108,7 @@
     }
    ],
    "tl": "\"You must be tired from your long journey. | The Duke of Freid is currently touring his lands, so I will welcome you in his place.\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"You must be tired from your long{nl}journey.{wait}{clear}{nl}The Duke of Freid is currently touring{nl}his lands, so I will welcome you in his{nl}place.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"You must be tired from your{nl}long journey.{wait}{clear}{nl}The Duke of Freid is currently touring{nl}his lands, so I will welcome you in{nl}his place.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_007",
@@ -146,7 +146,7 @@
     }
    ],
    "tl": "\"Yes, it's been a long time. Aunt Millerna.\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Yes, it's been a long time. Aunt{nl}Millerna.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Yes, it's been a long time.{nl}Aunt Millerna.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_009",
@@ -260,7 +260,7 @@
     }
    ],
    "tl": "\"My late mother always told me about him. | That in Asturia lived Allen Schezar, the greatest swordsman on Gaea. | An invincible knight, a dazzling master of the guymelef. That one day I would meet him...\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"My late mother always told me{nl}about him.{wait}{clear}{nl}That in Asturia lived Allen Schezar, the{nl}greatest swordsman on Gaea.{wait}{clear}{nl}An invincible knight, a dazzling master of{nl}the guymelef. That one day I would meet{nl}him...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"My late mother always told me{nl}about him.{wait}{clear}{nl}That in Asturia lived Allen Schezar, the{nl}greatest swordsman on Gaea.{wait}{clear}{nl}An invincible knight, a dazzling master of{nl}the guymelef. That one day I would{nl}meet him...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_015",
@@ -298,7 +298,7 @@
     }
    ],
    "tl": "\"I see. | King of Fanelia, please forgive my rudeness. | Freid welcomes you. Please make yourself at home, as if this were your own country.\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I see.{wait}{clear}{nl}King of Fanelia, please forgive my{nl}rudeness.{wait}{clear}{nl}Freid welcomes you. Please make{nl}yourself at home, as if this were your{nl}own country.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I see.{wait}{clear}{nl}King of Fanelia, please forgive{nl}my rudeness.{wait}{clear}{nl}Freid welcomes you. Please make{nl}yourself at home, as if this were your{nl}own country.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_017",
@@ -557,7 +557,7 @@
     }
    ],
    "tl": "\"If you question the Zaibach soldier we captured, | it should all become clear...\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"If you question the Zaibach soldier we{nl}captured,{wait}{clear}{nl}it should all become clear...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"If you question the Zaibach soldier{nl}we captured,{wait}{clear}{nl}it should all become clear...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_031",
@@ -747,7 +747,7 @@
     }
    ],
    "tl": "\"Plakt. | A monk skilled in hypnotic suggestion. In his hands, information can be drawn from the depths of the heart. | He has been confirmed on his way to Godashim.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Plakt.{wait}{clear}{nl}A monk skilled in hypnotic suggestion. In{nl}his hands, information can be drawn{nl}from the depths of the heart.{wait}{clear}{nl}He has been confirmed on his way to{nl}Godashim.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Plakt.{wait}{clear}{nl}A monk skilled in hypnotic suggestion. In{nl}his hands, information can be drawn{nl}from the depths of the heart.{wait}{clear}{nl}He has been confirmed on his way{nl}to Godashim.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_041",
@@ -899,7 +899,7 @@
     }
    ],
    "tl": "\"What's going on, Van, so early in the morning? | And Merle, why are you tagging along too?!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What's going on, Van, so early in the{nl}morning?{wait}{clear}{nl}And Merle, why are you tagging along{nl}too?!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What's going on, Van, so early in{nl}the morning?{wait}{clear}{nl}And Merle, why are you tagging{nl}along too?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_049",
@@ -1108,7 +1108,7 @@
     }
    ],
    "tl": "\"You think hard about the thing you want to find. That's all... | When you sense it, the pendant starts swinging that way. | Once you get used to it, you can do it just by picturing the pendant in your head.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You think hard about the thing you{nl}want to find. That's all...{wait}{clear}{nl}When you sense it, the pendant starts{nl}swinging that way.{wait}{clear}{nl}Once you get used to it, you can do it{nl}just by picturing the pendant in your{nl}head.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You think hard about the thing you{nl}want to find. That's all...{wait}{clear}{nl}When you sense it, the pendant starts{nl}swinging that way.{wait}{clear}{nl}Once you get used to it, you can do it{nl}just by picturing the pendant in{nl}your head.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_060",
@@ -1284,7 +1284,7 @@
     }
    ],
    "tl": "\"Later I'm sharpening my claws on her legs.\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303035}\"Later I'm sharpening my claws on her{nl}legs.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303035}\"Later I'm sharpening my claws on{nl}her legs.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_069",
@@ -1560,7 +1560,7 @@
     }
    ],
    "tl": "\"Prince Chid!! | Don't mind that girl. She's just a fortune-teller. | Telling people their pasts and futures, it's creepy.\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Prince Chid!!{wait}{clear}{nl}Don't mind that girl. She's just a{nl}fortune-teller.{wait}{clear}{nl}Telling people their pasts and futures,{nl}it's creepy.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Prince Chid!!{wait}{clear}{nl}Don't mind that girl. She's just{nl}a fortune-teller.{wait}{clear}{nl}Telling people their pasts and futures,{nl}it's creepy.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_081",
@@ -1655,7 +1655,7 @@
     }
    ],
    "tl": "\"Well, how should I put it... when I do a reading, | I seem to just know.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Well, how should I put it... when I do a{nl}reading,{wait}{clear}{nl}I seem to just know.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Well, how should I put it... when I do{nl}a reading,{wait}{clear}{nl}I seem to just know.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_086",
@@ -1674,7 +1674,7 @@
     }
    ],
    "tl": "\"That's amazing. Even Plakt can't tell the future.\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"That's amazing. Even Plakt can't tell the{nl}future.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"That's amazing. Even Plakt can't tell{nl}the future.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_087",
@@ -2035,7 +2035,7 @@
     }
    ],
    "tl": "\"You'll definitely be able to do it too, Van-sama.\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"You'll definitely be able to do it too,{nl}Van-sama.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"You'll definitely be able to do it{nl}too, Van-sama.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_106",
@@ -2187,7 +2187,7 @@
     }
    ],
    "tl": "\"Indeed. I am Zongi, under Folken-sama's command. | Let's hear your story, Miguel.\"",
-   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Indeed. I am Zongi, under Folken-sama's{nl}command.{wait}{clear}{nl}Let's hear your story, Miguel.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Indeed. I am Zongi, under{nl}Folken-sama's command.{wait}{clear}{nl}Let's hear your story, Miguel.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_114",
@@ -2206,7 +2206,7 @@
     }
    ],
    "tl": "\"There's a strange woman with those people.\"",
-   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"There's a strange woman with those{nl}people.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"There's a strange woman with{nl}those people.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_115",
@@ -2491,7 +2491,7 @@
     }
    ],
    "tl": "\"Now then, Zaibach soldier! What is your name?\"",
-   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Now then, Zaibach soldier! What is your{nl}name?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Now then, Zaibach soldier! What is{nl}your name?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_130",
@@ -2548,7 +2548,7 @@
     }
    ],
    "tl": "\"Asturia asked us to strike down a traitor...\"",
-   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"Asturia asked us to strike down a{nl}traitor...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"Asturia asked us to strike down{nl}a traitor...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_133",
@@ -2681,7 +2681,7 @@
     }
    ],
    "tl": "\"Deceive Freid, and make it fight Asturia. | Then seize Asturia for himself in the chaos.\"",
-   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"Deceive Freid, and make it fight{nl}Asturia.{wait}{clear}{nl}Then seize Asturia for himself in the{nl}chaos.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"Deceive Freid, and make it{nl}fight Asturia.{wait}{clear}{nl}Then seize Asturia for himself in{nl}the chaos.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_140",
@@ -3004,7 +3004,7 @@
     }
    ],
    "tl": "\"Oh? | The spare card? I always keep that one separate.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Oh?{wait}{clear}{nl}The spare card? I always keep that one{nl}separate.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Oh?{wait}{clear}{nl}The spare card? I always keep that{nl}one separate.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_157",
@@ -3384,7 +3384,7 @@
     }
    ],
    "tl": "\"My mother told me all about you, and I always looked up to you. | It's a pity. So Mother was lying to me too...\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"My mother told me all about you, and I{nl}always looked up to you.{wait}{clear}{nl}It's a pity. So Mother was lying to me{nl}too...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"My mother told me all about you, and I{nl}always looked up to you.{wait}{clear}{nl}It's a pity. So Mother was lying to{nl}me too...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_177",
@@ -3555,7 +3555,7 @@
     }
    ],
    "tl": "\"Whomever we begin with, if you are blameless, | you have nothing to fear.\"",
-   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Whomever we begin with, if you are{nl}blameless,{wait}{clear}{nl}you have nothing to fear.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Whomever we begin with, if you{nl}are blameless,{wait}{clear}{nl}you have nothing to fear.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_186",
@@ -3726,7 +3726,7 @@
     }
    ],
    "tl": "\"Earth? That is the name of your country?\"",
-   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Earth? That is the name of your{nl}country?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Earth? That is the name of{nl}your country?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_195",
@@ -3802,7 +3802,7 @@
     }
    ],
    "tl": "\"The Mystic Moon?! | You claim to have come from the Mystic Moon?!\"",
-   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"The Mystic Moon?!{wait}{clear}{nl}You claim to have come from the Mystic{nl}Moon?!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"The Mystic Moon?!{wait}{clear}{nl}You claim to have come from the{nl}Mystic Moon?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_199",
@@ -4669,7 +4669,7 @@
     }
    ],
    "tl": "\"An impostor... that man... will die...! Noooo!!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"An impostor... that man... will die...!{nl}Noooo!!\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"An impostor... that man... will{nl}die...! Noooo!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_244",
@@ -4707,7 +4707,7 @@
     }
    ],
    "tl": "\"I saw it! | He killed the real Plakt and took his form... and the prisoner was killed too! | B-but he's in the black hand's grip too...!!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I saw it!{wait}{clear}{nl}He killed the real Plakt and took his{nl}form... and the prisoner was killed too!{wait}{clear}{nl}B-but he's in the black hand's grip{nl}too...!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I saw it!{wait}{clear}{nl}He killed the real Plakt and took his{nl}form... and the prisoner was killed too!{wait}{clear}{nl}B-but he's in the black hand's{nl}grip too...!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_246",
@@ -4831,7 +4831,7 @@
     }
    ],
    "tl": "\"Your Highness?! Have you lost your senses?!\"",
-   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Your Highness?! Have you lost your{nl}senses?!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Your Highness?! Have you lost{nl}your senses?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_253",
@@ -4850,7 +4850,7 @@
     }
    ],
    "tl": "\"One proves one's own innocence oneself. | They too shall follow the laws of the Duchy of Freid. I take responsibility for this!!\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"One proves one's own innocence{nl}oneself.{wait}{clear}{nl}They too shall follow the laws of the{nl}Duchy of Freid. I take responsibility for{nl}this!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"One proves one's own{nl}innocence oneself.{wait}{clear}{nl}They too shall follow the laws of the{nl}Duchy of Freid. I take responsibility{nl}for this!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_254",
@@ -5097,7 +5097,7 @@
     }
    ],
    "tl": "\"Those people may simply run away, you know...\"",
-   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Those people may simply run away, you{nl}know...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Those people may simply run away,{nl}you know...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_267",
@@ -5173,7 +5173,7 @@
     }
    ],
    "tl": "\"Sees the unseen, and knows the future? | I see... So that's how, that time. She's the one who gave me this scar... Well done, Zongi.\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Sees the unseen, and knows the{nl}future?{wait}{clear}{nl}I see... So that's how, that time. She's{nl}the one who gave me this scar... Well{nl}done, Zongi.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Sees the unseen, and knows{nl}the future?{wait}{clear}{nl}I see... So that's how, that time. She's{nl}the one who gave me this scar... Well{nl}done, Zongi.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_271",
@@ -5287,7 +5287,7 @@
     }
    ],
    "tl": "\"That was a terrible thing to do to one of my men. | That's why I can't stand shapeshifters...\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"That was a terrible thing to do to one{nl}of my men.{wait}{clear}{nl}That's why I can't stand{nl}shapeshifters...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"That was a terrible thing to do to one{nl}of my men.{wait}{clear}{nl}That's why I can't{nl}stand shapeshifters...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_277",
@@ -5787,7 +5787,7 @@
     }
    ],
    "tl": "\"They found the body. Of the real Plakt.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"They found the body. Of the real{nl}Plakt.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"They found the body. Of the{nl}real Plakt.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_303",
@@ -5806,7 +5806,7 @@
     }
    ],
    "tl": "\"Some monks in training found it in the forest. | A withered corpse is the work of a shapeshifter...\"",
-   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Some monks in training found it in the{nl}forest.{wait}{clear}{nl}A withered corpse is the work of a{nl}shapeshifter...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Some monks in training found it in{nl}the forest.{wait}{clear}{nl}A withered corpse is the work of{nl}a shapeshifter...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_304",
@@ -5901,7 +5901,7 @@
     }
    ],
    "tl": "\"I beg your pardon for my many discourtesies.\"",
-   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"I beg your pardon for my many{nl}discourtesies.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"I beg your pardon for my{nl}many discourtesies.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_309",
@@ -5920,7 +5920,7 @@
     }
    ],
    "tl": "\"Allen, you're the one who gave Chid his resolve. | You two are... somehow alike. | The color of your eyes, your hair, you could almost be brothers...\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Allen, you're the one who gave Chid his{nl}resolve.{wait}{clear}{nl}You two are... somehow alike.{wait}{clear}{nl}The color of your eyes, your hair, you{nl}could almost be brothers...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Allen, you're the one who gave Chid{nl}his resolve.{wait}{clear}{nl}You two are... somehow alike.{wait}{clear}{nl}The color of your eyes, your hair, you{nl}could almost be brothers...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_310",
@@ -5977,7 +5977,7 @@
     }
    ],
    "tl": "\"Chid's father... I wonder what he's like...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Chid's father... I wonder what he's{nl}like...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Chid's father... I wonder what{nl}he's like...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_313",
@@ -6034,7 +6034,7 @@
     }
    ],
    "tl": "\"We too have already sensed the Zaibach Empire's movements. | That is why I rushed back to the capital, Godashim. | But Allen!! Whatever the reason, for a knight to abandon his country is dishonor, | and to defy his lord's command is disloyalty. Do you think Freid needs such a faithless wretch?!\"",
-   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"We too have already sensed the{nl}Zaibach Empire's movements.{wait}{clear}{nl}That is why I rushed back to the{nl}capital, Godashim.{wait}{clear}{nl}But Allen!! Whatever the reason, for a{nl}knight to abandon his country is{nl}dishonor,{wait}{clear}{nl}and to defy his lord's command is{nl}disloyalty. Do you think Freid needs such{nl}a faithless wretch?!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"We too have already sensed the{nl}Zaibach Empire's movements.{wait}{clear}{nl}That is why I rushed back to the{nl}capital, Godashim.{wait}{clear}{nl}But Allen!! Whatever the reason, for a{nl}knight to abandon his country{nl}is dishonor,{wait}{clear}{nl}and to defy his lord's command is{nl}disloyalty. Do you think Freid needs such{nl}a faithless wretch?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_316",
@@ -6129,7 +6129,7 @@
     }
    ],
    "tl": "\"Forgive my rudeness. Brother... | No, I may no longer call you that. I too have abandoned my country. | My lord Duke, Zaibach's invasion is already madness. It will drag all of Gaea into a whirlpool of war. | The tragedy will not stop at Fanelia alone. | What's more, the next country targeted is this very Freid. | Sadly, my father... no, King Aston means to leave this be. For the good of Asturia, he says... | But if all of Gaea falls into Zaibach's hands, could Asturia alone remain at peace? | Allen... Allen Schezar came alone to Freid to prevent that... | My lord Duke, I beg you, forgive Allen.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Forgive my rudeness. Brother...{wait}{clear}{nl}No, I may no longer call you that. I too{nl}have abandoned my country.{wait}{clear}{nl}My lord Duke, Zaibach's invasion is{nl}already madness. It will drag all of Gaea{nl}into a whirlpool of war.{wait}{clear}{nl}The tragedy will not stop at Fanelia{nl}alone.{wait}{clear}{nl}What's more, the next country targeted{nl}is this very Freid.{wait}{clear}{nl}Sadly, my father... no, King Aston means{nl}to leave this be. For the good of{nl}Asturia, he says...{wait}{clear}{nl}But if all of Gaea falls into Zaibach's{nl}hands, could Asturia alone remain at{nl}peace?{wait}{clear}{nl}Allen... Allen Schezar came alone to Freid{nl}to prevent that...{wait}{clear}{nl}My lord Duke, I beg you, forgive Allen.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Forgive my rudeness. Brother...{wait}{clear}{nl}No, I may no longer call you that. I too{nl}have abandoned my country.{wait}{clear}{nl}My lord Duke, Zaibach's invasion is{nl}already madness. It will drag all of Gaea{nl}into a whirlpool of war.{wait}{clear}{nl}The tragedy will not stop at{nl}Fanelia alone.{wait}{clear}{nl}What's more, the next country targeted{nl}is this very Freid.{wait}{clear}{nl}Sadly, my father... no, King Aston means{nl}to leave this be. For the good of{nl}Asturia, he says...{wait}{clear}{nl}But if all of Gaea falls into Zaibach's{nl}hands, could Asturia alone remain{nl}at peace?{wait}{clear}{nl}Allen... Allen Schezar came alone to Freid{nl}to prevent that...{wait}{clear}{nl}My lord Duke, I beg you, forgive Allen.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_321",
@@ -6262,7 +6262,7 @@
     }
    ],
    "tl": "\"Yes. | This girl seems able to detect guymelefs in stealth cloaks with ease. | What's more, reports say she foresees fate, and guides the dragon to the advantage.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes.{wait}{clear}{nl}This girl seems able to detect guymelefs{nl}in stealth cloaks with ease.{wait}{clear}{nl}What's more, reports say she foresees{nl}fate, and guides the dragon to the{nl}advantage.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes.{wait}{clear}{nl}This girl seems able to detect guymelefs{nl}in stealth cloaks with ease.{wait}{clear}{nl}What's more, reports say she foresees{nl}fate, and guides the dragon to{nl}the advantage.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_328",
@@ -6566,7 +6566,7 @@
     }
    ],
    "tl": "\"When I try to sleep, I think about the battle, | and I can't stop shaking.\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"When I try to sleep, I think about the{nl}battle,{wait}{clear}{nl}and I can't stop shaking.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"When I try to sleep, I think about{nl}the battle,{wait}{clear}{nl}and I can't stop shaking.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_344",
@@ -6623,7 +6623,7 @@
     }
    ],
    "tl": "\"Prince Chid. | They say people have a mysterious power. | I heard it from my grandma. | You keep thinking in your heart, I want to be like this, I hope it turns out like this. | Do that, and your wish is sure to come true.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Prince Chid.{wait}{clear}{nl}They say people have a mysterious{nl}power.{wait}{clear}{nl}I heard it from my grandma.{wait}{clear}{nl}You keep thinking in your heart, I want{nl}to be like this, I hope it turns out{nl}like this.{wait}{clear}{nl}Do that, and your wish is sure to come{nl}true.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Prince Chid.{wait}{clear}{nl}They say people have a{nl}mysterious power.{wait}{clear}{nl}I heard it from my grandma.{wait}{clear}{nl}You keep thinking in your heart, I want{nl}to be like this, I hope it turns out{nl}like this.{wait}{clear}{nl}Do that, and your wish is sure to{nl}come true.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_347",
@@ -6832,7 +6832,7 @@
     }
    ],
    "tl": "\"S-sorry. I guess I couldn't concentrate. | One more time...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"S-sorry. I guess I couldn't{nl}concentrate.{wait}{clear}{nl}One more time...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"S-sorry. I guess I{nl}couldn't concentrate.{wait}{clear}{nl}One more time...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_358",
@@ -6908,7 +6908,7 @@
     }
    ],
    "tl": "\"Then Chid is Allen's and Sister Marlene's...\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Then Chid is Allen's and Sister{nl}Marlene's...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Then Chid is Allen's and{nl}Sister Marlene's...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_362",
@@ -7117,7 +7117,7 @@
     }
    ],
    "tl": "\"That's right. | Princess Marlene and I were in love. | Since before her marriage to the Duke of Freid was arranged... | Princess, Prince Chid is probably mine and...\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"That's right.{wait}{clear}{nl}Princess Marlene and I were in love.{wait}{clear}{nl}Since before her marriage to the Duke{nl}of Freid was arranged...{wait}{clear}{nl}Princess, Prince Chid is probably mine{nl}and...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"That's right.{wait}{clear}{nl}Princess Marlene and I were in love.{wait}{clear}{nl}Since before her marriage to the Duke{nl}of Freid was arranged...{wait}{clear}{nl}Princess, Prince Chid is probably{nl}mine and...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_373",
@@ -7307,7 +7307,7 @@
     }
    ],
    "tl": "\"Stop crying!! | If you have time to cry, watch closely, Chid. Watch Boris and his men defend us unto death. | See the fate of those born in Freid! The burden a king must bear!! | Shed no tears! You are the Prince of Freid!\"",
-   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Stop crying!!{wait}{clear}{nl}If you have time to cry, watch closely,{nl}Chid. Watch Boris and his men defend us{nl}unto death.{wait}{clear}{nl}See the fate of those born in Freid! The{nl}burden a king must bear!!{wait}{clear}{nl}Shed no tears! You are the Prince of{nl}Freid!\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Stop crying!!{wait}{clear}{nl}If you have time to cry, watch closely,{nl}Chid. Watch Boris and his men defend us{nl}unto death.{wait}{clear}{nl}See the fate of those born in Freid! The{nl}burden a king must bear!!{wait}{clear}{nl}Shed no tears! You are the Prince{nl}of Freid!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_383",
@@ -7345,7 +7345,7 @@
     }
    ],
    "tl": "\"We understand. Our clan exists for this very day. | Boris-sama's death and that of his men will not be in vain. | Such is the fate of us who are born in Freid. | My lord Duke. We have kept it these long days. | I now return the sacred sword of Freid.\"",
-   "en": "{clear}{nameon}{color3}17Kaja{nameoff}{color2}{nl}\"We understand. Our clan exists for this{nl}very day.{wait}{clear}{nl}Boris-sama's death and that of his men{nl}will not be in vain.{wait}{clear}{nl}Such is the fate of us who are born in{nl}Freid.{wait}{clear}{nl}My lord Duke. We have kept it these{nl}long days.{wait}{clear}{nl}I now return the sacred sword of{nl}Freid.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}17Kaja{nameoff}{color2}{nl}\"We understand. Our clan exists for this{nl}very day.{wait}{clear}{nl}Boris-sama's death and that of his men{nl}will not be in vain.{wait}{clear}{nl}Such is the fate of us who are born{nl}in Freid.{wait}{clear}{nl}My lord Duke. We have kept it these{nl}long days.{wait}{clear}{nl}I now return the sacred sword{nl}of Freid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_385",
@@ -7687,7 +7687,7 @@
     }
    ],
    "tl": "\"You don't look so good. What were you doing?\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You don't look so good. What were you{nl}doing?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You don't look so good. What were{nl}you doing?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_403",
@@ -7744,7 +7744,7 @@
     }
    ],
    "tl": "\"What you taught me, what was it, dowsing? | I tried it.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"What you taught me, what was it,{nl}dowsing?{wait}{clear}{nl}I tried it.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"What you taught me, what was{nl}it, dowsing?{wait}{clear}{nl}I tried it.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_406",
@@ -7782,7 +7782,7 @@
     }
    ],
    "tl": "\"You said it, didn't you? | Hold something in your heart and you can see even what can't be seen. | So instead of just using Escaflowne, I decided to hold it in my heart. | Then I can make it move better. | I don't use it. It becomes me, and fights!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"You said it, didn't you?{wait}{clear}{nl}Hold something in your heart and you{nl}can see even what can't be seen.{wait}{clear}{nl}So instead of just using Escaflowne, I{nl}decided to hold it in my heart.{wait}{clear}{nl}Then I can make it move better.{wait}{clear}{nl}I don't use it. It becomes me, and{nl}fights!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"You said it, didn't you?{wait}{clear}{nl}Hold something in your heart and you{nl}can see even what can't be seen.{wait}{clear}{nl}So instead of just using Escaflowne, I{nl}decided to hold it in my heart.{wait}{clear}{nl}Then I can make it move better.{wait}{clear}{nl}I don't use it. It becomes me,{nl}and fights!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_408",
@@ -8079,7 +8079,7 @@
     }
    ],
    "tl": "\"I understand now... | The gods desire the rebirth of Atlantis's power... | They desire that the people of Gaea undergo that trial.\"",
-   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"I understand now...{wait}{clear}{nl}The gods desire the rebirth of Atlantis's{nl}power...{wait}{clear}{nl}They desire that the people of Gaea{nl}undergo that trial.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"I understand now...{wait}{clear}{nl}The gods desire the rebirth of{nl}Atlantis's power...{wait}{clear}{nl}They desire that the people of Gaea{nl}undergo that trial.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_423",
@@ -8370,7 +8370,7 @@
     }
    ],
    "tl": "\"Your Highness! | We can still fight. And so can the captain...\"",
-   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Your Highness!{wait}{clear}{nl}We can still fight. And so can the{nl}captain...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Your Highness!{wait}{clear}{nl}We can still fight. And so can{nl}the captain...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_438",
@@ -8495,7 +8495,7 @@
     }
    ],
    "tl": "\"I won't cry anymore. | I promised Father... I am the King of Freid.\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}{voice:30303331}\"I won't cry anymore.{wait}{clear}{nl}{voice:30303332}I promised Father... I am the King of{nl}Freid.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}{voice:30303331}\"I won't cry anymore.{wait}{clear}{nl}{voice:30303332}I promised Father... I am the King{nl}of Freid.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_443",
@@ -8520,7 +8520,7 @@
     }
    ],
    "tl": "\"I pay my respects to Prince Chid's courage. | With this, the needless fighting is over.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303333}\"I pay my respects to Prince Chid's{nl}courage.{wait}{clear}{nl}{voice:30303334}With this, the needless fighting is over.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303333}\"I pay my respects to Prince{nl}Chid's courage.{wait}{clear}{nl}{voice:30303334}With this, the needless fighting is over.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_444",

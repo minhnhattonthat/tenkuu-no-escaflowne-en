@@ -291,10 +291,11 @@ def write_layout(out, files):
     """layout.xml with the changed files' source pointing at out/."""
     xml = (ROOT / "work/layout.xml").read_text(encoding="utf-8")
     for tree_rel in files:
-        tag = f'<file name="{Path(tree_rel).name}" type="data"'
-        if xml.count(tag) != 1:
-            raise ValueError(f"{tag} found {xml.count(tag)} times in layout.xml")
-        xml = xml.replace(tag, f'<file name="{Path(tree_rel).name}" source="{(out / tree_rel).as_posix()}" type="data"')
+        name = Path(tree_rel).name
+        tag = re.compile(f'<file name="{re.escape(name)}" type="(data|mixed)"')  # mixed: a video's 2336-byte sectors
+        if len(tag.findall(xml)) != 1:
+            raise ValueError(f"{tag.pattern} found {len(tag.findall(xml))} times in layout.xml")
+        xml = tag.sub(lambda m: f'<file name="{name}" source="{(out / tree_rel).as_posix()}" type="{m[1]}"', xml)
     path = out.parent / f"layout_{out.name}.xml"  # beside out/: a test's temp build never touches work/layout_en.xml
     path.write_text(xml, encoding="utf-8", newline="\n")
     return path

@@ -1,5 +1,6 @@
 name	chapter	scene	jump	frames	mash	route	expect	flags	pokes	say	say_win	say_wait	proof
 title	0	0	-	2700	0	-	-	-	-	-	-	-	title menu
+opening_logo	0	0	-	4600	0	-	-	-	-	-	-	-	opening video's logo, idling on the title
 title_load	0	0	-	2300	0	150 -;8 down;30 -;8 circle;300 -	-	-	-	-	-	-	LOAD/EXIT window
 title_load_confirm	0	0	-	2600	0	150 -;8 down;30 -;8 circle;300 -;8 circle;300 -	-	-	-	-	-	-	LOAD yes/no window
 ch1_card	1	0	-	2400	0	-	0	-	-	-	-	-	chapter card
@@ -144,7 +145,7 @@ partner_prompt	1	0	0x800db8f4	3400	0	600 -;8 triangle;240 -;8 circle;240 -;8 cir
 partner_choice	1	0	0x800db8f4	3800	0	600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -;8 circle;300 -	-	mask=2	-	-	-	-	choice box the game opened itself
 partner_answer	1	0	0x800db8f4	4200	0	600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -;8 circle;300 -;8 circle;300 -	-	mask=2	-	-	-	-	first option picked
 choice_box	1	0	0x800db834	3600	0	600 -;8 triangle;1500 -	-	-	-	0x800dccb2	1	900	dialogue choice box
-credits	7	0	0x800d6910	6000	0	-	-	-	-	-	-	-	staff roll
+credits	7	0	0x800d6910	18400	0	-	-	-	-	-	-	-	whole staff roll
 ending_tie	7	0	0x800d687c	9000	0	-	-	-	0x8009AE6C=0 0x8009AE40=0	-	-	-	ending FMV 0x2C then staff roll
 ending_a	7	0	0x800d687c	9000	0	-	-	-	0x8009AE6C=2 0x8009AE40=1	-	-	-	ending FMV 0x38 then staff roll
 ending_b	7	0	0x800d687c	9000	0	-	-	-	0x8009AE6C=1 0x8009AE40=2	-	-	-	ending FMV 0x37 then staff roll

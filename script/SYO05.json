@@ -184,7 +184,7 @@
     }
    ],
    "tl": "\"Are you the one who brought us here?!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Are you the one who brought us{nl}here?!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Are you the one who brought{nl}us here?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_011",
@@ -588,7 +588,7 @@
     }
    ],
    "tl": "\"But I have solved it. The mystery of Atlantis... | The Atlantis machine, I have completed!\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"But I have solved it. The mystery of{nl}Atlantis...{wait}{clear}{nl}The Atlantis machine, I have completed!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"But I have solved it. The mystery{nl}of Atlantis...{wait}{clear}{nl}The Atlantis machine, I have completed!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_031",
@@ -613,7 +613,7 @@
     }
    ],
    "tl": "\"You... | Why did you come to Gaea? If you hadn't come, everyone would have been happy!!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303037}\"You...{wait}{clear}{nl}{voice:30303038}Why did you come to Gaea? If you{nl}hadn't come, everyone would have been{nl}happy!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303037}\"You...{wait}{clear}{nl}{voice:30303038}Why did you come to Gaea? If you{nl}hadn't come, everyone would have{nl}been happy!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_032",
@@ -632,7 +632,7 @@
     }
    ],
    "tl": "\"Not so... girl. | This Gaea too is soaked in blood. Blood spilled in war... Since long before I came. | Just like Earth. Yes, this was on Earth. | One day, I was seized by a question. | There is a principle common to all bodies. A body exerts a force of attraction according to its mass. | This is gravity. Why does this invisible force exist in this world at all? | That people are drawn to one another, and kill one another, is the way of the world. | Death repeats unbroken, and yet order of every kind exists. What is the source of that order? | Yes, it is fate... the root power that governs the universe...\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Not so... girl.{wait}{clear}{nl}This Gaea too is soaked in blood. Blood{nl}spilled in war... Since long before I came.{wait}{clear}{nl}Just like Earth. Yes, this was on Earth.{wait}{clear}{nl}One day, I was seized by a question.{wait}{clear}{nl}There is a principle common to all bodies.{nl}A body exerts a force of attraction{nl}according to its mass.{wait}{clear}{nl}This is gravity. Why does this invisible{nl}force exist in this world at all?{wait}{clear}{nl}That people are drawn to one another,{nl}and kill one another, is the way of the{nl}world.{wait}{clear}{nl}Death repeats unbroken, and yet order{nl}of every kind exists. What is the source{nl}of that order?{wait}{clear}{nl}Yes, it is fate... the root power that{nl}governs the universe...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Not so... girl.{wait}{clear}{nl}This Gaea too is soaked in blood. Blood{nl}spilled in war... Since long before I came.{wait}{clear}{nl}Just like Earth. Yes, this was on Earth.{wait}{clear}{nl}One day, I was seized by a question.{wait}{clear}{nl}There is a principle common to all bodies.{nl}A body exerts a force of attraction{nl}according to its mass.{wait}{clear}{nl}This is gravity. Why does this invisible{nl}force exist in this world at all?{wait}{clear}{nl}That people are drawn to one another,{nl}and kill one another, is the way of{nl}the world.{wait}{clear}{nl}Death repeats unbroken, and yet order{nl}of every kind exists. What is the source{nl}of that order?{wait}{clear}{nl}Yes, it is fate... the root power that{nl}governs the universe...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_033",
@@ -670,7 +670,7 @@
     }
    ],
    "tl": "\"Fate... what is its definition? | Does it have laws? I gave everything to research and experiment, to solve that mystery. | But I could not reach a conclusion, a solution. | Even on my deathbed my will never weakened. It only grew stronger. | I want to know... I want to know the principle of fate... | I came to, and I was in an unknown land. A desolate land, with a moon and a blue moon in the sky. | That was Zaibach, on Gaea. | Barren soil, harsh climate, a people scraping by on meager gifts. | They lived in fear of constant invasion, and suffered... What a cruel fate. | I understood. I had come to this land to save these people. | I gave them everything I had. The wisdom called science! | Conquer nature! The science I know exists for the people. | Drive off your enemies! Do not obey fate, but carve it out with your own hands. | The people followed my will, and the absolute ideal nation, the Zaibach Empire, was complete! | Then I learned of the legend of Atlantis, and the creation of Gaea! | This was my ideal. The art of Atlantis, which could create fate. | From then on I poured all my knowledge into seeking its principle, | and at last I built it... a device to generate fate! | They say the people of Atlantis turned human will into power, and made even fate their own. | Yes, this world of Gaea too is a gift of Atlantis's creation...\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Fate... what is its definition?{wait}{clear}{nl}Does it have laws? I gave everything to{nl}research and experiment, to solve that{nl}mystery.{wait}{clear}{nl}But I could not reach a conclusion, a{nl}solution.{wait}{clear}{nl}Even on my deathbed my will never{nl}weakened. It only grew stronger.{wait}{clear}{nl}I want to know... I want to know the{nl}principle of fate...{wait}{clear}{nl}I came to, and I was in an unknown land.{nl}A desolate land, with a moon and a blue{nl}moon in the sky.{wait}{clear}{nl}That was Zaibach, on Gaea.{wait}{clear}{nl}Barren soil, harsh climate, a people{nl}scraping by on meager gifts.{wait}{clear}{nl}They lived in fear of constant invasion,{nl}and suffered... What a cruel fate.{wait}{clear}{nl}I understood. I had come to this land to{nl}save these people.{wait}{clear}{nl}I gave them everything I had. The{nl}wisdom called science!{wait}{clear}{nl}Conquer nature! The science I know{nl}exists for the people.{wait}{clear}{nl}Drive off your enemies! Do not obey{nl}fate, but carve it out with your own{nl}hands.{wait}{clear}{nl}The people followed my will, and the{nl}absolute ideal nation, the Zaibach{nl}Empire, was complete!{wait}{clear}{nl}Then I learned of the legend of Atlantis,{nl}and the creation of Gaea!{wait}{clear}{nl}This was my ideal. The art of Atlantis,{nl}which could create fate.{wait}{clear}{nl}From then on I poured all my knowledge{nl}into seeking its principle,{wait}{clear}{nl}and at last I built it... a device to{nl}generate fate!{wait}{clear}{nl}They say the people of Atlantis turned{nl}human will into power, and made even{nl}fate their own.{wait}{clear}{nl}Yes, this world of Gaea too is a gift of{nl}Atlantis's creation...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Fate... what is its definition?{wait}{clear}{nl}Does it have laws? I gave everything to{nl}research and experiment, to solve{nl}that mystery.{wait}{clear}{nl}But I could not reach a conclusion,{nl}a solution.{wait}{clear}{nl}Even on my deathbed my will never{nl}weakened. It only grew stronger.{wait}{clear}{nl}I want to know... I want to know the{nl}principle of fate...{wait}{clear}{nl}I came to, and I was in an unknown land.{nl}A desolate land, with a moon and a blue{nl}moon in the sky.{wait}{clear}{nl}That was Zaibach, on Gaea.{wait}{clear}{nl}Barren soil, harsh climate, a people{nl}scraping by on meager gifts.{wait}{clear}{nl}They lived in fear of constant invasion,{nl}and suffered... What a cruel fate.{wait}{clear}{nl}I understood. I had come to this land to{nl}save these people.{wait}{clear}{nl}I gave them everything I had. The{nl}wisdom called science!{wait}{clear}{nl}Conquer nature! The science I know{nl}exists for the people.{wait}{clear}{nl}Drive off your enemies! Do not obey{nl}fate, but carve it out with your{nl}own hands.{wait}{clear}{nl}The people followed my will, and the{nl}absolute ideal nation, the Zaibach{nl}Empire, was complete!{wait}{clear}{nl}Then I learned of the legend of Atlantis,{nl}and the creation of Gaea!{wait}{clear}{nl}This was my ideal. The art of Atlantis,{nl}which could create fate.{wait}{clear}{nl}From then on I poured all my knowledge{nl}into seeking its principle,{wait}{clear}{nl}and at last I built it... a device to{nl}generate fate!{wait}{clear}{nl}They say the people of Atlantis turned{nl}human will into power, and made even{nl}fate their own.{wait}{clear}{nl}Yes, this world of Gaea too is a gift of{nl}Atlantis's creation...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_035",
@@ -746,7 +746,7 @@
     }
    ],
    "tl": "\"The legendary Atlantis machine I have long imagined. | The Destiny Alteration Engine is complete!!\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"The legendary Atlantis machine I have{nl}long imagined.{wait}{clear}{nl}The Destiny Alteration Engine is{nl}complete!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"The legendary Atlantis machine I have{nl}long imagined.{wait}{clear}{nl}The Destiny Alteration Engine{nl}is complete!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_039",
@@ -822,7 +822,7 @@
     }
    ],
    "tl": "\"That's... | That's... wrong!! It's wrong to find happiness in a fate controlled by a machine!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"That's...{wait}{clear}{nl}That's... wrong!! It's wrong to find{nl}happiness in a fate controlled by a{nl}machine!\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"That's...{wait}{clear}{nl}That's... wrong!! It's wrong to find{nl}happiness in a fate controlled by{nl}a machine!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo05_043",
@@ -847,7 +847,7 @@
     }
    ],
    "tl": "\"Behold with me the new fate of humankind...\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303039}\"Behold with me the new fate of{nl}humankind...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303039}\"Behold with me the new fate{nl}of humankind...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo05_044",
@@ -866,7 +866,7 @@
     }
    ],
    "tl": "\"No use looking forever. | We're going back to Asturia. Gaddes agreed.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"No use looking forever.{wait}{clear}{nl}We're going back to Asturia. Gaddes{nl}agreed.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"No use looking forever.{wait}{clear}{nl}We're going back to Asturia.{nl}Gaddes agreed.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_045",
@@ -1056,7 +1056,7 @@
     }
    ],
    "tl": "\"I had another vision... | The land crumbling, the world blown away...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I had another vision...{wait}{clear}{nl}The land crumbling, the world blown{nl}away...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I had another vision...{wait}{clear}{nl}The land crumbling, the world{nl}blown away...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_055",
@@ -1075,7 +1075,7 @@
     }
    ],
    "tl": "\"Could it be an image of the fall of Atlantis?\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Could it be an image of the fall of{nl}Atlantis?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Could it be an image of the fall{nl}of Atlantis?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_056",
@@ -1341,7 +1341,7 @@
     }
    ],
    "tl": "\"They've started dismantling Escaflowne.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"They've started dismantling{nl}Escaflowne.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"They've started{nl}dismantling Escaflowne.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_070",
@@ -1436,7 +1436,7 @@
     }
    ],
    "tl": "\"That's it, Van. | If you can feel Escaflowne's pain, you should be able to do the opposite! | If your will reaches it, you should be able to move Escaflowne, even far away!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"That's it, Van.{wait}{clear}{nl}If you can feel Escaflowne's pain, you{nl}should be able to do the opposite!{wait}{clear}{nl}If your will reaches it, you should be{nl}able to move Escaflowne, even far{nl}away!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"That's it, Van.{wait}{clear}{nl}If you can feel Escaflowne's pain, you{nl}should be able to do the opposite!{wait}{clear}{nl}If your will reaches it, you should be{nl}able to move Escaflowne, even{nl}far away!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_075",
@@ -1877,7 +1877,7 @@
     }
    ],
    "tl": "\"I'll handle this! Take care of Hitomi, Allen!!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303136}\"I'll handle this! Take care of Hitomi,{nl}Allen!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303136}\"I'll handle this! Take care of{nl}Hitomi, Allen!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_096",
@@ -2819,7 +2819,7 @@
     }
    ],
    "tl": "\"Thank goodness, Mizuru, you're back to normal. | But how did you end up on Gaea, Mizuru?\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303436}\"Thank goodness, Mizuru, you're back to{nl}normal.{wait}{clear}{nl}{voice:30303437}But how did you end up on Gaea,{nl}Mizuru?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303436}\"Thank goodness, Mizuru, you're back{nl}to normal.{wait}{clear}{nl}{voice:30303437}But how did you end up on{nl}Gaea, Mizuru?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_138",
@@ -2894,7 +2894,7 @@
     }
    ],
    "tl": "\"There's no need to stir up trouble. | We need only apply a slightly different attraction to the girl from the Mystic Moon.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303533}\"There's no need to stir up trouble.{wait}{clear}{nl}{voice:30303534}We need only apply a slightly different{nl}attraction to the girl from the Mystic{nl}Moon.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303533}\"There's no need to stir up trouble.{wait}{clear}{nl}{voice:30303534}We need only apply a slightly different{nl}attraction to the girl from the{nl}Mystic Moon.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_141",
@@ -3064,7 +3064,7 @@
     }
    ],
    "tl": "\"That kind of thinking won't work on them!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"That kind of thinking won't work on{nl}them!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"That kind of thinking won't work{nl}on them!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_149",
@@ -3140,7 +3140,7 @@
     }
    ],
    "tl": "\"Allen's treason against his country, | and your crime of defying our ally, Zaibach...\"",
-   "en": "{clear}{nameon}{color3}03Eries{nameoff}{color2}{nl}\"Allen's treason against his country,{wait}{clear}{nl}and your crime of defying our ally,{nl}Zaibach...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}03Eries{nameoff}{color2}{nl}\"Allen's treason against his country,{wait}{clear}{nl}and your crime of defying our{nl}ally, Zaibach...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_153",
@@ -3178,7 +3178,7 @@
     }
    ],
    "tl": "\"What's more, since Millerna left the country, | Father has taken to his sickbed from the strain... | Because you took Millerna away...\"",
-   "en": "{clear}{nameon}{color3}03Eries{nameoff}{color2}{nl}\"What's more, since Millerna left the{nl}country,{wait}{clear}{nl}Father has taken to his sickbed from{nl}the strain...{wait}{clear}{nl}Because you took Millerna away...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}03Eries{nameoff}{color2}{nl}\"What's more, since Millerna left{nl}the country,{wait}{clear}{nl}Father has taken to his sickbed from{nl}the strain...{wait}{clear}{nl}Because you took Millerna away...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_155",
@@ -3292,7 +3292,7 @@
     }
    ],
    "tl": "\"You mean the wedding? | Why not? Rich, smart, and handsome too... | I'm sure Dryden will make me happy.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"You mean the wedding?{wait}{clear}{nl}Why not? Rich, smart, and handsome{nl}too...{wait}{clear}{nl}I'm sure Dryden will make me happy.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"You mean the wedding?{wait}{clear}{nl}Why not? Rich, smart, and{nl}handsome too...{wait}{clear}{nl}I'm sure Dryden will make me happy.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_161",
@@ -3311,7 +3311,7 @@
     }
    ],
    "tl": "\"You're lying!! | You're all way too grown-up!! Hiding your feelings and getting married!! | That's not fair to Dryden-san, either!! | You can't give up on Allen-san!! | If you give up, Millerna-san, you'll regret it for the rest of your... | (If Dryden-san and Millerna-san get married, then Allen-san... What am I saying?)\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You're lying!!{wait}{clear}{nl}You're all way too grown-up!! Hiding your{nl}feelings and getting married!!{wait}{clear}{nl}That's not fair to Dryden-san, either!!{wait}{clear}{nl}You can't give up on Allen-san!!{wait}{clear}{nl}If you give up, Millerna-san, you'll regret{nl}it for the rest of your...{wait}{clear}{nl}(If Dryden-san and Millerna-san get{nl}married, then Allen-san... What am I{nl}saying?)\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You're lying!!{wait}{clear}{nl}You're all way too grown-up!! Hiding your{nl}feelings and getting married!!{wait}{clear}{nl}That's not fair to Dryden-san, either!!{wait}{clear}{nl}You can't give up on Allen-san!!{wait}{clear}{nl}If you give up, Millerna-san, you'll regret{nl}it for the rest of your...{wait}{clear}{nl}(If Dryden-san and Millerna-san get{nl}married, then Allen-san... What am{nl}I saying?)\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_162",
@@ -3368,7 +3368,7 @@
     }
    ],
    "tl": "\"Say, will you read my fortune? My future...\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Say, will you read my fortune? My{nl}future...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Say, will you read my fortune?{nl}My future...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_165",
@@ -3444,7 +3444,7 @@
     }
    ],
    "tl": "\"Seeing your face, I stopped being sure.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Seeing your face, I stopped being{nl}sure.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Seeing your face, I stopped{nl}being sure.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_169",
@@ -4074,7 +4074,7 @@
     }
    ],
    "tl": "\"Yes, preparations are complete. | The Destiny Alteration Engine's power is not yet at full strength. | However, I believe it can move something as fickle as the human heart.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes, preparations are complete.{wait}{clear}{nl}The Destiny Alteration Engine's power is{nl}not yet at full strength.{wait}{clear}{nl}However, I believe it can move{nl}something as fickle as the human{nl}heart.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes, preparations are complete.{wait}{clear}{nl}The Destiny Alteration Engine's power is{nl}not yet at full strength.{wait}{clear}{nl}However, I believe it can move{nl}something as fickle as the{nl}human heart.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_199",
@@ -4932,7 +4932,7 @@
     }
    ],
    "tl": "\"Your Majesty, have you seen the captain?\"",
-   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Your Majesty, have you seen the{nl}captain?\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Your Majesty, have you seen{nl}the captain?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo05_241",
@@ -5160,7 +5160,7 @@
     }
    ],
    "tl": "\"Very well. Let us look for Hitomi together.\"",
-   "en": "{clear}{nameon}{color3}03Eries{nameoff}{color2}{nl}\"Very well. Let us look for Hitomi{nl}together.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}03Eries{nameoff}{color2}{nl}\"Very well. Let us look for{nl}Hitomi together.\"{pageend}{nl2}{end}"
   }
  ],
  "data": [

@@ -14,6 +14,7 @@ def add(name, chapter, scene=0, jump=None, frames=2400, mash=0, route=None, expe
     rows.append([name, chapter, scene, hex(jump) if jump else "-", frames, mash, route or "-", "-" if expect is None else expect, flags or "-", pokes or "-", hex(say) if say else "-", "-" if say_win is None else say_win, "-" if say_wait is None else say_wait, proof])
 
 add("title", 0, frames=2700, proof="title menu")  # the title comes up as late as frame 2027 when no mash skips the FMVs
+add("opening_logo", 0, frames=4600, proof="opening video's logo, idling on the title")
 add("title_load", 0, frames=2300, route="150 -;8 down;30 -;8 circle;300 -", proof="LOAD/EXIT window")
 add("title_load_confirm", 0, frames=2600, route="150 -;8 down;30 -;8 circle;300 -;8 circle;300 -", proof="LOAD yes/no window")
 for c in range(1, 8):
@@ -79,7 +80,7 @@ add("partner_choice", 1, 0, jump=0x800DB8F4, frames=3800, flags="mask=2", route=
 add("partner_answer", 1, 0, jump=0x800DB8F4, frames=4200, flags="mask=2", route="600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -;8 circle;300 -;8 circle;300 -", proof="first option picked")
 # The real 1)-4) string (0x800DCCB2, shown by 0x800CD750 in window 1), poked while the partner menu keeps the window array alive: the array is freed when text closes.
 add("choice_box", 1, 0, jump=0x800DB834, frames=3600, route="600 -;8 triangle;1500 -", say=0x800DCCB2, say_win=1, say_wait=900, proof="dialogue choice box")
-add("credits", 7, 0, jump=0x800D6910, frames=6000, proof="staff roll")
+add("credits", 7, 0, jump=0x800D6910, frames=18400, proof="whole staff roll")
 add("ending_tie", 7, 0, jump=0x800D687C, frames=9000, pokes="0x8009AE6C=0 0x8009AE40=0", proof="ending FMV 0x2C then staff roll")
 add("ending_a", 7, 0, jump=0x800D687C, frames=9000, pokes="0x8009AE6C=2 0x8009AE40=1", proof="ending FMV 0x38 then staff roll")
 add("ending_b", 7, 0, jump=0x800D687C, frames=9000, pokes="0x8009AE6C=1 0x8009AE40=2", proof="ending FMV 0x37 then staff roll")

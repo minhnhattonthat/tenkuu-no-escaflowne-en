@@ -111,7 +111,7 @@
     }
    ],
    "tl": "\"The ocean smells the same everywhere.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The ocean smells the same{nl}everywhere.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The ocean smells the{nl}same everywhere.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_007",
@@ -187,7 +187,7 @@
     }
    ],
    "tl": "\"But why didn't you send word? | I would have had a proper welcome prepared.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"But why didn't you send word?{wait}{clear}{nl}I would have had a proper welcome{nl}prepared.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"But why didn't you send word?{wait}{clear}{nl}I would have had a proper{nl}welcome prepared.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_011",
@@ -263,7 +263,7 @@
     }
    ],
    "tl": "\"Why, so that's it... I knew I'd met him somewhere. | I went to Fanelia once when I was a child, you know. | Fanelia is a very beautiful country, with rich forests. | A castle with a blue roof. You were in the garden behind it, with your elder brother. | Yes, your brother seemed very kind.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Why, so that's it... I knew I'd met him{nl}somewhere.{wait}{clear}{nl}I went to Fanelia once when I was a{nl}child, you know.{wait}{clear}{nl}Fanelia is a very beautiful country, with{nl}rich forests.{wait}{clear}{nl}A castle with a blue roof. You were in{nl}the garden behind it, with your elder{nl}brother.{wait}{clear}{nl}Yes, your brother seemed very kind.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Why, so that's it... I knew I'd met{nl}him somewhere.{wait}{clear}{nl}I went to Fanelia once when I was a{nl}child, you know.{wait}{clear}{nl}Fanelia is a very beautiful country, with{nl}rich forests.{wait}{clear}{nl}A castle with a blue roof. You were in{nl}the garden behind it, with your{nl}elder brother.{wait}{clear}{nl}Yes, your brother seemed very kind.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_015",
@@ -396,7 +396,7 @@
     }
    ],
    "tl": "\"Well, shall we go? | You there, would you carry Allen's luggage?\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Well, shall we go?{wait}{clear}{nl}You there, would you carry Allen's{nl}luggage?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Well, shall we go?{wait}{clear}{nl}You there, would you carry{nl}Allen's luggage?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_022",
@@ -548,7 +548,7 @@
     }
    ],
    "tl": "\"Oh, do forgive me. | Dressed in such odd clothes, I naturally assumed...\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Oh, do forgive me.{wait}{clear}{nl}Dressed in such odd clothes, I naturally{nl}assumed...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Oh, do forgive me.{wait}{clear}{nl}Dressed in such odd clothes, I{nl}naturally assumed...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_030",
@@ -719,7 +719,7 @@
     }
    ],
    "tl": "\"Allen Schezar. | Do you mean to bring disaster upon my country?\"",
-   "en": "{clear}{nameon}{color3}13King Aston{nameoff}{color2}{nl}\"Allen Schezar.{wait}{clear}{nl}Do you mean to bring disaster upon my{nl}country?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}13King Aston{nameoff}{color2}{nl}\"Allen Schezar.{wait}{clear}{nl}Do you mean to bring disaster upon{nl}my country?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_039",
@@ -776,7 +776,7 @@
     }
    ],
    "tl": "\"W-we were only protecting, out of honor, | the King of Fanelia, whose country Zaibach destroyed...\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"W-we were only protecting, out of{nl}honor,{wait}{clear}{nl}the King of Fanelia, whose country{nl}Zaibach destroyed...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"W-we were only protecting, out{nl}of honor,{wait}{clear}{nl}the King of Fanelia, whose country{nl}Zaibach destroyed...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_042",
@@ -826,7 +826,7 @@
     }
    ],
    "tl": "\"You seem to have the wrong idea, Allen Schezar-dono.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"You seem to have the wrong idea, Allen{nl}Schezar-dono.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"You seem to have the wrong idea,{nl}Allen Schezar-dono.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_044",
@@ -1163,7 +1163,7 @@
    "speaker": "ひとみ",
    "dead": true,
    "tl": "\"I guess. But on Earth there are lots of places | even livelier than this.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I guess. But on Earth there are lots of{nl}places{wait}{clear}{nl}even livelier than this.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I guess. But on Earth there are lots{nl}of places{wait}{clear}{nl}even livelier than this.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_062",
@@ -1223,7 +1223,7 @@
    "speaker": "メルル",
    "dead": true,
    "tl": "\"This is the first time Merle's seen the ocean.\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"This is the first time Merle's seen the{nl}ocean.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"This is the first time Merle's seen{nl}the ocean.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_067",
@@ -1516,7 +1516,7 @@
     }
    ],
    "tl": "\"Yes, that day... | The day a dragon tore off this arm, I died. | And the one who gave me life again was Dornkirk-sama.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes, that day...{wait}{clear}{nl}{voice:30303136}The day a dragon tore off this arm,{nl}I died.{wait}{clear}{nl}{voice:30303137}And the one who gave me life again was{nl}Dornkirk-sama.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes, that day...{wait}{clear}{nl}{voice:30303136}The day a dragon tore off this arm,{nl}I died.{wait}{clear}{nl}{voice:30303137}And the one who gave me life again{nl}was Dornkirk-sama.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_083",
@@ -1573,7 +1573,7 @@
     }
    ],
    "tl": "\"Quit it. | When YOU say things like that, it's no joke.\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Quit it.{wait}{clear}{nl}When YOU say things like that, it's no{nl}joke.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Quit it.{wait}{clear}{nl}When YOU say things like that, it's{nl}no joke.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_086",
@@ -1630,7 +1630,7 @@
     }
    ],
    "tl": "\"Heh heh heh heh heh heh heh! Bye, bye, Vaaan!! | Reach him, my claws! Rip Van apart!\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Heh heh heh heh heh heh heh! Bye, bye,{nl}Vaaan!!{wait}{clear}{nl}Reach him, my claws! Rip Van apart!\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Heh heh heh heh heh heh heh! Bye,{nl}bye, Vaaan!!{wait}{clear}{nl}Reach him, my claws! Rip Van apart!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_089",
@@ -1668,7 +1668,7 @@
     }
    ],
    "tl": "\"And the source of that fighting is Zaibach!!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"And the source of that fighting is{nl}Zaibach!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"And the source of that fighting{nl}is Zaibach!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_091",
@@ -1706,7 +1706,7 @@
     }
    ],
    "tl": "\"A war to end all war? There's no such thing.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"A war to end all war? There's no such{nl}thing.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"A war to end all war? There's no{nl}such thing.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_093",
@@ -1725,7 +1725,7 @@
     }
    ],
    "tl": "\"Van, come with me. To create a new world.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Van, come with me. To create a new{nl}world.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Van, come with me. To create a{nl}new world.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_094",
@@ -1953,7 +1953,7 @@
     }
    ],
    "tl": "\"Van's brother. The man from that time...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van's brother. The man from that{nl}time...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van's brother. The man from{nl}that time...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_106",
@@ -2048,7 +2048,7 @@
     }
    ],
    "tl": "\"You are Van Fanel-sama, King of Fanelia! | King Aston summons you!\"",
-   "en": "{clear}{nameon}{color3}20Asturian Guard Captain{nameoff}{color2}{nl}\"You are Van Fanel-sama, King of{nl}Fanelia!{wait}{clear}{nl}King Aston summons you!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}20Asturian Guard Captain{nameoff}{color2}{nl}\"You are Van Fanel-sama, King{nl}of Fanelia!{wait}{clear}{nl}King Aston summons you!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_111",
@@ -2067,7 +2067,7 @@
     }
    ],
    "tl": "\"What do you mean, 'summons'? How rude!\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"What do you mean, 'summons'? How{nl}rude!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"What do you mean, 'summons'?{nl}How rude!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_112",
@@ -2124,7 +2124,7 @@
     }
    ],
    "tl": "\"Welcome, King of Fanelia. | My country is pleased to receive you. | I, Aston, guarantee your freedom and your rights. | However, as a token of friendship, I insist that you display your guymelef, | the power of Escaflowne, and your own skill.\"",
-   "en": "{clear}{nameon}{color3}13King Aston{nameoff}{color2}{nl}\"Welcome, King of Fanelia.{wait}{clear}{nl}My country is pleased to receive you.{wait}{clear}{nl}I, Aston, guarantee your freedom and{nl}your rights.{wait}{clear}{nl}However, as a token of friendship, I{nl}insist that you display your guymelef,{wait}{clear}{nl}the power of Escaflowne, and your own{nl}skill.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}13King Aston{nameoff}{color2}{nl}\"Welcome, King of Fanelia.{wait}{clear}{nl}My country is pleased to receive you.{wait}{clear}{nl}I, Aston, guarantee your freedom and{nl}your rights.{wait}{clear}{nl}However, as a token of friendship, I{nl}insist that you display your guymelef,{wait}{clear}{nl}the power of Escaflowne, and your{nl}own skill.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_115",
@@ -2162,7 +2162,7 @@
     }
    ],
    "tl": "\"Whoever lands the first blow, | that guy gets half the prize money, right?\"",
-   "en": "{clear}{nameon}{color3}26Mercenary B{nameoff}{color2}{nl}\"Whoever lands the first blow,{wait}{clear}{nl}that guy gets half the prize money,{nl}right?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Mercenary B{nameoff}{color2}{nl}\"Whoever lands the first blow,{wait}{clear}{nl}that guy gets half the prize{nl}money, right?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_117",
@@ -4173,7 +4173,7 @@
     }
    ],
    "tl": "\"What?! | The dragon came to this world too... | Good. Don't lose sight of it. Track its movements!\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"What?!{wait}{clear}{nl}The dragon came to this world too...{wait}{clear}{nl}Good. Don't lose sight of it. Track its{nl}movements!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"What?!{wait}{clear}{nl}The dragon came to this world too...{wait}{clear}{nl}Good. Don't lose sight of it. Track{nl}its movements!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_222",
@@ -4458,7 +4458,7 @@
     }
    ],
    "tl": "\"Gaea really is the best, isn't it, Van-sama?\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Gaea really is the best, isn't it,{nl}Van-sama?\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Gaea really is the best, isn't{nl}it, Van-sama?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_237",
@@ -4515,7 +4515,7 @@
     }
    ],
    "tl": "\"Very well. Vione will now return to Zaibach.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Very well. Vione will now return to{nl}Zaibach.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Very well. Vione will now return{nl}to Zaibach.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_240",
@@ -4829,7 +4829,7 @@
     }
    ],
    "tl": "\"What about me... | I can't go back to Allen-san's country anymore...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What about me...{wait}{clear}{nl}I can't go back to Allen-san's country{nl}anymore...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What about me...{wait}{clear}{nl}I can't go back to Allen-san's{nl}country anymore...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_257",
@@ -4848,7 +4848,7 @@
     }
    ],
    "tl": "\"I'm a man with Zaibach on my heels, but... | Do you want to come with me?\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I'm a man with Zaibach on my heels,{nl}but...{wait}{clear}{nl}Do you want to come with me?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I'm a man with Zaibach on my{nl}heels, but...{wait}{clear}{nl}Do you want to come with me?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_258",
@@ -4943,7 +4943,7 @@
     }
    ],
    "tl": "\"But I read for a good direction... How come...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"But I read for a good direction... How{nl}come...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"But I read for a good direction...{nl}How come...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_263",
@@ -5152,7 +5152,7 @@
     }
    ],
    "tl": "\"It could be a dangerous place, Van-sama.\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"It could be a dangerous place,{nl}Van-sama.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"It could be a dangerous{nl}place, Van-sama.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_274",
@@ -5342,7 +5342,7 @@
     }
    ],
    "tl": "\"Merle... | I like Van's wings. They're... so beautiful.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Merle...{wait}{clear}{nl}I like Van's wings. They're... so{nl}beautiful.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Merle...{wait}{clear}{nl}I like Van's wings. They're...{nl}so beautiful.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_284",
@@ -5380,7 +5380,7 @@
     }
    ],
    "tl": "\"Hey! | So I'm on the same level as Merle? Geez.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Hey!{wait}{clear}{nl}So I'm on the same level as Merle?{nl}Geez.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Hey!{wait}{clear}{nl}So I'm on the same level as{nl}Merle? Geez.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_286",
@@ -5905,7 +5905,7 @@
     }
    ],
    "tl": "\"What do we do? They're going to catch Van-sama.\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303239}\"What do we do? They're going to catch{nl}Van-sama.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303239}\"What do we do? They're going to{nl}catch Van-sama.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_313",
@@ -5930,7 +5930,7 @@
     }
    ],
    "tl": "\"Someone... someone, save Van! Please...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303330}\"Someone... someone, save Van!{nl}Please...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303330}\"Someone... someone, save{nl}Van! Please...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_314",
@@ -6124,7 +6124,7 @@
     }
    ],
    "tl": "\"This is bad. That's enough, withdraw, Dilandau! | Freid's ships are approaching. If they see us now, they'll sense our plans.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"This is bad. That's enough, withdraw,{nl}Dilandau!{wait}{clear}{nl}Freid's ships are approaching. If they{nl}see us now, they'll sense our plans.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"This is bad. That's enough,{nl}withdraw, Dilandau!{wait}{clear}{nl}Freid's ships are approaching. If they{nl}see us now, they'll sense our plans.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_322",
@@ -6149,7 +6149,7 @@
     }
    ],
    "tl": "\"Tch! And just when it was getting good!!\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Tch! And just when it was getting{nl}good!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Tch! And just when it was{nl}getting good!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_323",
@@ -6231,7 +6231,7 @@
     }
    ],
    "tl": "\"It's my fault. | Because he tried to save me, Allen-san...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"It's my fault.{wait}{clear}{nl}Because he tried to save me,{nl}Allen-san...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"It's my fault.{wait}{clear}{nl}Because he tried to save{nl}me, Allen-san...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_327",
@@ -6459,7 +6459,7 @@
     }
    ],
    "tl": "\"Please, God... | Please... please... Save Allen-san, save Allen-san. | Please.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Please, God...{wait}{clear}{nl}Please... please... Save Allen-san, save{nl}Allen-san.{wait}{clear}{nl}Please.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Please, God...{wait}{clear}{nl}Please... please... Save Allen-san,{nl}save Allen-san.{wait}{clear}{nl}Please.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_339",
@@ -6478,7 +6478,7 @@
     }
    ],
    "tl": "\"Let's believe. That Allen will be all right...\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Let's believe. That Allen will be all{nl}right...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Let's believe. That Allen will be{nl}all right...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_340",
@@ -6629,7 +6629,7 @@
    "speaker": "ミラーナ",
    "dead": true,
    "tl": "\"Say, Van. Let's go have a look at the harbor.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Say, Van. Let's go have a look at the{nl}harbor.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Say, Van. Let's go have a look at{nl}the harbor.\"{pageend}{nl2}{end}"
   }
  ],
  "data": [

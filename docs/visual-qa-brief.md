@@ -28,6 +28,11 @@ Standing non-bugs, `ok` (the controller adds the game's own below):
 - a map or scene still loading after a warp;
 - anything identical in the original's sheet.
 - the `奉` on the chapter 1 shrine box (scenery, left Japanese by default).
+- a page ending on a comma or mid-sentence: all 65 such ends in the script sit on the JP's own page break, usually a
+  voice clip's boundary, so the split can't move (checked in the script, not one by one on screen). A one-word row that opens its own voice clip likewise (`syo04_153`).
+- the choice cursor's tail crossing the prompt row above option 1 (same on the JP frame, `choice_box`).
+- a name tag "Van" over the lion-faced bust in `ch7_s56` (JP tags it バァン too); the HUD's small English labels such as
+  the one in `ch4_s74` are the original art, untouched.
 
 ## Verdicts
 Write your verdict file once you have read every sheet, one line per id in the chunk:

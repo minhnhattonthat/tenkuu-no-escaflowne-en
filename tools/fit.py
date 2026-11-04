@@ -194,9 +194,13 @@ def fill_rows(text, first_rows):
 
 def unstub(rows):
     """Pull a word down so a page's last row isn't one orphaned word. Never changes the row count."""
-    while len(rows) > 1 and len(rows[-1]) < STUB_CHARS and " " in rows[-2]:
+    while can_pull(rows) and (len(rows[-1]) < STUB_CHARS or " " not in rows[-1]):
         rows[-2], word = rows[-2].rsplit(" ", 1)
         rows[-1] = f"{word} {rows[-1]}"
+
+
+def can_pull(rows):
+    return len(rows) > 1 and " " in rows[-2] and width(f"{rows[-2].rsplit(' ', 1)[1]} {rows[-1]}") <= BODY_PX
 
 
 def render_dialogue(jp, tl, names):
@@ -327,6 +331,8 @@ def lint(en):
                 bad.append(f"{width(r)} px: {r}")
         if len(rows) > 1 and len(rows[-1]) < STUB_CHARS:
             bad.append(f"stub last row: {rows}")
+        elif can_pull(rows) and " " not in rows[-1] and not re.search(r"\{voice:\w+\}" + re.escape(rows[-1]), en):
+            bad.append(f"one-word last row: {rows}")  # a row that opens its own voice clip can't take a word from above
     return bad
 
 

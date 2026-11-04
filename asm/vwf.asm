@@ -50,6 +50,7 @@ sjis_glyph:
     sw    s1, 0x0C(sp)
     move  s0, a1
     move  s1, a2
+    sh    zero, W_PEN - 0xC4(s0) ; the next ASCII glyph follows w+0x36: a stale pen can round to it and draw its old carry
     jal   KROM
     andi  a0, a0, 0xFFFF
     move  t9, v0                ; t9 = font rows, or -1
