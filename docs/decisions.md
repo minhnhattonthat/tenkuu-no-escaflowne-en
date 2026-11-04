@@ -13,3 +13,7 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D5 | 2026-11-04 | Graphics text left in Japanese | none (default), list | Translate all (titles, menus, banners, cards). Keep the original Japanese logo only if it has no official English version. |
 | D6 | 2026-11-04 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through every checkpoint. Never run `gh release create`, never change repo visibility; the run ends at a built and verified release zip. |
 | D7 | 2026-11-04 | Existing saves, memory cards, savestates | provide, none | None provided; build the debug tool as usual. |
+
+## Open questions (no ruling yet; defaults in force)
+
+- **D2 amendment, game-original names.** `glossary.md` adds a rule D2 doesn't have: a katakana name that plainly transcribes a foreign word uses that word (Dilate, Rampant, Refine). Options: keep the rule; strict Hepburn for all of them; keep it but use "Lefine" for レフィーヌ, whose "Refine" reads like the verb. Default: keep the rule, "Refine" stays. Changing the name is one edit in `glossary.md` and `tbl/names.tsv` plus 5 lines.

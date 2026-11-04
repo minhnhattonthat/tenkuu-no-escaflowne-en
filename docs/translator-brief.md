@@ -5,7 +5,7 @@ Work only on the batches named in your dispatch, one at a time in the order give
 
 ## Read first
 1. `docs/style-reference.md` - character voices and approved example pairs. Match this voice.
-2. `build/terms_<batch>.txt` - binding glossary rows for this batch (full table in `glossary.md` if you need more).
+2. `glossary.md` - binding names and terms, its rulings and style rules first.
 3. `docs/synopsis.md` - plot, routes, who is who and the late reveals. Don't give a reveal away early; keep early lines consistent with what comes later.
 
 ## Input: `work/tl/<batch>.tsv`
@@ -30,10 +30,19 @@ Run `python -X utf8 tools/batches.py check <batch>` from the repo root and fix e
   "but Mooom", stretched words). A line any speaker could have said is a mistake.
 - Use names and terms exactly as in the glossary. Never abbreviate to fit. If a line can't fit the limit without
   losing meaning, keep the meaning and report it as `LONG: id`.
-- Honorifics / name order: <project ruling>. Punctuation: 「」 -> "...", ・・・ -> `...`, ！？ -> `!?`, <more>.
+- Honorifics kept, hyphenated (Van-sama, Hitomi-san, Boris-dono, senpai). Name order: given name first.
+  Punctuation: a line opening with 「 is speech: "...", closed at the end of the entry; no 「: a thought or aside, no
+  quotes. 『』 -> '...', ・・・ and … -> `...`, ！？ -> `?!`. Emphasis: capitals, sparingly.
 - Placeholders/control codes: copy every one exactly; no suffixes glued to a variable (write "No. [n]" not "[n]th"),
   no a/an right before a name variable.
-- <Concrete mistakes from earlier reviews, added as batches progress.>
+- Mistakes earlier reviews caught; don't repeat them:
+  - はい follows what was asked: hypnotised Hitomi answering Plakt is "Yes...", not "All right...".
+  - Check whose story a line is about: syo04_226 とんだ有名人 mocks Leon, not the speaker Allen.
+  - One-word rules with no check behind them: 運命 is "fate" (`glossary.md`); 引力 is "attraction"; 生体実験 is "human
+    experiments"; 想い is "will", "wish" or "feelings" by the rule in `glossary.md`, and an echo of a line keeps its word.
+  - Voices flatten first where a line is only information: Mole Man's "Saw her at the harbor, I did", Millerna's "you
+    know" and "Why, of course". Dornkirk uses no contractions.
+  - `batches.py check` refuses an added page holding 3 words or fewer: reword the line, don't cut meaning.
 
 ## Consistency
 Never edit `glossary.md`. For a recurring name or term not in it, pick a form, use it consistently, and report it.

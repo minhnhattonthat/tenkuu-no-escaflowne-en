@@ -1,0 +1,7 @@
+# SLPS_010.15 file offsets the build may change (inclusive, hex). File offset = VA - 0x8000F800. Blocks: asm/vwf.asm.
+A54-CAB        # 0x80010254: VWF code, free space (docs/re/free-space.md)
+2428-274F      # 0x80011C28: VWF code, over libgpu's debug format strings
+2A2D4-2A9A7    # 0x80039AD4: the Shift-JIS renderer, rewritten
+2AC44-2AC4B    # 0x8003A444: hook, bit 7 set
+2B614-2B61B    # 0x8003AE14: hook, bit 7 clear
+6FC84-6FC98    # memory-card title, fullwidth English (the BIOS draws Shift-JIS only)

@@ -164,8 +164,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"You've grown into such a fine young man... I hardly recognized you. | You were still so very small when we last met.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"You've grown into such a fine young{nl}man... I hardly recognized you.{wait}{clear}{nl}You were still so very small when we{nl}last met.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"How fine you've grown, you know... Why, I hardly knew you. | You were still so very small when last we met.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"How fine you've grown, you know...{nl}Why, I hardly knew you.{wait}{clear}{nl}You were still so very small when last{nl}we met.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_010",
@@ -260,7 +260,7 @@
     }
    ],
    "tl": "\"My late mother always told me about him. | That in Asturia lived Allen Schezar, the greatest swordsman on Gaea. | An invincible knight, a dazzling master of the guymelef. That one day I would meet him...\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"My late mother always told me about{nl}him.{wait}{clear}{nl}That in Asturia lived Allen Schezar, the{nl}greatest swordsman on Gaea.{wait}{clear}{nl}An invincible knight, a dazzling master of{nl}the guymelef. That one day I would meet{nl}him...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"My late mother always told me{nl}about him.{wait}{clear}{nl}That in Asturia lived Allen Schezar, the{nl}greatest swordsman on Gaea.{wait}{clear}{nl}An invincible knight, a dazzling master of{nl}the guymelef. That one day I would meet{nl}him...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_015",
@@ -918,7 +918,7 @@
     }
    ],
    "tl": "\"I'm worried! Leaving him all alone with you!\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"I'm worried! Leaving him all alone with{nl}you!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"I'm worried! Leaving him all alone{nl}with you!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_050",
@@ -2585,8 +2585,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"The man plotting to overthrow his betters, with the King of Fanelia as his figurehead: | Allen Schezar.\"",
-   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"The man plotting to overthrow his{nl}betters, with the King of Fanelia as his{wait}{clear}{nl}figurehead:{wait}{clear}{nl}Allen Schezar.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"The man who set up the King of Fanelia as a figurehead to seize power: | Allen Schezar.\"",
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"The man who set up the King of Fanelia{nl}as a figurehead to seize power:{wait}{clear}{nl}Allen Schezar.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_135",
@@ -2946,8 +2946,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"The cosmos, death... some vast power is leading everything to an end, for the sake of rebirth.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The cosmos, death... some vast power{nl}is leading everything to an end, for the{wait}{clear}{nl}sake of rebirth.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"The cosmos, death... some vast power is leading all to an end, for rebirth.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The cosmos, death... some vast power{nl}is leading all to an end, for rebirth.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_154",
@@ -3327,7 +3327,7 @@
     }
    ],
    "tl": "\"Sorry. | It would be awkward if word of me got out. | A power to see the unseen... I must confirm it.\"",
-   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Sorry.{wait}{clear}{nl}It would be awkward if word of me got{nl}out.{wait}{clear}{nl}A power to see the unseen... I must{nl}confirm it.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Sorry.{wait}{clear}{nl}It would be awkward if word of me{nl}got out.{wait}{clear}{nl}A power to see the unseen... I must{nl}confirm it.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_174",
@@ -3402,8 +3402,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Prince Chid, have you ever trusted someone from the bottom of your heart? | To trust someone can sometimes take more courage than going to war. | Prince Chid, do you understand what that courage means?\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Prince Chid, have you ever trusted{nl}someone from the bottom of your{wait}{clear}{nl}heart?{wait}{clear}{nl}To trust someone can sometimes take{nl}more courage than going to war.{wait}{clear}{nl}Prince Chid, do you understand what{nl}that courage means?\"{pageend}{nl2}{end}"
+   "tl": "\"Prince Chid, have you ever trusted someone with all your heart? | To trust someone can sometimes take more courage than going to war. | Prince Chid, do you understand what that courage means?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Prince Chid, have you ever trusted{nl}someone with all your heart?{wait}{clear}{nl}To trust someone can sometimes take{nl}more courage than going to war.{wait}{clear}{nl}Prince Chid, do you understand what{nl}that courage means?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_178",
@@ -3479,7 +3479,7 @@
     }
    ],
    "tl": "\"I am the prince of this country. | When Plakt gives counsel, it is the custom here that the royal family obey it. | That is what's good for the country and the people.\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I am the prince of this country.{wait}{clear}{nl}When Plakt gives counsel, it is the{nl}custom here that the royal family obey{nl}it.{wait}{clear}{nl}That is what's good for the country and{nl}the people.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I am the prince of this country.{wait}{clear}{nl}When Plakt gives counsel, it is the{nl}custom here that the royal family{nl}obey it.{wait}{clear}{nl}That is what's good for the country and{nl}the people.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_182",
@@ -3896,8 +3896,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I hear that you launched a surprise attack on a floating fortress of Zaibach, | and went on to destroy an energist mine. Is that the truth?\"",
-   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"I hear that you launched a surprise{nl}attack on a floating fortress of{wait}{clear}{nl}Zaibach,{wait}{clear}{nl}and went on to destroy an energist{nl}mine. Is that the truth?\"{wait}{clear}{nl2}{end}"
+   "tl": "\"I hear you launched a surprise attack on a Zaibach floating fortress, | and went on to destroy an energist mine. Is that the truth?\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"I hear you launched a surprise attack{nl}on a Zaibach floating fortress,{wait}{clear}{nl}and went on to destroy an energist{nl}mine. Is that the truth?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_204",
@@ -6186,7 +6186,7 @@
     }
    ],
    "tl": "\"A fine bearing. I expect great things of you!\"",
-   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"A fine bearing. I expect great things of{nl}you!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"A fine bearing. I expect great things{nl}of you!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_324",
@@ -6433,7 +6433,7 @@
     }
    ],
    "tl": "\"The detached palace Marlene used in life. | I had the building she used before our marriage moved here, just as it was.\"",
-   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"The detached palace Marlene used in{nl}life.{wait}{clear}{nl}I had the building she used before our{nl}marriage moved here, just as it was.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"The detached palace Marlene used{nl}in life.{wait}{clear}{nl}I had the building she used before our{nl}marriage moved here, just as it was.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_337",
@@ -6452,7 +6452,7 @@
     }
    ],
    "tl": "\"Oh my, everything is just as it used to be.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Oh my, everything is just as it used to{nl}be.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Oh my, everything is just as it used{nl}to be.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_338",
@@ -6623,7 +6623,7 @@
     }
    ],
    "tl": "\"Prince Chid. | They say people have a mysterious power. | I heard it from my grandma. | You keep thinking in your heart, I want to be like this, I hope it turns out like this. | Do that, and your wish is sure to come true.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Prince Chid.{wait}{clear}{nl}They say people have a mysterious{nl}power.{wait}{clear}{nl}I heard it from my grandma.{wait}{clear}{nl}You keep thinking in your heart, I want{nl}to be like this, I hope it turns out like{nl}this.{wait}{clear}{nl}Do that, and your wish is sure to come{nl}true.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Prince Chid.{wait}{clear}{nl}They say people have a mysterious{nl}power.{wait}{clear}{nl}I heard it from my grandma.{wait}{clear}{nl}You keep thinking in your heart, I want{nl}to be like this, I hope it turns out{nl}like this.{wait}{clear}{nl}Do that, and your wish is sure to come{nl}true.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_347",
@@ -7079,7 +7079,7 @@
     }
    ],
    "tl": "\"Allen... there's something I need to ask you.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Allen... there's something I need to ask{nl}you.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Allen... there's something I need to{nl}ask you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_371",
@@ -7364,7 +7364,7 @@
     }
    ],
    "tl": "\"Chid! | I now hand down to you the mission of those born to the royal family of Freid. | King of Fanelia, Allen, as you go to battle with us, I would have you hear it too.\"",
-   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Chid!{wait}{clear}{nl}I now hand down to you the mission of{nl}those born to the royal family of Freid.{wait}{clear}{nl}King of Fanelia, Allen, as you go to{nl}battle with us, I would have you hear it{nl}too.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Chid!{wait}{clear}{nl}I now hand down to you the mission of{nl}those born to the royal family of Freid.{wait}{clear}{nl}King of Fanelia, Allen, as you go to{nl}battle with us, I would have you hear{nl}it too.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_386",
@@ -7573,7 +7573,7 @@
     }
    ],
    "tl": "\"But that power destroyed Atlantis. | The survivors sealed it beneath this land of Fortuna, so that it could never be used again. | To guard this sword, the key to the seal, is the duty of Freid's royal house. | Chid... the power of Atlantis must never awaken again. | You understand that, if you are my son.\"",
-   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"But that power destroyed Atlantis.{wait}{clear}{nl}The survivors sealed it beneath this land{nl}of Fortuna, so that it could never be{nl}used again.{wait}{clear}{nl}To guard this sword, the key to the{nl}seal, is the duty of Freid's royal house.{wait}{clear}{nl}Chid... the power of Atlantis must never{nl}awaken again.{wait}{clear}{nl}You understand that, if you are my{nl}son.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"But that power destroyed Atlantis.{wait}{clear}{nl}The survivors sealed it beneath this land{nl}of Fortuna, so that it could never be{nl}used again.{wait}{clear}{nl}To guard this sword, the key to the{nl}seal, is the duty of Freid's royal house.{wait}{clear}{nl}Chid... the power of Atlantis must never{nl}awaken again.{wait}{clear}{nl}You understand that, if you are{nl}my son.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_397",

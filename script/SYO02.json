@@ -148,8 +148,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Coming home so suddenly! What a surprise, Allen.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Coming home so suddenly! What a{nl}surprise, Allen.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"How you startled me, Allen, coming home so suddenly!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"How you startled me, Allen, coming{nl}home so suddenly!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_009",
@@ -338,8 +338,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Of course. | Father said he has something to discuss with you, Allen.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Of course.{wait}{clear}{nl}Father said he has something to discuss{nl}with you, Allen.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Why, of course. | Father did mention he wishes to speak with you, Allen.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Why, of course.{wait}{clear}{nl}Father did mention he wishes to speak{nl}with you, Allen.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_019",
@@ -604,8 +604,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"People from all sorts of countries come to Asturia, | but I've never seen anyone like you.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"People from all sorts of countries come{nl}to Asturia,{wait}{clear}{nl}but I've never seen anyone like you.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"People from all sorts of countries call on Asturia, you know, | but I have never once seen anyone quite like you.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"People from all sorts of countries call{nl}on Asturia, you know,{wait}{clear}{nl}but I have never once seen anyone{nl}quite like you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_033",
@@ -1339,8 +1339,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"He went off toward the harbor, in quite a hurry.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"He went off toward the harbor, in quite{nl}a hurry.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"He went off toward the harbor, you know, in quite a hurry.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"He went off toward the harbor, you{nl}know, in quite a hurry.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_075",
@@ -1516,7 +1516,7 @@
     }
    ],
    "tl": "\"Yes, that day... | The day a dragon tore off this arm, I died. | And the one who gave me life again was Dornkirk-sama.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes, that day...{wait}{clear}{nl}{voice:30303136}The day a dragon tore off this arm, I{nl}died.{wait}{clear}{nl}{voice:30303137}And the one who gave me life again was{nl}Dornkirk-sama.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes, that day...{wait}{clear}{nl}{voice:30303136}The day a dragon tore off this arm,{nl}I died.{wait}{clear}{nl}{voice:30303137}And the one who gave me life again was{nl}Dornkirk-sama.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_083",
@@ -1649,7 +1649,7 @@
     }
    ],
    "tl": "\"Van... you are my brother... a friend who shares my blood... | Your brother can see your heart. This world must be hard on one as gentle as you. | A world where people, no, where all living things steal one another's lives. | We kill beasts. We kill dragons. We even kill people. | Fighting calls forth more fighting, and the slaughter repeats. That is the fate of this world.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Van... you are my brother... a friend{nl}who shares my blood...{wait}{clear}{nl}Your brother can see your heart. This{nl}world must be hard on one as gentle as{nl}you.{wait}{clear}{nl}A world where people, no, where all living{nl}things steal one another's lives.{wait}{clear}{nl}We kill beasts. We kill dragons. We even{nl}kill people.{wait}{clear}{nl}Fighting calls forth more fighting, and{nl}the slaughter repeats. That is the fate{nl}of this world.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Van... you are my brother... a friend{nl}who shares my blood...{wait}{clear}{nl}Your brother can see your heart. This{nl}world must be hard on one as gentle{nl}as you.{wait}{clear}{nl}A world where people, no, where all living{nl}things steal one another's lives.{wait}{clear}{nl}We kill beasts. We kill dragons. We even{nl}kill people.{wait}{clear}{nl}Fighting calls forth more fighting, and{nl}the slaughter repeats. That is the fate{nl}of this world.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_090",
@@ -1687,7 +1687,7 @@
     }
    ],
    "tl": "\"Hmph... Our war is fought to end all that. | To create a new order in this world. This is a true holy war.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Hmph... Our war is fought to end all{nl}that.{wait}{clear}{nl}To create a new order in this world. This{nl}is a true holy war.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Hmph... Our war is fought to end{nl}all that.{wait}{clear}{nl}To create a new order in this world. This{nl}is a true holy war.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_092",
@@ -2376,8 +2376,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Because of you, the city's burning. | Because of you, this scar throbs. | So get crushed!! So disappear!!\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Because of you, the city's burning.{wait}{clear}{nl}Because of you, this scar throbs.{wait}{clear}{nl}So get crushed!! So disappear!!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Because of you, the city's burning. | Because of you, this scar throbs. | So get squashed!! Go awaaay!!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Because of you, the city's burning.{wait}{clear}{nl}Because of you, this scar throbs.{wait}{clear}{nl}So get squashed!! Go awaaay!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_128",
@@ -2896,7 +2896,7 @@
     }
    ],
    "tl": "\"Van, no! You mustn't fight! | You and Folken-san are brothers, aren't you?\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van, no! You mustn't fight!{wait}{clear}{nl}You and Folken-san are brothers, aren't{nl}you?\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van, no! You mustn't fight!{wait}{clear}{nl}You and Folken-san are brothers,{nl}aren't you?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo02_155",
@@ -3085,8 +3085,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Here we go, I'm gonna catch you, Van.\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Here we go, I'm gonna catch you, Van.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Here it comes, I'm gonna catch youuu, Van.\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Here it comes, I'm gonna catch{nl}youuu, Van.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_165",
@@ -4734,7 +4734,7 @@
     }
    ],
    "tl": "\"My father and mother both died when I was small. | With Fanelia burned and Balgus dead, about the only family I've got left is her.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"My father and mother both died when I{nl}was small.{wait}{clear}{nl}With Fanelia burned and Balgus dead,{nl}about the only family I've got left is{nl}her.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"My father and mother both died when I{nl}was small.{wait}{clear}{nl}With Fanelia burned and Balgus dead,{nl}about the only family I've got left{nl}is her.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_252",
@@ -4810,7 +4810,7 @@
     }
    ],
    "tl": "\"This whole thing taught me how green I still am. | I'll sharpen my sword arm. Everything else comes after that. What about you?\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"This whole thing taught me how green I{nl}still am.{wait}{clear}{nl}I'll sharpen my sword arm. Everything{nl}else comes after that. What about{nl}you?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"This whole thing taught me how green I{nl}still am.{wait}{clear}{nl}I'll sharpen my sword arm. Everything{nl}else comes after that. What{nl}about you?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_256",
@@ -6382,8 +6382,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"You can do it, can't ya, Princess? | You've studied medicine, ain't ya?\"",
-   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"You can do it, can't ya, Princess?{wait}{clear}{nl}You've studied medicine, ain't ya?\"{wait}{clear}{nl2}{end}"
+   "tl": "\"You can do it, can't ya, Princess? | You've studied medicine, haven't ya?\"",
+   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"You can do it, can't ya, Princess?{wait}{clear}{nl}You've studied medicine, haven't ya?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_335",

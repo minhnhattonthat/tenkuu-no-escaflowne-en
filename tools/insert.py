@@ -319,6 +319,15 @@ def insert(out=None, mode="en", qa=None, quiet=False):
     for name, entries in load_entries().items():
         tree_rel = extract.tree_path(name)
         if name == "SLPS_010":
+            if mode == "en":
+                exe = bytearray((out / EXE).read_bytes())
+                for e in entries:
+                    if "en" in e:  # the memory-card title: the BIOS draws it, Shift-JIS only
+                        off, data = int(e["off"], 16), e["en"].replace("{end}", "").encode("cp932") + b"\0"
+                        if len(data) > e["size"]:
+                            raise ValueError(f"{e['id']}: {len(data)} bytes, its span holds {e['size']}")
+                        exe[off:off + len(data)] = data
+                (out / EXE).write_bytes(exe)
             continue
         orig = (extract.TREE / tree_rel).read_bytes()
         if not any(text_of(e, mode, qa, fnt, LINE_PX) is not None for e in entries):

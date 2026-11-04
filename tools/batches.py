@@ -2,8 +2,8 @@
 
     python -X utf8 tools/batches.py split [--size 120]   write work/tl/bNNN.tsv for what has no `tl` yet, never overwriting
     python -X utf8 tools/batches.py check bNNN           validate work/tl/bNNN.out.tsv; prints OK or one line per problem
-    python -X utf8 tools/batches.py merge bNNN ...       check, then store it (and identical lines elsewhere)
-    python -X utf8 tools/batches.py status               counts, bytes against each overlay's script block
+    python -X utf8 tools/batches.py merge bNNN ...       check, then store it (and identical lines elsewhere); all batch files then follow
+    python -X utf8 tools/batches.py status               translated lines per overlay
 
 Input row: id, speaker, form, JP (` | ` page break, ` ^ ` voice on a new row, ` # ` choice option, ` / ` JP row break).
 Output row: id, English, with the same ` | `, ` ^ ` and ` # ` structure.
@@ -96,6 +96,19 @@ def tokens_of(text):
     return sorted(t for t in re.findall(r"\{[^}]*\}", text) if t not in ("{nl}", "{nl2}"))
 
 
+def control_problems(jp, en):
+    """Control codes match the JP. Extra pages may add {wait} and {clear}, but never remove one."""
+    pager = ("{wait}", "{clear}")
+    a, b = tokens_of(jp), tokens_of(en)
+    bad = []
+    if [t for t in a if t not in pager] != [t for t in b if t not in pager]:
+        bad.append(f"control codes differ: JP {a}, EN {b}")
+    for t in pager:
+        if b.count(t) < a.count(t):
+            bad.append(f"fewer {t} than the JP")
+    return bad
+
+
 def problems(e, text, names, gloss):
     if is_raw(e):
         stripped = re.sub(r"\{[^}]*\}|　", "", text)
@@ -112,6 +125,7 @@ def problems(e, text, names, gloss):
         bad.append("not plain ASCII, or has a brace")
     if e.get("form") != "choice":
         bad += fit.lint(en)
+    bad += control_problems(e["jp"], en)
     jp = re.sub(r"\{[^}]*\}", "", fit.split_head(e["jp"])[1])
     if e.get("form") != "choice":
         first = fit.parse_body(fit.split_head(e["jp"])[1])[1]
@@ -125,7 +139,7 @@ def problems(e, text, names, gloss):
         for a in avoid:
             if re.search(rf"\b{re.escape(a)}\b", text):
                 bad.append(f"avoid {a}")
-        if any(whole_run(jp, j) for j in jps) and ens and not any(x.split()[0].lower() in text.lower() for x in ens):
+        if any(whole_run(jp, j) for j in jps) and ens and not any(x.lower() in text.lower() for x in ens):
             bad.append(f"glossary: {jps[0]} needs {ens[0]}")
     for rx, form in HONORIFICS:
         if rx.search(jp) and form not in text.lower():
@@ -201,7 +215,9 @@ def merge(batches):
     count = 0
     for b in batches:
         for eid, text in rows_of(b).items():
-            for i in [eid] + dup_of.get(eid, []):
+            old = entries[eid].get("tl")
+            # a copy reviewed apart from its first (はい: "Yes..." here, "All right..." there) stays as reviewed
+            for i in [eid] + [d for d in dup_of.get(eid, []) if entries[d].get("tl") in (None, old)]:
                 e = entries[i]
                 e["tl"] = text
                 e["en"] = fit.render(e, text, names)
@@ -211,7 +227,17 @@ def merge(batches):
             e["en"] = names[e["jp"].replace("{end}", "")] + "{end}"
     for path, doc in all_docs.items():
         save(path, doc)
+    sync_rows(entries)
     print(f"merged {count} entries")
+
+
+def sync_rows(entries):
+    """Every batch file follows the merged text, so re-checking or re-merging an older one can't bring an old draft back."""
+    for p in sorted(TL.glob("*.out.tsv")):
+        rows = rows_of(p.name.removesuffix(".out.tsv"))
+        new = {i: entries[i].get("tl", t) for i, t in rows.items()}
+        if new != rows:
+            p.write_text("".join(f"{i}\t{t}\n" for i, t in new.items()), encoding="utf-8", newline="\n")
 
 
 def status():

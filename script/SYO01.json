@@ -2365,8 +2365,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Was that a dream... or an illusion... | Hearing out of nowhere that my dear senpai was going abroad. That guy who appeared in front of me, and the huge dragon... | And now this strange world I'm in, with the moon and the Earth floating in the sky...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Was that a dream... or an illusion...{wait}{clear}{nl}Hearing out of nowhere that my dear{nl}senpai was going abroad. That guy who{nl}appeared in front of me, and the huge{wait}{clear}{nl}dragon...{wait}{clear}{nl}And now this strange world I'm in, with{nl}the moon and the Earth floating in the{nl}sky...\"{pageend}{nl2}{end}"
+   "tl": "\"Was that a dream... or an illusion... | Hearing out of nowhere that my dear senpai was going abroad. That guy appearing before me, and the huge dragon... | And now this strange world I'm in, with the moon and the Earth floating in the sky...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Was that a dream... or an illusion...{wait}{clear}{nl}Hearing out of nowhere that my dear{nl}senpai was going abroad.{wait}{clear}{nl}That guy appearing before me, and the{nl}huge dragon...{wait}{clear}{nl}And now this strange world I'm in, with{nl}the moon and the Earth floating in the{nl}sky...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_139",
@@ -2403,8 +2403,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"We're under attack! Women and children, flee to the hills behind the castle! | Men, prepare for battle!\"",
-   "en": "{clear}{nameon}{color3}06Soldier{nameoff}{color2}{nl}\"We're under attack! Women and{nl}children, flee to the hills behind the{wait}{clear}{nl}castle!{wait}{clear}{nl}Men, prepare for battle!\"{pageend}{nl2}{end}"
+   "tl": "\"We're under attack! Women and children, to the hills behind the castle! | Men, prepare for battle!\"",
+   "en": "{clear}{nameon}{color3}06Soldier{nameoff}{color2}{nl}\"We're under attack! Women and{nl}children, to the hills behind the castle!{wait}{clear}{nl}Men, prepare for battle!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_141",
@@ -2499,7 +2499,7 @@
     }
    ],
    "tl": "\"I wouldn't dream of getting in your way.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I wouldn't dream of getting in your{nl}way.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I wouldn't dream of getting in{nl}your way.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_146",
@@ -2755,7 +2755,7 @@
     }
    ],
    "tl": "\"Van-sama, about partners. | When you find someone you want to act with, stand next to that person and press the Triangle button, | then use the 'Partner Up' command to form a partnership. | And when you want to stop acting with your current partner, | press the Triangle button while you are together, | and use the 'End Partnership' command. | To change from your current partner to someone else, | stand next to the new person, press the Triangle button, and use 'Partner Up', | and that person becomes your new partner.\"",
-   "en": "{clear}{nameon}{color3}28Fanelian Soldier{nameoff}{color2}{nl}\"Van-sama, about partners.{wait}{clear}{nl}When you find someone you want to act{nl}with, stand next to that person and{nl}press the Triangle button,{wait}{clear}{nl}then use the 'Partner Up' command to{nl}form a partnership.{wait}{clear}{nl}And when you want to stop acting with{nl}your current partner,{wait}{clear}{nl}press the Triangle button while you are{nl}together,{wait}{clear}{nl}and use the 'End Partnership' command.{wait}{clear}{nl}To change from your current partner to{nl}someone else,{wait}{clear}{nl}stand next to the new person, press{nl}the Triangle button, and use 'Partner{nl}Up',{wait}{clear}{nl}and that person becomes your new{nl}partner.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}28Fanelian Soldier{nameoff}{color2}{nl}\"Van-sama, about partners.{wait}{clear}{nl}When you find someone you want to act{nl}with, stand next to that person and{nl}press the Triangle button,{wait}{clear}{nl}then use the 'Partner Up' command to{nl}form a partnership.{wait}{clear}{nl}And when you want to stop acting with{nl}your current partner,{wait}{clear}{nl}press the Triangle button while you are{nl}together,{wait}{clear}{nl}and use the 'End Partnership' command.{wait}{clear}{nl}To change from your current partner to{nl}someone else,{wait}{clear}{nl}stand next to the new person, press{nl}the Triangle button, and use{nl}'Partner Up',{wait}{clear}{nl}and that person becomes your new{nl}partner.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_161",
@@ -3146,7 +3146,7 @@
     }
    ],
    "tl": "\"Don't draw!! Draw that sword and you die!\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Don't draw!! Draw that sword and you{nl}die!\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Don't draw!! Draw that sword and{nl}you die!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_180",
@@ -3478,8 +3478,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"That pillar of light, which even my Destiny Prognostication Engine could not foresee... | I sense a new power stirring... | To remove that uncertain element... The dragon lies in the borderlands of Asturia. Capture it. | So that we may revive the power of legendary Atlantis...\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303336}\"That pillar of light, which even my{nl}Destiny Prognostication Engine could not{wait}{clear}{nl}foresee...{wait}{clear}{nl}{voice:30303337}I sense a new power stirring...{wait}{clear}{nl}{voice:30303338}To remove that uncertain element... The{nl}dragon lies in the borderlands of{nl}Asturia. Capture it.{wait}{clear}{nl}{voice:30303339}So that we may revive the power of{nl}legendary Atlantis...\"{pageend}{nl2}{end}"
+   "tl": "\"That pillar of light, unforeseen even by my Destiny Prognostication Engine... | I sense a new power stirring... | To remove that uncertain element... The dragon lies in the borderlands of Asturia. Capture it. | So that we may revive the power of legendary Atlantis...\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303336}\"That pillar of light, unforeseen even by{nl}my Destiny Prognostication Engine...{wait}{clear}{nl}{voice:30303337}I sense a new power stirring...{wait}{clear}{nl}{voice:30303338}To remove that uncertain element... The{nl}dragon lies in the borderlands of{nl}Asturia. Capture it.{wait}{clear}{nl}{voice:30303339}So that we may revive the power of{nl}legendary Atlantis...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_195",
@@ -3517,7 +3517,7 @@
     }
    ],
    "tl": "\"That's right... It happened just as I told you.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"That's right... It happened just as I told{nl}you.\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"That's right... It happened just as I{nl}told you.\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_197",
@@ -3992,7 +3992,7 @@
     }
    ],
    "tl": "\"It seems we've dodged trouble for now.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"It seems we've dodged trouble for{nl}now.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"It seems we've dodged trouble{nl}for now.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_222",
@@ -5276,7 +5276,7 @@
     }
    ],
    "tl": "\"Medicine... So you went to make that... Ow?!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Medicine... So you went to make that...{nl}Ow?!\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Medicine... So you went to make{nl}that... Ow?!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_288",
@@ -5376,7 +5376,7 @@
     }
    ],
    "tl": "\"Medicine... So you went to make that... Ow?!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Medicine... So you went to make that...{nl}Ow?!\"{wait}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Medicine... So you went to make{nl}that... Ow?!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_294",
@@ -6367,8 +6367,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I believed in you... Brother, I believed you didn't run from the rite of succession. | That you fought a dragon and died. | That you never turned your back on an enemy, and fought to the very end... And yet... | Why are you in Zaibach?! Why did you burn Fanelia to the ground?! | Answer me, Brother!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I believed in you... Brother, I believed{nl}you didn't run from the rite of{wait}{clear}{nl}succession.{wait}{clear}{nl}That you fought a dragon and died.{wait}{clear}{nl}That you never turned your back on an{nl}enemy, and fought to the very end...{nl}And yet...{wait}{clear}{nl}Why are you in Zaibach?! Why did you{nl}burn Fanelia to the ground?!{wait}{clear}{nl}Answer me, Brother!\"{pageend}{nl2}{end}"
+   "tl": "\"I believed in you... Brother, I believed you never ran from the rite. | That you fought a dragon and died. | That you never turned your back on an enemy, and fought to the very end... And yet... | Why are you in Zaibach?! Why did you burn Fanelia to the ground?! | Answer me, Brother!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I believed in you... Brother, I believed{nl}you never ran from the rite.{wait}{clear}{nl}That you fought a dragon and died.{wait}{clear}{nl}That you never turned your back on an{nl}enemy, and fought to the very end...{nl}And yet...{wait}{clear}{nl}Why are you in Zaibach?! Why did you{nl}burn Fanelia to the ground?!{wait}{clear}{nl}Answer me, Brother!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_344",
@@ -6789,8 +6789,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I should have killed you that time. | You little...!\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"I should have killed you that time.{wait}{clear}{nl}You little...!\"{pageend}{nl2}{end}"
+   "tl": "\"I should have killed you that time. | Scum like youuu...!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"I should have killed you that time.{wait}{clear}{nl}Scum like youuu...!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_367",
@@ -7078,7 +7078,7 @@
     }
    ],
    "tl": "\"So this is Allen's fort...? It's pretty big.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"So this is Allen's fort...? It's pretty{nl}big.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"So this is Allen's fort...? It's{nl}pretty big.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo01_383",

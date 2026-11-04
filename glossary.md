@@ -5,7 +5,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 
 ## Rulings (asked of the user once; options and reasons in docs/decisions.md)
 - Honorifics: kept, hyphenated (Van-sama, Hitomi-san, Boris-dono, senpai). Name order: Western (given name first).
-- Romanisation source: official English names (Bandai Entertainment anime release) where they exist, else an earlier fan patch (none exists), else Hepburn without macrons. Katakana game-original names that plainly transcribe a foreign word use that word.
+- Romanisation source: official English names (Bandai Entertainment anime release) where they exist, else an earlier fan patch (none exists), else Hepburn without macrons. Interim, not ruled by the owner (`docs/decisions.md`, open questions): katakana game-original names that plainly transcribe a foreign word use that word.
 - Credits: English.
 - Register: the anime's: serious fantasy drama, modern plain speech, slightly formal for knights and courtiers. Sound effects and cries: spelled as English interjections, not romaji.
 - Abbreviations: full names and terms everywhere, prefer engine changes over shortening.
@@ -66,6 +66,9 @@ Sources: Wikipedia's character list for the anime; "(game)" = no official form k
 | ヴァリエ | Varie | | Van's mother | |
 | エンシア | Encia | | Allen's mother | |
 | みづる | Mizuru | | Hitomi's friend (game) | |
+| ギムル | Gimle | | name table only, no dialogue; maybe the game's misspelling of ギメル (game) | |
+| テオ | Theo | | (game) | |
+| 狼人 | Wolfman | | speaker in syo06_211 (game) | |
 
 ## Places
 | JP | EN | max | notes | Avoid |
@@ -95,6 +98,10 @@ Sources: Wikipedia's character list for the anime; "(game)" = no official form k
 | 地竜 | land dragon | | | |
 | 竜撃隊 | Dragonslayers | | | |
 | 竜神人 | Draconian | | | |
+| 竜神 | dragon god | | | |
+| ヘリオ | Helio | | fleet (game) | |
+| ゾディア | Zodia | | fleet (game) | |
+| ゲティン | Getin | | fleet (game) | |
 | 魔導士 | sorcerer | | | |
 | 運命予測装置 | Destiny Prognostication Engine | | official | |
 | 運命改変装置 | Destiny Alteration Engine | | | |

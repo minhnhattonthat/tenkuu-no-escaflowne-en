@@ -21,6 +21,8 @@ BODY_PX = 208
 CHOICE_PX = 224
 CHOICE_ROWS = 7
 INDENT_PX = 12
+STUB_CHARS = 6  # a last row shorter than this is one orphaned word
+STUB_PAGE_WORDS = 3  # an extra page must carry more than this, or it costs a button press for a scrap
 NEXT_PAGE = "{wait}{clear}{nl}"
 RUN = re.compile(r"((?:\{[^}]*\})+)")
 TOKEN = re.compile(r"\{[^}]*\}")
@@ -182,7 +184,17 @@ def fill_rows(text, first_rows):
         rows.append(cur)
     if rows:
         pages.append(rows)
+    if len(chunks) == 1:  # shortcut: a text with forced ` / ` rows keeps its stubs, none has one on a multi-row page
+        for page in pages:
+            unstub(page)
     return pages
+
+
+def unstub(rows):
+    """Pull a word down so a page's last row isn't one orphaned word. Never changes the row count."""
+    while len(rows) > 1 and len(rows[-1]) < STUB_CHARS and " " in rows[-2]:
+        rows[-2], word = rows[-2].rsplit(" ", 1)
+        rows[-1] = f"{word} {rows[-1]}"
 
 
 def render_dialogue(jp, tl, names):
@@ -203,6 +215,8 @@ def render_dialogue(jp, tl, names):
         pages = fill_rows(seg, left)
         for n, rows in enumerate(pages):
             if n:
+                if len(" ".join(rows).split()) <= STUB_PAGE_WORDS:
+                    raise FitError(f"added page holds a scrap, reword: {rows}")
                 out.append(NEXT_PAGE)
                 left = 3
             out.append("{nl}".join(rows))
@@ -309,6 +323,8 @@ def lint(en):
         for r in rows:
             if width(r) > BODY_PX:
                 bad.append(f"{width(r)} px: {r}")
+        if len(rows) > 1 and len(rows[-1]) < STUB_CHARS:
+            bad.append(f"stub last row: {rows}")
     return bad
 
 

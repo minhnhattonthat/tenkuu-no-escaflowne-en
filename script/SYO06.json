@@ -278,8 +278,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"From Dornkirk-sama's research, from all over Zaibach, | those with especially strong luck and high survival odds were chosen, and fortune DNA extracted from their cell nuclei. | With the power of the Destiny Alteration Engine, it was made into artificial blood. | The risk is great... One wrong step...\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"From Dornkirk-sama's research, from{nl}all over Zaibach,{wait}{clear}{nl}those with especially strong luck and{nl}high survival odds were chosen, and{nl}fortune DNA extracted from their cell{wait}{clear}{nl}nuclei.{wait}{clear}{nl}With the power of the Destiny Alteration{nl}Engine, it was made into artificial blood.{wait}{clear}{nl}The risk is great... One wrong step...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"From Dornkirk-sama's research, from all over Zaibach, | those with strong luck and high survival odds were chosen, and fortune DNA drawn from their cell nuclei. | With the power of the Destiny Alteration Engine, it was made into artificial blood. | The risk is great... One wrong step...\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"From Dornkirk-sama's research, from{nl}all over Zaibach,{wait}{clear}{nl}those with strong luck and high survival{nl}odds were chosen, and fortune DNA{nl}drawn from their cell nuclei.{wait}{clear}{nl}With the power of the Destiny Alteration{nl}Engine, it was made into artificial blood.{wait}{clear}{nl}The risk is great... One wrong step...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_016",
@@ -2421,8 +2421,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"The young lady? I saw her at the harbor up ahead. | She was with a woman like a leopard...\"",
-   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"The young lady? I saw her at the{nl}harbor up ahead.{wait}{clear}{nl}She was with a woman like a leopard...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"The young lady, eh? Saw her at the harbor up ahead, I did. | Had some woman with her, like a leopard...\"",
+   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"The young lady, eh? Saw her at the{nl}harbor up ahead, I did.{wait}{clear}{nl}Had some woman with her, like a{nl}leopard...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_125",
@@ -2459,8 +2459,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"The harbor up ahead. Well, I'll be off then.\"",
-   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"The harbor up ahead. Well, I'll be off{nl}then.\"{pageend}{nl2}{end}"
+   "tl": "\"Harbor up ahead, that's where. Well, I'll be gettin' along.\"",
+   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"Harbor up ahead, that's where. Well, I'll{nl}be gettin' along.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo06_127",
@@ -3554,7 +3554,7 @@
     }
    ],
    "tl": "\"Why can't you understand, Van... | The day a new world is created is almost here... Why can't you understand, Van!\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303233}\"Why can't you understand, Van...{wait}{clear}{nl}{voice:30303234}The day a new world is created is{nl}almost here... Why can't you understand,{nl}Van!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303233}\"Why can't you understand, Van...{wait}{clear}{nl}{voice:30303234}The day a new world is created is{nl}almost here... Why can't you{nl}understand, Van!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_183",
@@ -4454,8 +4454,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I saw 'em last night. | Hitomi-san and Van-san... Ooh...\"",
-   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"I saw 'em last night.{wait}{clear}{nl}Hitomi-san and Van-san... Ooh...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Saw 'em last night, I did. | Hitomi-san and Van-san... Ooh...\"",
+   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"Saw 'em last night, I did.{wait}{clear}{nl}Hitomi-san and Van-san... Ooh...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_226",
@@ -5150,8 +5150,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"That is why we must change the present fate of a people who crave blood! | We must bring peace to this Gaea!\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"That is why we must change the{nl}present fate of a people who crave{wait}{clear}{nl}blood!{wait}{clear}{nl}We must bring peace to this Gaea!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"That is why we must change the fate of a people who crave blood! | We must bring peace to this Gaea!\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"That is why we must change the fate{nl}of a people who crave blood!{wait}{clear}{nl}We must bring peace to this Gaea!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_262",
@@ -5232,8 +5232,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I wanted to lift from your gentle shoulders the burden of the King of Fanelia, | a burden fated for war. | And my wish was for us to see the new world together. | But Dornkirk's way, our way, which pays no heed to human life, was wrong. | Van... together, we must stop Dornkirk...\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303435}\"I wanted to lift from your gentle{nl}shoulders the burden of the King of{wait}{clear}{nl}Fanelia,{wait}{clear}{nl}{voice:30303436}a burden fated for war.{wait}{clear}{nl}{voice:30303437}And my wish was for us to see the new{nl}world together.{wait}{clear}{nl}{voice:30303438}But Dornkirk's way, our way, which pays{nl}no heed to human life, was wrong.{wait}{clear}{nl}{voice:30303439}Van... together, we must stop{nl}Dornkirk...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"I wanted to lift from your gentle shoulders the King of Fanelia's burden, | a burden fated for war. | And my wish was for us to see the new world together. | But Dornkirk's way, our way, which pays no heed to human life, was wrong. | Van... together, we must stop Dornkirk...\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303435}\"I wanted to lift from your gentle{nl}shoulders the King of Fanelia's burden,{wait}{clear}{nl}{voice:30303436}a burden fated for war.{wait}{clear}{nl}{voice:30303437}And my wish was for us to see the new{nl}world together.{wait}{clear}{nl}{voice:30303438}But Dornkirk's way, our way, which pays{nl}no heed to human life, was wrong.{wait}{clear}{nl}{voice:30303439}Van... together, we must stop{nl}Dornkirk...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_266",
@@ -5333,8 +5333,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"The young lady? I saw her last night, in the woods near the harbor...\"",
-   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"The young lady? I saw her last night, in{nl}the woods near the harbor...\"{pageend}{nl2}{end}"
+   "tl": "\"The young lady, eh? Saw her last night, I did, in the woods by the harbor...\"",
+   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"The young lady, eh? Saw her last night,{nl}I did, in the woods by the harbor...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo06_271",
@@ -5409,8 +5409,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"The young lady, I think she went to the harbor...\"",
-   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"The young lady, I think she went to the{nl}harbor...\"{pageend}{nl2}{end}"
+   "tl": "\"The young lady? Reckon she's gone off to the harbor, I do...\"",
+   "en": "{clear}{nameon}{color3}26Mole Man{expr:3039}{nameoff}{color2}{nl}\"The young lady? Reckon she's gone off{nl}to the harbor, I do...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo06_275",

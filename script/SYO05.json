@@ -88,8 +88,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"At last, at last this moment has come. | This day I have pictured for so long... Destiny, altered!! | Heh heh heh heh heh... Come, show me, my dream, my ideal...!! | What's wrong, why does it not move?! Th-this is...?!\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"At last, at last this moment has come.{wait}{clear}{nl}This day I have pictured for so long...{nl}Destiny, altered!!{wait}{clear}{nl}Heh heh heh heh heh... Come, show me,{nl}my dream, my ideal...!!{wait}{clear}{nl}What's wrong, why does it not move?!{nl}Th-this is...?!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"At last, at last this moment has come. | This day I have pictured for so long... Destiny, altered!! | Heh heh heh heh heh... Come, show me, my dream, my ideal...!! | What is wrong, why does it not move?! Th-this is...?!\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"At last, at last this moment has come.{wait}{clear}{nl}This day I have pictured for so long...{nl}Destiny, altered!!{wait}{clear}{nl}Heh heh heh heh heh... Come, show me,{nl}my dream, my ideal...!!{wait}{clear}{nl}What is wrong, why does it not move?!{nl}Th-this is...?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_006",
@@ -1512,7 +1512,7 @@
     }
    ],
    "tl": "\"That's right, you don't have to suffer too.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"That's right, you don't have to suffer{nl}too.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"That's right, you don't have to{nl}suffer too.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_079",
@@ -1927,7 +1927,7 @@
     }
    ],
    "tl": "\"Go on ahead!! We'll escape from the roof! | Go!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303138}\"Go on ahead!! We'll escape from the{nl}roof!{wait}{clear}{nl}{voice:30303139}Go!\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303138}\"Go on ahead!! We'll escape from{nl}the roof!{wait}{clear}{nl}{voice:30303139}Go!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo05_098",
@@ -3538,8 +3538,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"This won't do. | At this rate, the dragon and the girl from the Mystic Moon will draw close.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"This won't do.{wait}{clear}{nl}At this rate, the dragon and the girl{nl}from the Mystic Moon will draw close.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"This will not do. | At this rate, the dragon and the girl from the Mystic Moon will draw close.\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"This will not do.{wait}{clear}{nl}At this rate, the dragon and the girl{nl}from the Mystic Moon will draw close.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_174",
@@ -3729,7 +3729,7 @@
     }
    ],
    "tl": "\"Looking down in the dumps isn't like you.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Looking down in the dumps isn't like{nl}you.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Looking down in the dumps isn't{nl}like you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_184",
@@ -3747,8 +3747,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Is he... trying to comfort me?\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Is he... trying to comfort me?\"{wait}{clear}{nl2}{end}"
+   "tl": "\"He's... trying to comfort me.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"He's... trying to comfort me.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_185",
@@ -3773,7 +3773,7 @@
     }
    ],
    "tl": "\"Hitomi. | I want you to stay by my side from now on.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303630}\"Hitomi.{wait}{clear}{nl}{voice:30303631}I want you to stay by my side from now{nl}on.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303630}\"Hitomi.{wait}{clear}{nl}{voice:30303631}I want you to stay by my side from{nl}now on.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_186",
@@ -4111,8 +4111,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Yes. We pour in the attraction called love from outside, and make the Mystic Moon girl's heart | act along a vector toward a man other than the dragon. | Fortunately, I have obtained parts of those two. | With the Destiny Alteration Engine and this material, it should be easy...\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes. We pour in the attraction called{nl}love from outside, and make the Mystic{wait}{clear}{nl}Moon girl's heart{wait}{clear}{nl}act along a vector toward a man other{nl}than the dragon.{wait}{clear}{nl}Fortunately, I have obtained parts of{nl}those two.{wait}{clear}{nl}With the Destiny Alteration Engine and{nl}this material, it should be easy...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Yes. We pour in love's attraction from outside, and the Mystic Moon girl's heart | is made to act along a vector toward a man other than the dragon. | Fortunately, I have obtained parts of those two. | With the Destiny Alteration Engine and this material, it should be easy...\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes. We pour in love's attraction from{nl}outside, and the Mystic Moon girl's heart{wait}{clear}{nl}is made to act along a vector toward a{nl}man other than the dragon.{wait}{clear}{nl}Fortunately, I have obtained parts of{nl}those two.{wait}{clear}{nl}With the Destiny Alteration Engine and{nl}this material, it should be easy...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_201",
@@ -4812,7 +4812,7 @@
     }
    ],
    "tl": "\"I see no one but you... Hitomi, only you.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I see no one but you... Hitomi, only{nl}you.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I see no one but you... Hitomi,{nl}only you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_235",

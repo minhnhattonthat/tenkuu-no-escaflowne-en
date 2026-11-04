@@ -209,7 +209,7 @@
     }
    ],
    "tl": "\"The castle shelter isn't enough for you?\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"The castle shelter isn't enough for{nl}you?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"The castle shelter isn't enough{nl}for you?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_012",
@@ -721,8 +721,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I'm the man who used the fortune-enhanced soldiers to try to take you.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"I'm the man who used the{nl}fortune-enhanced soldiers to try to{wait}{clear}{nl}take you.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"I am the man who tried to take you with fortune-enhanced soldiers.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"I am the man who tried to take you{nl}with fortune-enhanced soldiers.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_039",
@@ -816,8 +816,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Even so... my will to trust should get through to you. | Even if it doesn't come across very well...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Even so... my will to trust should get{nl}through to you.{wait}{clear}{nl}Even if it doesn't come across very{nl}well...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Even so... my wish to trust you should get through. | Even if it doesn't come across very well...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Even so... my wish to trust you should{nl}get through.{wait}{clear}{nl}Even if it doesn't come across very{nl}well...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_044",
@@ -956,7 +956,7 @@
     }
    ],
    "tl": "\"Prince Chid of the Duchy of Freid is the proof | that Princess Marlene, Princess Millerna's sister, and I gave in to a forbidden love... Prince Chid is mine and Princess Marlene's...\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}{voice:30303034}\"Prince Chid of the Duchy of Freid is the{nl}proof{wait}{clear}{nl}{voice:30303035}that Princess Marlene, Princess{nl}Millerna's sister, and I gave in to a{nl}forbidden love...{wait}{clear}{nl}Prince Chid is mine and Princess{nl}Marlene's...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}{voice:30303034}\"Prince Chid of the Duchy of Freid is{nl}the proof{wait}{clear}{nl}{voice:30303035}that Princess Marlene, Princess{nl}Millerna's sister, and I gave in to a{nl}forbidden love...{wait}{clear}{nl}Prince Chid is mine and Princess{nl}Marlene's...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_051",
@@ -1352,8 +1352,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Heh, heh heh heh heh... It's been a while since I saw battle... | I can't wait.\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303133}\"Heh, heh heh heh heh... It's been a{nl}while since I saw battle...{wait}{clear}{nl}{voice:30303134}I can't wait.\"{pageend}{nl2}{end}"
+   "tl": "\"Heh, heh heh heh heh... It's been a while since I saw battle... | I can't waaait.\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303133}\"Heh, heh heh heh heh... It's been a{nl}while since I saw battle...{wait}{clear}{nl}{voice:30303134}I can't waaait.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_070",
@@ -1771,7 +1771,7 @@
     }
    ],
    "tl": "\"So you found out too, Hitomi. | Things happen when you're alive, don't they? | Whatever happened before you met, there's nothing to be done about that, is there?\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"So you found out too, Hitomi.{wait}{clear}{nl}Things happen when you're alive, don't{nl}they?{wait}{clear}{nl}Whatever happened before you met,{nl}there's nothing to be done about that,{nl}is there?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"So you found out too, Hitomi.{wait}{clear}{nl}Things happen when you're alive,{nl}don't they?{wait}{clear}{nl}Whatever happened before you met,{nl}there's nothing to be done about that,{nl}is there?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_092",
@@ -1864,8 +1864,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Been a while. Let's play!!\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303137}\"Been a while. Let's play!!\"{pageend}{nl2}{end}"
+   "tl": "\"Been a while. Let's plaaay!!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303137}\"Been a while. Let's plaaay!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_096",
@@ -2326,7 +2326,7 @@
     }
    ],
    "tl": "\"She wanted to go back to the Mystic Moon. | So... | But that works out for us, doesn't it? Now Zaibach can't run | the Destiny Alteration Engine.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"She wanted to go back to the Mystic{nl}Moon.{wait}{clear}{nl}So...{wait}{clear}{nl}But that works out for us, doesn't it?{nl}Now Zaibach can't run{wait}{clear}{nl}the Destiny Alteration Engine.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"She wanted to go back to the{nl}Mystic Moon.{wait}{clear}{nl}So...{wait}{clear}{nl}But that works out for us, doesn't it?{nl}Now Zaibach can't run{wait}{clear}{nl}the Destiny Alteration Engine.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_119",
@@ -2464,7 +2464,7 @@
     }
    ],
    "tl": "\"You're worried about Hitomi, aren't you?\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"You're worried about Hitomi, aren't{nl}you?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"You're worried about Hitomi,{nl}aren't you?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_125",
@@ -3044,7 +3044,7 @@
     }
    ],
    "tl": "\"I've come back. To Gaea. To a world of war.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I've come back. To Gaea. To a world of{nl}war.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I've come back. To Gaea. To a world{nl}of war.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_153",
@@ -3341,7 +3341,7 @@
     }
    ],
    "tl": "\"Van's feelings brought you back to Gaea. | And you answered them. I do believe this is a first. | A woman turning down my invitation...\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}{voice:30303437}\"Van's feelings brought you back to{nl}Gaea.{wait}{clear}{nl}{voice:30303438}And you answered them. I do believe{nl}this is a first.{wait}{clear}{nl}{voice:30303439}A woman turning down my invitation...\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}{voice:30303437}\"Van's feelings brought you back{nl}to Gaea.{wait}{clear}{nl}{voice:30303438}And you answered them. I do believe{nl}this is a first.{wait}{clear}{nl}{voice:30303439}A woman turning down my invitation...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_168",
@@ -3661,8 +3661,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I'll make you turn around and look, count on it. | Because I love you.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}{voice:30303630}\"I'll make you turn around and look,{nl}count on it.{wait}{clear}{nl}{voice:30303631}Because I love you.\"{pageend}{nl2}{end}"
+   "tl": "\"I'll win you over yet, count on it. | Because I love you.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}{voice:30303630}\"I'll win you over yet, count on it.{wait}{clear}{nl}{voice:30303631}Because I love you.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_183",
@@ -3719,7 +3719,7 @@
     }
    ],
    "tl": "\"He is not a man who can be reasoned with. | Besides, if I drag you into danger, Van will grieve.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"He is not a man who can be reasoned{nl}with.{wait}{clear}{nl}Besides, if I drag you into danger, Van{nl}will grieve.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"He is not a man who can be{nl}reasoned with.{wait}{clear}{nl}Besides, if I drag you into danger, Van{nl}will grieve.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_186",
@@ -3890,7 +3890,7 @@
     }
    ],
    "tl": "\"Say no more! | If I hear kind words, I'll come to lean on you. | I don't want to be a burden to you.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Say no more!{wait}{clear}{nl}If I hear kind words, I'll come to lean on{nl}you.{wait}{clear}{nl}I don't want to be a burden to you.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Say no more!{wait}{clear}{nl}If I hear kind words, I'll come to lean{nl}on you.{wait}{clear}{nl}I don't want to be a burden to you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_195",
@@ -4111,7 +4111,7 @@
     }
    ],
    "tl": "\"Have faith in him. Van will surely come back. | Right, Merle...?\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Have faith in him. Van will surely come{nl}back.{wait}{clear}{nl}Right, Merle...?\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Have faith in him. Van will surely{nl}come back.{wait}{clear}{nl}Right, Merle...?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_206",
@@ -4358,7 +4358,7 @@
     }
    ],
    "tl": "\"Folken-san. | Van is suffering. I... I want to save Van.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Folken-san.{wait}{clear}{nl}Van is suffering. I... I want to save{nl}Van.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Folken-san.{wait}{clear}{nl}Van is suffering. I... I want to{nl}save Van.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_219",
@@ -4679,8 +4679,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Hitomi. Merle. | Brother...\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hitomi. Merle.{wait}{clear}{nl}Brother...\"{pageend}{nl2}{end}"
+   "tl": "\"Hitomi... Merle... | Brother...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hitomi... Merle...{wait}{clear}{nl}Brother...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_235",
@@ -4918,7 +4918,7 @@
     }
    ],
    "tl": "\"You have come to kill me, have you not?\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303832}\"You have come to kill me, have you{nl}not?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303832}\"You have come to kill me, have{nl}you not?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_245",
@@ -4968,7 +4968,7 @@
     }
    ],
    "tl": "\"Go on, kill me. There is no one here but me.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303834}\"Go on, kill me. There is no one here but{nl}me.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303834}\"Go on, kill me. There is no one here{nl}but me.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_247",
@@ -5497,7 +5497,7 @@
     }
    ],
    "tl": "\"It is no use. | Fate in motion can be stopped by no one.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"It is no use.{wait}{clear}{nl}Fate in motion can be stopped by no{nl}one.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"It is no use.{wait}{clear}{nl}Fate in motion can be stopped by{nl}no one.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_272",
@@ -6024,8 +6024,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"No... Stop it, Van!!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No... Stop it, Van!!\"{pageend}{nl2}{end}"
+   "tl": "\"No... Stop it, Vaaan!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No... Stop it, Vaaan!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_296",
@@ -6416,7 +6416,7 @@
     }
    ],
    "tl": "\"I will end this war. | I'll avenge my brother, and I'll rescue you.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I will end this war.{wait}{clear}{nl}I'll avenge my brother, and I'll rescue{nl}you.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I will end this war.{wait}{clear}{nl}I'll avenge my brother, and I'll{nl}rescue you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_315",
@@ -6435,7 +6435,7 @@
     }
    ],
    "tl": "\"No! | That feeling is what draws the fighting in!!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No!{wait}{clear}{nl}That feeling is what draws the fighting{nl}in!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No!{wait}{clear}{nl}That feeling is what draws the{nl}fighting in!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_316",
@@ -6511,7 +6511,7 @@
     }
    ],
    "tl": "\"No! | Why can't you understand what I'm saying? When I'm this worried about you, Van. | When I care about you so much, Van... Why won't you understand?\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No!{wait}{clear}{nl}Why can't you understand what I'm{nl}saying? When I'm this worried about you,{nl}Van.{wait}{clear}{nl}When I care about you so much, Van...{nl}Why won't you understand?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No!{wait}{clear}{nl}Why can't you understand what I'm{nl}saying? When I'm this worried about{nl}you, Van.{wait}{clear}{nl}When I care about you so much, Van...{nl}Why won't you understand?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_320",
@@ -6567,8 +6567,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"People's feelings can at times move even the heavens. | But when those feelings overlap, a great resentment is born. | If that can be erased, people can change.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"People's feelings can at times move{nl}even the heavens.{wait}{clear}{nl}But when those feelings overlap, a{nl}great resentment is born.{wait}{clear}{nl}If that can be erased, people can{nl}change.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"A person's will can at times move even the heavens. | But when will overlaps with will, a great resentment is born. | If that can be erased, people can change.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"A person's will can at times move even{nl}the heavens.{wait}{clear}{nl}But when will overlaps with will, a great{nl}resentment is born.{wait}{clear}{nl}If that can be erased, people can{nl}change.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_323",
@@ -6586,8 +6586,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Resentment... Feelings overlapping. | My feelings are binding Van. | What it truly means to care for Van... To believe... I... | I... because I love Van. Because I truly love him. | The scent of the grasslands... Van's scent. Because I love Van. | I'm sorry. | I was the one who didn't understand.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Resentment... Feelings overlapping.{wait}{clear}{nl}My feelings are binding Van.{wait}{clear}{nl}What it truly means to care for Van...{nl}To believe... I...{wait}{clear}{nl}I... because I love Van. Because I truly{nl}love him.{wait}{clear}{nl}The scent of the grasslands... Van's{nl}scent. Because I love Van.{wait}{clear}{nl}I'm sorry.{wait}{clear}{nl}I was the one who didn't understand.\"{pageend}{nl2}{end}"
+   "tl": "\"Resentment... Will overlapping with will. | My will is binding Van. | What it truly means to care for Van... To believe... I... | I... because I love Van. Because I truly love him. | The scent of the grasslands... Van's scent. Because I love Van. | I'm sorry. | I was the one who didn't understand.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Resentment... Will overlapping with will.{wait}{clear}{nl}My will is binding Van.{wait}{clear}{nl}What it truly means to care for Van...{nl}To believe... I...{wait}{clear}{nl}I... because I love Van. Because I truly{nl}love him.{wait}{clear}{nl}The scent of the grasslands... Van's{nl}scent. Because I love Van.{wait}{clear}{nl}I'm sorry.{wait}{clear}{nl}I was the one who didn't understand.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_324",

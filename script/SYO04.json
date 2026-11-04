@@ -165,7 +165,7 @@
     }
    ],
    "tl": "\"The damage is only to the armor, isn't it?! | Then why these wounds?!\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"The damage is only to the armor, isn't{nl}it?!{wait}{clear}{nl}Then why these wounds?!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"The damage is only to the armor,{nl}isn't it?!{wait}{clear}{nl}Then why these wounds?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_010",
@@ -689,8 +689,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I would never lie.\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"I would never lie.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"I assure you, I would never lie.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"I assure you, I would never lie.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_038",
@@ -1383,7 +1383,7 @@
     }
    ],
    "tl": "\"Well, well, the famous Ispano workshop ship. | Little lady, if they can fix Escaflowne, your dragon god may recover too.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Well, well, the famous Ispano workshop{nl}ship.{wait}{clear}{nl}Little lady, if they can fix Escaflowne,{nl}your dragon god may recover too.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Well, well, the famous Ispano{nl}workshop ship.{wait}{clear}{nl}Little lady, if they can fix Escaflowne,{nl}your dragon god may recover too.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_071",
@@ -1687,7 +1687,7 @@
     }
    ],
    "tl": "\"Hah, royalty shouldn't talk so cheap! | Me, I just happen to like that king, is all.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hah, royalty shouldn't talk so cheap!{wait}{clear}{nl}Me, I just happen to like that king, is{nl}all.\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hah, royalty shouldn't talk so cheap!{wait}{clear}{nl}Me, I just happen to like that king,{nl}is all.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_087",
@@ -2751,7 +2751,7 @@
     }
    ],
    "tl": "\"The Ispano people told you too, didn't they? | They can't guarantee it! You mustn't get in Escaflowne! I said you mustn't!!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The Ispano people told you too, didn't{nl}they?{wait}{clear}{nl}They can't guarantee it! You mustn't get{nl}in Escaflowne! I said you mustn't!!\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The Ispano people told you too,{nl}didn't they?{wait}{clear}{nl}They can't guarantee it! You mustn't get{nl}in Escaflowne! I said you mustn't!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_143",
@@ -4099,7 +4099,7 @@
     }
    ],
    "tl": "\"Ha ha ha... There it is, that's the real you. | Me, of course I've got ulterior motives. I'll do anything to win your attention.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Ha ha ha... There it is, that's the real{nl}you.{wait}{clear}{nl}Me, of course I've got ulterior motives.{nl}I'll do anything to win your attention.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Ha ha ha... There it is, that's the{nl}real you.{wait}{clear}{nl}Me, of course I've got ulterior motives.{nl}I'll do anything to win your attention.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_213",
@@ -4971,8 +4971,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"To see which one's right for her. My readings for other people are pretty accurate.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"To see which one's right for her. My{nl}readings for other people are pretty{wait}{clear}{nl}accurate.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"To see which one's right for her. My readings for others are pretty accurate.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"To see which one's right for her.{wait}{clear}{nl}My readings for others are pretty{nl}accurate.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_258",
@@ -6395,7 +6395,7 @@
     }
    ],
    "tl": "\"I met an old man. | There was another who believed in the Mystic Valley, and traveled in search of it. | I asked his name, and the old man answered, Isaac. His story was very interesting. | He too was searching for the Mystic Valley. Seeking the mystery of Atlantis... | And to my surprise, Isaac says that he came from the Mystic Moon, just like that girl.\"",
-   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"I met an old man.{wait}{clear}{nl}There was another who believed in the{nl}Mystic Valley, and traveled in search of{nl}it.{wait}{clear}{nl}I asked his name, and the old man{nl}answered, Isaac. His story was very{nl}interesting.{wait}{clear}{nl}He too was searching for the Mystic{nl}Valley. Seeking the mystery of Atlantis...{wait}{clear}{nl}And to my surprise, Isaac says that he{nl}came from the Mystic Moon, just like{nl}that girl.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"I met an old man.{wait}{clear}{nl}There was another who believed in the{nl}Mystic Valley, and traveled in search{nl}of it.{wait}{clear}{nl}I asked his name, and the old man{nl}answered, Isaac. His story was very{nl}interesting.{wait}{clear}{nl}He too was searching for the Mystic{nl}Valley. Seeking the mystery of Atlantis...{wait}{clear}{nl}And to my surprise, Isaac says that he{nl}came from the Mystic Moon, just like{nl}that girl.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_331",
@@ -6452,7 +6452,7 @@
     }
    ],
    "tl": "\"I can't believe it... That you are from the Mystic Moon... | I set out on this journey to cut all my ties. | But looking into your eyes, even that seems empty. | Would you forgive me...\"",
-   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"I can't believe it... That you are from{nl}the Mystic Moon...{wait}{clear}{nl}I set out on this journey to cut all my{nl}ties.{wait}{clear}{nl}But looking into your eyes, even that{nl}seems empty.{wait}{clear}{nl}Would you forgive me...\"{pageend}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"I can't believe it... That you are from{nl}the Mystic Moon...{wait}{clear}{nl}I set out on this journey to cut all{nl}my ties.{wait}{clear}{nl}But looking into your eyes, even that{nl}seems empty.{wait}{clear}{nl}Would you forgive me...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_334",
@@ -6641,7 +6641,7 @@
     }
    ],
    "tl": "\"I don't think I'll ever be able to like you.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I don't think I'll ever be able to like{nl}you.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I don't think I'll ever be able to{nl}like you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_343",
@@ -6850,7 +6850,7 @@
     }
    ],
    "tl": "\"I don't think that's it. | Because you kept your father's journal, Allen-san. | You could have thrown it away, but you didn't. | Somewhere inside, you must have wanted to know about him... | You're a kind person, Allen-san. You couldn't hate someone that much. | If your heart had really gone cold, then I... | none of us would have come to like you. | You want to forgive your father, don't you?\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I don't think that's it.{wait}{clear}{nl}Because you kept your father's journal,{nl}Allen-san.{wait}{clear}{nl}You could have thrown it away, but you{nl}didn't.{wait}{clear}{nl}Somewhere inside, you must have{nl}wanted to know about him...{wait}{clear}{nl}You're a kind person, Allen-san. You{nl}couldn't hate someone that much.{wait}{clear}{nl}If your heart had really gone cold, then{nl}I...{wait}{clear}{nl}none of us would have come to like you.{wait}{clear}{nl}You want to forgive your father, don't{nl}you?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I don't think that's it.{wait}{clear}{nl}Because you kept your father's journal,{nl}Allen-san.{wait}{clear}{nl}You could have thrown it away, but you{nl}didn't.{wait}{clear}{nl}Somewhere inside, you must have{nl}wanted to know about him...{wait}{clear}{nl}You're a kind person, Allen-san. You{nl}couldn't hate someone that much.{wait}{clear}{nl}If your heart had really gone cold,{nl}then I...{wait}{clear}{nl}none of us would have come to like you.{wait}{clear}{nl}You want to forgive your father,{nl}don't you?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_354",
@@ -7223,7 +7223,7 @@
     }
    ],
    "tl": "\"Yes, Folken-sama. Ready when you are.\"",
-   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}{voice:30303433}\"Yes, Folken-sama. Ready when you{nl}are.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}{voice:30303433}\"Yes, Folken-sama. Ready when{nl}you are.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_373",
@@ -8005,7 +8005,7 @@
     }
    ],
    "tl": "\"Van-sama. | You must not turn away from your own fate. | The Draconians are the descendants of Atlantis. | To face this and fight, so that Gaea does not follow Atlantis's path, is your fate. | You must fight, together with Escaflowne.\"",
-   "en": "{clear}{nameon}{color3}01Balgus{nameoff}{color2}{nl}\"Van-sama.{wait}{clear}{nl}You must not turn away from your own{nl}fate.{wait}{clear}{nl}The Draconians are the descendants of{nl}Atlantis.{wait}{clear}{nl}To face this and fight, so that Gaea{nl}does not follow Atlantis's path, is your{nl}fate.{wait}{clear}{nl}You must fight, together with{nl}Escaflowne.\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}01Balgus{nameoff}{color2}{nl}\"Van-sama.{wait}{clear}{nl}You must not turn away from your{nl}own fate.{wait}{clear}{nl}The Draconians are the descendants of{nl}Atlantis.{wait}{clear}{nl}To face this and fight, so that Gaea{nl}does not follow Atlantis's path, is{nl}your fate.{wait}{clear}{nl}You must fight, together with{nl}Escaflowne.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_411",
@@ -8118,8 +8118,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Allen, you've come. My will seems to have reached you. | Now, where shall I begin?\"",
-   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"Allen, you've come. My will seems to{nl}have reached you.{wait}{clear}{nl}Now, where shall I begin?\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Allen, you've come. My feelings seem to have reached you. | Now, where shall I begin?\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"Allen, you've come. My feelings seem to{nl}have reached you.{wait}{clear}{nl}Now, where shall I begin?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_417",
@@ -8385,7 +8385,7 @@
     }
    ],
    "tl": "\"At this rate... | we won't be able to get out of here, will we?\"",
-   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"At this rate...{wait}{clear}{nl}we won't be able to get out of here, will{nl}we?\"{wait}{clear}{nl2}{end}"
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"At this rate...{wait}{clear}{nl}we won't be able to get out of here,{nl}will we?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_431",
@@ -8802,8 +8802,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"For the sake of my house, I married, had a child, and tried to live by killing my own self. | People want to escape the one thread of fate. | But when I met that girl again, I understood. | I did love Encia. And you, Allen...\"",
-   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"For the sake of my house, I married,{nl}had a child, and tried to live by killing my{wait}{clear}{nl}own self.{wait}{clear}{nl}People want to escape the one thread{nl}of fate.{wait}{clear}{nl}But when I met that girl again, I{nl}understood.{wait}{clear}{nl}I did love Encia. And you, Allen...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"For my house I married, had a child, and tried to live by killing my own self. | People want to escape the one thread of fate. | But when I met that girl again, I understood. | I did love Encia. And you, Allen...\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"For my house I married, had a child, and{nl}tried to live by killing my own self.{wait}{clear}{nl}People want to escape the one thread{nl}of fate.{wait}{clear}{nl}But when I met that girl again, I{nl}understood.{wait}{clear}{nl}I did love Encia. And you, Allen...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_453",

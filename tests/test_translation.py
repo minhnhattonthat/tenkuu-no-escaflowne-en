@@ -29,6 +29,37 @@ def test_fill_rows_wraps_to_the_box_and_breaks_pages_at_sentences():
     assert pages[0][-1].endswith(".")
 
 
+def test_fill_rows_leaves_no_stub_last_row():
+    pages = fit.fill_rows("The day a dragon tore off this arm, I died.", 2)
+    assert len(pages) == 1 and len(pages[0]) == 2 and pages[0][1] == "I died."
+
+
+def test_added_page_with_a_scrap_is_refused():
+    e = {"jp": "{clear}{nameon}{color1}ひとみ{nameoff}{color2}{nl}「あ。{end}", "form": "dlg"}
+    with pytest.raises(fit.FitError):
+        fit.render(e, '"I\'m the man who used the fortune-enhanced soldiers to try to take you."', {"ひとみ": "Hitomi"})
+
+
+def test_merge_keeps_a_reviewed_copy_and_every_batch_file_follows(tmp_path, monkeypatch):
+    jp = "{clear}{nameon}{color1}ひとみ{nameoff}{color2}{nl}「はい…。{end}"
+    entries = [{"id": i, "jp": jp, "form": "dlg", "en": "", "tl": t} for i, t in (("a", '"All right..."'), ("b", '"Yes..."'))]
+    script, tl = tmp_path / "script", tmp_path / "tl"
+    script.mkdir(), tl.mkdir()
+    batches.save(script / "x.json", {"entries": entries})
+    (tl / "dups.tsv").write_text("b\ta\n", encoding="utf-8")
+    for name, rows in (("b1", 'a\t"All right..."\n'), ("r1", 'a\t"Okay..."\n')):
+        (tl / f"{name}.tsv").write_text("a\n", encoding="utf-8")
+        (tl / f"{name}.out.tsv").write_text(rows, encoding="utf-8")
+    monkeypatch.setattr(batches, "SCRIPT", script)
+    monkeypatch.setattr(batches, "TL", tl)
+    monkeypatch.setattr(fit, "load_names", lambda: {"ひとみ": "Hitomi"})
+    monkeypatch.setattr(batches, "load_glossary", lambda: [])
+    batches.merge(["r1"])
+    stored = {e["id"]: e["tl"] for e in batches.docs()[script / "x.json"]["entries"]}
+    assert stored == {"a": '"Okay..."', "b": '"Yes..."'}
+    assert batches.rows_of("b1") == {"a": '"Okay..."'}
+
+
 def test_render_refuses_wrong_separators():
     jp = "{clear}{nameon}{color1}ひとみ{nameoff}{color2}{nl}「あ。{wait}{clear}{nl}い。{end}"
     e = {"jp": jp, "form": "dlg"}
