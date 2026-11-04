@@ -37,7 +37,8 @@ CARDS = {
 }
 HEAD_PX, TITLE_PX, MIN_PX = 24, 26, 15
 LOGO_RECT = (0, 0, 240, 125)  # x0, y0, x1, y1: ESCA111's logo; the menu words below it stay
-SPHERE_CORE = 5  # radius of the sphere's own white centre
+GLOW_OFFSET = (1, -3)  # rows, columns from the star's crossing to the glow's brightest point
+LINE_PEAK, LINE_SLOPE, LINE_FLOOR = 232, 4, 40  # the hairlines' grey: at the glow, fall per pixel, at the far ends
 LOGO_SPACING = 24  # px at the 200 px master, so F, L and O don't touch once squeezed into the logo's box
 COPYRIGHT = "SUNRISE / TV TOKYO"
 COPYRIGHT_TEXT_X = 18  # after the row's own (c) glyph
@@ -151,32 +152,37 @@ def logo(arr, pal):
     col = np.array([rgb(pal[i]) for i in range(256)], dtype=np.int32)
     spread = (col.max(axis=1) - col.min(axis=1))[old]
     neutral = (old != bg) & (spread < 24)
-    # the sphere: centre and radius from its neutral pixels, then a brightness per radius to fill what the letters hid
-    ys, xs = np.nonzero(neutral & (col[old].sum(axis=2) < 300))
-    cy, cx = float(np.median(ys)), float(np.median(xs))
-    yy, xx = np.indices(old.shape)
-    r = np.hypot(yy - cy, xx - cx).astype(int)
-    radius = 23
-    pale = col[old].sum(axis=2) > 540
-    # a glow: brightness per radius, darkening outward. Pale pixels past the core are the old letters' white
-    profile, last = {}, None
-    lum = col.sum(axis=1)
-    for k in range(radius + 1):
-        vals = old[(r == k) & neutral & (~pale | (r <= SPHERE_CORE))]
-        if vals.size:
-            pick = int(sorted(vals.tolist(), key=lambda i: lum[i])[vals.size // 2])
-            last = pick if last is None or lum[pick] <= lum[last] else last
-        profile[k] = last
-    # the star's two hairlines: the row and column holding most neutral pixels. Other neutrals are the old letters' white
+    lum = col.sum(axis=1) // 3
+    # the star's two hairlines: the row and column holding most neutral pixels
     frow, fcol = int(neutral.sum(axis=1).argmax()), int(neutral.sum(axis=0).argmax())
-    line_ix = int(np.bincount(old[neutral & ~pale & (r > radius)]).argmax())
+    # the glow peaks just off their crossing (read from the brightness along each line); a black disc around it
+    yy, xx = np.indices(old.shape)
+    r = np.hypot(yy - frow - GLOW_OFFSET[0], xx - fcol - GLOW_OFFSET[1]).astype(int)
+    radius = 23
+    # per radius, the darkest neutral: the old letters and rays only ever add light, so that's the bare glow
+    profile, last = {}, None
+    for k in range(radius + 1):
+        vals = lum[old[(r == k) & neutral]]
+        darkest = int(old[(r == k) & neutral][vals.argmin()]) if vals.size else last
+        last = darkest if last is None or lum[darkest] <= lum[last] else last
+        profile[k] = last
     new = np.full_like(old, bg)
-    new[frow, 1:-1] = np.where(old[frow, 1:-1] == bg, bg, line_ix)
-    new[:, fcol] = np.where(old[:, fcol] == bg, bg, line_ix)
-    # the disc itself, wholly from the profile: any pixel kept from the old art could be a letter's edge
+    # the disc wholly from the profile, then the hairlines over it: any pixel kept from the old art could be a letter's edge
     disc = r <= radius
     for y, x in zip(*np.nonzero(disc)):
         new[y, x] = profile[int(r[y, x])]
+    greys = sorted(set(old[neutral].tolist()))
+
+    def hairline(distance):
+        want = max(LINE_FLOOR, LINE_PEAK - LINE_SLOPE * distance)
+        return min(greys, key=lambda i: abs(int(lum[i]) - want))
+
+    for x in range(1, old.shape[1] - 1):
+        if old[frow, x] != bg:
+            new[frow, x] = hairline(abs(x - fcol - GLOW_OFFSET[1]))
+    for y in range(old.shape[0]):
+        if old[y, fcol] != bg:
+            new[y, fcol] = hairline(abs(y - frow - GLOW_OFFSET[0]))
 
     # column colours from the big letters, the outline from their brightest colour
     big = (old != bg) & ~neutral & (yy > 48) & (col[old][:, :, 2] > col[old][:, :, 0])
