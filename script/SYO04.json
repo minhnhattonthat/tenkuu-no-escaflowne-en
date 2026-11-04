@@ -16,7 +16,9 @@
      "va": "0x800c2cf8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "{clear}{mark8}Chapter 4　{mark10}Back{nl2}{end}",
+   "en": "{clear}{mark8}Chapter 4　{mark10}Back{nl2}{end}"
   },
   {
    "id": "syo04_002",
@@ -32,7 +34,9 @@
      "va": "0x800c2d10",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "{mark1}Scene 1　　{mark2}Scene 10　{mark3}Scene 20{nl2}{end}",
+   "en": "{mark1}Scene 1　　{mark2}Scene 10　{mark3}Scene 20{nl2}{end}"
   },
   {
    "id": "syo04_003",
@@ -48,7 +52,9 @@
      "va": "0x800c2d3c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "{mark4}Scene 30　{mark5}Scene 40　{mark6}Scene 50{end}",
+   "en": "{mark4}Scene 30　{mark5}Scene 40　{mark6}Scene 50{end}"
   },
   {
    "id": "syo04_004",
@@ -81,7 +87,9 @@
      "va": "0x800de100",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-samaaa.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-samaaa.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_006",
@@ -98,7 +106,9 @@
      "va": "0x800de12d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen-san!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Allen-san!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_007",
@@ -115,7 +125,9 @@
      "va": "0x800de15c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Get Princess Millerna!!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Get Princess Millerna!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_008",
@@ -132,7 +144,9 @@
      "va": "0x800de18d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes, sir!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Yes, sir!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_009",
@@ -149,7 +163,9 @@
      "va": "0x800de1b2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The damage is only to the armor, isn't it?! | Then why these wounds?!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"The damage is only to the armor, isn't{nl}it?!{wait}{clear}{nl}Then why these wounds?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_010",
@@ -166,7 +182,9 @@
      "va": "0x800de20d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ah! Don't move!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Ah! Don't move!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_011",
@@ -183,7 +201,9 @@
      "va": "0x800de24a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Uuuuh... I... I can still fight. | I...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Uuuuh... I... I can still fight.{wait}{clear}{nl}I...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_012",
@@ -200,7 +220,9 @@
      "va": "0x800de2a5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_013",
@@ -217,7 +239,9 @@
      "va": "0x800de2ce",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Stop!!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Stop!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_014",
@@ -234,7 +258,9 @@
      "va": "0x800de2f9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Raaaagh!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Raaaagh!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_015",
@@ -251,7 +277,9 @@
      "va": "0x800de326",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"W... wings...?!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"W... wings...?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_016",
@@ -268,7 +296,9 @@
      "va": "0x800de357",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Dra... a Draconian...?!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Dra... a Draconian...?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_017",
@@ -285,7 +315,9 @@
      "va": "0x800de38e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Vaaan!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Vaaan!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_018",
@@ -302,7 +334,9 @@
      "va": "0x800de3b9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Uuuh...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Uuuh...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_019",
@@ -312,7 +346,9 @@
    "jp": "{clear}{nameon}{color3}02ガデス{nameoff}{color2}{nl2}「まさか、王様が竜神人とは…。{wait}{clear}{nl2}{end}",
    "form": "dlg",
    "speaker": "ガデス",
-   "dead": true
+   "dead": true,
+   "tl": "\"Who'd have thought the king was a Draconian...\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Who'd have thought the king was a{nl}Draconian...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_020",
@@ -329,7 +365,9 @@
      "va": "0x800de41d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The power of Atlantis, and now a Draconian. | Why, after all this time... Things that remind me of that man keep happening around me...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"The power of Atlantis, and now a{nl}Draconian.{wait}{clear}{nl}Why, after all this time... Things that{nl}remind me of that man keep happening{nl}around me...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_021",
@@ -346,7 +384,9 @@
      "va": "0x800de4aa",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"His pulse is irregular. At this rate, it's dangerous!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"His pulse is irregular. At this rate, it's{nl}dangerous!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_022",
@@ -363,7 +403,9 @@
      "va": "0x800de4f7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Oh no!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Oh no!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_023",
@@ -380,7 +422,9 @@
      "va": "0x800de522",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You're a doctor, aren't you?! Do something!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"You're a doctor, aren't you?! Do{nl}something!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_024",
@@ -397,7 +441,9 @@
      "va": "0x800de56f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Don't ask the impossible! These wounds aren't normal... | It's as if the flesh split open from the inside, from within the body. | Wounds like these will never close. | The operating chamber in Escaflowne was unharmed, wasn't it?!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Don't ask the impossible! These wounds{nl}aren't normal...{wait}{clear}{nl}It's as if the flesh split open from the{nl}inside, from within the body.{wait}{clear}{nl}Wounds like these will never close.{wait}{clear}{nl}The operating chamber in Escaflowne{nl}was unharmed, wasn't it?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_025",
@@ -414,7 +460,9 @@
      "va": "0x800de660",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Escaflowne?!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Escaflowne?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_026",
@@ -431,7 +479,9 @@
      "va": "0x800de693",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The same wounds as Van?!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The same wounds as Van?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_027",
@@ -448,7 +498,9 @@
      "va": "0x800de6c8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi, what is it?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Hitomi, what is it?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_028",
@@ -465,7 +517,9 @@
      "va": "0x800de6ff",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van is feeling it.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van is feeling it.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_029",
@@ -482,7 +536,9 @@
      "va": "0x800de738",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_030",
@@ -499,7 +555,9 @@
      "va": "0x800de75f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen-san, Van and Escaflowne | have become one. | So unless Escaflowne gets fixed, Van... Van is going to die!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Allen-san, Van and Escaflowne{wait}{clear}{nl}have become one.{wait}{clear}{nl}So unless Escaflowne gets fixed, Van...{nl}Van is going to die!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_031",
@@ -516,7 +574,9 @@
      "va": "0x800de828",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"How can that be...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"How can that be...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_032",
@@ -533,7 +593,9 @@
      "va": "0x800de859",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What is it?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What is it?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_033",
@@ -550,7 +612,9 @@
      "va": "0x800de884",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"An Asturian trading fleet...\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"An Asturian trading fleet...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_034",
@@ -567,7 +631,9 @@
      "va": "0x800de8b9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your heart's pounding, isn't it... | Five years ago, I'll admit, I took you for a mere tomboy... | But to think you'd grow into such a beautiful princess... I'm moved...\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Your heart's pounding, isn't it...{wait}{clear}{nl}Five years ago, I'll admit, I took you for{nl}a mere tomboy...{wait}{clear}{nl}But to think you'd grow into such a{nl}beautiful princess... I'm moved...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_035",
@@ -584,7 +650,9 @@
      "va": "0x800de960",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"And you have become quite distinguished yourself...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"And you have become quite{nl}distinguished yourself...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_036",
@@ -601,7 +669,9 @@
      "va": "0x800de9af",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You really think so?\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"You really think so?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_037",
@@ -618,7 +688,9 @@
      "va": "0x800de9e6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I would never lie.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"I would never lie.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_038",
@@ -635,7 +707,9 @@
      "va": "0x800dea1f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Then let's go straight home and hold the wedding!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Then let's go straight home and hold{nl}the wedding!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_039",
@@ -652,7 +726,9 @@
      "va": "0x800dea6e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Wh-where did THAT come from?!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Wh-where did THAT come from?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_040",
@@ -669,7 +745,9 @@
      "va": "0x800deaa5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Where did it come from? You and I are engaged! | And me, I'm rich, with business booming! | As learned as any scholar!! Not to brag... but I'm good-looking too! | Any problems with that?\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Where did it come from? You and I are{nl}engaged!{wait}{clear}{nl}And me, I'm rich, with business booming!{wait}{clear}{nl}As learned as any scholar!! Not to{nl}brag... but I'm good-looking too!{wait}{clear}{nl}Any problems with that?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_041",
@@ -686,7 +764,9 @@
      "va": "0x800deb86",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"D-Dryden...! I-I...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"D-Dryden...! I-I...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_042",
@@ -703,7 +783,9 @@
      "va": "0x800debcb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ha ha ha ha ha! Sorry, sorry! | You'll need to prepare yourself!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Ha ha ha ha ha! Sorry, sorry!{wait}{clear}{nl}You'll need to prepare yourself!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_043",
@@ -720,7 +802,9 @@
      "va": "0x800dec30",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Dryden...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Dryden...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_044",
@@ -737,7 +821,9 @@
      "va": "0x800dec61",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well, more haste, less speed, as they say... | And you didn't come all this way to talk about that, did you? Let's get down to business.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Well, more haste, less speed, as they{nl}say...{wait}{clear}{nl}And you didn't come all this way to talk{nl}about that, did you? Let's get down to{nl}business.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_045",
@@ -754,7 +840,9 @@
      "va": "0x800decf2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Y-yes...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Y-yes...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_046",
@@ -777,7 +865,9 @@
      "va": "0x800ded1f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"All that remains is to break the seal. | How dare he act on his own... that Dilandau.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"All that remains is to break the seal.{wait}{clear}{nl}How dare he act on his own... that{nl}Dilandau.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_047",
@@ -800,7 +890,9 @@
      "va": "0x800ded80",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ha ha haaa! We've got the power spot. | Now I'll do as I please. Just you wait, Van!!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303032}\"Ha ha haaa! We've got the power spot.{wait}{clear}{nl}{voice:30303033}Now I'll do as I please. Just you wait,{nl}Van!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_048",
@@ -823,7 +915,9 @@
      "va": "0x800dee21",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"So this is an Ispano-made guymelef!! | Ah! All cut up like this! You samurai, honestly...! | Let's see, now... Oho.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"So this is an Ispano-made guymelef!!{wait}{clear}{nl}Ah! All cut up like this! You samurai,{nl}honestly...!{wait}{clear}{nl}Let's see, now... Oho.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_049",
@@ -840,7 +934,9 @@
      "va": "0x800deed0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"So that's Dryden-san?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"So that's Dryden-san?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_050",
@@ -863,7 +959,9 @@
      "va": "0x800def0b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Yes...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_051",
@@ -886,7 +984,9 @@
      "va": "0x800def34",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Looks like the old stories are true.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Looks like the old stories are true.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_052",
@@ -909,7 +1009,9 @@
      "va": "0x800def7f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Huh?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Huh?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_053",
@@ -932,7 +1034,9 @@
      "va": "0x800defa4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What do you mean, Dryden-dono?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What do you mean, Dryden-dono?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_054",
@@ -955,7 +1059,9 @@
      "va": "0x800defeb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hah, spare me the '-dono.' Dryden is fine.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hah, spare me the '-dono.' Dryden is{nl}fine.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_055",
@@ -978,7 +1084,9 @@
      "va": "0x800df042",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Enough with the teasing, if you please!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Enough with the teasing, if you please!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_056",
@@ -1001,7 +1109,9 @@
      "va": "0x800df08b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The ancient texts say... | An Ispano guymelef will possess and kill its pilot!!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The ancient texts say...{wait}{clear}{nl}An Ispano guymelef will possess and kill{nl}its pilot!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_057",
@@ -1024,7 +1134,9 @@
      "va": "0x800df0f8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Its pilot...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Its pilot...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_058",
@@ -1041,7 +1153,9 @@
      "va": "0x800df125",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Possess and kill...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Possess and kill...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_059",
@@ -1058,7 +1172,9 @@
      "va": "0x800df152",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What does that mean?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What does that mean?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_060",
@@ -1075,7 +1191,9 @@
      "va": "0x800df181",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The Ispano are a clan who received the wisdom of Atlantis. | The guymelefs they build choose their masters through a blood pact. | Until that master dies. At times the guymelef itself becomes the master and fights. | When the guymelef falls wounded, its master falls too...\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The Ispano are a clan who received the{nl}wisdom of Atlantis.{wait}{clear}{nl}The guymelefs they build choose their{nl}masters through a blood pact.{wait}{clear}{nl}Until that master dies. At times the{nl}guymelef itself becomes the master and{nl}fights.{wait}{clear}{nl}When the guymelef falls wounded, its{nl}master falls too...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_061",
@@ -1092,7 +1210,9 @@
      "va": "0x800df2a2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's my fault... I did this to Van.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"It's my fault... I did this to Van.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_062",
@@ -1109,7 +1229,9 @@
      "va": "0x800df2eb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Hitomi...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_063",
@@ -1126,7 +1248,9 @@
      "va": "0x800df316",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You just need to fix the guymelef!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"You just need to fix the guymelef!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_064",
@@ -1143,7 +1267,9 @@
      "va": "0x800df35b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Repairs on this scale are beyond us...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Repairs on this scale are beyond us...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_065",
@@ -1160,7 +1286,9 @@
      "va": "0x800df3a4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"There's a way, for an Ispano-made guymelef.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"There's a way, for an Ispano-made{nl}guymelef.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_066",
@@ -1177,7 +1305,9 @@
      "va": "0x800df3f7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What did you do?!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What did you do?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_067",
@@ -1194,7 +1324,9 @@
      "va": "0x800df424",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I called them!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"I called them!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_068",
@@ -1211,7 +1343,9 @@
      "va": "0x800df457",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Who?!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Who?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_069",
@@ -1228,7 +1362,9 @@
      "va": "0x800df480",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The Ispano clan, the ones who built Escaflowne!!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The Ispano clan, the ones who built{nl}Escaflowne!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_070",
@@ -1245,7 +1381,9 @@
      "va": "0x800df4d7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well, well, the famous Ispano workshop ship. | Little lady, if they can fix Escaflowne, your dragon god may recover too.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Well, well, the famous Ispano workshop{nl}ship.{wait}{clear}{nl}Little lady, if they can fix Escaflowne,{nl}your dragon god may recover too.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_071",
@@ -1262,7 +1400,9 @@
      "va": "0x800df570",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Really?!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Really?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_072",
@@ -1279,7 +1419,9 @@
      "va": "0x800df59f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yeah!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Yeah!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_073",
@@ -1296,7 +1438,9 @@
      "va": "0x800df5ca",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van will get better!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van will get better!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_074",
@@ -1313,7 +1457,9 @@
      "va": "0x800df5f7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Oooh, Fanelia! Oh, Escaflowne!\"",
+   "en": "{clear}{nameon}{color3}26Ispano Chief Engineer{expr:3134}{nameoff}{color2}{nl}\"Oooh, Fanelia! Oh, Escaflowne!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_075",
@@ -1330,7 +1476,9 @@
      "va": "0x800df652",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Is it going to be all right?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Is it going to be all right?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_076",
@@ -1347,7 +1495,9 @@
      "va": "0x800df685",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"They've confirmed it's Escaflowne.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"They've confirmed it's Escaflowne.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_077",
@@ -1364,7 +1514,9 @@
      "va": "0x800df6ca",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Fifty million.\"",
+   "en": "{clear}{nameon}{color3}26Ispano Chief Engineer{expr:3134}{nameoff}{color2}{nl}\"Fifty million.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_078",
@@ -1381,7 +1533,9 @@
      "va": "0x800df6fd",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Fifty million?!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Fifty million?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_079",
@@ -1398,7 +1552,9 @@
      "va": "0x800df728",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Escaflowne repair cost.\"",
+   "en": "{clear}{nameon}{color3}26Ispano Chief Engineer{expr:3134}{nameoff}{color2}{nl}\"Escaflowne repair cost.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_080",
@@ -1415,7 +1571,9 @@
      "va": "0x800df76b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That's 2,000 years of our pay...\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"That's 2,000 years of our pay...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_081",
@@ -1432,7 +1590,9 @@
      "va": "0x800df7a8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No can pay, we go home.\"",
+   "en": "{clear}{nameon}{color3}26Ispano Chief Engineer{expr:3134}{nameoff}{color2}{nl}\"No can pay, we go home.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_082",
@@ -1449,7 +1609,9 @@
      "va": "0x800df7ed",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ngh...!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Ngh...!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_083",
@@ -1466,7 +1628,9 @@
      "va": "0x800df814",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen-san...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Allen-san...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_084",
@@ -1483,7 +1647,9 @@
      "va": "0x800df843",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I'll pay! | I'll give you the whole fleet. How's that? | It's worth no less than eighty million.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"I'll pay!{wait}{clear}{nl}I'll give you the whole fleet. How's that?{wait}{clear}{nl}It's worth no less than eighty million.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_085",
@@ -1500,7 +1666,9 @@
      "va": "0x800df8cc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Dryden, we could never repay such a huge amount...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Dryden, we could never repay such a{nl}huge amount...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_086",
@@ -1517,7 +1685,9 @@
      "va": "0x800df927",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hah, royalty shouldn't talk so cheap! | Me, I just happen to like that king, is all.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hah, royalty shouldn't talk so cheap!{wait}{clear}{nl}Me, I just happen to like that king, is{nl}all.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_087",
@@ -1534,7 +1704,9 @@
      "va": "0x800df9a8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Uuuh... Waaaah...! Gyaaaah!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Uuuh... Waaaah...! Gyaaaah!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_088",
@@ -1551,7 +1723,9 @@
      "va": "0x800df9f3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van!! Hold on!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Van!! Hold on!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_089",
@@ -1568,7 +1742,9 @@
      "va": "0x800dfa32",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Raaaagh!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Raaaagh!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_090",
@@ -1585,7 +1761,9 @@
      "va": "0x800dfa5d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"He's feeling it, Escaflowne's pain. This one's the real deal.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"He's feeling it, Escaflowne's pain. This{nl}one's the real deal.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_091",
@@ -1602,7 +1780,9 @@
      "va": "0x800dfabe",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Dryden-san!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Dryden-san!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_092",
@@ -1619,7 +1799,9 @@
      "va": "0x800dfaf1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's okay. | Once Escaflowne's repairs are done, the king's wounds will heal too. If he can stand this pain, that is.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"It's okay.{wait}{clear}{nl}Once Escaflowne's repairs are done, the{nl}king's wounds will heal too. If he can{nl}stand this pain, that is.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_093",
@@ -1636,7 +1818,9 @@
      "va": "0x800dfb7a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Raaaaagh.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Raaaaagh.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_094",
@@ -1653,7 +1837,9 @@
      "va": "0x800dfbab",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama... Van-sama's going to die.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-sama... Van-sama's going to die.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_095",
@@ -1670,7 +1856,9 @@
      "va": "0x800dfbf4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Merle, pull yourself together. | It's okay. He's not... he's not going to go down from this.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Merle, pull yourself together.{wait}{clear}{nl}It's okay. He's not... he's not going to go{nl}down from this.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_096",
@@ -1687,7 +1875,9 @@
      "va": "0x800dfc5b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Raagh!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Raagh!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_097",
@@ -1704,7 +1894,9 @@
      "va": "0x800dfc84",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's okay... I know Van will make it. Right, Merle?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"It's okay... I know Van will make it.{nl}Right, Merle?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_098",
@@ -1721,7 +1913,9 @@
      "va": "0x800dfcd3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Raaaaaaagh!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Raaaaaaagh!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_099",
@@ -1738,7 +1932,9 @@
      "va": "0x800dfd06",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"So this is the power of Atlantis...!!\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"So this is the power of Atlantis...!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_100",
@@ -1755,7 +1951,9 @@
      "va": "0x800dfd49",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ohh... my dream... the heartbeat of my ideal future...\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Ohh... my dream... the heartbeat of my{nl}ideal future...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_101",
@@ -1772,7 +1970,9 @@
      "va": "0x800dfda0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"H-he's healed.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"H-he's healed.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_102",
@@ -1789,7 +1989,9 @@
      "va": "0x800dfdd1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Not a scratch left on him.\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Not a scratch left on him.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_103",
@@ -1806,7 +2008,9 @@
      "va": "0x800dfe02",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-samaaa!! | I'm so glad, I'm really so glad. Waaah...\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-samaaa!!{wait}{clear}{nl}I'm so glad, I'm really so glad. Waaah...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_104",
@@ -1823,7 +2027,9 @@
      "va": "0x800dfe5d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Merle, sorry I worried you.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Merle, sorry I worried you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_105",
@@ -1840,7 +2046,9 @@
      "va": "0x800dfe94",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I sure didn't think he'd really heal.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"I sure didn't think he'd really heal.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_106",
@@ -1857,7 +2065,9 @@
      "va": "0x800dfed3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_107",
@@ -1874,7 +2084,9 @@
      "va": "0x800dfefa",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Whoa, there...\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Whoa, there...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_108",
@@ -1891,7 +2103,9 @@
      "va": "0x800dff29",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's all thanks to you. Thank you. | Allen, you've saved me again.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"It's all thanks to you. Thank you.{wait}{clear}{nl}Allen, you've saved me again.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_109",
@@ -1908,7 +2122,9 @@
      "va": "0x800dff90",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"If you want to thank anyone, thank Dryden and Hitomi.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"If you want to thank anyone, thank{nl}Dryden and Hitomi.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_110",
@@ -1925,7 +2141,9 @@
      "va": "0x800dffdb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_111",
@@ -1942,7 +2160,9 @@
      "va": "0x800e0000",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Nah, it's all thanks to this little lady.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Nah, it's all thanks to this little lady.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_112",
@@ -1959,7 +2179,9 @@
      "va": "0x800e004f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hitomi...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_113",
@@ -1976,7 +2198,9 @@
      "va": "0x800e007a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van, be careful with Escaflowne. | No, I think you shouldn't get in it anymore. | If Escaflowne gets hurt, the same thing will happen again. | If... if Escaflowne gets destroyed, you'll...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van, be careful with Escaflowne.{wait}{clear}{nl}No, I think you shouldn't get in it{nl}anymore.{wait}{clear}{nl}If Escaflowne gets hurt, the same thing{nl}will happen again.{wait}{clear}{nl}If... if Escaflowne gets destroyed,{nl}you'll...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_114",
@@ -1993,7 +2217,9 @@
      "va": "0x800e0167",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I won't let Escaflowne get hurt!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I won't let Escaflowne get hurt!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_115",
@@ -2010,7 +2236,9 @@
      "va": "0x800e01b6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_116",
@@ -2027,7 +2255,9 @@
      "va": "0x800e01e1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Warriors, coming? Ispano no get involved. | You, get out...\"",
+   "en": "{clear}{nameon}{color3}26Ispano Chief Engineer{expr:3134}{nameoff}{color2}{nl}\"Warriors, coming? Ispano no get{nl}involved.{wait}{clear}{nl}You, get out...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_117",
@@ -2044,7 +2274,9 @@
      "va": "0x800e0252",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Zaibach...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Zaibach...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_118",
@@ -2061,7 +2293,9 @@
      "va": "0x800e0283",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Damn it, they're after us already...\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Damn it, they're after us already...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_119",
@@ -2078,7 +2312,9 @@
      "va": "0x800e02bc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Van.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_120",
@@ -2095,7 +2331,9 @@
      "va": "0x800e02e5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Let's go, Allen.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Let's go, Allen.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_121",
@@ -2112,7 +2350,9 @@
      "va": "0x800e0316",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Blood pact... | Pact uses dragon god blood. Ispano no guarantee.\"",
+   "en": "{clear}{nameon}{color3}26Ispano Chief Engineer{expr:3134}{nameoff}{color2}{nl}\"Blood pact...{wait}{clear}{nl}Pact uses dragon god blood. Ispano no{nl}guarantee.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_122",
@@ -2129,7 +2369,9 @@
      "va": "0x800e0385",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hmm...!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hmm...!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_123",
@@ -2146,7 +2388,9 @@
      "va": "0x800e03aa",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi. # Talk to her # Don't talk to her",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}Hitomi.{nl}　　{mark1}{color4}1){color2} Talk to her{nl}　　{mark2}{color4}2){color2} Don't talk to her{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo04_124",
@@ -2163,7 +2407,9 @@
      "va": "0x800e040d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi, # Sorry I worried you. # I'm all right. # I won't let Escaflowne get hurt.",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}Hitomi,{nl}　　{mark1}{color4}1){color2} Sorry I worried you.{nl}　　{mark2}{color4}2){color2} I'm all right.{nl}　　{mark3}{color4}3){color2} I won't let Escaflowne get hurt.{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo04_125",
@@ -2180,7 +2426,9 @@
      "va": "0x800e04be",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No, it's nothing.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"No, it's nothing.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_126",
@@ -2197,7 +2445,9 @@
      "va": "0x800e04ef",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Be careful, Van.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Be careful, Van.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_127",
@@ -2214,7 +2464,9 @@
      "va": "0x800e0524",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_128",
@@ -2231,7 +2483,9 @@
      "va": "0x800e054d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I think you shouldn't get in Escaflowne.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I think you shouldn't get in Escaflowne.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_129",
@@ -2248,7 +2502,9 @@
      "va": "0x800e059c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Merle. # Talk to her # Don't talk to her",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}Merle.{nl}　　{mark1}{color4}1){color2} Talk to her{nl}　　{mark2}{color4}2){color2} Don't talk to her{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo04_130",
@@ -2265,7 +2521,9 @@
      "va": "0x800e05ff",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Merle, # I have to fight in Escaflowne. # Sorry I worried you. # I'm all right, really.",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}Merle,{nl}　　{mark1}{color4}1){color2} I have to fight in Escaflowne.{nl}　　{mark2}{color4}2){color2} Sorry I worried you.{nl}　　{mark3}{color4}3){color2} I'm all right, really.{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo04_131",
@@ -2282,7 +2540,9 @@
      "va": "0x800e06c2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No, it's nothing.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"No, it's nothing.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_132",
@@ -2299,7 +2559,9 @@
      "va": "0x800e06f3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Please don't get in Escaflowne anymore.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Please don't get in Escaflowne{nl}anymore.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_133",
@@ -2316,7 +2578,9 @@
      "va": "0x800e0742",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama...\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-sama...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_134",
@@ -2333,7 +2597,9 @@
      "va": "0x800e076d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Please don't get in Escaflowne anymore, Van-sama.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Please don't get in Escaflowne{nl}anymore, Van-sama.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_135",
@@ -2350,7 +2616,9 @@
      "va": "0x800e07c6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"He sure picked a conspicuous place to run to.\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"He sure picked a conspicuous place to{nl}run to.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_136",
@@ -2367,7 +2635,9 @@
      "va": "0x800e0813",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Don't we have any guymelefs?!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Don't we have any guymelefs?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_137",
@@ -2384,7 +2654,9 @@
      "va": "0x800e084e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Don't ask the impossible! This is a merchant ship!! | I've got some for show, that's about it!!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Don't ask the impossible! This is a{nl}merchant ship!!{wait}{clear}{nl}I've got some for show, that's about it!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_138",
@@ -2401,7 +2673,9 @@
      "va": "0x800e08bd",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ngh! With these, against Dilandau!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Ngh! With these, against Dilandau!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_139",
@@ -2418,7 +2692,9 @@
      "va": "0x800e0902",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Stop it, Van!! | Leave the fighting to Allen-san and the others!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Stop it, Van!!{wait}{clear}{nl}Leave the fighting to Allen-san and the{nl}others!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_140",
@@ -2435,7 +2711,9 @@
      "va": "0x800e095d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"These melefs can't beat him!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"These melefs can't beat him!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_141",
@@ -2452,7 +2730,9 @@
      "va": "0x800e09a6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Listen to Hitomi!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Listen to Hitomi!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_142",
@@ -2469,7 +2749,9 @@
      "va": "0x800e09e1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The Ispano people told you too, didn't they? | They can't guarantee it! You mustn't get in Escaflowne! I said you mustn't!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The Ispano people told you too, didn't{nl}they?{wait}{clear}{nl}They can't guarantee it! You mustn't get{nl}in Escaflowne! I said you mustn't!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_143",
@@ -2486,7 +2768,9 @@
      "va": "0x800e0a78",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-sama!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_144",
@@ -2503,7 +2787,9 @@
      "va": "0x800e0aa3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I can master Escaflowne!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I can master Escaflowne!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_145",
@@ -2520,7 +2806,9 @@
      "va": "0x800e0aee",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_146",
@@ -2537,7 +2825,9 @@
      "va": "0x800e0b17",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You lot! | Today we finish this dragon hunt!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303030}\"You lot!{wait}{clear}{nl}{voice:30303031}Today we finish this dragon hunt!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_147",
@@ -2554,7 +2844,9 @@
      "va": "0x800e0b7c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Guimel, roger!! | Gatti, roger!!\"",
+   "en": "{clear}{nameon}{color3}26Dragonslayer{nameoff}{color2}{nl}\"Guimel, roger!!{wait}{nl}Gatti, roger!!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo04_148",
@@ -2571,7 +2863,9 @@
      "va": "0x800e0bc3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I'll settle this with my own hands! | Escaflowne, give me power!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303034}\"I'll settle this with my own hands!{wait}{clear}{nl}{voice:30303035}Escaflowne, give me power!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_149",
@@ -2588,7 +2882,9 @@
      "va": "0x800e0c28",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Attack!!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Attack!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_150",
@@ -2605,7 +2901,9 @@
      "va": "0x800e0c5b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"For the King of Freid!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303036}\"For the King of Freid!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_151",
@@ -2622,7 +2920,9 @@
      "va": "0x800e0c92",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"For Balgus!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303037}\"For Balgus!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_152",
@@ -2639,7 +2939,9 @@
      "va": "0x800e0cc7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Wh-what's going on? What IS that...?!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303038}\"Wh-what's going on? What IS that...?!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_153",
@@ -2656,7 +2958,9 @@
      "va": "0x800e0d26",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Gatti! Chesta!! | Dalet!!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303039}\"Gatti! Chesta!!{pageend}{nl}{voice:30303130}Dalet!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_154",
@@ -2673,7 +2977,9 @@
      "va": "0x800e0d83",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama's winning!!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303131}\"Van-sama's winning!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_155",
@@ -2690,7 +2996,9 @@
      "va": "0x800e0dc0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No! Something's wrong with Escaflowne!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303132}\"No! Something's wrong with{nl}Escaflowne!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_156",
@@ -2707,7 +3015,9 @@
      "va": "0x800e0e0b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Stay back!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303133}\"Stay back!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_157",
@@ -2724,7 +3034,9 @@
      "va": "0x800e0e40",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"For Fanelia!! | Prepare yourself!! Raaaagh!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303134}\"For Fanelia!!{wait}{clear}{nl}{voice:30303135}Prepare yourself!! Raaaagh!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_158",
@@ -2741,7 +3053,9 @@
      "va": "0x800e0ea9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama, what's happened to you?!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-sama, what's happened to you?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_159",
@@ -2758,7 +3072,9 @@
      "va": "0x800e0eea",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What is the meaning of that?!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What is the meaning of that?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_160",
@@ -2775,7 +3091,9 @@
      "va": "0x800e0f25",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Beats me!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Beats me!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_161",
@@ -2792,7 +3110,9 @@
      "va": "0x800e0f5c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_162",
@@ -2809,7 +3129,9 @@
      "va": "0x800e0f85",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van! Van, open your eyes! | Van! Van, snap out of it!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van! Van, open your eyes!{wait}{clear}{nl}Van! Van, snap out of it!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_163",
@@ -2826,7 +3148,9 @@
      "va": "0x800e0fee",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Stop it. | You won't be able to come back again! Like with the shapeshifter.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Stop it.{wait}{clear}{nl}You won't be able to come back again!{nl}Like with the shapeshifter.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_164",
@@ -2843,7 +3167,9 @@
      "va": "0x800e105b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"If I leave him, Van... Van will be gone!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"If I leave him, Van... Van will be gone!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_165",
@@ -2860,7 +3186,9 @@
      "va": "0x800e10b2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Nooo!!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Nooo!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_166",
@@ -2877,7 +3205,9 @@
      "va": "0x800e10df",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Hitomi...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_167",
@@ -2894,7 +3224,9 @@
      "va": "0x800e110a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Huh?! Where is this?\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Huh?! Where is this?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_168",
@@ -2911,7 +3243,9 @@
      "va": "0x800e1145",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-samaaa!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-samaaa!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_169",
@@ -2928,7 +3262,9 @@
      "va": "0x800e1174",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I can hear Merle's voice...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I can hear Merle's voice...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_170",
@@ -2945,7 +3281,9 @@
      "va": "0x800e11ab",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Vaaan! Wait, Van!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Vaaan! Wait, Van!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_171",
@@ -2962,7 +3300,9 @@
      "va": "0x800e11ea",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi?!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hitomi?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_172",
@@ -2979,7 +3319,9 @@
      "va": "0x800e1215",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van, let's go back. Everyone's waiting.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van, let's go back. Everyone's waiting.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_173",
@@ -2996,7 +3338,9 @@
      "va": "0x800e125a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-samaaa!!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-samaaa!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_174",
@@ -3013,7 +3357,9 @@
      "va": "0x800e1289",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Come baaack! Van-samaaa!!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Come baaack! Van-samaaa!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_175",
@@ -3030,7 +3376,9 @@
      "va": "0x800e12ce",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's been three minutes since their hearts stopped.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"It's been three minutes since their{nl}hearts stopped.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_176",
@@ -3047,7 +3395,9 @@
      "va": "0x800e1321",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"We have to revive Hitomi, at least...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"We have to revive Hitomi, at least...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_177",
@@ -3070,7 +3420,9 @@
      "va": "0x800e1364",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Nooo!! Hey, you stupid woman! | Don't give up!! Bring Van-sama back, you hear?! | Hey, are you listening?! Nnngh! Nnngh! Nnngh! Van-samaaa!!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303136}\"Nooo!! Hey, you stupid woman!{wait}{clear}{nl}{voice:30303137}Don't give up!! Bring Van-sama back, you{nl}hear?!{wait}{clear}{nl}{voice:30303138}Hey, are you listening?! Nnngh! Nnngh!{nl}Nnngh! Van-samaaa!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_178",
@@ -3087,7 +3439,9 @@
      "va": "0x800e143b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi, # Where is this? # Thank you. # We have to find a way back from here.",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}Hitomi,{nl}　{mark1}{color4}1){color2} Where is this?{nl}　{mark2}{color4}2){color2} Thank you.{nl}　{mark3}{color4}3){color2} We have to find a way back from{nl}　　here.{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo04_179",
@@ -3104,7 +3458,9 @@
      "va": "0x800e14cc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"This isn't heaven... is it?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"This isn't heaven... is it?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_180",
@@ -3121,7 +3477,9 @@
      "va": "0x800e1501",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van, let's find a way back to everyone.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van, let's find a way back to everyone.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_181",
@@ -3138,7 +3496,9 @@
      "va": "0x800e154a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yeah. | We have to look for a way back from here...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Yeah.{wait}{clear}{nl}We have to look for a way back from{nl}here...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_182",
@@ -3155,7 +3515,9 @@
      "va": "0x800e15a5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama! Come baaack!!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-sama! Come baaack!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_183",
@@ -3172,7 +3534,9 @@
      "va": "0x800e15e4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Merle! Waaaah!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Merle! Waaaah!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_184",
@@ -3189,7 +3553,9 @@
      "va": "0x800e161f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Merle?! Aaaaah!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Merle?! Aaaaah!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_185",
@@ -3206,7 +3572,9 @@
      "va": "0x800e165c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-sama.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_186",
@@ -3223,7 +3591,9 @@
      "va": "0x800e1687",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ow!! Merle...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Ow!! Merle...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_187",
@@ -3240,7 +3610,9 @@
      "va": "0x800e16c0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Mewww...\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Mewww...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_188",
@@ -3257,7 +3629,9 @@
      "va": "0x800e16eb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's all thanks to you.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"It's all thanks to you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_189",
@@ -3274,7 +3648,9 @@
      "va": "0x800e171e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Mew?\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Mew?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_190",
@@ -3291,7 +3667,9 @@
      "va": "0x800e1743",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Thank you.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Thank you.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_191",
@@ -3308,7 +3686,9 @@
      "va": "0x800e176e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Merle, # Thank you. # We made it back safe. # I made it back because of your voice, Merle.",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}Merle,{nl}　{mark1}{color4}1){color2} Thank you.{nl}　{mark2}{color4}2){color2} We made it back safe.{nl}　{mark3}{color4}3){color2} I made it back because of your voice,{nl}　　Merle.{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo04_192",
@@ -3325,7 +3705,9 @@
      "va": "0x800e1815",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-sama.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_193",
@@ -3342,7 +3724,9 @@
      "va": "0x800e183e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I'm so glad you're safe, Van-sama.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"I'm so glad you're safe, Van-sama.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_194",
@@ -3359,7 +3743,9 @@
      "va": "0x800e187b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama, I'm so glad you're safe.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-sama, I'm so glad you're safe.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_195",
@@ -3376,7 +3762,9 @@
      "va": "0x800e18b4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"With the conquest of the Duchy of Freid, the power spot is ours. | And yet...\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"With the conquest of the Duchy of{nl}Freid, the power spot is ours.{wait}{clear}{nl}And yet...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_196",
@@ -3393,7 +3781,9 @@
      "va": "0x800e1923",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You mean the dragon.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"You mean the dragon.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_197",
@@ -3410,7 +3800,9 @@
      "va": "0x800e195c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Indeed... the dragon's fate lies wrapped in mist, and only grows hazier.\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Indeed... the dragon's fate lies wrapped{nl}in mist, and only grows hazier.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_198",
@@ -3427,7 +3819,9 @@
      "va": "0x800e19bb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Leave it to me. | I have already made my next move.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Leave it to me.{wait}{clear}{nl}I have already made my next move.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_199",
@@ -3444,7 +3838,9 @@
      "va": "0x800e1a14",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Capture the dragon...\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Capture the dragon...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_200",
@@ -3461,7 +3857,9 @@
      "va": "0x800e1a4b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Why? Why does my sword hand shake?!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Why? Why does my sword hand shake?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_201",
@@ -3478,7 +3876,9 @@
      "va": "0x800e1a92",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_202",
@@ -3495,7 +3895,9 @@
      "va": "0x800e1abd",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Oh... Allen-san.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Oh... Allen-san.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_203",
@@ -3512,7 +3914,9 @@
      "va": "0x800e1af0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"There's no need to worry about Van.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"There's no need to worry about Van.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_204",
@@ -3529,7 +3933,9 @@
      "va": "0x800e1b37",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"But he's been like that ever since...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"But he's been like that ever since...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_205",
@@ -3546,7 +3952,9 @@
      "va": "0x800e1b82",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's a trial every swordsman must overcome. | The sword is a way of polishing oneself.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"It's a trial every swordsman must{nl}overcome.{wait}{clear}{nl}The sword is a way of polishing oneself.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_206",
@@ -3569,7 +3977,9 @@
      "va": "0x800e1bef",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You're so admirable, Allen-san, and strong, and kind... I... | I... don't really know about swords, and he won't listen to anything I say, but... | But I know Van will listen to you... because you're wonderful, and everyone looks up to you... | And I... I like you, Allen-san... | Oh! Please take care of Van.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You're so admirable, Allen-san, and{nl}strong, and kind... I...{wait}{clear}{nl}I... don't really know about swords, and{nl}he won't listen to anything I say, but...{wait}{clear}{nl}But I know Van will listen to you...{nl}because you're wonderful, and everyone{nl}looks up to you...{wait}{clear}{nl}And I... I like you, Allen-san...{wait}{clear}{nl}Oh! Please take care of Van.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_207",
@@ -3592,7 +4002,9 @@
      "va": "0x800e1d6e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Like me, is it... At times, you seem like a demon to me. | Hitomi...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Like me, is it... At times, you seem like a{nl}demon to me.{wait}{clear}{nl}Hitomi...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_208",
@@ -3609,7 +4021,9 @@
      "va": "0x800e1dc9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi's strange power, from the Mystic Moon... | Van, with Draconian blood... Escaflowne... | And Zaibach, after the power spot... One strange thing after another. | Ahh, it itches. Something's bugging me.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hitomi's strange power, from the{nl}Mystic Moon...{wait}{clear}{nl}Van, with Draconian blood...{nl}Escaflowne...{wait}{clear}{nl}And Zaibach, after the power spot...{nl}One strange thing after another.{wait}{clear}{nl}Ahh, it itches. Something's bugging me.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_209",
@@ -3626,7 +4040,9 @@
      "va": "0x800e1eca",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Um... Dryden, thank you.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Um... Dryden, thank you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_210",
@@ -3643,7 +4059,9 @@
      "va": "0x800e1f0d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"For what? | Skip the pleasantries. Bowing your head doesn't cost a thing.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"For what?{wait}{clear}{nl}Skip the pleasantries. Bowing your head{nl}doesn't cost a thing.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_211",
@@ -3660,7 +4078,9 @@
      "va": "0x800e1f78",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What a way to put it... | When I'd changed my mind about you, and meant to apologize for my rudeness!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What a way to put it...{wait}{clear}{nl}When I'd changed my mind about you,{nl}and meant to apologize for my{nl}rudeness!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_212",
@@ -3677,7 +4097,9 @@
      "va": "0x800e1fef",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ha ha ha... There it is, that's the real you. | Me, of course I've got ulterior motives. I'll do anything to win your attention.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Ha ha ha... There it is, that's the real{nl}you.{wait}{clear}{nl}Me, of course I've got ulterior motives.{nl}I'll do anything to win your attention.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_213",
@@ -3694,7 +4116,9 @@
      "va": "0x800e2092",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"But... I...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"But... I...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_214",
@@ -3711,7 +4135,9 @@
      "va": "0x800e20c7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen, huh? | I don't mind. See, what I want, I get.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Allen, huh?{wait}{clear}{nl}I don't mind. See, what I want, I get.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_215",
@@ -3728,7 +4154,9 @@
      "va": "0x800e2130",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"...............\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"...............\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_216",
@@ -3745,7 +4173,9 @@
      "va": "0x800e215f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well, never mind. | Not to say it's a trade, but there's one thing I need from you.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Well, never mind.{wait}{clear}{nl}Not to say it's a trade, but there's one{nl}thing I need from you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_217",
@@ -3762,7 +4192,9 @@
      "va": "0x800e21d4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_218",
@@ -3779,7 +4211,9 @@
      "va": "0x800e21fb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My father's last journal, left in his study.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"My father's last journal, left in his{nl}study.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_219",
@@ -3796,7 +4230,9 @@
      "va": "0x800e2244",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ooh, that's the stuff.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Ooh, that's the stuff.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_220",
@@ -3813,7 +4249,9 @@
      "va": "0x800e2279",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What good will that do?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What good will that do?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_221",
@@ -3830,7 +4268,9 @@
      "va": "0x800e22bc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Plenty of good. | This may solve all the mysteries that surround you people.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Plenty of good.{wait}{clear}{nl}This may solve all the mysteries that{nl}surround you people.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_222",
@@ -3847,7 +4287,9 @@
      "va": "0x800e232f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Mysteries?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Mysteries?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_223",
@@ -3870,7 +4312,9 @@
      "va": "0x800e2354",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Atlantis.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}{voice:30303236}\"Atlantis.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_224",
@@ -3893,7 +4337,9 @@
      "va": "0x800e2391",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Atlantis?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}{voice:30303237}\"Atlantis?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_225",
@@ -3916,7 +4362,9 @@
      "va": "0x800e23ca",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My old man was always telling me how your father | chased after the secret treasures of Atlantis. | Oh, I'll be borrowing this for a while.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}{voice:30303238}\"My old man was always telling me how{nl}your father{wait}{clear}{nl}{voice:30303239}chased after the secret treasures of{nl}Atlantis.{wait}{clear}{nl}{voice:30303330}Oh, I'll be borrowing this for a while.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_226",
@@ -3933,7 +4381,9 @@
      "va": "0x800e2493",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What a fine reputation I have. | Even in this remote corner of the world, he finds a way to shame me.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What a fine reputation I have.{wait}{clear}{nl}Even in this remote corner of the world,{nl}he finds a way to shame me.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_227",
@@ -3950,7 +4400,9 @@
      "va": "0x800e2500",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Compared to the cost of repairing Escaflowne, which he covered, | it's a small price.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Compared to the cost of repairing{nl}Escaflowne, which he covered,{wait}{clear}{nl}it's a small price.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_228",
@@ -3967,7 +4419,9 @@
      "va": "0x800e2575",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You're right... Certainly...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"You're right... Certainly...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_229",
@@ -3984,7 +4438,9 @@
      "va": "0x800e25b0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ohhh, why did I have to say that right then... | Now I just look like some shallow girl.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Ohhh, why did I have to say that right{nl}then...{wait}{clear}{nl}Now I just look like some shallow girl.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_230",
@@ -4001,7 +4457,9 @@
      "va": "0x800e2627",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Hitomi.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_231",
@@ -4018,7 +4476,9 @@
      "va": "0x800e2652",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Oh, Millerna-san.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Oh, Millerna-san.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_232",
@@ -4035,7 +4495,9 @@
      "va": "0x800e2687",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Um... there's something I'd like your advice on, about a friend of mine.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Um... there's something I'd like your{nl}advice on, about a friend of mine.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_233",
@@ -4052,7 +4514,9 @@
      "va": "0x800e26e4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Sure!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Sure!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_234",
@@ -4069,7 +4533,9 @@
      "va": "0x800e270b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"This girl has a man she's seeing, | but it seems he's actually a playboy, and it's come out that he even has a secret child...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"This girl has a man she's seeing,{wait}{clear}{nl}but it seems he's actually a playboy, and{nl}it's come out that he even has a secret{nl}child...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_235",
@@ -4086,7 +4552,9 @@
      "va": "0x800e27a6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ugh! What a creep!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Ugh! What a creep!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_236",
@@ -4103,7 +4571,9 @@
      "va": "0x800e27db",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hear me out.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Hear me out.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_237",
@@ -4120,7 +4590,9 @@
      "va": "0x800e2810",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"All right...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"All right...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_238",
@@ -4137,7 +4609,9 @@
      "va": "0x800e2839",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"But there's another man who... | rich, and kind, apparently... says he loves her.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"But there's another man who...{wait}{clear}{nl}rich, and kind, apparently... says he{nl}loves her.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_239",
@@ -4154,7 +4628,9 @@
      "va": "0x800e28ca",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Uh-huh. And?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Uh-huh. And?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_240",
@@ -4171,7 +4647,9 @@
      "va": "0x800e28ff",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What do you think she should do?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What do you think she should do?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_241",
@@ -4188,7 +4666,9 @@
      "va": "0x800e2942",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What should she do... | If I found out a guy was hiding a kid while we were going out, I'd never speak to him again...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What should she do...{wait}{clear}{nl}If I found out a guy was hiding a kid{nl}while we were going out, I'd never speak{nl}to him again...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_242",
@@ -4205,7 +4685,9 @@
      "va": "0x800e29cf",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Why not?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Why not?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_243",
@@ -4222,7 +4704,9 @@
      "va": "0x800e29fc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Because that's a disgrace to all men. | It's like, any woman will do.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Because that's a disgrace to all men.{wait}{clear}{nl}It's like, any woman will do.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_244",
@@ -4239,7 +4723,9 @@
      "va": "0x800e2a6d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"But... he's a wonderful man.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"But... he's a wonderful man.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_245",
@@ -4256,7 +4742,9 @@
      "va": "0x800e2aa8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"And the other one isn't?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"And the other one isn't?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_246",
@@ -4273,7 +4761,9 @@
      "va": "0x800e2aef",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"His looks are passable, I suppose...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"His looks are passable, I suppose...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_247",
@@ -4290,7 +4780,9 @@
      "va": "0x800e2b26",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"And on top of that he's got love and money, right? | Then it's obvious which one.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"And on top of that he's got love and{nl}money, right?{wait}{clear}{nl}Then it's obvious which one.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_248",
@@ -4307,7 +4799,9 @@
      "va": "0x800e2b97",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"How calculating!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"How calculating!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_249",
@@ -4324,7 +4818,9 @@
      "va": "0x800e2bc2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Then how about getting even, and seeing both of them?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Then how about getting even, and{nl}seeing both of them?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_250",
@@ -4341,7 +4837,9 @@
      "va": "0x800e2c0f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"How indecent!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"How indecent!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_251",
@@ -4358,7 +4856,9 @@
      "va": "0x800e2c40",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Then how about giving up on both? The tragic heroine.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Then how about giving up on both? The{nl}tragic heroine.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_252",
@@ -4375,7 +4875,9 @@
      "va": "0x800e2c91",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"But! It's none of my affair, but... | what about all the feelings she's built up until now?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"But! It's none of my affair, but...{wait}{clear}{nl}what about all the feelings she's built up{nl}until now?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_253",
@@ -4392,7 +4894,9 @@
      "va": "0x800e2d0a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"So in the end, that's the real issue, isn't it? | When all's said and done, following your own feelings is the most natural thing.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"So in the end, that's the real issue,{nl}isn't it?{wait}{clear}{nl}When all's said and done, following your{nl}own feelings is the most natural thing.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_254",
@@ -4409,7 +4913,9 @@
      "va": "0x800e2d95",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your own feelings...?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Your own feelings...?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_255",
@@ -4426,7 +4932,9 @@
      "va": "0x800e2dc8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Want me to do a reading?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Want me to do a reading?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_256",
@@ -4443,7 +4951,9 @@
      "va": "0x800e2df9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_257",
@@ -4460,7 +4970,9 @@
      "va": "0x800e2e22",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"To see which one's right for her. My readings for other people are pretty accurate.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"To see which one's right for her. My{nl}readings for other people are pretty{wait}{clear}{nl}accurate.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_258",
@@ -4477,7 +4989,9 @@
      "va": "0x800e2e7f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Are you an idiot?! She's so obvious! | Some fortune-teller! Before you go reading other people, why don't you get your own feelings straight!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Are you an idiot?! She's so obvious!{wait}{clear}{nl}Some fortune-teller! Before you go{nl}reading other people, why don't you get{nl}your own feelings straight!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_259",
@@ -4494,7 +5008,9 @@
      "va": "0x800e2f20",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My feelings...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"My feelings...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_260",
@@ -4511,7 +5027,9 @@
      "va": "0x800e2f53",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Which do you like, Van-sama or Allen-san?!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Which do you like, Van-sama or{nl}Allen-san?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_261",
@@ -4528,7 +5046,9 @@
      "va": "0x800e2fa6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Huh...?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Huh...?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_262",
@@ -4545,7 +5065,9 @@
      "va": "0x800e2fcf",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well, which is it?!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Well, which is it?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_263",
@@ -4562,7 +5084,9 @@
      "va": "0x800e3000",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The one I like is... Allen-san... | I'm just worried about Van, that's all...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The one I like is... Allen-san...{wait}{clear}{nl}I'm just worried about Van, that's all...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_264",
@@ -4579,7 +5103,9 @@
      "va": "0x800e3077",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Then stay away from Van-sama!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Then stay away from Van-sama!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_265",
@@ -4596,7 +5122,9 @@
      "va": "0x800e30c4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen is out of your reach.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Allen is out of your reach.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_266",
@@ -4613,7 +5141,9 @@
      "va": "0x800e3107",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I don't know...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I don't know...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_267",
@@ -4636,7 +5166,9 @@
      "va": "0x800e3134",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Sis, that's him, right?\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"Sis, that's him, right?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_268",
@@ -4659,7 +5191,9 @@
      "va": "0x800e3165",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Fancy running into him here!\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"Fancy running into him here!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_269",
@@ -4682,7 +5216,9 @@
      "va": "0x800e31a2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Let's go say hello, as a little gift for Folken-sama.\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"Let's go say hello, as a little gift for{nl}Folken-sama.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_270",
@@ -4705,7 +5241,9 @@
      "va": "0x800e31f9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Sounds good... | The one who saved us from the depths of misfortune...\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"Sounds good...{wait}{clear}{nl}The one who saved us from the depths{nl}of misfortune...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_271",
@@ -4728,7 +5266,9 @@
      "va": "0x800e3260",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Our benefactor.\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"Our benefactor.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_272",
@@ -4751,7 +5291,9 @@
      "va": "0x800e328d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A gift for our beloved Folken-sama!!\"",
+   "en": "{clear}{nameon}{color3}26Naria & Eriya{expr:3136}{nameoff}{color2}{nl}\"A gift for our beloved Folken-sama!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_273",
@@ -4768,7 +5310,9 @@
      "va": "0x800e32de",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Aaaaah...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Aaaaah...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_274",
@@ -4785,7 +5329,9 @@
      "va": "0x800e330d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What's with him?\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"What's with him?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_275",
@@ -4802,7 +5348,9 @@
      "va": "0x800e333c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"He's scared stiff. | And Dilandau lost to a guy like this... | No wonder Folken-sama is grieving.\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"He's scared stiff.{wait}{clear}{nl}And Dilandau lost to a guy like this...{wait}{clear}{nl}No wonder Folken-sama is grieving.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_276",
@@ -4819,7 +5367,9 @@
      "va": "0x800e33bf",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Time to finish this.\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"Time to finish this.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_277",
@@ -4836,7 +5386,9 @@
      "va": "0x800e33fc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hmph!\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"Hmph!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_278",
@@ -4853,7 +5405,9 @@
      "va": "0x800e341f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I kinda lost the mood.\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"I kinda lost the mood.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_279",
@@ -4870,7 +5424,9 @@
      "va": "0x800e3460",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Same here. A cat, of all things. | We'll let you off with this much today.\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"Same here. A cat, of all things.{wait}{clear}{nl}We'll let you off with this much today.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_280",
@@ -4887,7 +5443,9 @@
      "va": "0x800e34c1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Merle!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Merle!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_281",
@@ -4904,7 +5462,9 @@
      "va": "0x800e34ea",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-samaaa!! Thank goodness... | I'm so glad you're safe, Van-sama.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-samaaa!! Thank goodness...{wait}{clear}{nl}I'm so glad you're safe, Van-sama.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_282",
@@ -4921,7 +5481,9 @@
      "va": "0x800e354f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Merle.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Merle.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_283",
@@ -4938,7 +5500,9 @@
      "va": "0x800e3576",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi. # Talk to her # Don't talk to her",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}Hitomi.{nl}　　{mark1}{color4}1){color2} Talk to her{nl}　　{mark2}{color4}2){color2} Don't talk to her{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo04_284",
@@ -4955,7 +5519,9 @@
      "va": "0x800e35d9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi, # Someday I'll send you back to the Mystic Moon, I swear. # Sorry I worried you. # I'm all right.",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}Hitomi,{nl}　　{mark1}{color4}1){color2} Someday I'll send you back to the{nl}　　　Mystic Moon, I swear.{nl}　　{mark2}{color4}2){color2} Sorry I worried you.{nl}　　{mark3}{color4}3){color2} I'm all right.{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo04_285",
@@ -4972,7 +5538,9 @@
      "va": "0x800e3688",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No, it's nothing.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"No, it's nothing.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_286",
@@ -4989,7 +5557,9 @@
      "va": "0x800e36b9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Thank you, Van.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Thank you, Van.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_287",
@@ -5006,7 +5576,9 @@
      "va": "0x800e36f0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Don't push yourself too hard, Van.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Don't push yourself too hard, Van.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_288",
@@ -5023,7 +5595,9 @@
      "va": "0x800e372b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You still can't fight in Escaflowne.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You still can't fight in Escaflowne.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_289",
@@ -5040,7 +5614,9 @@
      "va": "0x800e377a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Merle. # Talk to her # Don't talk to her",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}Merle.{nl}　　{mark1}{color4}1){color2} Talk to her{nl}　　{mark2}{color4}2){color2} Don't talk to her{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo04_290",
@@ -5057,7 +5633,9 @@
      "va": "0x800e37dd",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Merle, # Sorry I worried you. # I'm all right, really. # Thanks, Merle.",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}Merle,{nl}　　{mark1}{color4}1){color2} Sorry I worried you.{nl}　　{mark2}{color4}2){color2} I'm all right, really.{nl}　　{mark3}{color4}3){color2} Thanks, Merle.{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo04_291",
@@ -5074,7 +5652,9 @@
      "va": "0x800e3874",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No, it's nothing.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"No, it's nothing.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_292",
@@ -5091,7 +5671,9 @@
      "va": "0x800e38a5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I'm so glad you're safe, Van-sama.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"I'm so glad you're safe, Van-sama.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_293",
@@ -5108,7 +5690,9 @@
      "va": "0x800e38e2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You still can't fight in Escaflowne.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"You still can't fight in Escaflowne.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_294",
@@ -5125,7 +5709,9 @@
      "va": "0x800e392f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Please don't push yourself too hard, Van-sama.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Please don't push yourself too hard,{nl}Van-sama.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_295",
@@ -5142,7 +5728,9 @@
      "va": "0x800e397a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Bwa ha ha ha... I've got it, I've got it! | Just as I thought, the answer to every mystery lies in the Mystic Valley!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Bwa ha ha ha... I've got it, I've got it!{wait}{clear}{nl}Just as I thought, the answer to every{nl}mystery lies in the Mystic Valley!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_296",
@@ -5159,7 +5747,9 @@
      "va": "0x800e39fb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The Mystic Valley...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The Mystic Valley...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_297",
@@ -5176,7 +5766,9 @@
      "va": "0x800e3a26",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The legendary place where they say the Draconians live.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"The legendary place where they say{nl}the Draconians live.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_298",
@@ -5193,7 +5785,9 @@
      "va": "0x800e3a6d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Oh...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Oh...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_299",
@@ -5210,7 +5804,9 @@
      "va": "0x800e3a92",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes. All training...\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"Yes. All training...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_300",
@@ -5227,7 +5823,9 @@
      "va": "0x800e3ac9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"has been completed without a hitch.\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"has been completed without a hitch.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_301",
@@ -5244,7 +5842,9 @@
      "va": "0x800e3b10",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I see. Good girls...\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"I see. Good girls...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_302",
@@ -5261,7 +5861,9 @@
      "va": "0x800e3b51",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The sorcerers who came with us...?\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"The sorcerers who came with us...?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_303",
@@ -5278,7 +5880,9 @@
      "va": "0x800e3b9e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"They came to bring back Dilandau. | The sorcerers dislike me. I don't know the details.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"They came to bring back Dilandau.{wait}{clear}{nl}The sorcerers dislike me. I don't know{nl}the details.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_304",
@@ -5295,7 +5899,9 @@
      "va": "0x800e3c2d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That's because they're jealous of you, Folken-sama.\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"That's because they're jealous of you,{nl}Folken-sama.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_305",
@@ -5312,7 +5918,9 @@
      "va": "0x800e3c7a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I don't like the sorcerers either.\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"I don't like the sorcerers either.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_306",
@@ -5329,7 +5937,9 @@
      "va": "0x800e3cb1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Now, now. You mustn't say such things about the sorcerers... | I was once a sorcerer myself.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Now, now. You mustn't say such things{nl}about the sorcerers...{wait}{clear}{nl}I was once a sorcerer myself.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_307",
@@ -5346,7 +5956,9 @@
      "va": "0x800e3d1e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Our apologies.\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"Our apologies.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_308",
@@ -5363,7 +5975,9 @@
      "va": "0x800e3d51",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Folken-sama... We were so lonely.\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"Folken-sama... We were so lonely.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_309",
@@ -5380,7 +5994,9 @@
      "va": "0x800e3d9e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The thought of seeing you again kept us going...\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"The thought of seeing you again kept{nl}us going...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_310",
@@ -5397,7 +6013,9 @@
      "va": "0x800e3ddf",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I am sorry, both of you. | Lend me, Folken, your strength.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"I am sorry, both of you.{wait}{clear}{nl}Lend me, Folken, your strength.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_311",
@@ -5414,7 +6032,9 @@
      "va": "0x800e3e4e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"We understand. Our bodies...\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"We understand. Our bodies...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_312",
@@ -5431,7 +6051,9 @@
      "va": "0x800e3e8f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"And our hearts... are for you, Folken-sama...\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"And our hearts... are for you,{nl}Folken-sama...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_313",
@@ -5448,7 +6070,9 @@
      "va": "0x800e3ece",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well, that was a pain, that was a pain!! | Took me a while to notice it was written in Mystic Moon letters. | So... we're all going to the Mystic Valley together.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Well, that was a pain, that was a pain!!{wait}{clear}{nl}Took me a while to notice it was written{nl}in Mystic Moon letters.{wait}{clear}{nl}So... we're all going to the Mystic Valley{nl}together.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_314",
@@ -5465,7 +6089,9 @@
      "va": "0x800e3f91",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Why must I go?!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Why must I go?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_315",
@@ -5482,7 +6108,9 @@
      "va": "0x800e3fce",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You've got to come, don't you? | Your old man threw away his house, his fortune and his family to find that valley. It's famous in Asturia. | Even I know about it.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"You've got to come, don't you?{wait}{clear}{nl}Your old man threw away his house, his{nl}fortune and his family to find that{nl}valley. It's famous in Asturia.{wait}{clear}{nl}Even I know about it.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_316",
@@ -5499,7 +6127,9 @@
      "va": "0x800e4093",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen-san's father.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Allen-san's father.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_317",
@@ -5516,7 +6146,9 @@
      "va": "0x800e40ca",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I want to go too. | The Mystic Valley is the home of the Draconians. I want to see the source of the blood that runs in me. | And the mystery of how that blood ties in with Escaflowne...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I want to go too.{wait}{clear}{nl}The Mystic Valley is the home of the{nl}Draconians. I want to see the source of{nl}the blood that runs in me.{wait}{clear}{nl}And the mystery of how that blood ties{nl}in with Escaflowne...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_318",
@@ -5533,7 +6165,9 @@
      "va": "0x800e417b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Honestly... | What twist of fate brought you all together, | all these people tied to the Mystic Valley.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Honestly...{wait}{clear}{nl}What twist of fate brought you all{nl}together,{wait}{clear}{nl}all these people tied to the Mystic{nl}Valley.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_319",
@@ -5550,7 +6184,9 @@
      "va": "0x800e41fa",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The year of Crystal Northeast, the twelfth Green Moon. | I set out for the untrodden dark continent of Asgard! Yes, the Mystic Valley must be there. | There I will find what I have long sought, 'the power that gives rise to miracles.' | Yes... the power of Atlantis.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The year of Crystal Northeast, the{nl}twelfth Green Moon.{wait}{clear}{nl}I set out for the untrodden dark{nl}continent of Asgard! Yes, the Mystic{nl}Valley must be there.{wait}{clear}{nl}There I will find what I have long sought,{nl}'the power that gives rise to miracles.'{wait}{clear}{nl}Yes... the power of Atlantis.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_320",
@@ -5567,7 +6203,9 @@
      "va": "0x800e4303",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"How many days has it been? | In my fading consciousness, that girl's voice comes back to me. And then... | The Asgard continent appeared before me. The gods guide me. This is fate!! | That encounter in my youth, guided by strange fate... and then the sudden parting... | To confirm my feelings for that girl, carved so deep into my heart. | The Mystic Valley holds everything. Everything I seek...\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"How many days has it been?{wait}{clear}{nl}In my fading consciousness, that girl's{nl}voice comes back to me. And then...{wait}{clear}{nl}The Asgard continent appeared before{nl}me. The gods guide me. This is fate!!{wait}{clear}{nl}That encounter in my youth, guided by{nl}strange fate... and then the sudden{nl}parting...{wait}{clear}{nl}To confirm my feelings for that girl,{nl}carved so deep into my heart.{wait}{clear}{nl}The Mystic Valley holds everything.{nl}Everything I seek...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_321",
@@ -5584,7 +6222,9 @@
      "va": "0x800e448c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Don't make me laugh!! | He threw away his house and family! And what he was searching for was a woman!! | Pathetic...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Don't make me laugh!!{wait}{clear}{nl}He threw away his house and family! And{nl}what he was searching for was a{nl}woman!!{wait}{clear}{nl}Pathetic...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_322",
@@ -5601,7 +6241,9 @@
      "va": "0x800e4509",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Sounds like a fun guy, your old man.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Sounds like a fun guy, your old man.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_323",
@@ -5618,7 +6260,9 @@
      "va": "0x800e454a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_324",
@@ -5635,7 +6279,9 @@
      "va": "0x800e456f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Beats my old man, who's only good at counting money. | I like a life like that.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Beats my old man, who's only good at{nl}counting money.{wait}{clear}{nl}I like a life like that.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_325",
@@ -5652,7 +6298,9 @@
      "va": "0x800e45e2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Can't see a thing. | It's nothing but ocean, way out there, Sergeant!!\"",
+   "en": "{clear}{nameon}{color3}24Reeden{nameoff}{color2}{nl}\"Can't see a thing.{wait}{clear}{nl}It's nothing but ocean, way out there,{nl}Sergeant!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_326",
@@ -5669,7 +6317,9 @@
      "va": "0x800e4649",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Keep going straight. | Dryden says it's this way.\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Keep going straight.{wait}{clear}{nl}Dryden says it's this way.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_327",
@@ -5686,7 +6336,9 @@
      "va": "0x800e46a8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Can you trust that guy?\"",
+   "en": "{clear}{nameon}{color3}24Reeden{nameoff}{color2}{nl}\"Can you trust that guy?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_328",
@@ -5703,7 +6355,9 @@
      "va": "0x800e46df",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The captain says it's fine! | So that's what we do!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"The captain says it's fine!{wait}{clear}{nl}So that's what we do!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_329",
@@ -5720,7 +6374,9 @@
      "va": "0x800e472c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The sixteenth Blue Moon. Driving blizzards and steep rocks bar my way. | As if testing those who would challenge the mystery... But there...\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The sixteenth Blue Moon. Driving{nl}blizzards and steep rocks bar my way.{wait}{clear}{nl}As if testing those who would challenge{nl}the mystery... But there...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_330",
@@ -5737,7 +6393,9 @@
      "va": "0x800e47c1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I met an old man. | There was another who believed in the Mystic Valley, and traveled in search of it. | I asked his name, and the old man answered, Isaac. His story was very interesting. | He too was searching for the Mystic Valley. Seeking the mystery of Atlantis... | And to my surprise, Isaac says that he came from the Mystic Moon, just like that girl.\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"I met an old man.{wait}{clear}{nl}There was another who believed in the{nl}Mystic Valley, and traveled in search of{nl}it.{wait}{clear}{nl}I asked his name, and the old man{nl}answered, Isaac. His story was very{nl}interesting.{wait}{clear}{nl}He too was searching for the Mystic{nl}Valley. Seeking the mystery of Atlantis...{wait}{clear}{nl}And to my surprise, Isaac says that he{nl}came from the Mystic Moon, just like{nl}that girl.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_331",
@@ -5754,7 +6412,9 @@
      "va": "0x800e4932",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The Mystic Moon?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The Mystic Moon?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_332",
@@ -5771,7 +6431,9 @@
      "va": "0x800e495b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Same as you.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Same as you.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_333",
@@ -5788,7 +6450,9 @@
      "va": "0x800e498e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I can't believe it... That you are from the Mystic Moon... | I set out on this journey to cut all my ties. | But looking into your eyes, even that seems empty. | Would you forgive me...\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"I can't believe it... That you are from{nl}the Mystic Moon...{wait}{clear}{nl}I set out on this journey to cut all my{nl}ties.{wait}{clear}{nl}But looking into your eyes, even that{nl}seems empty.{wait}{clear}{nl}Would you forgive me...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_334",
@@ -5811,7 +6475,9 @@
      "va": "0x800e4a7f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Asgard Island... They are heading for the Mystic Valley.\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303338}\"Asgard Island... They are heading for{nl}the Mystic Valley.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_335",
@@ -5834,7 +6500,9 @@
      "va": "0x800e4ade",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The Mystic Valley...?! That legendary...\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303339}\"The Mystic Valley...?! That legendary...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_336",
@@ -5857,7 +6525,9 @@
      "va": "0x800e4b27",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes... The people of Atlantis. The home of the Draconians. | So they have realized...\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303430}\"Yes... The people of Atlantis. The home{nl}of the Draconians.{wait}{clear}{nl}{voice:30303431}So they have realized...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_337",
@@ -5874,7 +6544,9 @@
      "va": "0x800e4b9c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The third White Moon. | At last Isaac and I reached the wasteland of dense fog. | The Mystic Valley must lie beyond. But...\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"The third White Moon.{wait}{clear}{nl}At last Isaac and I reached the{nl}wasteland of dense fog.{wait}{clear}{nl}The Mystic Valley must lie beyond. But...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_338",
@@ -5891,7 +6563,9 @@
      "va": "0x800e4c2d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Before I knew it, Isaac was gone. | Did we get separated in this deep fog... | Or... No, for now, I need think only of reaching the Mystic Valley. | Reach it, and the mystery of Atlantis will be solved! | Then I will surely meet that girl again. | And if I meet her, I...\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"Before I knew it, Isaac was gone.{wait}{clear}{nl}Did we get separated in this deep fog...{wait}{clear}{nl}Or... No, for now, I need think only of{nl}reaching the Mystic Valley.{wait}{clear}{nl}Reach it, and the mystery of Atlantis{nl}will be solved!{wait}{clear}{nl}Then I will surely meet that girl again.{wait}{clear}{nl}And if I meet her, I...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_339",
@@ -5908,7 +6582,9 @@
      "va": "0x800e4d8c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I can't bear this.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I can't bear this.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_340",
@@ -5925,7 +6601,9 @@
      "va": "0x800e4db9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen-san.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Allen-san.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_341",
@@ -5942,7 +6620,9 @@
      "va": "0x800e4de6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Running away? | Funny, a Knight Caeli like you getting shaken by something like this.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Running away?{wait}{clear}{nl}Funny, a Knight Caeli like you getting{nl}shaken by something like this.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_342",
@@ -5959,7 +6639,9 @@
      "va": "0x800e4e59",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I don't think I'll ever be able to like you.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I don't think I'll ever be able to like{nl}you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_343",
@@ -5976,7 +6658,9 @@
      "va": "0x800e4ea0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hah, that's a relief. I'm not interested either.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hah, that's a relief. I'm not interested{nl}either.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_344",
@@ -5993,7 +6677,9 @@
      "va": "0x800e4ef9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Dryden-san!! I think that was awful.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Dryden-san!! I think that was awful.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_345",
@@ -6010,7 +6696,9 @@
      "va": "0x800e4f42",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Hitomi...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_346",
@@ -6027,7 +6715,9 @@
      "va": "0x800e4f6f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Oh, great. Another cute girl hates me.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Oh, great. Another cute girl hates me.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_347",
@@ -6044,7 +6734,9 @@
      "va": "0x800e4fc2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen-san.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Allen-san.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_348",
@@ -6061,7 +6753,9 @@
      "va": "0x800e4fef",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Hitomi...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_349",
@@ -6078,7 +6772,9 @@
      "va": "0x800e501c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Yes.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_350",
@@ -6095,7 +6791,9 @@
      "va": "0x800e5043",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I've shown you something shameful.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I've shown you something shameful.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_351",
@@ -6112,7 +6810,9 @@
      "va": "0x800e5084",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That's not true. I...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"That's not true. I...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_352",
@@ -6129,7 +6829,9 @@
      "va": "0x800e50c5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I just can't forgive him, my father. | The man who abandoned his family...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I just can't forgive him, my father.{wait}{clear}{nl}The man who abandoned his family...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_353",
@@ -6146,7 +6848,9 @@
      "va": "0x800e5134",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I don't think that's it. | Because you kept your father's journal, Allen-san. | You could have thrown it away, but you didn't. | Somewhere inside, you must have wanted to know about him... | You're a kind person, Allen-san. You couldn't hate someone that much. | If your heart had really gone cold, then I... | none of us would have come to like you. | You want to forgive your father, don't you?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I don't think that's it.{wait}{clear}{nl}Because you kept your father's journal,{nl}Allen-san.{wait}{clear}{nl}You could have thrown it away, but you{nl}didn't.{wait}{clear}{nl}Somewhere inside, you must have{nl}wanted to know about him...{wait}{clear}{nl}You're a kind person, Allen-san. You{nl}couldn't hate someone that much.{wait}{clear}{nl}If your heart had really gone cold, then{nl}I...{wait}{clear}{nl}none of us would have come to like you.{wait}{clear}{nl}You want to forgive your father, don't{nl}you?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_354",
@@ -6163,7 +6867,9 @@
      "va": "0x800e5339",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Perhaps I was afraid.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Perhaps I was afraid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_355",
@@ -6180,7 +6886,9 @@
      "va": "0x800e537a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_356",
@@ -6197,7 +6905,9 @@
      "va": "0x800e53a1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Afraid to learn the fact that my father abandoned us. | Perhaps, somewhere, I didn't want to admit it.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Afraid to learn the fact that my father{nl}abandoned us.{wait}{clear}{nl}Perhaps, somewhere, I didn't want to{nl}admit it.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_357",
@@ -6214,7 +6924,9 @@
      "va": "0x800e5426",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen-san...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Allen-san...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_358",
@@ -6231,7 +6943,9 @@
      "va": "0x800e5455",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Would you forgive me, Hitomi...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Would you forgive me, Hitomi...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_359",
@@ -6248,7 +6962,9 @@
      "va": "0x800e54a0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hang in there!! It can't be much farther!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Hang in there!! It can't be much{nl}farther!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_360",
@@ -6265,7 +6981,9 @@
      "va": "0x800e54e3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Wh-whoa.\"",
+   "en": "{clear}{nameon}{color3}24Reeden{nameoff}{color2}{nl}\"Wh-whoa.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_361",
@@ -6282,7 +7000,9 @@
      "va": "0x800e550c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A break in the clouds. Up ahead, the Mystic Valley!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"A break in the clouds. Up ahead, the{nl}Mystic Valley!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_362",
@@ -6299,7 +7019,9 @@
      "va": "0x800e5551",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"So this is... the Mystic Valley?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"So this is... the Mystic Valley?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_363",
@@ -6316,7 +7038,9 @@
      "va": "0x800e5584",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"There's nothing here.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"There's nothing here.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_364",
@@ -6333,7 +7057,9 @@
      "va": "0x800e55bb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No way... That can't be... Ah!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"No way... That can't be... Ah!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_365",
@@ -6350,7 +7076,9 @@
      "va": "0x800e5602",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What's wrong?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What's wrong?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_366",
@@ -6367,7 +7095,9 @@
      "va": "0x800e562f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A page has been torn out!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"A page has been torn out!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_367",
@@ -6384,7 +7114,9 @@
      "va": "0x800e566e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Sergeant!!\"",
+   "en": "{clear}{nameon}{color3}24Reeden{nameoff}{color2}{nl}\"Sergeant!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_368",
@@ -6401,7 +7133,9 @@
      "va": "0x800e5695",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A floating fortress!\"",
+   "en": "{clear}{nameon}{color3}24Reeden{nameoff}{color2}{nl}\"A floating fortress!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_369",
@@ -6418,7 +7152,9 @@
      "va": "0x800e56be",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"What!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_370",
@@ -6435,7 +7171,9 @@
      "va": "0x800e56df",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Asturian high-speed vessel confirmed.\"",
+   "en": "{clear}{nameon}{color3}04Zaibach Soldier{nameoff}{color2}{nl}\"Asturian high-speed vessel confirmed.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_371",
@@ -6458,7 +7196,9 @@
      "va": "0x800e5718",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Good... Naria, Eriya, can you hear me?\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303432}\"Good... Naria, Eriya, can you hear me?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_372",
@@ -6481,7 +7221,9 @@
      "va": "0x800e576b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes, Folken-sama. Ready when you are.\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}{voice:30303433}\"Yes, Folken-sama. Ready when you{nl}are.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_373",
@@ -6504,7 +7246,9 @@
      "va": "0x800e57bc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"We will definitely bring back your little brother!\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}{voice:30303434}\"We will definitely bring back your little{nl}brother!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_374",
@@ -6527,7 +7271,9 @@
      "va": "0x800e57f7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I'm counting on you!\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303435}\"I'm counting on you!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_375",
@@ -6544,7 +7290,9 @@
      "va": "0x800e582a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Not good! They've got above us.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Not good! They've got above us.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_376",
@@ -6561,7 +7309,9 @@
      "va": "0x800e5865",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"They mean to drive us to the ground!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"They mean to drive us to the ground!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_377",
@@ -6584,7 +7334,9 @@
      "va": "0x800e5898",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Grandma, show me the Mystic Valley. Show it to everyone. | Please, Grandma.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303436}\"Grandma, show me the Mystic Valley.{nl}Show it to everyone.{wait}{clear}{nl}{voice:30303437}Please, Grandma.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_378",
@@ -6607,7 +7359,9 @@
      "va": "0x800e5919",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"After coming this far... I want to see the Mystic Valley!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}{voice:30303438}\"After coming this far... I want to see{nl}the Mystic Valley!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_379",
@@ -6630,7 +7384,9 @@
      "va": "0x800e5974",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Mother!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303439}\"Mother!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_380",
@@ -6653,7 +7409,9 @@
      "va": "0x800e59a1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I can't die here! | In the Mystic Valley, Father, I will settle things with you!!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}{voice:30303531}\"I can't die here!{wait}{clear}{nl}{voice:30303532}In the Mystic Valley, Father, I will settle{nl}things with you!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_381",
@@ -6676,7 +7434,9 @@
      "va": "0x800e5a1e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van. What do you expect to see in the Mystic Valley?\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303533}\"Van. What do you expect to see in the{nl}Mystic Valley?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_382",
@@ -6693,7 +7453,9 @@
      "va": "0x800e5a73",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"So this is...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"So this is...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_383",
@@ -6710,7 +7472,9 @@
      "va": "0x800e5a9e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The Mystic Valley...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"The Mystic Valley...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_384",
@@ -6727,7 +7491,9 @@
      "va": "0x800e5ac9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes, the forgotten city of Atlantis.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Yes, the forgotten city of Atlantis.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_385",
@@ -6744,7 +7510,9 @@
      "va": "0x800e5b16",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"This is the Mystic Valley!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"This is the Mystic Valley!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_386",
@@ -6761,7 +7529,9 @@
      "va": "0x800e5b49",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi?!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Hitomi?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_387",
@@ -6778,7 +7548,9 @@
      "va": "0x800e5b74",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Allen!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_388",
@@ -6795,7 +7567,9 @@
      "va": "0x800e5b9f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"V-Van-sama!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"V-Van-sama!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_389",
@@ -6812,7 +7586,9 @@
      "va": "0x800e5bce",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"C-Captain!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"C-Captain!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_390",
@@ -6829,7 +7605,9 @@
      "va": "0x800e5bf5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama disappeared!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-sama disappeared!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_391",
@@ -6846,7 +7624,9 @@
      "va": "0x800e5c32",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What's going on?\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"What's going on?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_392",
@@ -6863,7 +7643,9 @@
      "va": "0x800e5c61",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"There! Hitomi-chan's down below!\"",
+   "en": "{clear}{nameon}{color3}24Reeden{nameoff}{color2}{nl}\"There! Hitomi-chan's down below!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_393",
@@ -6880,7 +7662,9 @@
      "va": "0x800e5c9e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Why?! What IS this place?!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Why?! What IS this place?!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_394",
@@ -6897,7 +7681,9 @@
      "va": "0x800e5ceb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"This...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"This...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_395",
@@ -6914,7 +7700,9 @@
      "va": "0x800e5d14",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomiii!!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Hitomiii!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_396",
@@ -6931,7 +7719,9 @@
      "va": "0x800e5d43",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Where's Van-sama? Where is he?!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Where's Van-sama? Where is he?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_397",
@@ -6948,7 +7738,9 @@
      "va": "0x800e5d88",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"This is... a stone monument in Atlantean script. | No doubt about it. These are the ruins of Atlantis. The Mystic Valley.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"This is... a stone monument in Atlantean{nl}script.{wait}{clear}{nl}No doubt about it. These are the ruins{nl}of Atlantis. The Mystic Valley.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_398",
@@ -6965,7 +7757,9 @@
      "va": "0x800e5e11",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Can you tell what it says?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Can you tell what it says?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_399",
@@ -6982,7 +7776,9 @@
      "va": "0x800e5e4e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Age... of the New Nebula... Thirteenth... Moon.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Age... of the New Nebula... Thirteenth...{nl}Moon.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_400",
@@ -6999,7 +7795,9 @@
      "va": "0x800e5e95",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You can read it?\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"You can read it?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_401",
@@ -7022,7 +7820,9 @@
      "va": "0x800e5ece",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"We are the descendants of Atlantis. | The people called Draconians, born in the city of Atlantis on the Mystic Moon.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"We are the descendants of Atlantis.{wait}{clear}{nl}The people called Draconians, born in the{nl}city of Atlantis on the Mystic Moon.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_402",
@@ -7045,7 +7845,9 @@
      "va": "0x800e5f59",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The M-Mystic Moon!! | Atlantis was a people of the Mystic Moon?!\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The M-Mystic Moon!!{wait}{clear}{nl}Atlantis was a people of the Mystic{nl}Moon?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_403",
@@ -7062,7 +7864,9 @@
      "va": "0x800e5fb2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Atlantis. | Its power was vast. It sought to surpass even the gods, and built a cursed machine. | That machine turned human will into power, and made omniscience and omnipotence possible. | They grew wings on their own backs and changed even their own forms. But... | Their distant will gave birth to a new star in the heavens, Gaea. It was the will of Atlantis. | With the earnest prayer that our foolish errors never be repeated. | Gaea... A beautiful star, embraced by the heavens, loved by the waters, nurtured by the earth.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Atlantis.{wait}{clear}{nl}Its power was vast. It sought to{nl}surpass even the gods, and built a{nl}cursed machine.{wait}{clear}{nl}That machine turned human will into{nl}power, and made omniscience and{nl}omnipotence possible.{wait}{clear}{nl}They grew wings on their own backs and{nl}changed even their own forms. But...{wait}{clear}{nl}Their distant will gave birth to a new{nl}star in the heavens, Gaea. It was the{nl}will of Atlantis.{wait}{clear}{nl}With the earnest prayer that our foolish{nl}errors never be repeated.{wait}{clear}{nl}Gaea... A beautiful star, embraced by{nl}the heavens, loved by the waters,{nl}nurtured by the earth.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_404",
@@ -7085,7 +7889,9 @@
      "va": "0x800e61ad",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The power of will created Gaea? | A machine that turns will into power... So that's the mystery of Atlantis?\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"The power of will created Gaea?{wait}{clear}{nl}A machine that turns will into power...{nl}So that's the mystery of Atlantis?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_405",
@@ -7102,7 +7908,9 @@
      "va": "0x800e623e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Why is this pendant here...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Why is this pendant here...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_406",
@@ -7119,7 +7927,9 @@
      "va": "0x800e627b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I entrusted it to her.\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"I entrusted it to her.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_407",
@@ -7136,7 +7946,9 @@
      "va": "0x800e62ae",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Who's there?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Who's there?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_408",
@@ -7153,7 +7965,9 @@
      "va": "0x800e62d3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Father.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Father.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_409",
@@ -7170,7 +7984,9 @@
      "va": "0x800e62f8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Balgus.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Balgus.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_410",
@@ -7187,7 +8003,9 @@
      "va": "0x800e6323",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama. | You must not turn away from your own fate. | The Draconians are the descendants of Atlantis. | To face this and fight, so that Gaea does not follow Atlantis's path, is your fate. | You must fight, together with Escaflowne.\"",
+   "en": "{clear}{nameon}{color3}01Balgus{nameoff}{color2}{nl}\"Van-sama.{wait}{clear}{nl}You must not turn away from your own{nl}fate.{wait}{clear}{nl}The Draconians are the descendants of{nl}Atlantis.{wait}{clear}{nl}To face this and fight, so that Gaea{nl}does not follow Atlantis's path, is your{nl}fate.{wait}{clear}{nl}You must fight, together with{nl}Escaflowne.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_411",
@@ -7204,7 +8022,9 @@
      "va": "0x800e6434",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No. | I don't want to hear any more. I don't want to fight!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"No.{wait}{clear}{nl}I don't want to hear any more. I don't{nl}want to fight!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_412",
@@ -7221,7 +8041,9 @@
      "va": "0x800e648f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Hitomi?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_413",
@@ -7238,7 +8060,9 @@
      "va": "0x800e64ba",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"They're right there! Van, and Allen-san.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"They're right there! Van, and Allen-san.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_414",
@@ -7255,7 +8079,9 @@
      "va": "0x800e6507",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What are you looking at?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What are you looking at?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_415",
@@ -7272,7 +8098,9 @@
      "va": "0x800e6540",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Father...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Father...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_416",
@@ -7289,7 +8117,9 @@
      "va": "0x800e6569",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen, you've come. My will seems to have reached you. | Now, where shall I begin?\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"Allen, you've come. My will seems to{nl}have reached you.{wait}{clear}{nl}Now, where shall I begin?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_417",
@@ -7306,7 +8136,9 @@
      "va": "0x800e65da",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What is there to talk about now?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What is there to talk about now?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_418",
@@ -7323,7 +8155,9 @@
      "va": "0x800e6619",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I hear you became a Knight Caeli. | Your mother must have been pleased. How is she, how is Encia?\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"I hear you became a Knight Caeli.{wait}{clear}{nl}Your mother must have been pleased.{nl}How is she, how is Encia?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_419",
@@ -7340,7 +8174,9 @@
      "va": "0x800e669a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Mother is dead. While you were off on your journey...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Mother is dead. While you were off on{nl}your journey...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_420",
@@ -7357,7 +8193,9 @@
      "va": "0x800e66eb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I see... Encia...\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"I see... Encia...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_421",
@@ -7374,7 +8212,9 @@
      "va": "0x800e672a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Why are you crying?!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Why are you crying?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_422",
@@ -7391,7 +8231,9 @@
      "va": "0x800e6759",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Anyone sheds tears when they lose someone they love...\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"Anyone sheds tears when they lose{nl}someone they love...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_423",
@@ -7408,7 +8250,9 @@
      "va": "0x800e67a8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That's a lie! | You never loved Mother!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"That's a lie!{wait}{clear}{nl}You never loved Mother!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_424",
@@ -7425,7 +8269,9 @@
      "va": "0x800e67f7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Stop... please stop...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Stop... please stop...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_425",
@@ -7442,7 +8288,9 @@
      "va": "0x800e6830",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Noooo!! Stop it!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Noooo!! Stop it!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_426",
@@ -7459,7 +8307,9 @@
      "va": "0x800e686b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_427",
@@ -7476,7 +8326,9 @@
      "va": "0x800e6894",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Are you all right? Hitomi.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Are you all right? Hitomi.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_428",
@@ -7493,7 +8345,9 @@
      "va": "0x800e68cb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi...\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Hitomi...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_429",
@@ -7510,7 +8364,9 @@
      "va": "0x800e68f6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"This is bad. | Things are starting to look ugly.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"This is bad.{wait}{clear}{nl}Things are starting to look ugly.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_430",
@@ -7527,7 +8383,9 @@
      "va": "0x800e6951",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"At this rate... | we won't be able to get out of here, will we?\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"At this rate...{wait}{clear}{nl}we won't be able to get out of here, will{nl}we?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_431",
@@ -7544,7 +8402,9 @@
      "va": "0x800e69b2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Nothing we can do. | This is a land between wills, created by the power of will...\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Nothing we can do.{wait}{clear}{nl}This is a land between wills, created by{nl}the power of will...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_432",
@@ -7561,7 +8421,9 @@
      "va": "0x800e6a21",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi, can't you do something?!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Hitomi, can't you do something?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_433",
@@ -7578,7 +8440,9 @@
      "va": "0x800e6a62",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Please. Van and Allen-san... | and all of us...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Please. Van and Allen-san...{wait}{clear}{nl}and all of us...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_434",
@@ -7595,7 +8459,9 @@
      "va": "0x800e6abd",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Stop this. | You must not use the power of will. Your will springs from anxiety... | That will is drawing your anxiety into reality.\"",
+   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"Stop this.{wait}{clear}{nl}You must not use the power of will. Your{nl}will springs from anxiety...{wait}{clear}{nl}That will is drawing your anxiety into{nl}reality.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_435",
@@ -7612,7 +8478,9 @@
      "va": "0x800e6b68",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My will... I am?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"My will... I am?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_436",
@@ -7629,7 +8497,9 @@
      "va": "0x800e6ba1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes. It is you who is making Van and the others suffer.\"",
+   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"Yes. It is you who is making Van and{nl}the others suffer.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_437",
@@ -7646,7 +8516,9 @@
      "va": "0x800e6bfa",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No...! I...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"No...! I...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_438",
@@ -7663,7 +8535,9 @@
      "va": "0x800e6c31",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your fortune-telling. | You think you're reading the future, but that isn't so.\"",
+   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"Your fortune-telling.{wait}{clear}{nl}You think you're reading the future, but{nl}that isn't so.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_439",
@@ -7680,7 +8554,9 @@
      "va": "0x800e6ca8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your anxious heart, amplified by fortune-telling, | has chosen sad endings from among the many possible futures. | Even now, your heart is full of anxiety.\"",
+   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"Your anxious heart, amplified by{nl}fortune-telling,{wait}{clear}{nl}has chosen sad endings from among the{nl}many possible futures.{wait}{clear}{nl}Even now, your heart is full of anxiety.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_440",
@@ -7697,7 +8573,9 @@
      "va": "0x800e6d6d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's my fault? | I'm pulling in a sad future... | My will...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"It's my fault?{wait}{clear}{nl}I'm pulling in a sad future...{wait}{clear}{nl}My will...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_441",
@@ -7714,7 +8592,9 @@
      "va": "0x800e6ddc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Because of me... Me...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Because of me... Me...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_442",
@@ -7731,7 +8611,9 @@
      "va": "0x800e6e1f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi. Believe in him... | Believe in the one you love.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi's Grandma{expr:3138}{nameoff}{color2}{nl}\"Hitomi. Believe in him...{wait}{clear}{nl}Believe in the one you love.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_443",
@@ -7748,7 +8630,9 @@
      "va": "0x800e6e92",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Grandma?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Grandma?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_444",
@@ -7765,7 +8649,9 @@
      "va": "0x800e6ebf",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"This is... Zaibach soldiers?!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"This is... Zaibach soldiers?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_445",
@@ -7782,7 +8668,9 @@
      "va": "0x800e6efe",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"They pursued me when I came out of the Mystic Valley. | After the mystery of Atlantis.\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"They pursued me when I came out of{nl}the Mystic Valley.{wait}{clear}{nl}After the mystery of Atlantis.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_446",
@@ -7799,7 +8687,9 @@
      "va": "0x800e6f71",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Atlantis.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Atlantis.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_447",
@@ -7816,7 +8706,9 @@
      "va": "0x800e6fa2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Dornkirk-sama. We have obtained the item.\"",
+   "en": "{clear}{nameon}{color3}04Zaibach Soldier{nameoff}{color2}{nl}\"Dornkirk-sama. We have obtained the{nl}item.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_448",
@@ -7833,7 +8725,9 @@
      "va": "0x800e6ff1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What a nuisance he was. | Hm?! This... the page... Curse him! | He abandoned his family and his life, and still he refuses to give up the secret of the Mystic Valley...\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"What a nuisance he was.{wait}{clear}{nl}Hm?! This... the page... Curse him!{wait}{clear}{nl}He abandoned his family and his life, and{nl}still he refuses to give up the secret of{nl}the Mystic Valley...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_449",
@@ -7850,7 +8744,9 @@
      "va": "0x800e70a2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Power of Atlantis... Power of will... | Once more... once more... to that girl.\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"Power of Atlantis... Power of will...{wait}{clear}{nl}Once more... once more... to that girl.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_450",
@@ -7867,7 +8763,9 @@
      "va": "0x800e7119",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You... why? | Why do you still look just as you did then... | I see. So that's the mystery of Atlantis, the power of will... My will back then... | wasn't mistaken. | I want you... to keep this. | Wishes come true. However far apart, across time, across space...\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"You... why?{wait}{clear}{nl}Why do you still look just as you did{nl}then...{wait}{clear}{nl}I see. So that's the mystery of Atlantis,{nl}the power of will... My will back then...{wait}{clear}{nl}wasn't mistaken.{wait}{clear}{nl}I want you... to keep this.{wait}{clear}{nl}Wishes come true. However far apart,{nl}across time, across space...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_451",
@@ -7884,7 +8782,9 @@
      "va": "0x800e7258",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Forgive me, Encia...\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"Forgive me, Encia...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_452",
@@ -7901,7 +8801,9 @@
      "va": "0x800e7291",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"For the sake of my house, I married, had a child, and tried to live by killing my own self. | People want to escape the one thread of fate. | But when I met that girl again, I understood. | I did love Encia. And you, Allen...\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"For the sake of my house, I married,{nl}had a child, and tried to live by killing my{wait}{clear}{nl}own self.{wait}{clear}{nl}People want to escape the one thread{nl}of fate.{wait}{clear}{nl}But when I met that girl again, I{nl}understood.{wait}{clear}{nl}I did love Encia. And you, Allen...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_453",
@@ -7918,7 +8820,9 @@
      "va": "0x800e7390",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Father...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Father...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_454",
@@ -7935,7 +8839,9 @@
      "va": "0x800e73b9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"How foolish people are. The power of Atlantis... | Human will... We don't even notice our own feelings. Encia... | Allen, be true to yourself. Cherish your will.\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"How foolish people are. The power of{nl}Atlantis...{wait}{clear}{nl}Human will... We don't even notice our{nl}own feelings. Encia...{wait}{clear}{nl}Allen, be true to yourself. Cherish your{nl}will.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_455",
@@ -7952,7 +8858,9 @@
      "va": "0x800e747c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Father!!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Father!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_456",
@@ -7969,7 +8877,9 @@
      "va": "0x800e74a3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Captain!! Glad you're safe...\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Captain!! Glad you're safe...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_457",
@@ -7986,7 +8896,9 @@
      "va": "0x800e74de",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Thank goodness. You made it back.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Thank goodness. You made it back.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_458",
@@ -8003,7 +8915,9 @@
      "va": "0x800e7521",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi?\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"Hitomi?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_459",
@@ -8020,7 +8934,9 @@
      "va": "0x800e7550",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Yes...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_460",
@@ -8037,7 +8953,9 @@
      "va": "0x800e7579",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi...\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Hitomi...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_461",
@@ -8060,7 +8978,9 @@
      "va": "0x800e75a2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"This looks kinda bad, doesn't it?\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}{voice:30303631}\"This looks kinda bad, doesn't it?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_462",
@@ -8083,7 +9003,9 @@
      "va": "0x800e75e1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It does. Want to give it a try?\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}{voice:30303632}\"It does. Want to give it a try?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_463",
@@ -8100,7 +9022,9 @@
      "va": "0x800e7624",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Naria's unit and Eriya's unit ascending. | Heading for the gate of Atlantis.\"",
+   "en": "{clear}{nameon}{color3}04Zaibach Soldier{nameoff}{color2}{nl}\"Naria's unit and Eriya's unit ascending.{wait}{clear}{nl}Heading for the gate of Atlantis.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_464",
@@ -8117,7 +9041,9 @@
      "va": "0x800e768b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's dangerous. Stop, both of you.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"It's dangerous. Stop, both of you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_465",
@@ -8140,7 +9066,9 @@
      "va": "0x800e76ce",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Don't worry. We have good fortune on our side!\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}{voice:30303633}\"Don't worry. We have good fortune on{nl}our side!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_466",
@@ -8163,7 +9091,9 @@
      "va": "0x800e7717",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"We will bring back your brother, without fail.\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}{voice:30303634}\"We will bring back your brother, without{nl}fail.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_467",
@@ -8180,7 +9110,9 @@
      "va": "0x800e7756",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I can hear it, the sounds of battle...\"",
+   "en": "{clear}{nameon}{color3}01Balgus{nameoff}{color2}{nl}\"I can hear it, the sounds of battle...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_468",
@@ -8197,7 +9129,9 @@
      "va": "0x800e778b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I don't want to fight anymore... I don't want to fight...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I don't want to fight anymore... I don't{nl}want to fight...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_469",
@@ -8214,7 +9148,9 @@
      "va": "0x800e77da",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Fight! | With those soiled hands of yours, cut through the sorrow of war! Van-sama!!\"",
+   "en": "{clear}{nameon}{color3}01Balgus{nameoff}{color2}{nl}\"Fight!{wait}{clear}{nl}With those soiled hands of yours, cut{nl}through the sorrow of war! Van-sama!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_470",
@@ -8231,7 +9167,9 @@
      "va": "0x800e7845",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"We did it!!\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"We did it!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_471",
@@ -8248,7 +9186,9 @@
      "va": "0x800e7872",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"We sure are lucky!\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"We sure are lucky!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_472",
@@ -8271,7 +9211,9 @@
      "va": "0x800e78a7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"So you're the ones who called me.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303635}\"So you're the ones who called me.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_473",
@@ -8294,7 +9236,9 @@
      "va": "0x800e78ee",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"We won't let you off this time.\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}{voice:30303636}\"We won't let you off this time.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_474",
@@ -8317,7 +9261,9 @@
      "va": "0x800e792f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"And don't go relying on that kitten!\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}{voice:30303637}\"And don't go relying on that kitten!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_475",
@@ -8340,7 +9286,9 @@
      "va": "0x800e7976",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Escaflowne...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}{voice:30303638}\"Escaflowne...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_476",
@@ -8363,7 +9311,9 @@
      "va": "0x800e79b1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303639}\"Van-sama.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_477",
@@ -8380,7 +9330,9 @@
      "va": "0x800e79e2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Believe.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi's Grandma{expr:3138}{nameoff}{color2}{nl}\"Believe.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_478",
@@ -8397,7 +9349,9 @@
      "va": "0x800e7a1d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Grandma.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Grandma.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_479",
@@ -8414,7 +9368,9 @@
      "va": "0x800e7a4c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"If an anxious heart called forth bad events, | then the opposite must also be possible. Hitomi, believe in him...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi's Grandma{expr:3138}{nameoff}{color2}{nl}\"If an anxious heart called forth bad{nl}events,{wait}{clear}{nl}then the opposite must also be possible.{nl}Hitomi, believe in him...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_480",
@@ -8431,7 +9387,9 @@
      "va": "0x800e7ae1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Grandma.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Grandma.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_481",
@@ -8448,7 +9406,9 @@
      "va": "0x800e7b0e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Wh-what's with this guy?!\"",
+   "en": "{clear}{nameon}{color3}26Naria{expr:3135}{nameoff}{color2}{nl}\"Wh-what's with this guy?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_482",
@@ -8465,7 +9425,9 @@
      "va": "0x800e7b47",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"He feels different than last time.\"",
+   "en": "{clear}{nameon}{color3}26Eriya{expr:3136}{nameoff}{color2}{nl}\"He feels different than last time.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_483",
@@ -8482,7 +9444,9 @@
      "va": "0x800e7b7e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Escaflowne's pain is my pain... | the pain of war... If this war is a road I can't avoid, I'll carry it!! | The sins of war! Along with the sorrow of those who died!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Escaflowne's pain is my pain...{wait}{clear}{nl}the pain of war... If this war is a road I{nl}can't avoid, I'll carry it!!{wait}{clear}{nl}The sins of war! Along with the sorrow{nl}of those who died!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_484",
@@ -8499,7 +9463,9 @@
      "va": "0x800e7c43",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's gone... The Mystic Valley...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"It's gone... The Mystic Valley...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_485",
@@ -8516,7 +9482,9 @@
      "va": "0x800e7c7e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-sama.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_486",
@@ -8533,7 +9501,9 @@
      "va": "0x800e7ca9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The power of Atlantis must not be awakened.\"",
+   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"The power of Atlantis must not be{nl}awakened.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_487",
@@ -8550,7 +9520,9 @@
      "va": "0x800e7d02",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van's mother.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van's mother.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_488",
@@ -8567,7 +9539,9 @@
      "va": "0x800e7d35",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Huh? Where?\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Huh? Where?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_489",
@@ -8584,7 +9558,9 @@
      "va": "0x800e7d64",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Do not forget, Van. | It is your will that decides the fate of Gaea.\"",
+   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"Do not forget, Van.{wait}{clear}{nl}It is your will that decides the fate of{nl}Gaea.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_490",
@@ -8601,7 +9577,9 @@
      "va": "0x800e7dcf",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Mother!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Mother!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_491",
@@ -8618,7 +9596,9 @@
      "va": "0x800e7df8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Do not forget, Van...\"",
+   "en": "{clear}{nameon}{color3}26Varie{expr:3139}{nameoff}{color2}{nl}\"Do not forget, Van...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_492",
@@ -8635,7 +9615,9 @@
      "va": "0x800e7e31",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The energist.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"The energist.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo04_493",
@@ -8645,7 +9627,9 @@
    "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「バァン、早く、みんなの所へ戻ろ{nl2}　う。{wait}{clear}{nl2}　みんなが、心配しているよ。{pageend}{nl2}{end}",
    "form": "dlg",
    "speaker": "ひとみ",
-   "dead": true
+   "dead": true,
+   "tl": "\"Van, let's hurry back to everyone. | They're all worried.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van, let's hurry back to everyone.{wait}{clear}{nl}They're all worried.\"{pageend}{nl2}{end}"
   }
  ],
  "data": [

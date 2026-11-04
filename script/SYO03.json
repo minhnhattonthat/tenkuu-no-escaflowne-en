@@ -16,7 +16,9 @@
      "va": "0x800c2d1c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "{clear}{mark8}Chapter 3　{mark10}Back{nl2}{end}",
+   "en": "{clear}{mark8}Chapter 3　{mark10}Back{nl2}{end}"
   },
   {
    "id": "syo03_002",
@@ -32,7 +34,9 @@
      "va": "0x800c2d34",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "{mark1}Scene 1　{mark2}Scene 10　{mark3}Scene 20{nl2}{end}",
+   "en": "{mark1}Scene 1　{mark2}Scene 10　{mark3}Scene 20{nl2}{end}"
   },
   {
    "id": "syo03_003",
@@ -48,7 +52,9 @@
      "va": "0x800c2d60",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "{mark4}Scene 30　{mark5}Scene 40{end}",
+   "en": "{mark4}Scene 30　{mark5}Scene 40{end}"
   },
   {
    "id": "syo03_004",
@@ -81,7 +87,9 @@
      "va": "0x800d95a0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Third Princess of the Kingdom of Asturia, | Her Highness Millerna Sara Aston-sama, has arrived.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Third Princess of the Kingdom of{nl}Asturia,{wait}{clear}{nl}Her Highness Millerna Sara Aston-sama,{nl}has arrived.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_006",
@@ -98,7 +106,9 @@
      "va": "0x800d9619",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You must be tired from your long journey. | The Duke of Freid is currently touring his lands, so I will welcome you in his place.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"You must be tired from your long{nl}journey.{wait}{clear}{nl}The Duke of Freid is currently touring{nl}his lands, so I will welcome you in his{nl}place.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_007",
@@ -115,7 +125,9 @@
      "va": "0x800d96aa",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Chid? You're Prince Chid, aren't you?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Chid? You're Prince Chid, aren't you?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_008",
@@ -132,7 +144,9 @@
      "va": "0x800d96eb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes, it's been a long time. Aunt Millerna.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Yes, it's been a long time. Aunt{nl}Millerna.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_009",
@@ -149,7 +163,9 @@
      "va": "0x800d9738",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You've grown into such a fine young man... I hardly recognized you. | You were still so very small when we last met.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"You've grown into such a fine young{nl}man... I hardly recognized you.{wait}{clear}{nl}You were still so very small when we{nl}last met.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_010",
@@ -166,7 +182,9 @@
      "va": "0x800d97c9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Auntie.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Auntie.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_011",
@@ -183,7 +201,9 @@
      "va": "0x800d97f4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_012",
@@ -200,7 +220,9 @@
      "va": "0x800d981f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I heard that Allen Schezar-dono was with you. | Would that be you?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I heard that Allen Schezar-dono was{nl}with you.{wait}{clear}{nl}Would that be you?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_013",
@@ -217,7 +239,9 @@
      "va": "0x800d9892",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"What?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_014",
@@ -234,7 +258,9 @@
      "va": "0x800d98b9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My late mother always told me about him. | That in Asturia lived Allen Schezar, the greatest swordsman on Gaea. | An invincible knight, a dazzling master of the guymelef. That one day I would meet him...\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"My late mother always told me about{nl}him.{wait}{clear}{nl}That in Asturia lived Allen Schezar, the{nl}greatest swordsman on Gaea.{wait}{clear}{nl}An invincible knight, a dazzling master of{nl}the guymelef. That one day I would meet{nl}him...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_015",
@@ -251,7 +277,9 @@
      "va": "0x800d9998",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your Highness. | This is His Majesty Van Fanel-sama, King of Fanelia.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Your Highness.{wait}{clear}{nl}This is His Majesty Van Fanel-sama, King{nl}of Fanelia.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_016",
@@ -268,7 +296,9 @@
      "va": "0x800d9a17",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I see. | King of Fanelia, please forgive my rudeness. | Freid welcomes you. Please make yourself at home, as if this were your own country.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I see.{wait}{clear}{nl}King of Fanelia, please forgive my{nl}rudeness.{wait}{clear}{nl}Freid welcomes you. Please make{nl}yourself at home, as if this were your{nl}own country.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_017",
@@ -285,7 +315,9 @@
      "va": "0x800d9ad4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Thank you for the goodwill of the Duchy of Freid.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Thank you for the goodwill of the{nl}Duchy of Freid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_018",
@@ -302,7 +334,9 @@
      "va": "0x800d9b27",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Auntie, where is Allen?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Auntie, where is Allen?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_019",
@@ -319,7 +353,9 @@
      "va": "0x800d9b60",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen Schezar, struck down in battle... | Of course... There's no such thing as an invincible knight, is there? | Mother's stories were just fairy tales she told a child, weren't they?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Allen Schezar, struck down in battle...{wait}{clear}{nl}Of course... There's no such thing as an{nl}invincible knight, is there?{wait}{clear}{nl}Mother's stories were just fairy tales{nl}she told a child, weren't they?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_020",
@@ -336,7 +372,9 @@
      "va": "0x800d9c43",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen-san...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Allen-san...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_021",
@@ -346,7 +384,9 @@
    "jp": "{clear}{nameon}{color3}02ガデス{nameoff}{color2}{nl2}{nl2}「お頭！！{wait}{clear}{nl2}{end}",
    "form": "dlg",
    "speaker": "ガデス",
-   "dead": true
+   "dead": true,
+   "tl": "\"Boss!!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Boss!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_022",
@@ -363,7 +403,9 @@
      "va": "0x800d9c9b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi...? Princess Millerna?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Hitomi...? Princess Millerna?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_023",
@@ -380,7 +422,9 @@
      "va": "0x800d9cda",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen, this is Prince Chid of the Duchy of Freid.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Allen, this is Prince Chid of the Duchy{nl}of Freid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_024",
@@ -397,7 +441,9 @@
      "va": "0x800d9d2b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen...\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Allen...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_025",
@@ -414,7 +460,9 @@
      "va": "0x800d9d56",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Th... that ring... Prince... Chid.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Th... that ring... Prince... Chid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_026",
@@ -431,7 +479,9 @@
      "va": "0x800d9d9d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"How are you feeling, Allen-dono?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"How are you feeling, Allen-dono?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_027",
@@ -448,7 +498,9 @@
      "va": "0x800d9de6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your Highness! | Zaibach has its eye on this country. | Please, let me have an audience with your father, with the Duke... Zaibach's invasion is close at hand.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Your Highness!{wait}{clear}{nl}Zaibach has its eye on this country.{wait}{clear}{nl}Please, let me have an audience with{nl}your father, with the Duke... Zaibach's{nl}invasion is close at hand.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_028",
@@ -465,7 +517,9 @@
      "va": "0x800d9e91",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid. | Allen abandoned his country and took on disgrace to bring you this news. | There was no falsehood in your mother's stories. He is a true knight.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Prince Chid.{wait}{clear}{nl}Allen abandoned his country and took on{nl}disgrace to bring you this news.{wait}{clear}{nl}There was no falsehood in your mother's{nl}stories. He is a true knight.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_029",
@@ -482,7 +536,9 @@
      "va": "0x800d9f42",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I still can't believe it. | Why would Zaibach...\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"I still can't believe it.{wait}{clear}{nl}Why would Zaibach...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_030",
@@ -499,7 +555,9 @@
      "va": "0x800d9f99",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"If you question the Zaibach soldier we captured, | it should all become clear...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"If you question the Zaibach soldier we{nl}captured,{wait}{clear}{nl}it should all become clear...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_031",
@@ -516,7 +574,9 @@
      "va": "0x800da00a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That has already been arranged.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"That has already been arranged.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_032",
@@ -533,7 +593,9 @@
      "va": "0x800da04b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Arranged?\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Arranged?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_033",
@@ -550,7 +612,9 @@
      "va": "0x800da074",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"With the Duke away, we must take great care | in questioning that soldier.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"With the Duke away, we must take{nl}great care{wait}{clear}{nl}in questioning that soldier.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_034",
@@ -567,7 +631,9 @@
      "va": "0x800da0e3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The dragon has fled to Freid.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"The dragon has fled to Freid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_035",
@@ -584,7 +650,9 @@
      "va": "0x800da126",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hmph, is that so.\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Hmph, is that so.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_036",
@@ -601,7 +669,9 @@
      "va": "0x800da15f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"And the prisoner with it...\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"And the prisoner with it...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_037",
@@ -618,7 +688,9 @@
      "va": "0x800da196",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Don't worry. Miguel's one of mine. | He won't talk, even if it kills him.\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Don't worry. Miguel's one of mine.{wait}{clear}{nl}He won't talk, even if it kills him.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_038",
@@ -635,7 +707,9 @@
      "va": "0x800da207",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I expect not... | But Freid has Plakt.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"I expect not...{wait}{clear}{nl}But Freid has Plakt.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_039",
@@ -652,7 +726,9 @@
      "va": "0x800da268",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Who?\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Who?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_040",
@@ -669,7 +745,9 @@
      "va": "0x800da29b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Plakt. | A monk skilled in hypnotic suggestion. In his hands, information can be drawn from the depths of the heart. | He has been confirmed on his way to Godashim.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Plakt.{wait}{clear}{nl}A monk skilled in hypnotic suggestion. In{nl}his hands, information can be drawn{nl}from the depths of the heart.{wait}{clear}{nl}He has been confirmed on his way to{nl}Godashim.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_041",
@@ -686,7 +764,9 @@
      "va": "0x800da36e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That's bad! | We have to get rid of him before he reaches the castle, or they'll find out our plans!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"That's bad!{wait}{clear}{nl}We have to get rid of him before he{nl}reaches the castle, or they'll find out{nl}our plans!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_042",
@@ -703,7 +783,9 @@
      "va": "0x800da3e1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Zongi...\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Zongi...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_043",
@@ -720,7 +802,9 @@
      "va": "0x800da414",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Sir...\"",
+   "en": "{clear}{nameon}{color3}26Zongi{expr:3130}{nameoff}{color2}{nl}\"Sir...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_044",
@@ -737,7 +821,9 @@
      "va": "0x800da43f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Wh-who's there?! What? | That smell... Ugh?! Whoa!!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Wh-who's there?! What?{wait}{clear}{nl}That smell... Ugh?! Whoa!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_045",
@@ -754,7 +840,9 @@
      "va": "0x800da4ae",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A shapeshifter?!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"A shapeshifter?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_046",
@@ -771,7 +859,9 @@
      "va": "0x800da4e7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You have work to do, Zongi.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"You have work to do, Zongi.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_047",
@@ -788,7 +878,9 @@
      "va": "0x800da526",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes, sir. My life is for Folken-sama...\"",
+   "en": "{clear}{nameon}{color3}26Zongi{expr:3130}{nameoff}{color2}{nl}\"Yes, sir. My life is for Folken-sama...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_048",
@@ -805,7 +897,9 @@
      "va": "0x800da56f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What's going on, Van, so early in the morning? | And Merle, why are you tagging along too?!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What's going on, Van, so early in the{nl}morning?{wait}{clear}{nl}And Merle, why are you tagging along{nl}too?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_049",
@@ -822,7 +916,9 @@
      "va": "0x800da5f0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I'm worried! Leaving him all alone with you!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"I'm worried! Leaving him all alone with{nl}you!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_050",
@@ -839,7 +935,9 @@
      "va": "0x800da63b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What's that supposed to mean?!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What's that supposed to mean?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_051",
@@ -856,7 +954,9 @@
      "va": "0x800da668",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You've pinpointed those invisible guymelefs time and again.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"You've pinpointed those invisible{nl}guymelefs time and again.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_052",
@@ -873,7 +973,9 @@
      "va": "0x800da6c7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Huh?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Huh?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_053",
@@ -890,7 +992,9 @@
      "va": "0x800da6ee",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"To fight them on even terms I need that power... your power. | Tell me how to find an unseen enemy!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"To fight them on even terms I need{nl}that power... your power.{wait}{clear}{nl}Tell me how to find an unseen enemy!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_054",
@@ -907,7 +1011,9 @@
      "va": "0x800da781",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_055",
@@ -924,7 +1030,9 @@
      "va": "0x800da7ac",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"An assassin...\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"An assassin...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_056",
@@ -941,7 +1049,9 @@
      "va": "0x800da7d9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"To slip in here without my sensing it... | Gah! Uuurgh!\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"To slip in here without my sensing it...{wait}{clear}{nl}Gah! Uuurgh!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_057",
@@ -958,7 +1068,9 @@
      "va": "0x800da840",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ooooh!\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Ooooh!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_058",
@@ -975,7 +1087,9 @@
      "va": "0x800da869",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Mmmm... Nice... A nice body.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Mmmm... Nice... A nice body.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_059",
@@ -992,7 +1106,9 @@
      "va": "0x800da8ac",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You think hard about the thing you want to find. That's all... | When you sense it, the pendant starts swinging that way. | Once you get used to it, you can do it just by picturing the pendant in your head.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You think hard about the thing you{nl}want to find. That's all...{wait}{clear}{nl}When you sense it, the pendant starts{nl}swinging that way.{wait}{clear}{nl}Once you get used to it, you can do it{nl}just by picturing the pendant in your{nl}head.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_060",
@@ -1009,7 +1125,9 @@
      "va": "0x800da98f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"So what do we look for?\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"So what do we look for?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_061",
@@ -1026,7 +1144,9 @@
      "va": "0x800da9c0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hmm, let's see.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Hmm, let's see.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_062",
@@ -1043,7 +1163,9 @@
      "va": "0x800da9ed",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama! | Me! Look for me!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-sama!{wait}{clear}{nl}Me! Look for me!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_063",
@@ -1060,7 +1182,9 @@
      "va": "0x800daa44",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well, why not.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Well, why not.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_064",
@@ -1077,7 +1201,9 @@
      "va": "0x800daa73",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-sama. | I know you'll find me!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-sama.{wait}{clear}{nl}I know you'll find me!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_065",
@@ -1094,7 +1220,9 @@
      "va": "0x800daacc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What are they doing?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"What are they doing?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_066",
@@ -1104,7 +1232,9 @@
    "jp": "{clear}{nameon}{color3}26ボリス{expr:3132}{nameoff}{color2}{nl2}{nl2}「さぁ…。{wait}{clear}{nl2}{end}",
    "form": "dlg",
    "speaker": "ボリス",
-   "dead": true
+   "dead": true,
+   "tl": "\"Who can say...\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Who can say...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_067",
@@ -1127,7 +1257,9 @@
      "va": "0x800dab2c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Picture her in your head... | Quiet your mind and focus on her alone... As clearly as you can. | Take your time, until you can see her. | Right, she's got a tail, pointy ears, curly hair, big round eyes, not one bit cute, | and a nasty mouth...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303030}\"Picture her in your head...{wait}{clear}{nl}{voice:30303031}Quiet your mind and focus on her{nl}alone... As clearly as you can.{wait}{clear}{nl}{voice:30303032}Take your time, until you can see her.{wait}{clear}{nl}{voice:30303033}Right, she's got a tail, pointy ears, curly{nl}hair, big round eyes, not one bit cute,{wait}{clear}{nl}{voice:30303034}and a nasty mouth...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_068",
@@ -1150,7 +1282,9 @@
      "va": "0x800dac81",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Later I'm sharpening my claws on her legs.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303035}\"Later I'm sharpening my claws on her{nl}legs.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_069",
@@ -1173,7 +1307,9 @@
      "va": "0x800dacd4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's no good!! I can't do it.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303036}\"It's no good!! I can't do it.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_070",
@@ -1196,7 +1332,9 @@
      "va": "0x800dad1f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Don't give up, now.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303037}\"Don't give up, now.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_071",
@@ -1213,7 +1351,9 @@
      "va": "0x800dad62",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"But...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"But...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_072",
@@ -1236,7 +1376,9 @@
      "va": "0x800dad8f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It doesn't work right away, but anyone can do it once they get used to it. | Watch...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303038}\"It doesn't work right away, but anyone{nl}can do it once they get used to it.{wait}{clear}{nl}{voice:30303039}Watch...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_073",
@@ -1259,7 +1401,9 @@
      "va": "0x800dae0e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"There!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303130}\"There!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_074",
@@ -1282,7 +1426,9 @@
      "va": "0x800dae3d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"L-like I'd ever come out for you.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303131}\"L-like I'd ever come out for you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_075",
@@ -1305,7 +1451,9 @@
      "va": "0x800dae82",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Merle?\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303132}\"Merle?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_076",
@@ -1328,7 +1476,9 @@
      "va": "0x800daeb3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Coming, Van-sama!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303133}\"Coming, Van-sama!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_077",
@@ -1351,7 +1501,9 @@
      "va": "0x800daef4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well, well.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303134}\"Well, well.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_078",
@@ -1368,7 +1520,9 @@
      "va": "0x800daf23",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Amazing, that's amazing! How did you do it, Hitomi? | How did you know?!\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Amazing, that's amazing! How did you do{nl}it, Hitomi?{wait}{clear}{nl}How did you know?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_079",
@@ -1385,7 +1539,9 @@
      "va": "0x800daf88",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Huh? Oh, um...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Huh? Oh, um...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_080",
@@ -1402,7 +1558,9 @@
      "va": "0x800dafc1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid!! | Don't mind that girl. She's just a fortune-teller. | Telling people their pasts and futures, it's creepy.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Prince Chid!!{wait}{clear}{nl}Don't mind that girl. She's just a{nl}fortune-teller.{wait}{clear}{nl}Telling people their pasts and futures,{nl}it's creepy.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_081",
@@ -1419,7 +1577,9 @@
      "va": "0x800db07e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well, excuuuse me.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Well, excuuuse me.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_082",
@@ -1436,7 +1596,9 @@
      "va": "0x800db0b1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Really?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Really?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_083",
@@ -1453,7 +1615,9 @@
      "va": "0x800db0d8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Huh?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Huh?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_084",
@@ -1470,7 +1634,9 @@
      "va": "0x800db0ff",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You can really see the future?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"You can really see the future?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_085",
@@ -1487,7 +1653,9 @@
      "va": "0x800db13c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well, how should I put it... when I do a reading, | I seem to just know.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Well, how should I put it... when I do a{nl}reading,{wait}{clear}{nl}I seem to just know.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_086",
@@ -1504,7 +1672,9 @@
      "va": "0x800db1ad",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That's amazing. Even Plakt can't tell the future.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"That's amazing. Even Plakt can't tell the{nl}future.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_087",
@@ -1521,7 +1691,9 @@
      "va": "0x800db202",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Um...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Um...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_088",
@@ -1538,7 +1710,9 @@
      "va": "0x800db22d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi! | Would you read my future sometime?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Hitomi!{wait}{clear}{nl}Would you read my future sometime?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_089",
@@ -1555,7 +1729,9 @@
      "va": "0x800db284",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Oh, but...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Oh, but...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_090",
@@ -1572,7 +1748,9 @@
      "va": "0x800db2b3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Please, Hitomi.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Please, Hitomi.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_091",
@@ -1589,7 +1767,9 @@
      "va": "0x800db2ee",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes, Your Highness.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Yes, Your Highness.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_092",
@@ -1606,7 +1786,9 @@
      "va": "0x800db31f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Thank you, Hitomi.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Thank you, Hitomi.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_093",
@@ -1623,7 +1805,9 @@
      "va": "0x800db354",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chiiid!! | Word's come that Plakt-dono has reached the harbor.\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Prince Chiiid!!{wait}{clear}{nl}Word's come that Plakt-dono has{nl}reached the harbor.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_094",
@@ -1640,7 +1824,9 @@
      "va": "0x800db3b5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I understand. Let's go, Gaddes.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I understand. Let's go, Gaddes.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_095",
@@ -1657,7 +1843,9 @@
      "va": "0x800db3fe",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi. # Talk to her # Don't talk to her",
+   "en": "{clear}{nameon}{color3}Van{expr:3030}{nameoff}{color2}{nl}Hitomi.{nl}　　{mark1}{color4}1){color2} Talk to her{nl}　　{mark2}{color4}2){color2} Don't talk to her{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo03_096",
@@ -1674,7 +1862,9 @@
      "va": "0x800db465",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi, # You really are amazing. # I wonder what kind of guy Plakt is. # Aren't you tired?",
+   "en": "{clear}{nameon}{color3}Van{expr:3030}{nameoff}{color2}{nl}Hitomi,{nl}　{mark1}{color4}1){color2} You really are amazing.{nl}　{mark2}{color4}2){color2} I wonder what kind of guy Plakt is.{nl}　{mark3}{color4}3){color2} Aren't you tired?{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo03_097",
@@ -1691,7 +1881,9 @@
      "va": "0x800db51c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No, it's nothing.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"No, it's nothing.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_098",
@@ -1708,7 +1900,9 @@
      "va": "0x800db54d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's not that big a deal...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"It's not that big a deal...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_099",
@@ -1725,7 +1919,9 @@
      "va": "0x800db58a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yeah. I wonder what he's like.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Yeah. I wonder what he's like.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_100",
@@ -1742,7 +1938,9 @@
      "va": "0x800db5cd",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I'm fine.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I'm fine.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_101",
@@ -1759,7 +1957,9 @@
      "va": "0x800db5f6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Merle. # Talk to her # Don't talk to her",
+   "en": "{clear}{nameon}{color3}Van{expr:3030}{nameoff}{color2}{nl}Merle.{nl}　　{mark1}{color4}1){color2} Talk to her{nl}　　{mark2}{color4}2){color2} Don't talk to her{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo03_102",
@@ -1776,7 +1976,9 @@
      "va": "0x800db65d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Merle, # So Hitomi found you. # I wonder if I'll ever be able to do what Hitomi does. # Hitomi's really something, huh?",
+   "en": "{clear}{nameon}{color3}Van{expr:3030}{nameoff}{color2}{nl}Merle,{nl}　{mark1}{color4}1){color2} So Hitomi found you.{nl}　{mark2}{color4}2){color2} I wonder if I'll ever be able to do what{nl}　　Hitomi does.{nl}　{mark3}{color4}3){color2} Hitomi's really something, huh?{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo03_103",
@@ -1793,7 +1995,9 @@
      "va": "0x800db738",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No, it's nothing.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"No, it's nothing.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_104",
@@ -1810,7 +2014,9 @@
      "va": "0x800db76b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It was just a fluke anyway.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"It was just a fluke anyway.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_105",
@@ -1827,7 +2033,9 @@
      "va": "0x800db7b2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You'll definitely be able to do it too, Van-sama.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"You'll definitely be able to do it too,{nl}Van-sama.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_106",
@@ -1844,7 +2052,9 @@
      "va": "0x800db801",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I don't think she's anything special...\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"I don't think she's anything special...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_107",
@@ -1861,7 +2071,9 @@
      "va": "0x800db846",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Thank you for your service. I'm counting on you.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Thank you for your service. I'm{nl}counting on you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_108",
@@ -1878,7 +2090,9 @@
      "va": "0x800db895",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Leave it to me.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Leave it to me.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_109",
@@ -1895,7 +2109,9 @@
      "va": "0x800db8c2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Boris-dono, I would like to be left alone with the prisoner.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Boris-dono, I would like to be left alone{nl}with the prisoner.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_110",
@@ -1912,7 +2128,9 @@
      "va": "0x800db91d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No, but...\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"No, but...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_111",
@@ -1929,7 +2147,9 @@
      "va": "0x800db94e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You're Miguel.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"You're Miguel.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_112",
@@ -1946,7 +2166,9 @@
      "va": "0x800db97d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"How do you know my name? | Are you from Folken-dono?\"",
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"How do you know my name?{wait}{clear}{nl}Are you from Folken-dono?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_113",
@@ -1963,7 +2185,9 @@
      "va": "0x800db9c8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Indeed. I am Zongi, under Folken-sama's command. | Let's hear your story, Miguel.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Indeed. I am Zongi, under Folken-sama's{nl}command.{wait}{clear}{nl}Let's hear your story, Miguel.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_114",
@@ -1980,7 +2204,9 @@
      "va": "0x800dba43",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"There's a strange woman with those people.\"",
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"There's a strange woman with those{nl}people.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_115",
@@ -1997,7 +2223,9 @@
      "va": "0x800dba8c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A strange woman?\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"A strange woman?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_116",
@@ -2014,7 +2242,9 @@
      "va": "0x800dbabb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That's right! | She pointed right at my guymelef, invisible as it was!\"",
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"That's right!{wait}{clear}{nl}She pointed right at my guymelef,{nl}invisible as it was!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_117",
@@ -2031,7 +2261,9 @@
      "va": "0x800dbb1c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hmm, I see. | Leave that matter to me.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Hmm, I see.{wait}{clear}{nl}Leave that matter to me.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_118",
@@ -2048,7 +2280,9 @@
      "va": "0x800dbb75",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Never mind that, get me out of here!\"",
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"Never mind that, get me out of here!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_119",
@@ -2065,7 +2299,9 @@
      "va": "0x800dbbac",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No! There's a job I need you to do.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"No! There's a job I need you to do.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_120",
@@ -2082,7 +2318,9 @@
      "va": "0x800dbbf3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Boris-dono.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Boris-dono.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_121",
@@ -2099,7 +2337,9 @@
      "va": "0x800dbc20",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Wh-what have I...?\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Wh-what have I...?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_122",
@@ -2116,7 +2356,9 @@
      "va": "0x800dbc4f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Everything is ready.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Everything is ready.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_123",
@@ -2133,7 +2375,9 @@
      "va": "0x800dbc86",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Oh, yes.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Oh, yes.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_124",
@@ -2150,7 +2394,9 @@
      "va": "0x800dbcb1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Plakt-dono.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Plakt-dono.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_125",
@@ -2167,7 +2413,9 @@
      "va": "0x800dbce0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid?!\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Prince Chid?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_126",
@@ -2184,7 +2432,9 @@
      "va": "0x800dbd0f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Please let me attend as well.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Please let me attend as well.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_127",
@@ -2201,7 +2451,9 @@
      "va": "0x800dbd4a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"By all means. This way.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"By all means. This way.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_128",
@@ -2218,7 +2470,9 @@
      "va": "0x800dbd7f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"He is already under hypnosis. Please, ask your questions.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"He is already under hypnosis. Please,{nl}ask your questions.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_129",
@@ -2235,7 +2489,9 @@
      "va": "0x800dbdd4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Now then, Zaibach soldier! What is your name?\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Now then, Zaibach soldier! What is your{nl}name?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_130",
@@ -2252,7 +2508,9 @@
      "va": "0x800dbe1d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Miguel... Miguel Labariel.\"",
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"Miguel... Miguel Labariel.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_131",
@@ -2269,7 +2527,9 @@
      "va": "0x800dbe5e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What were you doing at our border?\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"What were you doing at our border?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_132",
@@ -2286,7 +2546,9 @@
      "va": "0x800dbe9d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Asturia asked us to strike down a traitor...\"",
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"Asturia asked us to strike down a{nl}traitor...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_133",
@@ -2303,7 +2565,9 @@
      "va": "0x800dbee8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A traitor?! Who?!\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"A traitor?! Who?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_134",
@@ -2320,7 +2584,9 @@
      "va": "0x800dbf2b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The man plotting to overthrow his betters, with the King of Fanelia as his figurehead: | Allen Schezar.\"",
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"The man plotting to overthrow his{nl}betters, with the King of Fanelia as his{wait}{clear}{nl}figurehead:{wait}{clear}{nl}Allen Schezar.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_135",
@@ -2337,7 +2603,9 @@
      "va": "0x800dbf9a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A-Allen?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"A-Allen?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_136",
@@ -2354,7 +2622,9 @@
      "va": "0x800dbfc9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I... impossible... You scoundrel! | Do not lie to me!! Then why did Allen turn you over to us?!\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"I... impossible... You scoundrel!{wait}{clear}{nl}Do not lie to me!! Then why did Allen turn{nl}you over to us?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_137",
@@ -2371,7 +2641,9 @@
      "va": "0x800dc056",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"He said he'd spare me if I told a lie.\"",
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"He said he'd spare me if I told a lie.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_138",
@@ -2388,7 +2660,9 @@
      "va": "0x800dc097",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A lie?\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"A lie?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_139",
@@ -2405,7 +2679,9 @@
      "va": "0x800dc0c0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Deceive Freid, and make it fight Asturia. | Then seize Asturia for himself in the chaos.\"",
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"Deceive Freid, and make it fight{nl}Asturia.{wait}{clear}{nl}Then seize Asturia for himself in the{nl}chaos.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_140",
@@ -2422,7 +2698,9 @@
      "va": "0x800dc141",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Wh-what...?\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Wh-what...?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_141",
@@ -2439,7 +2717,9 @@
      "va": "0x800dc170",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's a lie! That's a lie. | It's a liiie!!\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"It's a lie! That's a lie.{wait}{clear}{nl}It's a liiie!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_142",
@@ -2456,7 +2736,9 @@
      "va": "0x800dc1c1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A reading?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"A reading?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_143",
@@ -2473,7 +2755,9 @@
      "va": "0x800dc1ea",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I want you to read the fortune of that Zaibach prisoner!!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"I want you to read the fortune of that{nl}Zaibach prisoner!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_144",
@@ -2490,7 +2774,9 @@
      "va": "0x800dc23d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen, really, fortune-telling?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Allen, really, fortune-telling?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_145",
@@ -2507,7 +2793,9 @@
      "va": "0x800dc276",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi's readings are often right.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Hitomi's readings are often right.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_146",
@@ -2524,7 +2812,9 @@
      "va": "0x800dc2c1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen-san.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Allen-san.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_147",
@@ -2541,7 +2831,9 @@
      "va": "0x800dc2f0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Please!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Please!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_148",
@@ -2558,7 +2850,9 @@
      "va": "0x800dc319",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"All right...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"All right...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_149",
@@ -2575,7 +2869,9 @@
      "va": "0x800dc344",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"This suggests danger, conflict, tension. And the dragon warrior. | That must be Van...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"This suggests danger, conflict, tension.{nl}And the dragon warrior.{wait}{clear}{nl}That must be Van...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_150",
@@ -2592,7 +2888,9 @@
      "va": "0x800dc3c1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Oh no...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Oh no...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_151",
@@ -2609,7 +2907,9 @@
      "va": "0x800dc3f0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Go on.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Go on.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_152",
@@ -2626,7 +2926,9 @@
      "va": "0x800dc41b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Yes.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_153",
@@ -2643,7 +2945,9 @@
      "va": "0x800dc444",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The cosmos, death... some vast power is leading everything to an end, for the sake of rebirth.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The cosmos, death... some vast power{nl}is leading everything to an end, for the{wait}{clear}{nl}sake of rebirth.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_154",
@@ -2660,7 +2964,9 @@
      "va": "0x800dc4a7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The end of everything? So that's Zaibach's goal...!!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"The end of everything? So that's{nl}Zaibach's goal...!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_155",
@@ -2677,7 +2983,9 @@
      "va": "0x800dc4fc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"And the prisoner is...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"And the prisoner is...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_156",
@@ -2694,7 +3002,9 @@
      "va": "0x800dc531",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Oh? | The spare card? I always keep that one separate.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Oh?{wait}{clear}{nl}The spare card? I always keep that one{nl}separate.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_157",
@@ -2711,7 +3021,9 @@
      "va": "0x800dc58e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A blank card...? Surely not!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"A blank card...? Surely not!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_158",
@@ -2728,7 +3040,9 @@
      "va": "0x800dc5cd",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Prince Chid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_159",
@@ -2745,7 +3059,9 @@
      "va": "0x800dc5fa",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen, to think you were a traitor!\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Allen, to think you were a traitor!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_160",
@@ -2762,7 +3078,9 @@
      "va": "0x800dc647",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What are you doing?!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What are you doing?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_161",
@@ -2779,7 +3097,9 @@
      "va": "0x800dc676",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Prince Chid!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_162",
@@ -2796,7 +3116,9 @@
      "va": "0x800dc6a3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Chid...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Chid...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_163",
@@ -2813,7 +3135,9 @@
      "va": "0x800dc6cc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Boss!!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Boss!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_164",
@@ -2830,7 +3154,9 @@
      "va": "0x800dc6f5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What is it, Gaddes?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What is it, Gaddes?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_165",
@@ -2847,7 +3173,9 @@
      "va": "0x800dc72a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The prisoner's escaped!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"The prisoner's escaped!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_166",
@@ -2864,7 +3192,9 @@
      "va": "0x800dc75f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_167",
@@ -2881,7 +3211,9 @@
      "va": "0x800dc786",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ah...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Ah...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_168",
@@ -2898,7 +3230,9 @@
      "va": "0x800dc7af",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No, just as the reading said...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"No, just as the reading said...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_169",
@@ -2915,7 +3249,9 @@
      "va": "0x800dc7ea",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Zaibach guymelefs!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Zaibach guymelefs!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_170",
@@ -2932,7 +3268,9 @@
      "va": "0x800dc827",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van-samaaa! | Hitomi and the others got caught by Freid's soldiers!!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Van-samaaa!{wait}{clear}{nl}{nl}Hitomi and the others got caught by{nl}Freid's soldiers!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_171",
@@ -2949,7 +3287,9 @@
      "va": "0x800dc894",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"What?!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_172",
@@ -2966,7 +3306,9 @@
      "va": "0x800dc8bb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Y-you're Zongi... Ugh, aaagh!!\"",
+   "en": "{clear}{nameon}{color3}07Miguel{nameoff}{color2}{nl}\"Y-you're Zongi... Ugh, aaagh!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_173",
@@ -2983,7 +3325,9 @@
      "va": "0x800dc906",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Sorry. | It would be awkward if word of me got out. | A power to see the unseen... I must confirm it.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Sorry.{wait}{clear}{nl}It would be awkward if word of me got{nl}out.{wait}{clear}{nl}A power to see the unseen... I must{nl}confirm it.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_174",
@@ -3000,7 +3344,9 @@
      "va": "0x800dc989",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your Highness! This is some mistake! | If you investigate, you'll see!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Your Highness! This is some mistake!{wait}{clear}{nl}If you investigate, you'll see!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_175",
@@ -3017,7 +3363,9 @@
      "va": "0x800dc9f0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Prince Chid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_176",
@@ -3034,7 +3382,9 @@
      "va": "0x800dca1d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My mother told me all about you, and I always looked up to you. | It's a pity. So Mother was lying to me too...\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"My mother told me all about you, and I{nl}always looked up to you.{wait}{clear}{nl}It's a pity. So Mother was lying to me{nl}too...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_177",
@@ -3051,7 +3401,9 @@
      "va": "0x800dcabe",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid, have you ever trusted someone from the bottom of your heart? | To trust someone can sometimes take more courage than going to war. | Prince Chid, do you understand what that courage means?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Prince Chid, have you ever trusted{nl}someone from the bottom of your{wait}{clear}{nl}heart?{wait}{clear}{nl}To trust someone can sometimes take{nl}more courage than going to war.{wait}{clear}{nl}Prince Chid, do you understand what{nl}that courage means?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_178",
@@ -3068,7 +3420,9 @@
      "va": "0x800dcba5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid. | Tell me how you truly feel. Do we look like traitors to you? | Do we look like we're lying to you?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Prince Chid.{wait}{clear}{nl}Tell me how you truly feel. Do we look{nl}like traitors to you?{wait}{clear}{nl}Do we look like we're lying to you?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_179",
@@ -3085,7 +3439,9 @@
      "va": "0x800dcc48",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I... I don't know. | But Plakt's arts reveal the truth.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I... I don't know.{wait}{clear}{nl}But Plakt's arts reveal the truth.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_180",
@@ -3102,7 +3458,9 @@
      "va": "0x800dccc1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Please, believe in us.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Please, believe in us.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_181",
@@ -3119,7 +3477,9 @@
      "va": "0x800dccf6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I am the prince of this country. | When Plakt gives counsel, it is the custom here that the royal family obey it. | That is what's good for the country and the people.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I am the prince of this country.{wait}{clear}{nl}When Plakt gives counsel, it is the{nl}custom here that the royal family obey{nl}it.{wait}{clear}{nl}That is what's good for the country and{nl}the people.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_182",
@@ -3136,7 +3496,9 @@
      "va": "0x800dcdad",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"For the sake of the country... The same... You and Van.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"For the sake of the country... The{nl}same... You and Van.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_183",
@@ -3153,7 +3515,9 @@
      "va": "0x800dcdfe",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Pardon me. The hour of interrogation has come.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Pardon me. The hour of interrogation{nl}has come.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_184",
@@ -3170,7 +3534,9 @@
      "va": "0x800dce43",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Why question Hitomi first?! She has nothing to do with this!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Why question Hitomi first?! She has{nl}nothing to do with this!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_185",
@@ -3187,7 +3553,9 @@
      "va": "0x800dcea6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Whomever we begin with, if you are blameless, | you have nothing to fear.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Whomever we begin with, if you are{nl}blameless,{wait}{clear}{nl}you have nothing to fear.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_186",
@@ -3204,7 +3572,9 @@
      "va": "0x800dcf17",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Even while we're doing this, Zaibach's forces are...!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Even while we're doing this, Zaibach's{nl}forces are...!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_187",
@@ -3221,7 +3591,9 @@
      "va": "0x800dcf70",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Boris-dono, I ask you to trust us. We came to tell the truth...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Boris-dono, I ask you to trust us. We{nl}came to tell the truth...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_188",
@@ -3238,7 +3610,9 @@
      "va": "0x800dcfcb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Do you people understand | the situation you are in?\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Do you people understand{wait}{clear}{nl}the situation you are in?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_189",
@@ -3255,7 +3629,9 @@
      "va": "0x800dd036",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What do you mean?\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"What do you mean?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_190",
@@ -3272,7 +3648,9 @@
      "va": "0x800dd063",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Just now, an envoy came from the Kingdom of Asturia. | To say a bounty has been placed on your heads, and on Escaflowne.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Just now, an envoy came from the{nl}Kingdom of Asturia.{wait}{clear}{nl}To say a bounty has been placed on{nl}your heads, and on Escaflowne.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_191",
@@ -3289,7 +3667,9 @@
      "va": "0x800dd0f8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"How foolish...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"How foolish...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_192",
@@ -3306,7 +3686,9 @@
      "va": "0x800dd125",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen is not a man who tells falsehoods. | Believe me!!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Allen is not a man who tells falsehoods.{wait}{clear}{nl}Believe me!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_193",
@@ -3323,7 +3705,9 @@
      "va": "0x800dd18a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Princess!! There is only one truth. | When Plakt's interrogation is over, all will be made clear.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Princess!! There is only one truth.{wait}{clear}{nl}When Plakt's interrogation is over, all will{nl}be made clear.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_194",
@@ -3340,7 +3724,9 @@
      "va": "0x800dd207",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Earth? That is the name of your country?\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Earth? That is the name of your{nl}country?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_195",
@@ -3357,7 +3743,9 @@
      "va": "0x800dd250",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"All right...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"All right...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_196",
@@ -3374,7 +3762,9 @@
      "va": "0x800dd27b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Where is this country?\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Where is this country?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_197",
@@ -3391,7 +3781,9 @@
      "va": "0x800dd2b2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Beyond the sky... The Mystic Moon...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Beyond the sky... The Mystic Moon...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_198",
@@ -3408,7 +3800,9 @@
      "va": "0x800dd2f1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The Mystic Moon?! | You claim to have come from the Mystic Moon?!\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"The Mystic Moon?!{wait}{clear}{nl}You claim to have come from the Mystic{nl}Moon?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_199",
@@ -3425,7 +3819,9 @@
      "va": "0x800dd34e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"All right...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"All right...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_200",
@@ -3442,7 +3838,9 @@
      "va": "0x800dd379",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"From that accursed land...!\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"From that accursed land...!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_201",
@@ -3459,7 +3857,9 @@
      "va": "0x800dd3b2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Is that true?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Is that true?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_202",
@@ -3476,7 +3876,9 @@
      "va": "0x800dd3df",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Y-yes...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Y-yes...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_203",
@@ -3493,7 +3895,9 @@
      "va": "0x800dd410",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I hear that you launched a surprise attack on a floating fortress of Zaibach, | and went on to destroy an energist mine. Is that the truth?\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"I hear that you launched a surprise{nl}attack on a floating fortress of{wait}{clear}{nl}Zaibach,{wait}{clear}{nl}and went on to destroy an energist{nl}mine. Is that the truth?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_204",
@@ -3510,7 +3914,9 @@
      "va": "0x800dd4bb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"...............\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"...............\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_205",
@@ -3527,7 +3933,9 @@
      "va": "0x800dd4ea",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What's wrong?! Answer me!!\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"What's wrong?! Answer me!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_206",
@@ -3544,7 +3952,9 @@
      "va": "0x800dd529",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"...............\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"...............\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_207",
@@ -3561,7 +3971,9 @@
      "va": "0x800dd558",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well?!\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Well?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_208",
@@ -3578,7 +3990,9 @@
      "va": "0x800dd589",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Yes.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_209",
@@ -3595,7 +4009,9 @@
      "va": "0x800dd5b2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That matches the charges Asturia sent us against these people!!\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"That matches the charges Asturia sent{nl}us against these people!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_210",
@@ -3612,7 +4028,9 @@
      "va": "0x800dd611",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Wait! Please hear their reasons!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Wait! Please hear their reasons!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_211",
@@ -3629,7 +4047,9 @@
      "va": "0x800dd658",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"To take over Asturia! | It's in the prisoner's testimony!!\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"To take over Asturia!{wait}{clear}{nl}It's in the prisoner's testimony!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_212",
@@ -3646,7 +4066,9 @@
      "va": "0x800dd6c5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"How did you locate the floating fortress and the mine? | How did you find them?\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"How did you locate the floating{nl}fortress and the mine?{wait}{clear}{nl}How did you find them?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_213",
@@ -3663,7 +4085,9 @@
      "va": "0x800dd736",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Dowsing... With the pendant...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Dowsing... With the pendant...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_214",
@@ -3680,7 +4104,9 @@
      "va": "0x800dd77d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Dowsing?\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Dowsing?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_215",
@@ -3697,7 +4123,9 @@
      "va": "0x800dd7ac",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Seeing with the heart... seeing what can't be seen...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Seeing with the heart... seeing what{nl}can't be seen...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_216",
@@ -3714,7 +4142,9 @@
      "va": "0x800dd7f1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"And you saw the invisible guymelefs with that power too?\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"And you saw the invisible guymelefs{nl}with that power too?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_217",
@@ -3731,7 +4161,9 @@
      "va": "0x800dd840",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"All right...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"All right...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_218",
@@ -3748,7 +4180,9 @@
      "va": "0x800dd869",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Girl... Hand me that necklace.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Girl... Hand me that necklace.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_219",
@@ -3765,7 +4199,9 @@
      "va": "0x800dd8a4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Uuuuuh, oooooh!!\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Uuuuuh, oooooh!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_220",
@@ -3782,7 +4218,9 @@
      "va": "0x800dd8df",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Aaaaah!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Aaaaah!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_221",
@@ -3799,7 +4237,9 @@
      "va": "0x800dd90e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi?!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Hitomi?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_222",
@@ -3816,7 +4256,9 @@
      "va": "0x800dd93d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hah... hah... Frightening... What a frightening girl.\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"Hah... hah... Frightening... What a{nl}frightening girl.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_223",
@@ -3833,7 +4275,9 @@
      "va": "0x800dd996",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi?! Hitomiii!!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Hitomi?! Hitomiii!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_224",
@@ -3856,7 +4300,9 @@
      "va": "0x800dd9d7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen!!\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}{voice:30303135}\"Allen!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_225",
@@ -3879,7 +4325,9 @@
      "va": "0x800dda06",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi...!! | Hitomi is...!!\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}{voice:30303136}\"Hitomi...!!{wait}{clear}{nl}{nl}{voice:30303137}Hitomi is...!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_226",
@@ -3896,7 +4344,9 @@
      "va": "0x800dda53",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"What?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_227",
@@ -3913,7 +4363,9 @@
      "va": "0x800dda7a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomiii!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Hitomiii!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_228",
@@ -3930,7 +4382,9 @@
      "va": "0x800ddaa9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your Highness, I beg you!! | Let us out of here!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Your Highness, I beg you!!{wait}{clear}{nl}Let us out of here!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_229",
@@ -3947,7 +4401,9 @@
      "va": "0x800ddaf6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"B-but...\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"B-but...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_230",
@@ -3964,7 +4420,9 @@
      "va": "0x800ddb23",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hurry, please, Your Highness!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hurry, please, Your Highness!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_231",
@@ -3981,7 +4439,9 @@
      "va": "0x800ddb5c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Chid!!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Chid!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_232",
@@ -3998,7 +4458,9 @@
      "va": "0x800ddb85",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hitomi!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_233",
@@ -4015,7 +4477,9 @@
      "va": "0x800ddbb2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi... Hey, you! Snap out of it!!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Hitomi... Hey, you! Snap out of it!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_234",
@@ -4032,7 +4496,9 @@
      "va": "0x800ddbff",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hah, hah, hah... No good... Her heart isn't beating...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Hah, hah, hah... No good... Her heart{nl}isn't beating...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_235",
@@ -4049,7 +4515,9 @@
      "va": "0x800ddc58",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Is this right?!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Is this right?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_236",
@@ -4066,7 +4534,9 @@
      "va": "0x800ddc8f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What? Y-yes! | To your... To your heartbeat! That's it... harder! Harder!!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What? Y-yes!{wait}{clear}{nl}To your... To your heartbeat! That's it...{nl}harder! Harder!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_237",
@@ -4083,7 +4553,9 @@
      "va": "0x800ddd14",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Don't die... Don't you die, Hitomi! Hitomiii!! | Wake up! Hitomi!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Don't die... Don't you die, Hitomi! Hitomiii!!{wait}{clear}{nl}Wake up! Hitomi!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_238",
@@ -4100,7 +4572,9 @@
      "va": "0x800ddd85",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Cough, cough!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Cough, cough!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_239",
@@ -4117,7 +4591,9 @@
      "va": "0x800dddb6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"She's all right now!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"She's all right now!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_240",
@@ -4134,7 +4610,9 @@
      "va": "0x800ddde7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi! She's alive, she's alive!!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Hitomi! She's alive, she's alive!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_241",
@@ -4151,7 +4629,9 @@
      "va": "0x800dde2e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ah... an impostor... that man... will die...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Ah... an impostor... that man... will die...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_242",
@@ -4168,7 +4648,9 @@
      "va": "0x800dde79",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi?\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hitomi?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_243",
@@ -4185,7 +4667,9 @@
      "va": "0x800ddea4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"An impostor... that man... will die...! Noooo!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"An impostor... that man... will die...!{nl}Noooo!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_244",
@@ -4202,7 +4686,9 @@
      "va": "0x800ddef1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A Zaibach assassin? Plakt is?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"A Zaibach assassin? Plakt is?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_245",
@@ -4219,7 +4705,9 @@
      "va": "0x800ddf3c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I saw it! | He killed the real Plakt and took his form... and the prisoner was killed too! | B-but he's in the black hand's grip too...!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I saw it!{wait}{clear}{nl}He killed the real Plakt and took his{nl}form... and the prisoner was killed too!{wait}{clear}{nl}B-but he's in the black hand's grip{nl}too...!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_246",
@@ -4246,7 +4734,9 @@
      "va": "0x800ddfe9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Where is Plakt?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Where is Plakt?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_248",
@@ -4263,7 +4753,9 @@
      "va": "0x800de020",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well, he's nowhere to be found...\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Well, he's nowhere to be found...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_249",
@@ -4280,7 +4772,9 @@
      "va": "0x800de057",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"He's escaped!! Prince Chid. | We have to go after him, quickly... If we waste time, Hitomi's secret will fall into Zaibach's hands!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"He's escaped!! Prince Chid.{wait}{clear}{nl}We have to go after him, quickly... If we{nl}waste time, Hitomi's secret will fall into{nl}Zaibach's hands!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_250",
@@ -4297,7 +4791,9 @@
      "va": "0x800de0fc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Silence! | Your Highness. You must not lend an ear to the ravings of these people!!\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Silence!{wait}{clear}{nl}Your Highness. You must not lend an ear{nl}to the ravings of these people!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_251",
@@ -4314,7 +4810,9 @@
      "va": "0x800de167",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Boris!! | Allen. I would ask you to hunt down this Zaibach assassin with your own hands.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Boris!!{wait}{clear}{nl}Allen. I would ask you to hunt down this{nl}Zaibach assassin with your own hands.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_252",
@@ -4331,7 +4829,9 @@
      "va": "0x800de1e0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your Highness?! Have you lost your senses?!\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Your Highness?! Have you lost your{nl}senses?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_253",
@@ -4348,7 +4848,9 @@
      "va": "0x800de225",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"One proves one's own innocence oneself. | They too shall follow the laws of the Duchy of Freid. I take responsibility for this!!\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"One proves one's own innocence{nl}oneself.{wait}{clear}{nl}They too shall follow the laws of the{nl}Duchy of Freid. I take responsibility for{nl}this!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_254",
@@ -4365,7 +4867,9 @@
      "va": "0x800de2b6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"As you command.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"As you command.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_255",
@@ -4382,7 +4886,9 @@
      "va": "0x800de2df",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"His wounds have not healed yet. | I'll go in his place.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"His wounds have not healed yet.{wait}{clear}{nl}I'll go in his place.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_256",
@@ -4399,7 +4905,9 @@
      "va": "0x800de344",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I'll go with him.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I'll go with him.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_257",
@@ -4416,7 +4924,9 @@
      "va": "0x800de37f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi. # Talk to her # Don't talk to her",
+   "en": "{clear}{nameon}{color3}Van{expr:3030}{nameoff}{color2}{nl}Hitomi.{nl}　　{mark1}{color4}1){color2} Talk to her{nl}　　{mark2}{color4}2){color2} Don't talk to her{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo03_258",
@@ -4433,7 +4943,9 @@
      "va": "0x800de3e6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi, # Are you feeling all right? # I'm glad you're safe. # Let's hurry.",
+   "en": "{clear}{nameon}{color3}Van{expr:3030}{nameoff}{color2}{nl}Hitomi,{nl}　{mark1}{color4}1){color2} Are you feeling all right?{nl}　{mark2}{color4}2){color2} I'm glad you're safe.{nl}　{mark3}{color4}3){color2} Let's hurry.{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo03_259",
@@ -4450,7 +4962,9 @@
      "va": "0x800de471",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No, it's nothing.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"No, it's nothing.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_260",
@@ -4467,7 +4981,9 @@
      "va": "0x800de4a2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Thanks. I'm fine.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Thanks. I'm fine.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_261",
@@ -4484,7 +5000,9 @@
      "va": "0x800de4df",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Sorry I worried you, Van.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Sorry I worried you, Van.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_262",
@@ -4501,7 +5019,9 @@
      "va": "0x800de51c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Okay.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Okay.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_263",
@@ -4518,7 +5038,9 @@
      "va": "0x800de543",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Can you tell? Hitomi.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Can you tell? Hitomi.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_264",
@@ -4535,7 +5057,9 @@
      "va": "0x800de57e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That way!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"That way!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_265",
@@ -4552,7 +5076,9 @@
      "va": "0x800de5ad",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"All right!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"All right!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_266",
@@ -4569,7 +5095,9 @@
      "va": "0x800de5d8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Those people may simply run away, you know...\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Those people may simply run away, you{nl}know...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_267",
@@ -4586,7 +5114,9 @@
      "va": "0x800de62d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I believe in them. | In the way Allen believes in Van!\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I believe in them.{wait}{clear}{nl}In the way Allen believes in Van!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_268",
@@ -4603,7 +5133,9 @@
      "va": "0x800de680",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A girl from the Mystic Moon, you say?\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"A girl from the Mystic Moon, you say?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_269",
@@ -4620,7 +5152,9 @@
      "va": "0x800de6bb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes. | A frightening girl, who sees the unseen and knows past and future.\"",
+   "en": "{clear}{nameon}{color3}26Zongi{expr:3130}{nameoff}{color2}{nl}\"Yes.{wait}{clear}{nl}A frightening girl, who sees the unseen{nl}and knows past and future.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_270",
@@ -4637,7 +5171,9 @@
      "va": "0x800de732",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Sees the unseen, and knows the future? | I see... So that's how, that time. She's the one who gave me this scar... Well done, Zongi.\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Sees the unseen, and knows the{nl}future?{wait}{clear}{nl}I see... So that's how, that time. She's{nl}the one who gave me this scar... Well{nl}done, Zongi.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_271",
@@ -4654,7 +5190,9 @@
      "va": "0x800de7c9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes, sir. You honor me.\"",
+   "en": "{clear}{nameon}{color3}26Zongi{expr:3130}{nameoff}{color2}{nl}\"Yes, sir. You honor me.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_272",
@@ -4671,7 +5209,9 @@
      "va": "0x800de804",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Here's your reward. Take it.\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Here's your reward. Take it.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_273",
@@ -4688,7 +5228,9 @@
      "va": "0x800de83f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What are you doing?!\"",
+   "en": "{clear}{nameon}{color3}26Zongi{expr:3130}{nameoff}{color2}{nl}\"What are you doing?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_274",
@@ -4705,7 +5247,9 @@
      "va": "0x800de870",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You killed Miguel, didn't you?\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"You killed Miguel, didn't you?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_275",
@@ -4722,7 +5266,9 @@
      "va": "0x800de8ad",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Th-that was my mission!\"",
+   "en": "{clear}{nameon}{color3}26Zongi{expr:3130}{nameoff}{color2}{nl}\"Th-that was my mission!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_276",
@@ -4739,7 +5285,9 @@
      "va": "0x800de8e0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That was a terrible thing to do to one of my men. | That's why I can't stand shapeshifters...\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"That was a terrible thing to do to one{nl}of my men.{wait}{clear}{nl}That's why I can't stand{nl}shapeshifters...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_277",
@@ -4756,7 +5304,9 @@
      "va": "0x800de961",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Gwaaaah!!\"",
+   "en": "{clear}{nameon}{color3}26Zongi{expr:3130}{nameoff}{color2}{nl}\"Gwaaaah!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_278",
@@ -4773,7 +5323,9 @@
      "va": "0x800de990",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Is that it?\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Is that it?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_279",
@@ -4790,7 +5342,9 @@
      "va": "0x800de9bb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van, hurry!! | We won't make it! Ah?! | Aaah!! V-Van!! Help me!! | Noooooo!!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van, hurry!!{wait}{clear}{nl}We won't make it! Ah?!{wait}{clear}{nl}Aaah!! V-Van!! Help me!!{wait}{clear}{nl}Noooooo!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_280",
@@ -4807,7 +5361,9 @@
      "va": "0x800dea5a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi?! Get a hold of yourself!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hitomi?! Get a hold of yourself!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_281",
@@ -4830,7 +5386,9 @@
      "va": "0x800dea9b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Escaflowne!! What incredible luck!!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303138}\"Escaflowne!! What incredible luck!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_282",
@@ -4847,7 +5405,9 @@
      "va": "0x800deaf8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Ngh! The invisible ones?! | Hitomi!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Ngh! The invisible ones?!{wait}{clear}{nl}Hitomi!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_283",
@@ -4864,7 +5424,9 @@
      "va": "0x800deb47",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Think hard... think hard, in your heart...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Think hard... think hard, in your heart...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_284",
@@ -4881,7 +5443,9 @@
      "va": "0x800deb92",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"N-not in a place like this...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"N-not in a place like this...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_285",
@@ -4898,7 +5462,9 @@
      "va": "0x800debc7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You can... Van, I know you can do it...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You can... Van, I know you can do it...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_286",
@@ -4915,7 +5481,9 @@
      "va": "0x800dec18",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi. # Talk to her # Don't talk to her",
+   "en": "{clear}{nameon}{color3}Van{expr:3030}{nameoff}{color2}{nl}Hitomi.{nl}　　{mark1}{color4}1){color2} Talk to her{nl}　　{mark2}{color4}2){color2} Don't talk to her{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo03_287",
@@ -4932,7 +5500,9 @@
      "va": "0x800dec7f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi, # Are you all right? # Wait here. # Hide somewhere safe.",
+   "en": "{clear}{nameon}{color3}Van{expr:3030}{nameoff}{color2}{nl}Hitomi,{nl}　{mark1}{color4}1){color2} Are you all right?{nl}　{mark2}{color4}2){color2} Wait here.{nl}　{mark3}{color4}3){color2} Hide somewhere safe.{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo03_288",
@@ -4949,7 +5519,9 @@
      "va": "0x800ded12",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No, it's nothing.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"No, it's nothing.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_289",
@@ -4966,7 +5538,9 @@
      "va": "0x800ded43",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yeah, I'm okay.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Yeah, I'm okay.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_290",
@@ -4983,7 +5557,9 @@
      "va": "0x800ded74",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Okay. Good luck, Van.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Okay. Good luck, Van.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_291",
@@ -5000,7 +5576,9 @@
      "va": "0x800dedb7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Okay. | Think hard, in your heart. I know you can do it, Van.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Okay.{wait}{clear}{nl}Think hard, in your heart. I know you{nl}can do it, Van.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_292",
@@ -5017,7 +5595,9 @@
      "va": "0x800dee1a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Here I come! Dilandau!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Here I come! Dilandau!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_293",
@@ -5034,7 +5614,9 @@
      "va": "0x800dee5b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi. # Talk to her # Don't talk to her",
+   "en": "{clear}{nameon}{color3}Van{expr:3030}{nameoff}{color2}{nl}Hitomi.{nl}　　{mark1}{color4}1){color2} Talk to her{nl}　　{mark2}{color4}2){color2} Don't talk to her{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo03_294",
@@ -5051,7 +5633,9 @@
      "va": "0x800deec2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "Hitomi, # Are you hurt? # Let's go back to everyone. # Are you all right?",
+   "en": "{clear}{nameon}{color3}Van{expr:3030}{nameoff}{color2}{nl}Hitomi,{nl}　{mark1}{color4}1){color2} Are you hurt?{nl}　{mark2}{color4}2){color2} Let's go back to everyone.{nl}　{mark3}{color4}3){color2} Are you all right?{menuwait}{close}{nl2}{end}"
   },
   {
    "id": "syo03_295",
@@ -5068,7 +5652,9 @@
      "va": "0x800def4d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No, it's nothing.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"No, it's nothing.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_296",
@@ -5085,7 +5671,9 @@
      "va": "0x800def7e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Okay.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Okay.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_297",
@@ -5102,7 +5690,9 @@
      "va": "0x800defa5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Okay.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Okay.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_298",
@@ -5119,7 +5709,9 @@
      "va": "0x800defcc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I'm fine.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I'm fine.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_299",
@@ -5136,7 +5728,9 @@
      "va": "0x800deff7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Just as Hitomi predicted?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Just as Hitomi predicted?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_300",
@@ -5153,7 +5747,9 @@
      "va": "0x800df02a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes. Now there's no proof left | that Plakt was a Zaibach assassin.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Yes. Now there's no proof left{wait}{clear}{nl}that Plakt was a Zaibach assassin.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_301",
@@ -5170,7 +5766,9 @@
      "va": "0x800df0ad",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your innocence has been established.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Your innocence has been established.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_302",
@@ -5187,7 +5785,9 @@
      "va": "0x800df0fa",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"They found the body. Of the real Plakt.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"They found the body. Of the real{nl}Plakt.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_303",
@@ -5204,7 +5804,9 @@
      "va": "0x800df14d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Some monks in training found it in the forest. | A withered corpse is the work of a shapeshifter...\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Some monks in training found it in the{nl}forest.{wait}{clear}{nl}A withered corpse is the work of a{nl}shapeshifter...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_304",
@@ -5221,7 +5823,9 @@
      "va": "0x800df1ba",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Even without proof, I would believe you. | Because you came back, just like this.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Even without proof, I would believe you.{wait}{clear}{nl}Because you came back, just like this.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_305",
@@ -5238,7 +5842,9 @@
      "va": "0x800df227",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your Highness.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Your Highness.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_306",
@@ -5255,7 +5861,9 @@
      "va": "0x800df250",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Prince Chid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_307",
@@ -5272,7 +5880,9 @@
      "va": "0x800df27d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"We did it!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"We did it!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_308",
@@ -5289,7 +5899,9 @@
      "va": "0x800df2ac",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I beg your pardon for my many discourtesies.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"I beg your pardon for my many{nl}discourtesies.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_309",
@@ -5306,7 +5918,9 @@
      "va": "0x800df2f1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen, you're the one who gave Chid his resolve. | You two are... somehow alike. | The color of your eyes, your hair, you could almost be brothers...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Allen, you're the one who gave Chid his{nl}resolve.{wait}{clear}{nl}You two are... somehow alike.{wait}{clear}{nl}The color of your eyes, your hair, you{nl}could almost be brothers...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_310",
@@ -5323,7 +5937,9 @@
      "va": "0x800df3a4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Oh, everyone! The Duke has returned!\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Oh, everyone! The Duke has returned!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_311",
@@ -5340,7 +5956,9 @@
      "va": "0x800df3f7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Father!\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Father!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_312",
@@ -5357,7 +5975,9 @@
      "va": "0x800df420",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Chid's father... I wonder what he's like...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Chid's father... I wonder what he's{nl}like...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_313",
@@ -5374,7 +5994,9 @@
      "va": "0x800df46f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I've heard the story, King of Fanelia. | As a fellow head of state, I offer my sympathy for the disaster that befell your country.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"I've heard the story, King of Fanelia.{wait}{clear}{nl}As a fellow head of state, I offer my{nl}sympathy for the disaster that befell{nl}your country.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_314",
@@ -5391,7 +6013,9 @@
      "va": "0x800df4f6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You are too kind, King of Freid.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"You are too kind, King of Freid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_315",
@@ -5408,7 +6032,9 @@
      "va": "0x800df53b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"We too have already sensed the Zaibach Empire's movements. | That is why I rushed back to the capital, Godashim. | But Allen!! Whatever the reason, for a knight to abandon his country is dishonor, | and to defy his lord's command is disloyalty. Do you think Freid needs such a faithless wretch?!\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"We too have already sensed the{nl}Zaibach Empire's movements.{wait}{clear}{nl}That is why I rushed back to the{nl}capital, Godashim.{wait}{clear}{nl}But Allen!! Whatever the reason, for a{nl}knight to abandon his country is{nl}dishonor,{wait}{clear}{nl}and to defy his lord's command is{nl}disloyalty. Do you think Freid needs such{nl}a faithless wretch?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_316",
@@ -5425,7 +6051,9 @@
      "va": "0x800df678",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Please wait!! | Allen and the others risked their lives for the good of our country!! | And they saw through the shapeshifter, and drove off Zaibach's scouts...\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Please wait!!{wait}{clear}{nl}Allen and the others risked their lives{nl}for the good of our country!!{wait}{clear}{nl}And they saw through the shapeshifter,{nl}and drove off Zaibach's scouts...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_317",
@@ -5442,7 +6070,9 @@
      "va": "0x800df721",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Silence! | You are ten years too young to advise me! That rash judgment of yours could have destroyed this country!!\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Silence!{wait}{clear}{nl}You are ten years too young to advise{nl}me! That rash judgment of yours could{nl}have destroyed this country!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_318",
@@ -5459,7 +6089,9 @@
      "va": "0x800df7b4",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Please wait.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Please wait.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_319",
@@ -5476,7 +6108,9 @@
      "va": "0x800df7e9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Princess Millerna. Princess, I shall speak with you later.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Princess Millerna. Princess, I shall{nl}speak with you later.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_320",
@@ -5493,7 +6127,9 @@
      "va": "0x800df83c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Forgive my rudeness. Brother... | No, I may no longer call you that. I too have abandoned my country. | My lord Duke, Zaibach's invasion is already madness. It will drag all of Gaea into a whirlpool of war. | The tragedy will not stop at Fanelia alone. | What's more, the next country targeted is this very Freid. | Sadly, my father... no, King Aston means to leave this be. For the good of Asturia, he says... | But if all of Gaea falls into Zaibach's hands, could Asturia alone remain at peace? | Allen... Allen Schezar came alone to Freid to prevent that... | My lord Duke, I beg you, forgive Allen.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Forgive my rudeness. Brother...{wait}{clear}{nl}No, I may no longer call you that. I too{nl}have abandoned my country.{wait}{clear}{nl}My lord Duke, Zaibach's invasion is{nl}already madness. It will drag all of Gaea{nl}into a whirlpool of war.{wait}{clear}{nl}The tragedy will not stop at Fanelia{nl}alone.{wait}{clear}{nl}What's more, the next country targeted{nl}is this very Freid.{wait}{clear}{nl}Sadly, my father... no, King Aston means{nl}to leave this be. For the good of{nl}Asturia, he says...{wait}{clear}{nl}But if all of Gaea falls into Zaibach's{nl}hands, could Asturia alone remain at{nl}peace?{wait}{clear}{nl}Allen... Allen Schezar came alone to Freid{nl}to prevent that...{wait}{clear}{nl}My lord Duke, I beg you, forgive Allen.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_321",
@@ -5510,7 +6146,9 @@
      "va": "0x800dfb09",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Princess Millerna, you have grown into a fine woman. Wise and generous. | Asturia is blessed in its princess. Allen, will you serve my country as a soldier, and fight Zaibach?\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Princess Millerna, you have grown into{nl}a fine woman. Wise and generous.{wait}{clear}{nl}Asturia is blessed in its princess. Allen,{nl}will you serve my country as a soldier,{nl}and fight Zaibach?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_322",
@@ -5527,7 +6165,9 @@
      "va": "0x800dfbba",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My life is in your hands, my lord Duke.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"My life is in your hands, my lord Duke.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_323",
@@ -5544,7 +6184,9 @@
      "va": "0x800dfc07",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A fine bearing. I expect great things of you!\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"A fine bearing. I expect great things of{nl}you!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_324",
@@ -5561,7 +6203,9 @@
      "va": "0x800dfc54",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes, sir!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Yes, sir!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_325",
@@ -5578,7 +6222,9 @@
      "va": "0x800dfc7d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"So that's Chid's father...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"So that's Chid's father...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_326",
@@ -5595,7 +6241,9 @@
      "va": "0x800dfcb8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A girl from the Mystic Moon?\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"A girl from the Mystic Moon?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_327",
@@ -5612,7 +6260,9 @@
      "va": "0x800dfcef",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes. | This girl seems able to detect guymelefs in stealth cloaks with ease. | What's more, reports say she foresees destiny, and guides the dragon to the advantage.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes.{wait}{clear}{nl}This girl seems able to detect guymelefs{nl}in stealth cloaks with ease.{wait}{clear}{nl}What's more, reports say she foresees{nl}destiny, and guides the dragon to the{nl}advantage.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_328",
@@ -5629,7 +6279,9 @@
      "va": "0x800dfdc6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Splendid...\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Splendid...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_329",
@@ -5646,7 +6298,9 @@
      "va": "0x800dfdfd",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Sir?\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Sir?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_330",
@@ -5663,7 +6317,9 @@
      "va": "0x800dfe28",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"A power great enough to interfere with my Destiny Prognostication Engine... I wish to see it.\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"A power great enough to interfere with{nl}my Destiny Prognostication Engine...{wait}{clear}{nl}I wish to see it.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_331",
@@ -5680,7 +6336,9 @@
      "va": "0x800dfe8b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes, sir...\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes, sir...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_332",
@@ -5697,7 +6355,9 @@
      "va": "0x800dfeba",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Earth... beyond distant memory...\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Earth... beyond distant memory...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_333",
@@ -5714,7 +6374,9 @@
      "va": "0x800dfef9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My lord Duke of Freid.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"My lord Duke of Freid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_334",
@@ -5731,7 +6393,9 @@
      "va": "0x800dff2c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Princess Millerna.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Princess Millerna.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_335",
@@ -5748,7 +6412,9 @@
      "va": "0x800dff5d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What is this place?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What is this place?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_336",
@@ -5765,7 +6431,9 @@
      "va": "0x800dff8a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The detached palace Marlene used in life. | I had the building she used before our marriage moved here, just as it was.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"The detached palace Marlene used in{nl}life.{wait}{clear}{nl}I had the building she used before our{nl}marriage moved here, just as it was.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_337",
@@ -5782,7 +6450,9 @@
      "va": "0x800e001b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Oh my, everything is just as it used to be.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Oh my, everything is just as it used to{nl}be.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_338",
@@ -5799,7 +6469,9 @@
      "va": "0x800e005c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes. Just as it was. | Use it freely, however you wish. Marlene would be happier that way.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Yes. Just as it was.{wait}{clear}{nl}Use it freely, however you wish. Marlene{nl}would be happier that way.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_339",
@@ -5816,7 +6488,9 @@
      "va": "0x800e00d5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi. Can't you sleep?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Hitomi. Can't you sleep?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_340",
@@ -5833,7 +6507,9 @@
      "va": "0x800e0116",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid. | I feel like if I go to sleep now, I'll never wake up again...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Prince Chid.{wait}{clear}{nl}I feel like if I go to sleep now, I'll never{nl}wake up again...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_341",
@@ -5850,7 +6526,9 @@
      "va": "0x800e0177",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Me too.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Me too.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_342",
@@ -5867,7 +6545,9 @@
      "va": "0x800e01a2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_343",
@@ -5884,7 +6564,9 @@
      "va": "0x800e01cb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"When I try to sleep, I think about the battle, | and I can't stop shaking.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"When I try to sleep, I think about the{nl}battle,{wait}{clear}{nl}and I can't stop shaking.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_344",
@@ -5901,7 +6583,9 @@
      "va": "0x800e0238",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"...............\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"...............\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_345",
@@ -5918,7 +6602,9 @@
      "va": "0x800e0267",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I'm... just as Father says, I'm not fit to be king. | I could never be like Father. | Mother wanted me to be a fine king too... that's why she always told me about Allen. | But I can never live up to what Mother... what Father expects of me.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I'm... just as Father says, I'm not fit to{nl}be king.{wait}{clear}{nl}I could never be like Father.{wait}{clear}{nl}Mother wanted me to be a fine king{nl}too... that's why she always told me{nl}about Allen.{wait}{clear}{nl}But I can never live up to what{nl}Mother... what Father expects of me.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_346",
@@ -5935,7 +6621,9 @@
      "va": "0x800e0394",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid. | They say people have a mysterious power. | I heard it from my grandma. | You keep thinking in your heart, I want to be like this, I hope it turns out like this. | Do that, and your wish is sure to come true.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Prince Chid.{wait}{clear}{nl}They say people have a mysterious{nl}power.{wait}{clear}{nl}I heard it from my grandma.{wait}{clear}{nl}You keep thinking in your heart, I want{nl}to be like this, I hope it turns out like{nl}this.{wait}{clear}{nl}Do that, and your wish is sure to come{nl}true.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_347",
@@ -5952,7 +6640,9 @@
      "va": "0x800e0487",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your wish comes true.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Your wish comes true.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_348",
@@ -5969,7 +6659,9 @@
      "va": "0x800e04b6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well, it makes sense, doesn't it? | If you always wish for something, you work hard for it, right? | You keep trying. But if you go the other way, it's no good. If you think, I could never do this... | if you think, my wish could never come true, then that's how it turns out. | But if you wish hard enough, someday your wish reaches the stars, and the stars lend you that last bit of power.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Well, it makes sense, doesn't it?{wait}{clear}{nl}If you always wish for something, you{nl}work hard for it, right?{wait}{clear}{nl}You keep trying. But if you go the other{nl}way, it's no good. If you think, I could{nl}never do this...{wait}{clear}{nl}if you think, my wish could never come{nl}true, then that's how it turns out.{wait}{clear}{nl}But if you wish hard enough, someday{nl}your wish reaches the stars, and the{nl}stars lend you that last bit of power.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_349",
@@ -5986,7 +6678,9 @@
      "va": "0x800e062b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The stars lend their power...\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"The stars lend their power...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_350",
@@ -6003,7 +6697,9 @@
      "va": "0x800e0658",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid, I'll do a reading for you! I'll ask the stars for you. | Tarot reading borrows the power of the stars to tell the future. | I'll read your future!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Prince Chid, I'll do a reading for you! I'll{nl}ask the stars for you.{wait}{clear}{nl}Tarot reading borrows the power of the{nl}stars to tell the future.{wait}{clear}{nl}I'll read your future!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_351",
@@ -6020,7 +6716,9 @@
      "va": "0x800e070b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"L'Imperatore.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"L'Imperatore.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_352",
@@ -6037,7 +6735,9 @@
      "va": "0x800e073e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"La Giustizia. It's all right. | From now on you'll grow stronger and stronger, and win everyone's support.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"La Giustizia. It's all right.{wait}{clear}{nl}From now on you'll grow stronger and{nl}stronger, and win everyone's support.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_353",
@@ -6054,7 +6754,9 @@
      "va": "0x800e07c7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Really?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Really?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_354",
@@ -6071,7 +6773,9 @@
      "va": "0x800e07ee",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"La Ruota... | You'll overcome the great trial to come... | !!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"La Ruota...{wait}{clear}{nl}You'll overcome the great trial to come...{wait}{clear}{nl}!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_355",
@@ -6088,7 +6792,9 @@
      "va": "0x800e085b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The third Red Moon. | My engagement to the Duke of Freid has been decided. | Why was I born to the royal family... I love him, I have fallen in love with him. | He... this is the fate of a royal woman and a knight. Allen, when I love you so... | !! Sister Marlene and Allen?! | There's no doubt, the child of that night. What would the Duke say if I told him? | Surely he would count the months... But it can't be hidden. I...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"The third Red Moon.{wait}{clear}{nl}My engagement to the Duke of Freid{nl}has been decided.{wait}{clear}{nl}Why was I born to the royal family... I{nl}love him, I have fallen in love with him.{wait}{clear}{nl}He... this is the fate of a royal woman{nl}and a knight. Allen, when I love you so...{wait}{clear}{nl}!! Sister Marlene and Allen?!{wait}{clear}{nl}There's no doubt, the child of that night.{nl}What would the Duke say if I told him?{wait}{clear}{nl}Surely he would count the months... But{nl}it can't be hidden. I...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_356",
@@ -6105,7 +6811,9 @@
      "va": "0x800e0a46",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What's wrong, Hitomi?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"What's wrong, Hitomi?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_357",
@@ -6122,7 +6830,9 @@
      "va": "0x800e0a81",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"S-sorry. I guess I couldn't concentrate. | One more time...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"S-sorry. I guess I couldn't{nl}concentrate.{wait}{clear}{nl}One more time...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_358",
@@ -6139,7 +6849,9 @@
      "va": "0x800e0ae0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"?!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_359",
@@ -6156,7 +6868,9 @@
      "va": "0x800e0b07",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_360",
@@ -6173,7 +6887,9 @@
      "va": "0x800e0b2a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The card... L'Imperatrice, reversed. | Forbidden... love...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The card... L'Imperatrice, reversed.{wait}{clear}{nl}Forbidden... love...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_361",
@@ -6190,7 +6906,9 @@
      "va": "0x800e0b91",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Then Chid is Allen's and Sister Marlene's...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Then Chid is Allen's and Sister{nl}Marlene's...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_362",
@@ -6207,7 +6925,9 @@
      "va": "0x800e0be8",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My lord Duke. The enemy appears to have encamped on all sides. | Some 55,000 strong. As for guymelefs, over ten thousand. | Even in a siege...\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"My lord Duke. The enemy appears to{nl}have encamped on all sides.{wait}{clear}{nl}Some 55,000 strong. As for guymelefs,{nl}over ten thousand.{wait}{clear}{nl}Even in a siege...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_363",
@@ -6224,7 +6944,9 @@
      "va": "0x800e0c9b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Boris, you do understand the mission of those of us born in Freid.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Boris, you do understand the mission of{nl}those of us born in Freid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_364",
@@ -6241,7 +6963,9 @@
      "va": "0x800e0cfc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The day to carry out the 'Lion Scroll' has come.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"The day to carry out the 'Lion Scroll'{nl}has come.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_365",
@@ -6258,7 +6982,9 @@
      "va": "0x800e0d47",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The 'Lion Scroll'...\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"The 'Lion Scroll'...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_366",
@@ -6275,7 +7001,9 @@
      "va": "0x800e0d76",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Gaddes, take your men and keep the Crusade above the castle. | I'll go out in Scherazade.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Gaddes, take your men and keep the{nl}Crusade above the castle.{wait}{clear}{nl}I'll go out in Scherazade.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_367",
@@ -6292,7 +7020,9 @@
      "va": "0x800e0de9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes, sir!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Yes, sir!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_368",
@@ -6309,7 +7039,9 @@
      "va": "0x800e0e0c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen!!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Allen!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_369",
@@ -6326,7 +7058,9 @@
      "va": "0x800e0e3b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Princess Millerna.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Princess Millerna.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_370",
@@ -6343,7 +7077,9 @@
      "va": "0x800e0e6a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen... there's something I need to ask you.\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Allen... there's something I need to ask{nl}you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_371",
@@ -6360,7 +7096,9 @@
      "va": "0x800e0eb1",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"About Princess Marlene, isn't it?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"About Princess Marlene, isn't it?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_372",
@@ -6377,7 +7115,9 @@
      "va": "0x800e0eea",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That's right. | Princess Marlene and I were in love. | Since before her marriage to the Duke of Freid was arranged... | Princess, Prince Chid is probably mine and...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"That's right.{wait}{clear}{nl}Princess Marlene and I were in love.{wait}{clear}{nl}Since before her marriage to the Duke{nl}of Freid was arranged...{wait}{clear}{nl}Princess, Prince Chid is probably mine{nl}and...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_373",
@@ -6394,7 +7134,9 @@
      "va": "0x800e0f99",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"No!! I don't want to hear it!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"No!! I don't want to hear it!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_374",
@@ -6411,7 +7153,9 @@
      "va": "0x800e0fda",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Chid is my son!!\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Chid is my son!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_375",
@@ -6428,7 +7172,9 @@
      "va": "0x800e1013",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Brother...\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Brother...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_376",
@@ -6445,7 +7191,9 @@
      "va": "0x800e1040",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The castle... the castle is burning. | Boris and everyone... to let us escape. | All of them dying, for us...\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"The castle... the castle is burning.{wait}{clear}{nl}Boris and everyone... to let us escape.{wait}{clear}{nl}All of them dying, for us...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_377",
@@ -6462,7 +7210,9 @@
      "va": "0x800e10d7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Please wait, King of Fanelia!!\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Please wait, King of Fanelia!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_378",
@@ -6479,7 +7229,9 @@
      "va": "0x800e1120",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Boris-dono!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Boris-dono!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_379",
@@ -6496,7 +7248,9 @@
      "va": "0x800e114d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I have come to ask a special favor of you, King of Fanelia.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"I have come to ask a special favor of{nl}you, King of Fanelia.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_380",
@@ -6513,7 +7267,9 @@
      "va": "0x800e11ae",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I know! So I'm going to reinforce the castle gate now.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I know! So I'm going to reinforce the{nl}castle gate now.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_381",
@@ -6530,7 +7286,9 @@
      "va": "0x800e1201",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Leave that to us!! | Van-sama, I entrust the rest to you.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Leave that to us!!{wait}{clear}{nl}Van-sama, I entrust the rest to you.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_382",
@@ -6547,7 +7305,9 @@
      "va": "0x800e1264",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Stop crying!! | If you have time to cry, watch closely, Chid. Watch Boris and his men defend us unto death. | See the fate of those born in Freid! The burden a king must bear!! | Shed no tears! You are the Prince of Freid!\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Stop crying!!{wait}{clear}{nl}If you have time to cry, watch closely,{nl}Chid. Watch Boris and his men defend us{nl}unto death.{wait}{clear}{nl}See the fate of those born in Freid! The{nl}burden a king must bear!!{wait}{clear}{nl}Shed no tears! You are the Prince of{nl}Freid!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_383",
@@ -6564,7 +7324,9 @@
      "va": "0x800e136f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The time of our last battle has come. | We must protect, at all costs, the secret treasure of Freid handed down from ancient times. | This Fortuna is our last stronghold. I have come to ask the aid of you, the Zegu clan.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"The time of our last battle has come.{wait}{clear}{nl}We must protect, at all costs, the{nl}secret treasure of Freid handed down{nl}from ancient times.{wait}{clear}{nl}This Fortuna is our last stronghold. I{nl}have come to ask the aid of you, the{nl}Zegu clan.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_384",
@@ -6581,7 +7343,9 @@
      "va": "0x800e144a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"We understand. Our clan exists for this very day. | Boris-sama's death and that of his men will not be in vain. | Such is the fate of us who are born in Freid. | My lord Duke. We have kept it these long days. | I now return the sacred sword of Freid.\"",
+   "en": "{clear}{nameon}{color3}17Kaja{nameoff}{color2}{nl}\"We understand. Our clan exists for this{nl}very day.{wait}{clear}{nl}Boris-sama's death and that of his men{nl}will not be in vain.{wait}{clear}{nl}Such is the fate of us who are born in{nl}Freid.{wait}{clear}{nl}My lord Duke. We have kept it these{nl}long days.{wait}{clear}{nl}I now return the sacred sword of{nl}Freid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_385",
@@ -6598,7 +7362,9 @@
      "va": "0x800e156b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Chid! | I now hand down to you the mission of those born to the royal family of Freid. | King of Fanelia, Allen, as you go to battle with us, I would have you hear it too.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Chid!{wait}{clear}{nl}I now hand down to you the mission of{nl}those born to the royal family of Freid.{wait}{clear}{nl}King of Fanelia, Allen, as you go to{nl}battle with us, I would have you hear it{nl}too.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_386",
@@ -6615,7 +7381,9 @@
      "va": "0x800e1624",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Meow, I don't like this feeling...\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Meow, I don't like this feeling...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_387",
@@ -6632,7 +7400,9 @@
      "va": "0x800e165d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What is this? I can feel some kind of mysterious power.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What is this? I can feel some kind of{nl}mysterious power.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_388",
@@ -6649,7 +7419,9 @@
      "va": "0x800e16ac",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"What?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_389",
@@ -6666,7 +7438,9 @@
      "va": "0x800e16d3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"This is...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"This is...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_390",
@@ -6683,7 +7457,9 @@
      "va": "0x800e1700",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes, these letters are ancient Atlantean script. | The secret treasure we of Freid have guarded for four thousand years is the power of Atlantis. | Here it is all written down.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Yes, these letters are ancient{nl}Atlantean script.{wait}{clear}{nl}The secret treasure we of Freid have{nl}guarded for four thousand years is the{nl}power of Atlantis.{wait}{clear}{nl}Here it is all written down.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_391",
@@ -6700,7 +7476,9 @@
      "va": "0x800e17d7",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Atlantis...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Atlantis...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_392",
@@ -6717,7 +7495,9 @@
      "va": "0x800e180c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What's the matter, Hitomi?\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"What's the matter, Hitomi?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_393",
@@ -6734,7 +7514,9 @@
      "va": "0x800e1843",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I can see it...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I can see it...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_394",
@@ -6751,7 +7533,9 @@
      "va": "0x800e1872",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The people of Atlantis ruled the earth, ruled the waters, ruled the heavens.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"The people of Atlantis ruled the earth,{nl}ruled the waters, ruled the heavens.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_395",
@@ -6768,7 +7552,9 @@
      "va": "0x800e18d5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Their power was great, and the people grew proud, calling themselves gods. | They turned 'human will' into power, and ruled the world of Atlantis.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Their power was great, and the people{nl}grew proud, calling themselves gods.{wait}{clear}{nl}They turned 'human will' into power, and{nl}ruled the world of Atlantis.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_396",
@@ -6785,7 +7571,9 @@
      "va": "0x800e1968",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"But that power destroyed Atlantis. | The survivors sealed it beneath this land of Fortuna, so that it could never be used again. | To guard this sword, the key to the seal, is the duty of Freid's royal house. | Chid... the power of Atlantis must never awaken again. | You understand that, if you are my son.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"But that power destroyed Atlantis.{wait}{clear}{nl}The survivors sealed it beneath this land{nl}of Fortuna, so that it could never be{nl}used again.{wait}{clear}{nl}To guard this sword, the key to the{nl}seal, is the duty of Freid's royal house.{wait}{clear}{nl}Chid... the power of Atlantis must never{nl}awaken again.{wait}{clear}{nl}You understand that, if you are my{nl}son.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_397",
@@ -6802,7 +7590,9 @@
      "va": "0x800e1ae5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Yes, Father.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"Yes, Father.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_398",
@@ -6819,7 +7609,9 @@
      "va": "0x800e1b10",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_399",
@@ -6836,7 +7628,9 @@
      "va": "0x800e1b3d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi? What is it?\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hitomi? What is it?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_400",
@@ -6853,7 +7647,9 @@
      "va": "0x800e1b72",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Allen-san was looking for you. I thought you'd probably be here.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Allen-san was looking for you. I thought{nl}you'd probably be here.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_401",
@@ -6870,7 +7666,9 @@
      "va": "0x800e1bcf",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I see.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I see.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_402",
@@ -6887,7 +7685,9 @@
      "va": "0x800e1bfa",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You don't look so good. What were you doing?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"You don't look so good. What were you{nl}doing?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_403",
@@ -6904,7 +7704,9 @@
      "va": "0x800e1c41",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"That thing you taught me.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"That thing you taught me.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_404",
@@ -6921,7 +7723,9 @@
      "va": "0x800e1c7e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Huh?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Huh?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_405",
@@ -6938,7 +7742,9 @@
      "va": "0x800e1ca5",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What you taught me, what was it, dowsing? | I tried it.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"What you taught me, what was it,{nl}dowsing?{wait}{clear}{nl}I tried it.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_406",
@@ -6955,7 +7761,9 @@
      "va": "0x800e1d1c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Dowsing...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Dowsing...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_407",
@@ -6972,7 +7780,9 @@
      "va": "0x800e1d4d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You said it, didn't you? | Hold something in your heart and you can see even what can't be seen. | So instead of just using Escaflowne, I decided to hold it in my heart. | Then I can make it move better. | I don't use it. It becomes me, and fights!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"You said it, didn't you?{wait}{clear}{nl}Hold something in your heart and you{nl}can see even what can't be seen.{wait}{clear}{nl}So instead of just using Escaflowne, I{nl}decided to hold it in my heart.{wait}{clear}{nl}Then I can make it move better.{wait}{clear}{nl}I don't use it. It becomes me, and{nl}fights!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_408",
@@ -6989,7 +7799,9 @@
      "va": "0x800e1e7e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Van...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_409",
@@ -7006,7 +7818,9 @@
      "va": "0x800e1eab",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi, you don't need to...\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Hitomi, you don't need to...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_410",
@@ -7023,7 +7837,9 @@
      "va": "0x800e1ee2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"Hitomi?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_411",
@@ -7040,7 +7856,9 @@
      "va": "0x800e1f0f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"It's begun. The battle...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"It's begun. The battle...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_412",
@@ -7063,7 +7881,9 @@
      "va": "0x800e1f4a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"God... you're God, right? Please. | Please protect Van-sama. Protect him so he comes back from the fight safely. | Please... God. Please protect Van-sama.\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}{voice:30303139}\"God... you're God, right? Please.{wait}{clear}{nl}{voice:30303230}Please protect Van-sama. Protect him{nl}so he comes back from the fight safely.{wait}{clear}{nl}{voice:30303231}Please... God. Please protect Van-sama.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_413",
@@ -7086,7 +7906,9 @@
      "va": "0x800e203d",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Haaah!!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303232}\"Haaah!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_414",
@@ -7103,7 +7925,9 @@
      "va": "0x800e206e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"King of Freid!!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"King of Freid!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_415",
@@ -7120,7 +7944,9 @@
      "va": "0x800e20a9",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"D-damn you!\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"D-damn you!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_416",
@@ -7137,7 +7963,9 @@
      "va": "0x800e20de",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your head is miiine!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Your head is miiine!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_417",
@@ -7154,7 +7982,9 @@
      "va": "0x800e211b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"You again?! Allen!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"You again?! Allen!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_418",
@@ -7171,7 +8001,9 @@
      "va": "0x800e215e",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My lord Duke, leave this to me. Please fall back for now.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"My lord Duke, leave this to me. Please{nl}fall back for now.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_419",
@@ -7188,7 +8020,9 @@
      "va": "0x800e21b3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Tch!!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Tch!!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_420",
@@ -7205,7 +8039,9 @@
      "va": "0x800e21e2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"...............\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"...............\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_421",
@@ -7222,7 +8058,9 @@
      "va": "0x800e2213",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My lord Duke!! | Please fall back to the temple for now.\"",
+   "en": "{clear}{nameon}{color3}17Kaja{nameoff}{color2}{nl}\"My lord Duke!!{wait}{clear}{nl}Please fall back to the temple for now.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_422",
@@ -7239,7 +8077,9 @@
      "va": "0x800e2266",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I understand now... | The gods desire the rebirth of Atlantis's power... | They desire that the people of Gaea undergo that trial.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"I understand now...{wait}{clear}{nl}The gods desire the rebirth of Atlantis's{nl}power...{wait}{clear}{nl}They desire that the people of Gaea{nl}undergo that trial.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_423",
@@ -7256,7 +8096,9 @@
      "va": "0x800e230b",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My lord Duke.\"",
+   "en": "{clear}{nameon}{color3}17Kaja{nameoff}{color2}{nl}\"My lord Duke.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_424",
@@ -7273,7 +8115,9 @@
      "va": "0x800e2332",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Then I shall give it to them. | I shall give Zaibach that power. | But the power of Atlantis is the power of human will. | Though Atlantis perished by that power, Gaea will not necessarily share its fate.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Then I shall give it to them.{wait}{clear}{nl}I shall give Zaibach that power.{wait}{clear}{nl}But the power of Atlantis is the power{nl}of human will.{wait}{clear}{nl}Though Atlantis perished by that power,{nl}Gaea will not necessarily share its fate.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_425",
@@ -7290,7 +8134,9 @@
      "va": "0x800e2431",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"...............\"",
+   "en": "{clear}{nameon}{color3}17Kaja{nameoff}{color2}{nl}\"...............\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_426",
@@ -7307,7 +8153,9 @@
      "va": "0x800e245c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"We ourselves shall carve out our fate. | Our children shall lead the way to that shining future. | Kaja, I entrust it to the future. I shall bear the old and die with it. | Take care of Chid. I entrust the future to him. | It will be a hard road, but he can make it through. For Chid is my son...\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"We ourselves shall carve out our fate.{wait}{clear}{nl}Our children shall lead the way to that{nl}shining future.{wait}{clear}{nl}Kaja, I entrust it to the future. I shall{nl}bear the old and die with it.{wait}{clear}{nl}Take care of Chid. I entrust the future{nl}to him.{wait}{clear}{nl}It will be a hard road, but he can make{nl}it through. For Chid is my son...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_427",
@@ -7324,7 +8172,9 @@
      "va": "0x800e259f",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Duke of Freid!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Duke of Freid!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_428",
@@ -7341,7 +8191,9 @@
      "va": "0x800e25d0",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I am the King of Freid, | Mahad Dar Freid! | If you want glory, face me. I am the King of Freid.\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"I am the King of Freid,{wait}{clear}{nl}Mahad Dar Freid!{wait}{clear}{nl}If you want glory, face me. I am the{nl}King of Freid.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_429",
@@ -7358,7 +8210,9 @@
      "va": "0x800e2673",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My lord Duke!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"My lord Duke!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_430",
@@ -7375,7 +8229,9 @@
      "va": "0x800e269c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Marlene...\"",
+   "en": "{clear}{nameon}{color3}16Duke of Freid{nameoff}{color2}{nl}\"Marlene...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_431",
@@ -7392,7 +8248,9 @@
      "va": "0x800e26cb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"My lord Duke!!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"My lord Duke!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_432",
@@ -7409,7 +8267,9 @@
      "va": "0x800e26f6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Please wait, Allen-dono!! | Our battle is over. It was the Duke's own decision. Please understand.\"",
+   "en": "{clear}{nameon}{color3}17Kaja{nameoff}{color2}{nl}\"Please wait, Allen-dono!!{wait}{clear}{nl}Our battle is over. It was the Duke's{nl}own decision. Please understand.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_433",
@@ -7426,7 +8286,9 @@
      "va": "0x800e2789",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Is that man a demon...\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Is that man a demon...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_434",
@@ -7443,7 +8305,9 @@
      "va": "0x800e27c2",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Dilandau, pull back the Dragonslayers. | The King of Freid is dead. This battle is nearly over. Your work comes after.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Dilandau, pull back the Dragonslayers.{wait}{clear}{nl}The King of Freid is dead. This battle is{nl}nearly over. Your work comes after.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_435",
@@ -7460,7 +8324,9 @@
      "va": "0x800e2855",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Tch, then I'll save my fun for later.\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Tch, then I'll save my fun for later.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_436",
@@ -7483,7 +8349,9 @@
      "va": "0x800e28a6",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Well done, Kaja. Father's last wishes, I have them...\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}{voice:30303233}\"Well done, Kaja. Father's last wishes, I{nl}have them...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_437",
@@ -7500,7 +8368,9 @@
      "va": "0x800e28ff",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your Highness! | We can still fight. And so can the captain...\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Your Highness!{wait}{clear}{nl}We can still fight. And so can the{nl}captain...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_438",
@@ -7523,7 +8393,9 @@
      "va": "0x800e2950",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Thank you, Gaddes. | I'll never forget your friendship as long as I live. | But this is what Father decided, at the cost of his life. | I will bear this trial, and I will restore Freid, I swear it.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}{voice:30303234}\"Thank you, Gaddes.{wait}{clear}{nl}{voice:30303235}I'll never forget your friendship as long{nl}as I live.{wait}{clear}{nl}{voice:30303236}But this is what Father decided, at the{nl}cost of his life.{wait}{clear}{nl}{voice:30303237}I will bear this trial, and I will restore{nl}Freid, I swear it.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_439",
@@ -7546,7 +8418,9 @@
      "va": "0x800e2a49",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Prince Chid.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303238}\"Prince Chid.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_440",
@@ -7569,7 +8443,9 @@
      "va": "0x800e2a7c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Hitomi taught me. That your wish is sure to come true.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}{voice:30303239}\"Hitomi taught me. That your wish is{nl}sure to come true.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_441",
@@ -7592,7 +8468,9 @@
      "va": "0x800e2adb",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Your Highness.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}{voice:30303330}\"Your Highness.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_442",
@@ -7615,7 +8493,9 @@
      "va": "0x800e2b0a",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I won't cry anymore. | I promised Father... I am the King of Freid.\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}{voice:30303331}\"I won't cry anymore.{wait}{clear}{nl}{voice:30303332}I promised Father... I am the King of{nl}Freid.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_443",
@@ -7638,7 +8518,9 @@
      "va": "0x800e2b89",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I pay my respects to Prince Chid's courage. | With this, the needless fighting is over.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303333}\"I pay my respects to Prince Chid's{nl}courage.{wait}{clear}{nl}{voice:30303334}With this, the needless fighting is over.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_444",
@@ -7661,7 +8543,9 @@
      "va": "0x800e2c12",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Folken-dono. | You will keep your promise, won't you?\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}{voice:30303335}\"Folken-dono.{wait}{clear}{nl}{voice:30303336}You will keep your promise, won't you?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_445",
@@ -7684,7 +8568,9 @@
      "va": "0x800e2c71",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"If Freid will show my country this token of friendship, | we will not touch that floating ship, the Crusade, until it leaves Freid. | Now then, the token of friendship...\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303337}\"If Freid will show my country this token{nl}of friendship,{wait}{clear}{nl}{voice:30303338}we will not touch that floating ship, the{nl}Crusade, until it leaves Freid.{wait}{clear}{nl}{voice:30303339}Now then, the token of friendship...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_446",
@@ -7701,7 +8587,9 @@
      "va": "0x800e2d60",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"I, Chid Zar Freid, King of Freid, | as a token of friendship with the Zaibach Empire, | do entrust to you the secret treasure, the Sword of the Seal!\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"I, Chid Zar Freid, King of Freid,{wait}{clear}{nl}as a token of friendship with the{nl}Zaibach Empire,{wait}{clear}{nl}do entrust to you the secret treasure,{nl}the Sword of the Seal!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_447",
@@ -7718,7 +8606,9 @@
      "va": "0x800e2e07",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"Captain, we got trouble!!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"Captain, we got trouble!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_448",
@@ -7735,7 +8625,9 @@
      "va": "0x800e2e3c",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What is it?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What is it?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_449",
@@ -7752,7 +8644,9 @@
      "va": "0x800e2e69",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"The king won't come out. | He won't come out of Escaflowne!!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"The king won't come out.{wait}{clear}{nl}He won't come out of Escaflowne!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_450",
@@ -7769,7 +8663,9 @@
      "va": "0x800e2ecc",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"What?\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_451",
@@ -7786,7 +8682,9 @@
      "va": "0x800e2ef3",
      "delta": 0
     }
-   ]
+   ],
+   "tl": "\"He sat Escaflowne down in the hangar and he ain't moved since!! | Something's wrong, sir!!\"",
+   "en": "{clear}{nameon}{color3}02Gaddes{nameoff}{color2}{nl}\"He sat Escaflowne down in the hangar{nl}and he ain't moved since!!{wait}{clear}{nl}Something's wrong, sir!!\"{pageend}{nl2}{end}"
   }
  ],
  "data": [

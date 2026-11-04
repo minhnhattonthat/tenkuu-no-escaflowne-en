@@ -63,7 +63,7 @@ def test_committed_script_matches_the_disc(tmp_path):
     assert sorted(p.name for p in tmp_path.glob("*.json")) == sorted(docs())
     for name, doc in docs().items():
         fresh = json.loads((tmp_path / name).read_text(encoding="utf-8"))
-        assert [{k: v for k, v in e.items() if k != "en"} for e in doc["entries"]] == fresh["entries"], name
+        assert [{k: v for k, v in e.items() if k not in ("en", "tl")} for e in doc["entries"]] == fresh["entries"], name
 
 
 @needs_tree

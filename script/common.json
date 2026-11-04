@@ -67,7 +67,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "{clear}{mark1}　Partner Up{nl2}{end}",
+   "en": "{clear}{mark1}　Partner Up{nl2}{end}"
   },
   {
    "id": "common_002",
@@ -76,7 +78,9 @@
    "size": 23,
    "jp": "{mark2}　パートナーを終了{nl2}{end}",
    "form": "menu",
-   "dead": true
+   "dead": true,
+   "tl": "{mark2}　End Partnership{nl2}{end}",
+   "en": "{mark2}　End Partnership{nl2}{end}"
   },
   {
    "id": "common_003",
@@ -85,7 +89,9 @@
    "size": 21,
    "jp": "{mark3}　Ｓ　Ａ　Ｖ　Ｅ{nl2}{end}",
    "form": "menu",
-   "dead": true
+   "dead": true,
+   "tl": "{mark3}　S A V E{nl2}{end}",
+   "en": "{mark3}　S A V E{nl2}{end}"
   },
   {
    "id": "common_004",
@@ -94,7 +100,9 @@
    "size": 23,
    "jp": "{mark4}　Ｌ　Ｏ　Ａ　Ｄ{menuwait}{close}{end}",
    "form": "menu",
-   "dead": true
+   "dead": true,
+   "tl": "{mark4}　L O A D{menuwait}{close}{end}",
+   "en": "{mark4}　L O A D{menuwait}{close}{end}"
   },
   {
    "id": "common_005",
@@ -160,7 +168,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "{mark2}　End Partnership{menuwait}{close}{end}",
+   "en": "{mark2}　End Partnership{menuwait}{close}{end}"
   },
   {
    "id": "common_006",
@@ -2196,7 +2206,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　　　　{mark4}LOAD{nl2}{end}",
+   "en": "　　　　　　　{mark4}LOAD{nl2}{end}"
   },
   {
    "id": "common_008",
@@ -2318,7 +2330,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　　　　{mark5}EXIT{menuwait}{close}{end}",
+   "en": "　　　　　　　{mark5}EXIT{menuwait}{close}{end}"
   },
   {
    "id": "common_009",
@@ -2384,7 +2398,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　　Load this data?{nl2}　{nl2}{end}",
+   "en": "　　　　　Load this data?{nl2}　{nl2}{end}"
   },
   {
    "id": "common_010",
@@ -2618,7 +2634,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　　{mark1}YES　　{mark2}NO{menuwait}{close}{end}",
+   "en": "　　　　　{mark1}YES　　{mark2}NO{menuwait}{close}{end}"
   },
   {
    "id": "common_011",
@@ -2684,7 +2702,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　Load from which slot?{nl2}{end}",
+   "en": "　　　Load from which slot?{nl2}{end}"
   },
   {
    "id": "common_012",
@@ -2806,7 +2826,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　{mark1}Memory Card Slot 1{nl2}{end}",
+   "en": "　　　{mark1}Memory Card Slot 1{nl2}{end}"
   },
   {
    "id": "common_013",
@@ -2928,7 +2950,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　{mark2}Memory Card Slot 2{nl2}{end}",
+   "en": "　　　{mark2}Memory Card Slot 2{nl2}{end}"
   },
   {
    "id": "common_014",
@@ -3050,7 +3074,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　{mark3}EXIT{menuwait}{close}{end}",
+   "en": "　　　{mark3}EXIT{menuwait}{close}{end}"
   },
   {
    "id": "common_015",
@@ -3452,7 +3478,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　{mark1}No Memory Card is{nl2}{end}",
+   "en": "　　{mark1}No Memory Card is{nl2}{end}"
   },
   {
    "id": "common_016",
@@ -3854,7 +3882,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　inserted.{nl2}{end}",
+   "en": "　　inserted.{nl2}{end}"
   },
   {
    "id": "common_017",
@@ -3976,7 +4006,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　Cannot load.{menuwait}{close}{end}",
+   "en": "　　Cannot load.{menuwait}{close}{end}"
   },
   {
    "id": "common_018",
@@ -4098,7 +4130,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　This card isn't formatted.{nl2}{end}",
+   "en": "　　　This card isn't formatted.{nl2}{end}"
   },
   {
    "id": "common_019",
@@ -4220,7 +4254,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　Format it?{nl2}　{nl2}{end}",
+   "en": "　　　Format it?{nl2}　{nl2}{end}"
   },
   {
    "id": "common_020",
@@ -4342,7 +4378,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　{mark1}Format{menuwait}{close}{end}",
+   "en": "　　　　{mark1}Format{menuwait}{close}{end}"
   },
   {
    "id": "common_021",
@@ -4576,7 +4614,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　{mark1}Could not format the card.{menuwait}{close}{end}",
+   "en": "　　{mark1}Could not format the card.{menuwait}{close}{end}"
   },
   {
    "id": "common_022",
@@ -4698,7 +4738,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　{mark1}Format complete.{menuwait}{close}{end}",
+   "en": "　　　　{mark1}Format complete.{menuwait}{close}{end}"
   },
   {
    "id": "common_023",
@@ -4764,7 +4806,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　Cannot format.{menuwait}{nl2}{end}",
+   "en": "　　Cannot format.{menuwait}{nl2}{end}"
   },
   {
    "id": "common_024",
@@ -4830,7 +4874,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　{mark1}Memory Card error.{nl2}{end}",
+   "en": "　　　{mark1}Memory Card error.{nl2}{end}"
   },
   {
    "id": "common_025",
@@ -4896,7 +4942,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　It is damaged.{nl2}{end}",
+   "en": "　　　It is damaged.{nl2}{end}"
   },
   {
    "id": "common_026",
@@ -4962,7 +5010,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　Cannot load.{menuwait}{close}{end}",
+   "en": "　　　Cannot load.{menuwait}{close}{end}"
   },
   {
    "id": "common_027",
@@ -5028,7 +5078,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　　{mark1}Data loaded.{menuwait}{close}{end}",
+   "en": "　　　　　{mark1}Data loaded.{menuwait}{close}{end}"
   },
   {
    "id": "common_028",
@@ -5094,7 +5146,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　{mark1}Load failed.{menuwait}{close}{end}",
+   "en": "　　　{mark1}Load failed.{menuwait}{close}{end}"
   },
   {
    "id": "common_029",
@@ -5160,7 +5214,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　{mark1}No data found.{menuwait}{close}{end}",
+   "en": "　　　　{mark1}No data found.{menuwait}{close}{end}"
   },
   {
    "id": "common_030",
@@ -5226,7 +5282,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　{mark1}Data not loaded.{menuwait}{close}{end}",
+   "en": "　　　{mark1}Data not loaded.{menuwait}{close}{end}"
   },
   {
    "id": "common_031",
@@ -5292,7 +5350,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　　　　{mark3}SAVE{nl2}{end}",
+   "en": "　　　　　　　{mark3}SAVE{nl2}{end}"
   },
   {
    "id": "common_032",
@@ -5358,7 +5418,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　　Save your game?{nl2}　{nl2}{end}",
+   "en": "　　　　　Save your game?{nl2}　{nl2}{end}"
   },
   {
    "id": "common_033",
@@ -5424,7 +5486,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　Save to which slot?　{nl2}{end}",
+   "en": "　　　Save to which slot?　{nl2}{end}"
   },
   {
    "id": "common_034",
@@ -5602,7 +5666,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　Cannot save.{menuwait}{close}{end}",
+   "en": "　　Cannot save.{menuwait}{close}{end}"
   },
   {
    "id": "common_035",
@@ -5734,7 +5800,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　Cannot format.{menuwait}{close}{end}",
+   "en": "　　Cannot format.{menuwait}{close}{end}"
   },
   {
    "id": "common_037",
@@ -5800,7 +5868,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　{mark1}Memory Card error.{nl2}{end}",
+   "en": "　　　{mark1}Memory Card error.{nl2}{end}"
   },
   {
    "id": "common_038",
@@ -5866,7 +5936,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　It is damaged.{nl2}{end}",
+   "en": "　　　It is damaged.{nl2}{end}"
   },
   {
    "id": "common_039",
@@ -5988,7 +6060,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　Cannot save.{menuwait}{close}{end}",
+   "en": "　　　Cannot save.{menuwait}{close}{end}"
   },
   {
    "id": "common_040",
@@ -6120,7 +6194,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　　Overwrite this data?{nl2}{end}",
+   "en": "　　　　　Overwrite this data?{nl2}{end}"
   },
   {
    "id": "common_042",
@@ -6186,7 +6262,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　　　{mark1}YES　　{mark2}NO{menuwait}{close}{end}",
+   "en": "　　　　　　{mark1}YES　　{mark2}NO{menuwait}{close}{end}"
   },
   {
    "id": "common_043",
@@ -6308,7 +6386,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　　　{mark1}Game saved.{menuwait}{close}{end}",
+   "en": "　　　　　{mark1}Game saved.{menuwait}{close}{end}"
   },
   {
    "id": "common_044",
@@ -6430,7 +6510,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　{mark1}Save failed.{menuwait}{close}{end}",
+   "en": "　　　{mark1}Save failed.{menuwait}{close}{end}"
   },
   {
    "id": "common_045",
@@ -6552,7 +6634,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　{mark1}Game not saved.{menuwait}{close}{end}",
+   "en": "　　　{mark1}Game not saved.{menuwait}{close}{end}"
   },
   {
    "id": "common_046",
@@ -6618,7 +6702,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "　　　{mark1}Not enough free blocks.{nl2}{end}",
+   "en": "　　　{mark1}Not enough free blocks.{nl2}{end}"
   },
   {
    "id": "common_047",
@@ -6684,7 +6770,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Kaja{end}"
   },
   {
    "id": "common_048",
@@ -6750,7 +6837,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Young Woman{end}"
   },
   {
    "id": "common_049",
@@ -6816,7 +6904,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Young Man{end}"
   },
   {
    "id": "common_050",
@@ -6882,7 +6971,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Zaibach Soldier{end}"
   },
   {
    "id": "common_051",
@@ -6948,7 +7038,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Celena{end}"
   },
   {
    "id": "common_052",
@@ -7014,7 +7105,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Jajuka{end}"
   },
   {
    "id": "common_053",
@@ -7080,7 +7172,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Adelphos{end}"
   },
   {
    "id": "common_054",
@@ -7146,7 +7239,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Mizuru{end}"
   },
   {
    "id": "common_055",
@@ -7212,7 +7306,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Isaac{end}"
   },
   {
    "id": "common_056",
@@ -7278,7 +7373,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Girl (Hitomi's Grandma){end}"
   },
   {
    "id": "common_057",
@@ -7344,7 +7440,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Leon{end}"
   },
   {
    "id": "common_058",
@@ -7410,7 +7507,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Eriya{end}"
   },
   {
    "id": "common_059",
@@ -7476,7 +7574,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Naria{end}"
   },
   {
    "id": "common_060",
@@ -7542,7 +7641,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Ispano Craftsman{end}"
   },
   {
    "id": "common_061",
@@ -7608,7 +7708,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Freid Warrior Monk{end}"
   },
   {
    "id": "common_062",
@@ -7674,7 +7775,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Duke of Freid{end}"
   },
   {
    "id": "common_063",
@@ -7740,7 +7842,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Boris{end}"
   },
   {
    "id": "common_064",
@@ -7806,7 +7909,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Plakt{end}"
   },
   {
    "id": "common_065",
@@ -7872,7 +7976,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Zongi{end}"
   },
   {
    "id": "common_066",
@@ -7938,7 +8043,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Mine Commander{end}"
   },
   {
    "id": "common_067",
@@ -8004,7 +8110,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Meiden{end}"
   },
   {
    "id": "common_068",
@@ -8070,7 +8177,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "King Aston{end}"
   },
   {
    "id": "common_069",
@@ -8136,7 +8244,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Theo{end}"
   },
   {
    "id": "common_070",
@@ -8202,7 +8311,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Dornkirk{end}"
   },
   {
    "id": "common_071",
@@ -8268,7 +8378,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Guimel{end}"
   },
   {
    "id": "common_072",
@@ -8334,7 +8445,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Dalet{end}"
   },
   {
    "id": "common_073",
@@ -8400,7 +8512,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Gatti{end}"
   },
   {
    "id": "common_074",
@@ -8466,7 +8579,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Chesta{end}"
   },
   {
    "id": "common_075",
@@ -8532,7 +8646,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Miguel{end}"
   },
   {
    "id": "common_076",
@@ -8598,7 +8713,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Susumu Amano{end}"
   },
   {
    "id": "common_077",
@@ -8664,7 +8780,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Fanelian Soldier{end}"
   },
   {
    "id": "common_078",
@@ -8730,7 +8847,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Fanelian Priest{end}"
   },
   {
    "id": "common_079",
@@ -8796,7 +8914,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Royal Guard{end}"
   },
   {
    "id": "common_080",
@@ -8862,7 +8981,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Gimle{end}"
   },
   {
    "id": "common_081",
@@ -8928,7 +9048,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Dilandau{end}"
   },
   {
    "id": "common_082",
@@ -8994,7 +9115,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Refine{end}"
   },
   {
    "id": "common_083",
@@ -9060,7 +9182,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Land Dragon{end}"
   },
   {
    "id": "common_084",
@@ -9126,7 +9249,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Dryden{end}"
   },
   {
    "id": "common_085",
@@ -9192,7 +9316,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Prince Chid{end}"
   },
   {
    "id": "common_086",
@@ -9258,7 +9383,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Eries{end}"
   },
   {
    "id": "common_087",
@@ -9324,7 +9450,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Millerna{end}"
   },
   {
    "id": "common_088",
@@ -9390,7 +9517,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Merle{end}"
   },
   {
    "id": "common_089",
@@ -9456,7 +9584,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Mole Man{end}"
   },
   {
    "id": "common_090",
@@ -9522,7 +9651,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Gaddes{end}"
   },
   {
    "id": "common_091",
@@ -9588,7 +9718,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Folken{end}"
   },
   {
    "id": "common_092",
@@ -9654,7 +9785,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Allen{end}"
   },
   {
    "id": "common_093",
@@ -9720,7 +9852,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Balgus{end}"
   },
   {
    "id": "common_094",
@@ -9786,7 +9919,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Hitomi{end}"
   },
   {
    "id": "common_095",
@@ -9852,7 +9986,8 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "en": "Van{end}"
   },
   {
    "id": "common_096",
@@ -9984,7 +10119,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": " as your partner?{end}",
+   "en": " as your partner?{end}"
   },
   {
    "id": "common_098",
@@ -10050,7 +10187,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": " out, {end}",
+   "en": " out, {end}"
   },
   {
    "id": "common_099",
@@ -10116,7 +10255,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": " in.{nl2}Switch partners?{end}",
+   "en": " in.{nl2}Switch partners?{end}"
   },
   {
    "id": "common_100",
@@ -10182,7 +10323,9 @@
      "delta": 0,
      "file": "SYO07.BIN"
     }
-   ]
+   ],
+   "tl": "{nl2}　{mark1}Yes　{mark2}No{menuwait}{close}{end}",
+   "en": "{nl2}　{mark1}Yes　{mark2}No{menuwait}{close}{end}"
   },
   {
    "id": "common_101",
@@ -10191,7 +10334,9 @@
    "size": 35,
    "jp": "とのパートナー行動を終了しますか？{end}",
    "form": "fragment",
-   "dead": true
+   "dead": true,
+   "tl": ": end this partnership?{end}",
+   "en": ": end this partnership?{end}"
   },
   {
    "id": "common_102",
@@ -10200,7 +10345,9 @@
    "size": 27,
    "jp": "{nl2}　{mark1}はい{nl2}　{mark2}いいえ{menuwait}{close}{end}",
    "form": "fragment",
-   "dead": true
+   "dead": true,
+   "tl": "{nl2}　{mark1}Yes{nl2}　{mark2}No{menuwait}{close}{end}",
+   "en": "{nl2}　{mark1}Yes{nl2}　{mark2}No{menuwait}{close}{end}"
   }
  ]
 }
