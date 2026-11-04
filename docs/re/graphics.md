@@ -12,7 +12,7 @@ Rendering uses each TIM's first CLUT. A label drawn in a different palette could
 | 2 | Title copyright | `ESCA111.TIM`, `ZZZZZ2.TIM`, `ZZZZZ3.TIM` | raw | `©サンライズ・テレビ東京` | `©SUNRISE / TV TOKYO`. Three copies (normal, red, white). |
 | 3 | Chapter cards 1-7 | `TIM/KUDO/TI01-07.TIM` | raw, 61,984 B each | `第一章 異世界ガイア`, `第二章 幻の月`, `第三章 青き瞳の王子`, `第四章 失われた楽園`, `第五章 恋の黄金律作戦`, `第六章 黒き翼の天使`, `第七章 永遠の想い` | Redraw at same size, keep the coloured accent word. |
 | 4 | Staff roll | `PRG/STAFF.BIN` LZ TIMs at 0x1D8C, 0x5490, 0x9404, 0xDA48 | LZ, 4bpp 256x256 each | All credits, about 60 rows of kanji | English credits (D3). Rows are probably sliced by code: read STAFF.BIN code for row layout. Names need romanization research. |
-| 5 | Story-title sheet | `TIM/KUDO/ST_TITL.TIM` | raw | `第 章 一 二 三 四 五`; and `ゴメスを倒せ`, `五郎とゴロー`, `鳥を見た`, `カネゴンの繭`, `開けてくれ` | The five titles look like Ultra Q episode names (from memory, unchecked), so likely placeholder art. TITLE.BIN names this file: find whether it draws. Translate only if it shows. |
+| 5 | Story-title sheet | `TIM/KUDO/ST_TITL.TIM` | raw, VRAM (832,256) | `第 章 一 二 三 四 五`; and `ゴメスを倒せ`, `五郎とゴロー`, `鳥を見た`, `カネゴンの繭`, `開けてくれ` | The five titles look like Ultra Q episode names (from memory, unchecked), so likely placeholder art. TITLE.BIN's card file table loads it for each chapter (0x801DF870), but all 7 `chN_card` proofs show only the TI0N title, never these five. Guess: loaded, not drawn. Settle it in phase 8: replace it with a marker and rewatch a card. |
 | 6 | Placeholder | MDAT01A G00647 (and other MDATs as dups) | LZ | `作成中` ("under construction") | Check whether it shows. Replace if it can. |
 
 ## Already English or not language text (leave alone)
@@ -40,8 +40,12 @@ Rendering uses each TIM's first CLUT. A label drawn in a different palette could
 
 Partner menu, SAVE/LOAD, memory-card messages, YES/NO, LOAD/EXIT window on title (seen in `work/qa/t_opt`). Names are in the script.
 
-## Not yet confirmed at runtime
+## Confirmed at runtime (phase 2, `tools/debug/warp_all.py`, proofs in `work/qa/warp/_proof/`)
 
-OPTION screen: the route missed it, and no TIM holds Japanese option labels (guess: text engine or English sprites). Phase 2 warp list must include OPTION, LOAD, game over, chapter cards, credits, and a battle. The rule is that a row counts as done only with a zoomed cold-boot shot in phase 8.
+- Title: draws `START` and `LOAD` only, plus the Japanese copyright row. **There is no OPTION screen:** the cursor word only takes 0 and 1 (`docs/re/warp.md`), so the OPTION label in the art is never drawn and needs no redraw.
+- Chapter cards 1-7, `GAME OVER`, staff roll and battle HUD all draw as listed above. SAVE/LOAD, partner menu and choice boxes use the text engine.
+- Not seen in any run: `作成中` (row 6).
+
+The rule stays: a row counts as done only with a zoomed cold-boot shot in phase 8.
 
 **FMV dialogue:** FMVs have spoken Japanese and no on-screen text, so nothing burned in needs replacing. Subtitling them is optional engine work; see `docs/status.md`.

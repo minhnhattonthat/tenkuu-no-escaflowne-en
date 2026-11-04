@@ -1,0 +1,146 @@
+name	chapter	scene	jump	frames	mash	route	expect	flags	pokes	say	say_win	say_wait	proof
+title	0	0	-	1800	0	-	-	-	-	-	-	-	title menu
+title_load	0	0	-	2300	0	150 -;8 down;30 -;8 circle;300 -	-	-	-	-	-	-	LOAD/EXIT window
+title_load_slots	0	0	-	2600	0	150 -;8 down;30 -;8 circle;300 -;8 circle;300 -	-	-	-	-	-	-	LOAD yes/no or slot window
+ch1_card	1	0	-	2400	0	-	0	-	-	-	-	-	chapter card
+ch1_menu	1	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch2_card	2	0	-	2400	0	-	0	-	-	-	-	-	chapter card
+ch2_menu	2	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch3_card	3	0	-	2400	0	-	0	-	-	-	-	-	chapter card
+ch3_menu	3	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch4_card	4	0	-	2400	0	-	0	-	-	-	-	-	chapter card
+ch4_menu	4	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch5_card	5	0	-	2400	0	-	0	-	-	-	-	-	chapter card
+ch5_menu	5	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch6_card	6	0	-	2400	0	-	0	-	-	-	-	-	chapter card
+ch6_menu	6	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch7_card	7	0	-	2400	0	-	0	-	-	-	-	-	chapter card
+ch7_menu	7	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch1_sm10	1	-10	-	3000	1	-	-	-	-	-	-	-	scene start
+ch1_sm8	1	-8	-	3000	1	-	-	-	-	-	-	-	scene start
+ch1_sm7	1	-7	-	3000	1	-	-	-	-	-	-	-	scene start
+ch1_sm6	1	-6	-	3000	1	-	-	-	-	-	-	-	scene start
+ch1_sm5	1	-5	-	3000	1	-	-	-	-	-	-	-	scene start
+ch1_sm4	1	-4	-	3000	1	-	-	-	-	-	-	-	scene start
+ch1_sm3	1	-3	-	3000	1	-	-	-	-	-	-	-	scene start
+ch1_sm2	1	-2	-	3000	1	-	-	-	-	-	-	-	scene start
+ch1_s1	1	1	-	3000	1	-	-	-	-	-	-	-	scene start
+ch1_s12	1	12	-	3000	1	-	-	-	-	-	-	-	scene start
+battle_ch1_1	1	0	0x800db9c8	3000	0	-	14	god	-	-	-	-	battle stage 1 type 1
+battle_ch1_3	1	0	0x800dba5c	3000	0	-	16	god	-	-	-	-	battle stage 3 type 0
+battle_ch1_4	1	0	0x800dbae0	3000	0	-	18	god	-	-	-	-	battle stage 4 type 0
+battle_ch1_2	1	0	0x800dbbf4	3000	0	-	30	god	-	-	-	-	battle stage 2 type 1
+ch2_sm10	2	-10	-	3000	1	-	-	-	-	-	-	-	scene start
+ch2_sm8	2	-8	-	3000	1	-	-	-	-	-	-	-	scene start
+ch2_sm4	2	-4	-	3000	1	-	-	-	-	-	-	-	scene start
+ch2_sm3	2	-3	-	3000	1	-	-	-	-	-	-	-	scene start
+ch2_sm2	2	-2	-	3000	1	-	-	-	-	-	-	-	scene start
+ch2_s1	2	1	-	3000	1	-	-	-	-	-	-	-	scene start
+ch2_s8	2	8	-	3000	1	-	-	-	-	-	-	-	scene start
+ch2_s19	2	19	-	3000	1	-	-	-	-	-	-	-	scene start
+battle_ch2_16	2	0	0x800d44c4	3000	0	-	35	god	-	-	-	-	battle stage 16 type 3
+battle_ch2_17	2	0	0x800d4548	3000	0	-	37	god	-	-	-	-	battle stage 17 type 3
+battle_ch2_15	2	0	0x800d3fd4	3000	0	-	7	god	-	-	-	-	battle stage 15 type 1
+battle_ch2_10	2	0	0x800d4004	3000	0	-	9	god	-	-	-	-	battle stage 10 type 2
+battle_ch2_13	2	0	0x800d4034	3000	0	-	10	god	-	-	-	-	battle stage 13 type 3
+battle_ch2_11	2	0	0x800d414c	3000	0	-	15	god	-	-	-	-	battle stage 11 type 3
+battle_ch2_12	2	0	0x800d4218	3000	0	-	20	god	-	-	-	-	battle stage 12 type 1
+battle_ch2_12_294	2	0	0x800d4294	3000	0	-	22	god	-	-	-	-	battle stage 12 type 1
+ch3_sm10	3	-10	-	3000	1	-	-	-	-	-	-	-	scene start
+ch3_sm8	3	-8	-	3000	1	-	-	-	-	-	-	-	scene start
+ch3_sm5	3	-5	-	3000	1	-	-	-	-	-	-	-	scene start
+ch3_sm4	3	-4	-	3000	1	-	-	-	-	-	-	-	scene start
+ch3_sm3	3	-3	-	3000	1	-	-	-	-	-	-	-	scene start
+ch3_sm2	3	-2	-	3000	1	-	-	-	-	-	-	-	scene start
+ch3_s1	3	1	-	3000	1	-	-	-	-	-	-	-	scene start
+ch3_s10	3	10	-	3000	1	-	-	-	-	-	-	-	scene start
+ch3_s22	3	22	-	3000	1	-	-	-	-	-	-	-	scene start
+ch3_s30	3	30	-	3000	1	-	-	-	-	-	-	-	scene start
+ch3_s38	3	38	-	3000	1	-	-	-	-	-	-	-	scene start
+ch3_s42	3	42	-	3000	1	-	-	-	-	-	-	-	scene start
+battle_ch3_24	3	0	0x800d91c0	3000	0	-	40	god	-	-	-	-	battle stage 24 type 1
+battle_ch3_19	3	0	0x800d8f5c	3000	0	-	11	god	-	-	-	-	battle stage 19 type 1
+battle_ch3_20	3	0	0x800d9004	3000	0	-	-	god	-	-	-	-	battle stage 20 type 3
+battle_ch3_21	3	0	0x800d9094	3000	0	-	31	god	-	-	-	-	battle stage 21 type 1
+battle_ch3_22	3	0	0x800d9190	3000	0	-	39	god	-	-	-	-	battle stage 22 type 2
+battle_ch3_23	3	0	0x800d9208	3000	0	-	43	god	-	-	-	-	battle stage 23 type 1
+ch4_sm10	4	-10	-	3000	1	-	-	-	-	-	-	-	scene start
+ch4_sm8	4	-8	-	3000	1	-	-	-	-	-	-	-	scene start
+ch4_sm7	4	-7	-	3000	1	-	-	-	-	-	-	-	scene start
+ch4_sm6	4	-6	-	3000	1	-	-	-	-	-	-	-	scene start
+ch4_sm5	4	-5	-	3000	1	-	-	-	-	-	-	-	scene start
+ch4_sm4	4	-4	-	3000	1	-	-	-	-	-	-	-	scene start
+ch4_sm3	4	-3	-	3000	1	-	-	-	-	-	-	-	scene start
+ch4_sm2	4	-2	-	3000	1	-	-	-	-	-	-	-	scene start
+ch4_s1	4	1	-	3000	1	-	-	-	-	-	-	-	scene start
+ch4_s16	4	16	-	3000	1	-	-	-	-	-	-	-	scene start
+ch4_s74	4	74	-	3000	1	-	-	-	-	-	-	-	scene start
+battle_ch4_28	4	0	0x800dd6fc	3000	0	-	17	god	-	-	-	-	battle stage 28 type 1
+battle_ch4_31	4	0	0x800dd790	3000	0	-	19	god	-	-	-	-	battle stage 31 type 1
+battle_ch4_29	4	0	0x800dd884	3000	0	-	33	god	-	-	-	-	battle stage 29 type 3
+battle_ch4_32	4	0	0x800dd908	3000	0	-	35	god	-	-	-	-	battle stage 32 type 3
+battle_ch4_33	4	0	0x800ddb08	3000	0	-	70	god	-	-	-	-	battle stage 33 type 0
+battle_ch4_33_b20	4	0	0x800ddb20	3000	0	-	73	god	-	-	-	-	battle stage 33 type 1
+battle_ch4_33_b50	4	0	0x800ddb50	3000	0	-	75	god	-	-	-	-	battle stage 33 type 0
+ch5_sm10	5	-10	-	3000	1	-	-	-	-	-	-	-	scene start
+ch5_sm8	5	-8	-	3000	1	-	-	-	-	-	-	-	scene start
+ch5_sm5	5	-5	-	3000	1	-	-	-	-	-	-	-	scene start
+ch5_sm4	5	-4	-	3000	1	-	-	-	-	-	-	-	scene start
+ch5_sm3	5	-3	-	3000	1	-	-	-	-	-	-	-	scene start
+ch5_sm2	5	-2	-	3000	1	-	-	-	-	-	-	-	scene start
+ch5_s1	5	1	-	3000	1	-	-	-	-	-	-	-	scene start
+ch5_s12	5	12	-	3000	1	-	-	-	-	-	-	-	scene start
+ch5_s22	5	22	-	3000	1	-	-	-	-	-	-	-	scene start
+battle_ch5_37	5	0	0x800d073c	3000	0	-	13	god	-	-	-	-	battle stage 37 type 1
+battle_ch5_38	5	0	0x800d0818	3000	0	-	21	god	-	-	-	-	battle stage 38 type 0
+battle_ch5_39	5	0	0x800d08bc	3000	0	-	23	god	-	-	-	-	battle stage 39 type 0
+ch6_sm10	6	-10	-	3000	1	-	-	-	-	-	-	-	scene start
+ch6_sm8	6	-8	-	3000	1	-	-	-	-	-	-	-	scene start
+ch6_sm5	6	-5	-	3000	1	-	-	-	-	-	-	-	scene start
+ch6_sm4	6	-4	-	3000	1	-	-	-	-	-	-	-	scene start
+ch6_sm3	6	-3	-	3000	1	-	-	-	-	-	-	-	scene start
+ch6_sm2	6	-2	-	3000	1	-	-	-	-	-	-	-	scene start
+ch6_s1	6	1	-	3000	1	-	-	-	-	-	-	-	scene start
+battle_ch6_46	6	0	0x800d2928	3000	0	-	12	god	-	-	-	-	battle stage 46 type 1
+battle_ch6_47	6	0	0x800d2968	3000	0	-	15	god	-	-	-	-	battle stage 47 type 3
+battle_ch6_48	6	0	0x800d29a0	3000	0	-	17	god	-	-	-	-	battle stage 48 type 1
+ch7_sm10	7	-10	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_sm8	7	-8	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_sm7	7	-7	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_sm6	7	-6	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_sm5	7	-5	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_sm4	7	-4	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_sm3	7	-3	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_sm2	7	-2	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_s1	7	1	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_s9	7	9	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_s36	7	36	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_s41	7	41	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_s50	7	50	-	3000	1	-	-	-	-	-	-	-	scene start
+ch7_s56	7	56	-	3000	1	-	-	-	-	-	-	-	scene start
+battle_ch7_55	7	0	0x800d5f3c	3000	0	-	10	god	-	-	-	-	battle stage 55 type 1
+battle_ch7_56	7	0	0x800d5fd0	3000	0	-	12	god	-	-	-	-	battle stage 56 type 1
+battle_ch7_57	7	0	0x800d62b0	3000	0	-	37	god	-	-	-	-	battle stage 57 type 3
+battle_ch7_58	7	0	0x800d6300	3000	0	-	39	god	-	-	-	-	battle stage 58 type 3
+battle_ch7_59	7	0	0x800d63bc	3000	0	-	42	god	-	-	-	-	battle stage 59 type 3
+battle_ch7_60	7	0	0x800d6414	3000	0	-	45	god	-	-	-	-	battle stage 60 type 3
+battle_ch7_61	7	0	0x800d64d0	3000	0	-	49	god	-	-	-	-	battle stage 61 type 0
+battle_ch7_61_500	7	0	0x800d6500	3000	0	-	51	god	-	-	-	-	battle stage 61 type 3
+battle_ch7_62	7	0	0x800d6550	3000	0	-	53	god	-	-	-	-	battle stage 62 type 1
+battle_ch7_64	7	0	0x800d65e0	3000	0	-	57	god	-	-	-	-	battle stage 64 type 1
+battle_ch7_65	7	0	0x800d6630	3000	0	-	59	god	-	-	-	-	battle stage 65 type 2
+battle_ch7_66	7	0	0x800d6680	3000	0	-	61	god	-	-	-	-	battle stage 66 type 2
+game_over	1	0	0x800db9d8	2400	0	-	-	-	-	-	-	-	GAME OVER
+lose_battle	1	0	0x800db9c8	3250	0	-	-	lose	-	-	-	-	battle then GAME OVER
+win_battle	1	0	0x800db9c8	4200	0	-	-	win	-	-	-	-	battle ends, story continues
+save_menu	1	0	0x800db980	2400	0	-	-	-	-	-	-	-	SAVE/EXIT window
+save_slots	1	0	0x800db980	2800	0	400 -;8 circle;300 -	-	-	-	-	-	-	SAVE yes/no or slot window
+save_game	1	0	0x800db980	4200	0	400 -;8 circle;240 -;8 circle;240 -;8 circle;300 -;8 circle;300 -;8 circle;300 -;8 circle;300 -	-	-	-	-	-	-	writes work/saves/ch1_save.mcd
+load_game	0	0	-	3200	0	150 -;8 down;30 -;8 circle;300 -;8 circle;300 -;8 circle;300 -;8 circle;300 -;8 circle;300 -	-	-	-	-	-	-	LOAD messages, then the saved chapter
+free_roam	1	0	0x800db834	2800	0	-	-	-	-	-	-	-	free roam
+partner_menu	1	0	0x800db834	3000	0	600 -;8 triangle;240 -	-	-	-	-	-	-	partner menu
+choice_box	1	0	0x800db834	3600	0	600 -;8 triangle;240 -;8 down;30 -;8 circle;240 -	-	-	-	0x800dccb2	1	1200	dialogue choice box
+credits	7	0	0x800d6910	6000	0	-	-	-	-	-	-	-	staff roll
+ending_tie	7	0	0x800d687c	9000	0	-	-	-	0x8009AE6C=0 0x8009AE40=0	-	-	-	ending FMV 0x2C then staff roll
+ending_a	7	0	0x800d687c	9000	0	-	-	-	0x8009AE6C=2 0x8009AE40=1	-	-	-	ending FMV 0x38 then staff roll
+ending_b	7	0	0x800d687c	9000	0	-	-	-	0x8009AE6C=1 0x8009AE40=2	-	-	-	ending FMV 0x37 then staff roll

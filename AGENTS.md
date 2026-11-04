@@ -7,7 +7,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Build:  `python -X utf8 tools/build.py` -> build/escaflowne_en.bin + .cue (checks the dump against `rom.sha1` first; not written until phase 3)
 - Check:  `python -X utf8 tools/check.py` (tests + lint; the pre-commit hook runs this; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:  `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/escaflowne_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke`
-- Warp:   `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/escaflowne_en.cue --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (scenes: `tools/debug/scenes.lua`; written in phase 2; never ask the user to play to a scene)
+- Warp:   `python -X utf8 tools/debug/warp_all.py --cue build/escaflowne_en.cue <scene>...` (no scene = all, `--states` saves `work/states/`; scene list `tools/debug/scenes.tsv`, how it works `docs/re/warp.md`; never ask the user to play to a scene)
 - Release: `python -X utf8 tools/release.py` (patch + verify; never publish without the user; written in phase 9)
 - Clean:  `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 

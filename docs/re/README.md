@@ -18,6 +18,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | `free-space.md` | RAM and disc room for English and hook code | candidates only, none trap-tested |
 | `compression.md` | Game LZ codec | decoder verified on 15,207 TIMs; encoder not written |
 | `graphics.md` | Graphics-text survey (every image with text) | static sweep done; runtime confirmation left to phase 2 warps |
+| `warp.md` | Game flow, chapter and scene words, debug tool | verified by warps from cold boot (`tools/debug/warp_all.py`) |
 
 Recon helpers: `tools/mips.py` (disassembly, lui/addiu xref, hex), `tools/sjis_scan.py`, `tools/text_recon.py`,
 `tools/ramfind.py`, `tools/timscan.py`, `tools/gfx_sweep.py`, `tools/fmv_sample.py`, `tools/lua/drawlog.lua`.
