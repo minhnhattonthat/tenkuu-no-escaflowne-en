@@ -12,7 +12,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| `disc.md` | Disc layout, files, load addresses, prior work, identity build plan | verified (dump, RAM dumps) |
+| `disc.md` | Disc layout, files, load addresses, prior work, identity build, file lookup by name | verified (dump, RAM dumps, `tests/test_identity.py`, shifted-disc warp) |
 | `text.md` | Encoding, control codes, string references, text ranges | encoding/opcodes verified; dead strings guess |
 | `engine.md` | Text renderer, window fields, VWF plan | draw path verified by breakpoint; plan is a proposal |
 | `free-space.md` | RAM and disc room for English and hook code | candidates only, none trap-tested |
@@ -21,4 +21,4 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | `warp.md` | Game flow, chapter and scene words, debug tool | verified by warps from cold boot (`tools/debug/warp_all.py`) |
 
 Recon helpers: `tools/mips.py` (disassembly, lui/addiu xref, hex), `tools/sjis_scan.py`, `tools/text_recon.py`,
-`tools/ramfind.py`, `tools/timscan.py`, `tools/gfx_sweep.py`, `tools/fmv_sample.py`, `tools/lua/drawlog.lua`.
+`tools/ramfind.py`, `tools/timscan.py`, `tools/gfx_sweep.py`, `tools/fmv_sample.py`, `tools/cdcalls.py`, `tools/lua/drawlog.lua`.

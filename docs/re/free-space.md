@@ -40,4 +40,4 @@ EXE loads 0x80010000-0x8009B000. Internal zero runs (file offset):
 
 ## Disc
 
-`mkpsxiso` lays files out from `layout.xml`, so a grown file moves the rest. The EXE and overlay names are looked up by name through the ISO9660 directory (`\ESCA\PRG\SYO01.BIN;1`; guess: `CdSearchFile`, see strings `searching...`, `dir..`), so LBAs are not hardcoded. Verify in phase 3. Disc capacity is no constraint at 515 MB.
+`mkpsxiso` lays files out from `layout.xml`, so a grown file moves the rest. The game finds files by name through `CdSearchFile`, so LBAs are not hardcoded and files may grow (verified, `disc.md`). Disc capacity is no constraint at 515 MB.
