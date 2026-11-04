@@ -37,8 +37,9 @@ CARDS = {
 }
 HEAD_PX, TITLE_PX, MIN_PX = 24, 26, 15
 LOGO_RECT = (0, 0, 240, 125)  # x0, y0, x1, y1: ESCA111's logo; the menu words below it stay
-GLOW_OFFSET = (1, -3)  # rows, columns from the star's crossing to the glow's brightest point
-LINE_PEAK, LINE_SLOPE, LINE_FLOOR = 232, 4, 40  # the hairlines' grey: at the glow, fall per pixel, at the far ends
+GLOW_LIFT = 1.3
+LINE_PEAK, LINE_SLOPE, LINE_FLOOR = 232, 5, 40  # the spikes' grey: at the glow, fall per pixel, at the far ends
+SPIKE_TAPER, SPIKE_SIDE = 26, 22  # how far the 3 px taper runs; its side pixels are as dim as this much farther out
 LOGO_SPACING = 24  # px at the 200 px master, so F, L and O don't touch once squeezed into the logo's box
 COPYRIGHT = "SUNRISE / TV TOKYO"
 COPYRIGHT_TEXT_X = 18  # after the row's own (c) glyph
@@ -155,34 +156,45 @@ def logo(arr, pal):
     lum = col.sum(axis=1) // 3
     # the star's two hairlines: the row and column holding most neutral pixels
     frow, fcol = int(neutral.sum(axis=1).argmax()), int(neutral.sum(axis=0).argmax())
-    # the glow peaks just off their crossing (read from the brightness along each line); a black disc around it
+    # a black disc, the glow on the crossing
     yy, xx = np.indices(old.shape)
-    r = np.hypot(yy - frow - GLOW_OFFSET[0], xx - fcol - GLOW_OFFSET[1]).astype(int)
+    r = np.hypot(yy - frow, xx - fcol).astype(int)
     radius = 23
-    # per radius, the darkest neutral: the old letters and rays only ever add light, so that's the bare glow
+    greys = sorted(set(old[neutral].tolist()))
+
+    def grey(want):
+        return min(greys, key=lambda i: abs(int(lum[i]) - want))
+
+    # per radius, the darkest neutral: the old letters and rays only ever add light. That undershoots a little, so a lift
     profile, last = {}, None
     for k in range(radius + 1):
         vals = lum[old[(r == k) & neutral]]
-        darkest = int(old[(r == k) & neutral][vals.argmin()]) if vals.size else last
-        last = darkest if last is None or lum[darkest] <= lum[last] else last
-        profile[k] = last
+        darkest = int(vals.min()) if vals.size else last
+        last = darkest if last is None else min(darkest, last)
+        profile[k] = grey(min(255, last * GLOW_LIFT))
     new = np.full_like(old, bg)
-    # the disc wholly from the profile, then the hairlines over it: any pixel kept from the old art could be a letter's edge
+    # the disc wholly from the profile, then the spikes over it: any pixel kept from the old art could be a letter's edge
     disc = r <= radius
     for y, x in zip(*np.nonzero(disc)):
         new[y, x] = profile[int(r[y, x])]
-    greys = sorted(set(old[neutral].tolist()))
 
-    def hairline(distance):
-        want = max(LINE_FLOOR, LINE_PEAK - LINE_SLOPE * distance)
-        return min(greys, key=lambda i: abs(int(lum[i]) - want))
+    def spike(y, x, distance):
+        """The line and, near the crossing, a dimmer pixel to each side: the original's spikes taper over 3 px."""
+        if old[y, x] != bg:
+            new[y, x] = grey(max(LINE_FLOOR, LINE_PEAK - LINE_SLOPE * distance))
 
     for x in range(1, old.shape[1] - 1):
-        if old[frow, x] != bg:
-            new[frow, x] = hairline(abs(x - fcol - GLOW_OFFSET[1]))
+        d = abs(x - fcol)
+        spike(frow, x, d)
+        if d < SPIKE_TAPER:
+            for side in (frow - 1, frow + 1):
+                spike(side, x, d + SPIKE_SIDE)
     for y in range(old.shape[0]):
-        if old[y, fcol] != bg:
-            new[y, fcol] = hairline(abs(y - frow - GLOW_OFFSET[0]))
+        d = abs(y - frow)
+        spike(y, fcol, d)
+        if d < SPIKE_TAPER:
+            for side in (fcol - 1, fcol + 1):
+                spike(y, side, d + SPIKE_SIDE)
 
     # column colours from the big letters, the outline from their brightest colour
     big = (old != bg) & ~neutral & (yy > 48) & (col[old][:, :, 2] > col[old][:, :, 0])

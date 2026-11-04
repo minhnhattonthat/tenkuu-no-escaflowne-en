@@ -31,6 +31,8 @@ Standing non-bugs, `ok` (the controller adds the game's own below):
 - a page ending on a comma or mid-sentence: all 65 such ends in the script sit on the JP's own page break, usually a
   voice clip's boundary, so the split can't move (checked in the script, not one by one on screen). A one-word row that opens its own voice clip likewise (`syo04_153`).
 - the choice cursor's tail crossing the prompt row above option 1 (same on the JP frame, `choice_box`).
+- redrawn art judged as art, not pixel by pixel against the original: the title's star and glow behind the logo, and the
+  opening video's logo, which has no glare behind it (`docs/re/graphics.md`). Still an issue if it strikes across letters.
 - a name tag "Van" over the lion-faced bust in `ch7_s56` (JP tags it バァン too); the HUD's small English labels such as
   the one in `ch4_s74` are the original art, untouched.
 
