@@ -5603,8 +5603,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Reckless choosing of death is not courage!!\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Reckless choosing of death is not{nl}courage!!\"{wait}{nl2}{end}"
+   "tl": "\"Recklessly choosing death is not courage!!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Recklessly choosing death is not{nl}courage!!\"{wait}{nl2}{end}"
   },
   {
    "id": "syo01_306",
@@ -6386,8 +6386,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Van... come with me | to His Majesty Dornkirk-sama, Emperor of Zaibach. | And there, behold the new future... | Sleep a little now, Van.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Van... come with me{wait}{clear}{nl}to His Majesty Dornkirk-sama, Emperor{nl}of Zaibach.{wait}{clear}{nl}And there, behold the new future...{wait}{clear}{nl}Sleep a little now, Van.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Van... come with me | to Dornkirk-sama, Emperor of Zaibach. | And there, behold the new future... | Sleep a little now, Van.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Van... come with me{wait}{clear}{nl}to Dornkirk-sama, Emperor of Zaibach.{wait}{clear}{nl}And there, behold the new future...{wait}{clear}{nl}Sleep a little now, Van.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo01_345",

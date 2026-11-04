@@ -88,8 +88,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Third Princess of the Kingdom of Asturia, | Her Highness Millerna Sara Aston-sama, has arrived.\"",
-   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Third Princess of the Kingdom of{nl}Asturia,{wait}{clear}{nl}Her Highness Millerna Sara Aston-sama,{nl}has arrived.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Third Princess of the Kingdom of Asturia, | Millerna Sara Aston-sama, has arrived.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Third Princess of the Kingdom of{nl}Asturia,{wait}{clear}{nl}Millerna Sara Aston-sama, has arrived.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_006",
@@ -278,8 +278,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Your Highness. | This is His Majesty Van Fanel-sama, King of Fanelia.\"",
-   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Your Highness.{wait}{clear}{nl}This is His Majesty Van Fanel-sama, King{nl}of Fanelia.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Your Highness. | This is Van Fanel-sama, King of Fanelia.\"",
+   "en": "{clear}{nameon}{color3}26Boris{expr:3132}{nameoff}{color2}{nl}\"Your Highness.{wait}{clear}{nl}This is Van Fanel-sama, King of Fanelia.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_016",
@@ -3744,8 +3744,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"All right...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"All right...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Yes...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Yes...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_196",
@@ -3820,8 +3820,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"All right...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"All right...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Yes...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Yes...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_200",
@@ -4067,8 +4067,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"How did you locate the floating fortress and the mine? | How did you find them?\"",
-   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"How did you locate the floating{nl}fortress and the mine?{wait}{clear}{nl}How did you find them?\"{wait}{clear}{nl2}{end}"
+   "tl": "\"How did you manage to locate | the floating fortress and the mine?\"",
+   "en": "{clear}{nameon}{color3}15Plakt{nameoff}{color2}{nl}\"How did you manage to locate{wait}{clear}{nl}the floating fortress and the mine?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_213",
@@ -4162,8 +4162,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"All right...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"All right...\"{pageend}{nl2}{end}"
+   "tl": "\"Yes...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Yes...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo03_218",
@@ -6261,8 +6261,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Yes. | This girl seems able to detect guymelefs in stealth cloaks with ease. | What's more, reports say she foresees destiny, and guides the dragon to the advantage.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes.{wait}{clear}{nl}This girl seems able to detect guymelefs{nl}in stealth cloaks with ease.{wait}{clear}{nl}What's more, reports say she foresees{nl}destiny, and guides the dragon to the{nl}advantage.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Yes. | This girl seems able to detect guymelefs in stealth cloaks with ease. | What's more, reports say she foresees fate, and guides the dragon to the advantage.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Yes.{wait}{clear}{nl}This girl seems able to detect guymelefs{nl}in stealth cloaks with ease.{wait}{clear}{nl}What's more, reports say she foresees{nl}fate, and guides the dragon to the{nl}advantage.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_328",

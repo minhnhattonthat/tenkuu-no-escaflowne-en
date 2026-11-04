@@ -2892,8 +2892,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Zaibach's scientists, who take their orders from Dornkirk himself. | Rumor has it they carried out living experiments to change people's fates. Using children they had abducted...\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Zaibach's scientists, who take their{nl}orders from Dornkirk himself.{wait}{clear}{nl}Rumor has it they carried out living{nl}experiments to change people's fates.{nl}Using children they had abducted...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Zaibach's scientists, who take their orders from Dornkirk himself. | Rumor has it they carried out human experiments to change people's fates. Using children they had abducted...\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Zaibach's scientists, who take their{nl}orders from Dornkirk himself.{wait}{clear}{nl}Rumor has it they carried out human{nl}experiments to change people's fates.{nl}Using children they had abducted...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_146",
@@ -2911,8 +2911,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Living experiments... Celena. My Celena...\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Living experiments... Celena. My{nl}Celena...\"{pageend}{nl2}{end}"
+   "tl": "\"Human experiments... Celena. My Celena...\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Human experiments... Celena. My{nl}Celena...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_147",
@@ -2936,8 +2936,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Yes, the pull exists. | The girl will surely appear on this Gaea once more.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303432}\"Yes, the pull exists.{wait}{clear}{nl}{voice:30303433}The girl will surely appear on this Gaea{nl}once more.\"{pageend}{nl2}{end}"
+   "tl": "\"Yes, the attraction exists. | The girl will surely appear on this Gaea once more.\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303432}\"Yes, the attraction exists.{wait}{clear}{nl}{voice:30303433}The girl will surely appear on this Gaea{nl}once more.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_148",
@@ -3271,8 +3271,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I see it, I see it... | Destiny guides the girl into my hands. The zone of absolute fortune... Only a little longer until it is unleashed...\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"I see it, I see it...{wait}{clear}{nl}Destiny guides the girl into my hands.{nl}The zone of absolute fortune... Only a{nl}little longer until it is unleashed...\"{pageend}{nl2}{end}"
+   "tl": "\"I see it, I see it... | Fate guides the girl into my hands. The zone of absolute fortune... Only a little longer until it is unleashed...\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"I see it, I see it...{wait}{clear}{nl}Fate guides the girl into my hands. The{nl}zone of absolute fortune... Only a little{nl}longer until it is unleashed...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_165",
@@ -4528,8 +4528,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"The backlash of destiny is eating away at me. These black wings are the proof.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"The backlash of destiny is eating away{nl}at me. These black wings are the proof.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"The backlash of fate is eating away at me. These black wings are the proof.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"The backlash of fate is eating away at{nl}me. These black wings are the proof.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_228",
@@ -4566,8 +4566,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"My sin in siding with Dornkirk, I will atone for with my life. | That is my destiny.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"My sin in siding with Dornkirk, I will{nl}atone for with my life.{wait}{clear}{nl}That is my destiny.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"My sin in siding with Dornkirk, I will atone for with my life. | That is my fate.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"My sin in siding with Dornkirk, I will{nl}atone for with my life.{wait}{clear}{nl}That is my fate.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_230",
@@ -4641,8 +4641,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"That's wrong! | A destiny that sad, I'll change it, you'll see!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"That's wrong!{wait}{clear}{nl}A destiny that sad, I'll change it, you'll{nl}see!\"{pageend}{nl2}{end}"
+   "tl": "\"That's wrong! | A fate that sad, I'll change it, you'll see!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"That's wrong!{wait}{clear}{nl}A fate that sad, I'll change it, you'll see!\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_233",
@@ -4817,8 +4817,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Yes... | I guided destiny so that you would bring the girl from the Mystic Moon here.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303737}\"Yes...{wait}{clear}{nl}{voice:30303738}I guided destiny so that you would bring{nl}the girl from the Mystic Moon here.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Yes... | I guided fate so that you would bring the girl from the Mystic Moon here.\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303737}\"Yes...{wait}{clear}{nl}{voice:30303738}I guided fate so that you would bring{nl}the girl from the Mystic Moon here.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_241",
@@ -4842,8 +4842,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"How far will you go in toying with destiny?!\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303739}\"How far will you go in toying with{nl}destiny?!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"How far will you go in toying with fate?!\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303739}\"How far will you go in toying with{nl}fate?!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_242",
@@ -5049,8 +5049,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I see... This is the very center of destiny's alteration. | The place where action and reaction are strongest. | But with this the war ends. True peace for Gaea... | Van...\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303835}\"I see... This is the very center of{nl}destiny's alteration.{wait}{clear}{nl}{voice:30303836}The place where action and reaction are{nl}strongest.{wait}{clear}{nl}{voice:30303837}But with this the war ends. True peace{nl}for Gaea...{wait}{clear}{nl}{voice:30303838}Van...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"I see... This is the very center where fate is altered. | The place where action and reaction are strongest. | But with this the war ends. True peace for Gaea... | Van...\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303835}\"I see... This is the very center where{nl}fate is altered.{wait}{clear}{nl}{voice:30303836}The place where action and reaction are{nl}strongest.{wait}{clear}{nl}{voice:30303837}But with this the war ends. True peace{nl}for Gaea...{wait}{clear}{nl}{voice:30303838}Van...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_251",
@@ -5118,8 +5118,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Van is crying. Van... | Why... why does... why does only this kind of thing happen? | I can't take it. I don't want to see any more. This... this destiny... I can't take it anymore!\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van is crying. Van...{wait}{clear}{nl}Why... why does... why does only this{nl}kind of thing happen?{wait}{clear}{nl}I can't take it. I don't want to see any{nl}more. This... this destiny... I can't take it{nl}anymore!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Van is crying. Van... | Why... why does... why does only this kind of thing happen? | I can't take it. I don't want to see any more. This... this fate... I can't take it anymore!\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Van is crying. Van...{wait}{clear}{nl}Why... why does... why does only this{nl}kind of thing happen?{wait}{clear}{nl}I can't take it. I don't want to see any{nl}more. This... this fate... I can't take it{nl}anymore!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_254",
@@ -5231,8 +5231,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Yes. Destiny altered by the final activation of the Destiny Alteration Engine. | Granting every person's wishes and creating absolute happiness. | The true worth of the Atlantis machine is now put to the test.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303933}\"Yes. Destiny altered by the final{nl}activation of the Destiny Alteration{wait}{clear}{nl}Engine.{wait}{clear}{nl}{voice:30303934}Granting every person's wishes and{nl}creating absolute happiness.{wait}{clear}{nl}{voice:30303935}The true worth of the Atlantis machine{nl}is now put to the test.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Yes. Fate altered by the final activation of the Destiny Alteration Engine. | Granting every person's wishes and creating absolute happiness. | The true worth of the Atlantis machine is now put to the test.\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303933}\"Yes. Fate altered by the final activation{nl}of the Destiny Alteration Engine.{wait}{clear}{nl}{voice:30303934}Granting every person's wishes and{nl}creating absolute happiness.{wait}{clear}{nl}{voice:30303935}The true worth of the Atlantis machine{nl}is now put to the test.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_259",
@@ -5420,8 +5420,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"This new world, which grants all wishes, has made the strife greater still. | Can people not escape a destiny of war? | Do people seek out war?\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"This new world, which grants all wishes,{nl}has made the strife greater still.{wait}{clear}{nl}Can people not escape a destiny of{nl}war?{wait}{clear}{nl}Do people seek out war?\"{wait}{clear}{nl2}{end}"
+   "tl": "\"This new world, which grants all wishes, has made the strife greater still. | Can people not escape a fate of war? | Do people seek out war?\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"This new world, which grants all wishes,{nl}has made the strife greater still.{wait}{clear}{nl}Can people not escape a fate of war?{wait}{clear}{nl}Do people seek out war?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_268",
@@ -5496,8 +5496,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"It is no use. | Destiny in motion can be stopped by no one.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"It is no use.{wait}{clear}{nl}Destiny in motion can be stopped by no{nl}one.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"It is no use. | Fate in motion can be stopped by no one.\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"It is no use.{wait}{clear}{nl}Fate in motion can be stopped by no{nl}one.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_272",
@@ -5534,8 +5534,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"If ruin is mankind's destiny, there is nothing to do but accept it...\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"If ruin is mankind's destiny, there is{nl}nothing to do but accept it...\"{pageend}{nl2}{end}"
+   "tl": "\"If ruin is mankind's fate, there is nothing to do but accept it...\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"If ruin is mankind's fate, there is{nl}nothing to do but accept it...\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_274",
@@ -6358,8 +6358,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"The bad destiny won't stop. | At this rate Gaea will end up like Atlantis.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The bad destiny won't stop.{wait}{clear}{nl}At this rate Gaea will end up like{nl}Atlantis.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"This evil fate won't stop. | At this rate Gaea will end up like Atlantis.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"This evil fate won't stop.{wait}{clear}{nl}At this rate Gaea will end up like{nl}Atlantis.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_312",
@@ -6700,8 +6700,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"The final moment at last. | Just as alchemy could not produce gold, neither could destiny be controlled.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"The final moment at last.{wait}{clear}{nl}Just as alchemy could not produce gold,{nl}neither could destiny be controlled.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"The final moment at last. | Just as alchemy could not produce gold, neither could fate be controlled.\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"The final moment at last.{wait}{clear}{nl}Just as alchemy could not produce gold,{nl}neither could fate be controlled.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo07_330",
@@ -6757,8 +6757,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I believe. | That there's no such thing as a fixed destiny.\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I believe.{wait}{clear}{nl}That there's no such thing as a fixed{nl}destiny.\"{pageend}{nl2}{end}"
+   "tl": "\"I believe. | That there's no such thing as a fate set in stone.\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I believe.{wait}{clear}{nl}That there's no such thing as a fate set{nl}in stone.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_333",

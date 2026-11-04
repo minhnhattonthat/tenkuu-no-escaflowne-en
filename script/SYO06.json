@@ -867,8 +867,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Separating the dragon and the girl has stabilized the probability density. | Now is the perfect chance to seize the key to altering destiny, Hitomi Kanzaki.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Separating the dragon and the girl has{nl}stabilized the probability density.{wait}{clear}{nl}Now is the perfect chance to seize the{nl}key to altering destiny, Hitomi Kanzaki.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Separating the dragon and the girl has stabilized the probability density. | Now is the perfect chance to seize the key to altering fate, Hitomi Kanzaki.\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Separating the dragon and the girl has{nl}stabilized the probability density.{wait}{clear}{nl}Now is the perfect chance to seize the{nl}key to altering fate, Hitomi Kanzaki.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_047",
@@ -1334,8 +1334,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"This is the fortune-enhanced soldiers of Zaibach, to the people of Asturia. | I repeat, this is the fortune-enhanced soldiers of Zaibach, to the people of Asturia. Resistance is meaningless. | Those who defy our 'fortune' will surely meet with terrible misfortune.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303034}\"This is the fortune-enhanced soldiers{nl}of Zaibach, to the people of Asturia.{wait}{clear}{nl}{voice:30303035}I repeat, this is the fortune-enhanced{nl}soldiers of Zaibach, to the people of{nl}Asturia. Resistance is meaningless.{wait}{clear}{nl}{voice:30303036}Those who defy our 'fortune' will surely{nl}meet with terrible misfortune.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"The fortune-enhanced soldiers of Zaibach speak to the people of Asturia. | I repeat, the fortune-enhanced soldiers of Zaibach speak to the people of Asturia. Resistance is meaningless. | Those who defy our 'fortune' will surely meet with terrible misfortune.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}{voice:30303034}\"The fortune-enhanced soldiers of{nl}Zaibach speak to the people of Asturia.{wait}{clear}{nl}{voice:30303035}I repeat, the fortune-enhanced soldiers{nl}of Zaibach speak to the people of{nl}Asturia. Resistance is meaningless.{wait}{clear}{nl}{voice:30303036}Those who defy our 'fortune' will surely{nl}meet with terrible misfortune.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_070",
@@ -1441,8 +1441,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I... I told a false fortune...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"I... I told a false fortune...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Because I... I gave a false reading...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Because I... I gave a false reading...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_075",
@@ -1460,8 +1460,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"What? A false fortune?\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What? A false fortune?\"{wait}{clear}{nl2}{end}"
+   "tl": "\"What? A false reading?\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What? A false reading?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_076",
@@ -1479,8 +1479,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"It said this marriage was actually a bad one... | But I thought I could change it, with the power of will... I thought I could change it...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"It said this marriage was actually a bad{nl}one...{wait}{clear}{nl}But I thought I could change it, with the{nl}power of will... I thought I could change{nl}it...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"The cards said this marriage was actually a bad one... | But I thought I could change it, with the power of will... I thought I could change it...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"The cards said this marriage was{nl}actually a bad one...{wait}{clear}{nl}But I thought I could change it, with the{nl}power of will... I thought I could change{nl}it...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_077",
@@ -3873,8 +3873,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"A reaction... Artificially enhanced good fortune | gave rise to a reaction, misfortune. But this experiment has yielded great results. | Now our destiny equation will...\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303334}\"A reaction... Artificially enhanced good{nl}fortune{wait}{clear}{nl}{voice:30303335}gave rise to a reaction, misfortune. But{nl}this experiment has yielded great{nl}results.{wait}{clear}{nl}{voice:30303337}Now our destiny equation will...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"A reaction... Artificially enhanced good fortune | gave rise to a reaction, misfortune. But this experiment has yielded great results. | Now our fate equation will...\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}{voice:30303334}\"A reaction... Artificially enhanced good{nl}fortune{wait}{clear}{nl}{voice:30303335}gave rise to a reaction, misfortune. But{nl}this experiment has yielded great{nl}results.{wait}{clear}{nl}{voice:30303337}Now our fate equation will...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_197",

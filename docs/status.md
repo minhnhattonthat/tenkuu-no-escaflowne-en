@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translation, not started (phase 5 done).
+- **Phase:** 7. Insert, fit, check: not started (phase 6 done).
 - **Done:**
   - Step 0: dump pinned, tools fetched (`AGENTS.md` lists versions and URLs), hook and check active, guard proven, original boots to title on real BIOS.
   - Phase 1: `docs/re/` holds encoding, opcodes, references, text ranges, engine, free-space candidates, LZ codec, graphics survey. Start at `docs/re/README.md`.
@@ -10,9 +10,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase 3: `tools/build.py` rebuilds a byte-identical disc; `tests/test_identity.py` proves it on each check and fails when one tree byte is flipped. Build boots (`--smoke`). Files are found by name and track 2 is never played, so files may grow: `tools/build.py --shift 1000` passed the full warp, 145/145 (`docs/re/disc.md`).
   - Phase 4: `tools/extract.py` writes `script/*.json` (2,787 entries: 102 shared, translated once and written to all 8 overlays; 2,553 for translators, the rest `debug`, `numbers` or control codes). `tests/test_extract.py`: all 3,501 string copies re-encode to the disc's bytes, every text range covered, text outside the ranges fails the check two ways, and the check is proven to fail on a shrunk range. Findings in `docs/re/text.md`.
   - Phase 5: `asm/vwf.asm` draws proportional ASCII plus two-letter codes, pixel-placed, through the original pacing and buffers (`docs/re/engine.md`); `tests/test_vwf.py` runs it under unicorn. `tools/build.py --marker` shows every line as its id and filler; `build/escaflowne_marker` passed the full warp, and `jp_left.py` finds only the memory-card title. Hook memory trap-tested (`docs/re/free-space.md`). Budgets per box in `data/windows.json`, stress build `tools/debug/width_gate.py`, glyph torture read clean.
-- **Next (phase 6):** style and glossary checks, then translator batches, per the skill. Translators write to `data/windows.json`: 208 px per body row, 3 rows a page counting the name. Then phase 7: `tools/dte.py --build` from the English, width lint from `data/windows.json`, and `tools/build.py`.
+  - Phase 6: every line in English (`tl` authored, `en` game tokens, in `script/*.json`): 2,201 unique lines in `work/tl/b001`-`b022`, menus in `b000`, 226 identical lines follow their first copy, fixes in `r01`-`r03`. `tools/batches.py` (split, check, merge), `tools/fit.py` (wraps to the measured boxes, extra pages at sentence ends), `tools/pairs.py` (chapter review files). `tests/test_translation.py` keeps every merged line passing its check. `docs/synopsis.md`, `docs/style-reference.md`, glossary with rules for 運命, 想い and 引力, all agent briefs in `docs/`. Review in `docs/review-phase6.md`, Minors in `docs/polish.md`.
+- **Next (phase 7):** `tools/insert.py` and `tools/build.py` already build all of it with no overflow (5,200-10,400 bytes left per overlay). Still to do: `romdiff.py` for writes outside allowed ranges; the memory-card title `slps_010_001` and `tools/dte.py --build` if bytes ever matter (nothing needs them now); then the full warp. Phase 8 reads the extra pages against voice clips.
 - **Open bugs:** none.
 - **Not verified:**
+  - Translation review was not independent: nested workers refused, `codex exec` over its limit until 2026-11-11, so the implementer read it (`docs/review-phase6.md`). syo07_152-333 got the weakest read. Phase 9's story pass must be a different reader.
+  - The user hasn't approved a pilot in-game, as the skill asks; the run's brief pre-approves checkpoints.
+  - Long lines now run on to extra pages. Voice clips are timed to the JP pages; nobody has heard whether speech and the extra pages still line up.
+  - "Jechia", "Getin", "Dilate", "Rampant", "Godashim", "Zegu", "Kaja", "Refine" are best-effort spellings of names with no source I could check.
   - Keyboard input in the PCSX-Redux GUI (Step 0 asks for it): this run is headless, nobody pressed a key. Scripted input and Lua are proven.
   - `choice_box` pokes a real choice string into a window to prove the box draws. The game's own route to it (partner trigger, then yes/no) wasn't run, nor was picking a choice. Phase 8's story-order run covers it.
   - `battle_ch7_57` and `battle_ch7_58` show identical frames; the call sites pass different stages. Guess: shared stage data.
@@ -45,4 +50,4 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - FMVs (57 videos, ~21 min of spoken Japanese, no text on screen). Subtitling means re-encoding video with jPSXdec, and the disc's streams must keep their timing. Default: leave unsubtitled for v1.0, list it in the README as a known limit; revisit after phase 9 if time remains.
   - Voiced lines stay Japanese audio under English text.
   - `奉` on the shrine box in chapter 1 map art (`docs/re/graphics.md`): default leave as scenery, since D5 names titles, menus, banners and cards.
-  - Character names marked "(check)" in `glossary.md` get best-effort sources in phase 6.
+  - レフィーヌ as "Refine" reads like the English verb ("Refine...? Who is she, anyway"). Default keeps it; "Lefine" is the alternative. One edit in `glossary.md`, `tbl/names.tsv` and the lines naming her.

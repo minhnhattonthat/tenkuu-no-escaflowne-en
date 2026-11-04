@@ -164,8 +164,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Well come. You who are bound to the dragon's fate.\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Well come. You who are bound to the{nl}dragon's fate.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"So you have come. You who are bound to the dragon's fate.\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"So you have come. You who are bound{nl}to the dragon's fate.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_010",
@@ -631,8 +631,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Not so... girl. | This Gaea too is soaked in blood. Blood spilled in war... Since long before I came. | Just like Earth. Yes, this was on Earth. | One day, I was seized by a question. | There is a principle common to all bodies. A body exerts a force of attraction according to its mass. | This is gravity. Why on earth does this invisible force exist in this world? | That people are drawn to one another, and kill one another, is the way of the world. | Death repeats unbroken, and yet order of every kind exists. What is the source of that order? | Yes, it is fate... the root power that governs the universe...\"",
-   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Not so... girl.{wait}{clear}{nl}This Gaea too is soaked in blood. Blood{nl}spilled in war... Since long before I came.{wait}{clear}{nl}Just like Earth. Yes, this was on Earth.{wait}{clear}{nl}One day, I was seized by a question.{wait}{clear}{nl}There is a principle common to all bodies.{nl}A body exerts a force of attraction{nl}according to its mass.{wait}{clear}{nl}This is gravity. Why on earth does this{nl}invisible force exist in this world?{wait}{clear}{nl}That people are drawn to one another,{nl}and kill one another, is the way of the{nl}world.{wait}{clear}{nl}Death repeats unbroken, and yet order{nl}of every kind exists. What is the source{nl}of that order?{wait}{clear}{nl}Yes, it is fate... the root power that{nl}governs the universe...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Not so... girl. | This Gaea too is soaked in blood. Blood spilled in war... Since long before I came. | Just like Earth. Yes, this was on Earth. | One day, I was seized by a question. | There is a principle common to all bodies. A body exerts a force of attraction according to its mass. | This is gravity. Why does this invisible force exist in this world at all? | That people are drawn to one another, and kill one another, is the way of the world. | Death repeats unbroken, and yet order of every kind exists. What is the source of that order? | Yes, it is fate... the root power that governs the universe...\"",
+   "en": "{clear}{nameon}{color3}26Dornkirk{expr:3037}{nameoff}{color2}{nl}\"Not so... girl.{wait}{clear}{nl}This Gaea too is soaked in blood. Blood{nl}spilled in war... Since long before I came.{wait}{clear}{nl}Just like Earth. Yes, this was on Earth.{wait}{clear}{nl}One day, I was seized by a question.{wait}{clear}{nl}There is a principle common to all bodies.{nl}A body exerts a force of attraction{nl}according to its mass.{wait}{clear}{nl}This is gravity. Why does this invisible{nl}force exist in this world at all?{wait}{clear}{nl}That people are drawn to one another,{nl}and kill one another, is the way of the{nl}world.{wait}{clear}{nl}Death repeats unbroken, and yet order{nl}of every kind exists. What is the source{nl}of that order?{wait}{clear}{nl}Yes, it is fate... the root power that{nl}governs the universe...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_033",

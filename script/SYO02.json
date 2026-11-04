@@ -243,8 +243,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"The King of Fanelia. His Majesty Van Fanel-sama.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"The King of Fanelia. His Majesty Van{nl}Fanel-sama.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"The King of Fanelia, Van Fanel-sama.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"The King of Fanelia, Van Fanel-sama.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_014",
@@ -2047,8 +2047,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"You are His Majesty Van Fanel-sama, King of Fanelia! | King Aston summons you!\"",
-   "en": "{clear}{nameon}{color3}20Asturian Guard Captain{nameoff}{color2}{nl}\"You are His Majesty Van Fanel-sama,{nl}King of Fanelia!{wait}{clear}{nl}King Aston summons you!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"You are Van Fanel-sama, King of Fanelia! | King Aston summons you!\"",
+   "en": "{clear}{nameon}{color3}20Asturian Guard Captain{nameoff}{color2}{nl}\"You are Van Fanel-sama, King of{nl}Fanelia!{wait}{clear}{nl}King Aston summons you!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_111",
@@ -2142,8 +2142,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Heh heh heh... Fighting a kid? Nice work, that.\"",
-   "en": "{clear}{nameon}{color3}26Mercenary A{nameoff}{color2}{nl}\"Heh heh heh... Fighting a kid? Nice{nl}work, that.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Heh heh heh... Up against a kid? Now that's a sweet job.\"",
+   "en": "{clear}{nameon}{color3}26Mercenary A{nameoff}{color2}{nl}\"Heh heh heh... Up against a kid? Now{nl}that's a sweet job.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_116",
@@ -5702,8 +5702,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Stop talking in your sleep!! Just hit them. | Without killing them, that is.\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Stop talking in your sleep!! Just hit{nl}them.{wait}{clear}{nl}Without killing them, that is.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Quit talking nonsense!! Just hit them. | Without killing them, that is.\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}\"Quit talking nonsense!! Just hit them.{wait}{clear}{nl}Without killing them, that is.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_303",
@@ -6123,8 +6123,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"This is bad. That's enough, withdraw! Dilandau. | Freid's ships are approaching. If they see us now, they'll sense our plans.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"This is bad. That's enough, withdraw!{nl}Dilandau.{wait}{clear}{nl}Freid's ships are approaching. If they{nl}see us now, they'll sense our plans.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"This is bad. That's enough, withdraw, Dilandau! | Freid's ships are approaching. If they see us now, they'll sense our plans.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"This is bad. That's enough, withdraw,{nl}Dilandau!{wait}{clear}{nl}Freid's ships are approaching. If they{nl}see us now, they'll sense our plans.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_322",

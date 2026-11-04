@@ -4382,8 +4382,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"What a fine reputation I have. | Even in this remote corner of the world, he finds a way to shame me.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"What a fine reputation I have.{wait}{clear}{nl}Even in this remote corner of the world,{nl}he finds a way to shame me.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Honestly, what a celebrity he is. | Even in this remote corner of the world, he finds a way to shame me.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"Honestly, what a celebrity he is.{wait}{clear}{nl}Even in this remote corner of the world,{nl}he finds a way to shame me.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_227",
@@ -6109,8 +6109,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"You've got to come, don't you? | Your old man threw away his house, his fortune and his family to find that valley. It's famous in Asturia. | Even I know about it.\"",
-   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"You've got to come, don't you?{wait}{clear}{nl}Your old man threw away his house, his{nl}fortune and his family to find that{nl}valley. It's famous in Asturia.{wait}{clear}{nl}Even I know about it.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"You've got to come, don't you? | Your old man threw away his house, his fortune and his family to find the Mystic Valley. It's famous in Asturia. | Even I know about it.\"",
+   "en": "{clear}{nameon}{color3}26Dryden{expr:3133}{nameoff}{color2}{nl}\"You've got to come, don't you?{wait}{clear}{nl}Your old man threw away his house, his{nl}fortune and his family to find the Mystic{nl}Valley. It's famous in Asturia.{wait}{clear}{nl}Even I know about it.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_316",
@@ -8840,8 +8840,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"How foolish people are. The power of Atlantis... | Human will... We don't even notice our own feelings. Encia... | Allen, be true to yourself. Cherish your will.\"",
-   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"How foolish people are. The power of{nl}Atlantis...{wait}{clear}{nl}Human will... We don't even notice our{nl}own feelings. Encia...{wait}{clear}{nl}Allen, be true to yourself. Cherish your{nl}will.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"How foolish people are. The power of Atlantis... | Human will... We don't even notice our own feelings. Encia... | Allen, be true to yourself. Cherish your feelings.\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"How foolish people are. The power of{nl}Atlantis...{wait}{clear}{nl}Human will... We don't even notice our{nl}own feelings. Encia...{wait}{clear}{nl}Allen, be true to yourself. Cherish your{nl}feelings.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_455",
