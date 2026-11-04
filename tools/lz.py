@@ -27,3 +27,35 @@ def decompress(d, off=0, limit=None, size=None):
                 out.append(d[i])
                 i += 1
     return bytes(out), i
+
+
+def compress(data):
+    """A stream the game's 0x800157CC reads: 0xFA (0xF0 ^ 10 distance bits), a 24-bit token count, then flags and tokens.
+    decompress() starts after those 4 bytes. Greedy, which is all a mostly blank sheet needs."""
+    max_len, max_dist = 66, 1024
+    last, tokens, i = {}, [], 0
+    while i < len(data):
+        best, dist = 0, 0
+        for p in reversed(last.get(data[i:i + 3], [])[-64:]):
+            if i - p > max_dist:
+                break
+            n = 0
+            while n < max_len and i + n < len(data) and data[p + n] == data[i + n]:
+                n += 1
+            if n > best:
+                best, dist = n, i - p
+        if best >= 3:
+            tokens.append((True, (best - 3) << 10 | (dist - 1)))
+        else:
+            best = 1
+            tokens.append((False, data[i]))
+        for k in range(i, i + best):
+            last.setdefault(data[k:k + 3], []).append(k)
+        i += best
+    out = bytearray(b"\xFA" + len(tokens).to_bytes(3, "little"))
+    for g in range(0, len(tokens), 8):
+        group = tokens[g:g + 8]
+        out.append(sum(0x80 >> n for n, (ref, _v) in enumerate(group) if ref))
+        for ref, v in group:
+            out += v.to_bytes(2, "little") if ref else bytes([v])
+    return bytes(out)

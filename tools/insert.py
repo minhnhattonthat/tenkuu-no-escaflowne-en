@@ -25,6 +25,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import dte  # noqa: E402
 import extract  # noqa: E402
 import font  # noqa: E402
+import gfx  # noqa: E402
 import jptext  # noqa: E402
 
 ARMIPS = ROOT / "tools/armips/armips.exe"
@@ -347,6 +348,12 @@ def insert(out=None, mode="en", qa=None, quiet=False):
         vamap.update(vm)
         if not quiet:
             print(f"{name}: {len(w.log)} writes, script block left {sum(left.values())} bytes, marker px {px}")
+    if mode == "en":
+        for rel, data in gfx.edited().items():  # whole files, same size: tests/test_gfx.py checks what changes in them
+            path = out / rel
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(data)
+            changed.append(rel)
     (out / "writes.txt").write_text("\n".join(logs) + "\n", encoding="utf-8", newline="\n")
     (out / "vamap.tsv").write_text("".join(f"{a:#x}\t{b:#x}\n" for a, b in sorted(vamap.items())),
                                    encoding="utf-8", newline="\n")

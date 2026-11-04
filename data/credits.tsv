@@ -1,0 +1,169 @@
+# Staff roll line <TAB> English. Line numbers: the order of STAFF.BIN's tables, see tools/staff.py and docs/re/graphics.md.
+# Readings of the game staff's names are best effort (docs/status.md, Not verified). Empty English = the line draws nothing.
+0	Original Story
+1	Hajime Yatate
+2	Shoji Kawamori
+3	- Cast -
+4	Van
+5	Tomokazu Seki
+6	Hitomi
+7	Maaya Sakamoto
+8	Allen
+9	Shinichiro Miki
+10	Chid
+11	Dilandau
+12	Celena
+13	Minami Takayama
+14	Merle
+15	Ikue Otani
+16	Folken
+17	Joji Nakata
+18	Millerna
+19	Mayumi Iizuka
+20	Dryden
+21	Pilot
+22	Jurota Kosugi
+23	Dornkirk
+24	Masato Yamanouchi
+25	Naria
+26	Mizuru
+27	Yuri Amano
+28	Eriya
+29	Refine
+30	Narumi Hidaka
+31	Gaddes
+32	Toru Okawa
+33	Reeden
+34	Guimel
+35	Yuji Ueda
+36	Chesta
+37	Kappei Yamaguchi
+38	Gatti
+39	Mitsuaki Madono
+40	Dalet
+41	Katsuaki Arima
+42	- Game Staff -
+43	Chief Producer
+44	Makoto Asanuma
+45	Producer
+46	Director
+47	Game Design
+48	Yoshiharu Sato
+49	Programmers
+50	Tetsuya Otsu
+51	Satoshi Katsuma
+52	Toshio Kimura
+53	Daisuke Shimogaki
+54	Kimihiro Kudo
+55	Kazunori Fujita
+56	Graphics
+57	Yoshihiro Nakagawachi
+58	Takashi Araki
+59	Michiyo Kato
+60	Fumiko Tamura
+61	Tadao Yoshikawa
+62	Tomokazu Nagashima
+63	Hirokazu Tamai
+64	Takashi Watanabe
+65	Sound
+66	Koji Yamada
+67	Takanori Arima
+68	Music
+69	Toshiro Masuda
+70	External Relations
+71	Hirofumi Inagaki
+72	Publicity
+73	Takayuki Shindo
+74	Yumiko Kawasaka
+75	Special Thanks
+76	Masahiko Minami
+77	Makoto Kikuchi
+78	Production
+79	Beck
+80	Taira Sanuki
+81	- Recording Staff -
+82	Recording Director
+83	Kazuhiro Wakabayashi
+84	Sound Effects
+85	Shizuo Kurahashi
+86	(Sound Box)
+87	Mixing
+88	Makoto Uchida
+89	Operators
+90	Toru Kumakura
+91	Emi Otsubo
+92	Recording Studio
+93	OP Requiem Studio
+94	Recording Production
+95	Omnibus Promotion
+96
+97	- New Animation Staff -
+98	Character Design
+99	Nobuteru Yuki
+100	Mechanical Design
+101	Kimitoshi Yamane
+102	(Main Story)
+103	Storyboards
+104	Toshiyuki Tsuru
+105	Direction
+106	Ikuro Sato
+107	Key Animation
+108	Toshiyuki Tsuru
+109	Hirofumi Suzuki
+110	Tadaaki Miyata
+111	Animation Director
+112	Toshiyuki Tsuru
+113	(Ending)
+114	Storyboards, Direction
+115	Yoshiyuki Takei
+116	Key Animation
+117	Koji Osaka
+118	Bust-Shot Key Animation
+119	Takahiro Komori
+120	In-Between Animation
+121	Chizuko Kusu
+122	Teizo Shimada
+123	Hideko Yukino
+124	Studio Takuranke
+125	Anime-ya Honpo
+126	In-Between Check
+127	Koichi Iwanaga
+128	Color Design
+129	Takako Ito
+130	Ink and Paint
+131	Takako Ito
+132	Takako Matsumoto
+133	Yoshiko Kishi
+134	Akira Mizusawa
+135	M.I.
+136	Special Effects
+137	Toshio Hasegawa
+138	(Marix)
+139	Riswork
+140	Maki Pro
+141	Backgrounds
+142	Studio Easter
+143	Photography
+144	Asahi Production
+145	Editing
+146	Tomoaki Tsurubuchi
+147	Film Processing
+148	Tokyo Laboratory
+149	Production Assistant
+150	Keiichi Matsumura
+151	Production
+152	Sunrise
+153	Opening Theme
+154	"Yakusoku wa Iranai"
+155	Lyrics
+156	Yuho Iwasato
+157	Composition
+158	Yoko Kanno
+159	Arrangement
+160	Yoko Kanno
+161	Vocals
+162	Maaya Sakamoto
+163	Record Label
+164	Victor Entertainment
+165	Production
+166	Bandai
