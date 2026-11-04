@@ -66,6 +66,9 @@ def test_no_japanese_in_any_en(built):
     keep = {"numbers", "debug"}
     bad = [e["id"] for d in docs().values() for e in d["entries"] if "en" in e and e.get("form") not in keep and jp.search(e["en"])]
     assert not bad, bad[:20]
+    # the other way: Japanese with no English only where it can't show (SYO00's debug labels are fullwidth Latin)
+    silent = [e["id"] for d in docs().values() for e in d["entries"] if "en" not in e and jp.search(e["jp"]) and not e.get("dead")]
+    assert not silent, silent[:20]
 
 
 def test_memory_card_title_is_english_shift_jis(built):

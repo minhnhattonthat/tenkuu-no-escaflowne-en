@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check: not started (phase 6 done).
+- **Phase:** 8. QA in the emulator: not started (phase 7 done; phase 6 review findings fixed, see Not verified for what stays provisional).
 - **Done:**
   - Step 0: dump pinned, tools fetched (`AGENTS.md` lists versions and URLs), hook and check active, guard proven, original boots to title on real BIOS.
   - Phase 1: `docs/re/` holds encoding, opcodes, references, text ranges, engine, free-space candidates, LZ codec, graphics survey. Start at `docs/re/README.md`.
@@ -11,13 +11,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase 4: `tools/extract.py` writes `script/*.json` (2,787 entries: 102 shared, translated once and written to all 8 overlays; 2,553 for translators, the rest `debug`, `numbers` or control codes). `tests/test_extract.py`: all 3,501 string copies re-encode to the disc's bytes, every text range covered, text outside the ranges fails the check two ways, and the check is proven to fail on a shrunk range. Findings in `docs/re/text.md`.
   - Phase 5: `asm/vwf.asm` draws proportional ASCII plus two-letter codes, pixel-placed, through the original pacing and buffers (`docs/re/engine.md`); `tests/test_vwf.py` runs it under unicorn. `tools/build.py --marker` shows every line as its id and filler; `build/escaflowne_marker` passed the full warp, and `jp_left.py` finds only the memory-card title. Hook memory trap-tested (`docs/re/free-space.md`). Budgets per box in `data/windows.json`, stress build `tools/debug/width_gate.py`, glyph torture read clean.
   - Phase 6: every line in English (`tl` authored, `en` game tokens, in `script/*.json`): 2,201 unique lines in `work/tl/b001`-`b022`, menus in `b000`, 226 identical lines follow their first copy, fixes in `r01`-`r03`. `tools/batches.py` (split, check, merge), `tools/fit.py` (wraps to the measured boxes, extra pages at sentence ends), `tools/pairs.py` (chapter review files). `tests/test_translation.py` keeps every merged line passing its check. `docs/synopsis.md`, `docs/style-reference.md`, glossary with rules for 運命, 想い and 引力, all agent briefs in `docs/`. Review in `docs/review-phase6.md`, Minors in `docs/polish.md`.
-- **Next (phase 7):** `tools/insert.py` and `tools/build.py` already build all of it with no overflow (5,200-10,400 bytes left per overlay). Still to do: `romdiff.py` for writes outside allowed ranges; the memory-card title `slps_010_001` and `tools/dte.py --build` if bytes ever matter (nothing needs them now); then the full warp. Phase 8 reads the extra pages against voice clips.
+  - Phase 6 review (`H:\translation\.harness\reviews\tenkuu-no-escaflowne-en-phase6.md`, 0 Critical, 7 Important): all fixed except what needs someone else (I1's independence, I6's ruling). `work/tl/r04`; `docs/review-phase6.md`.
+  - Phase 7: `tests/test_romdiff.py` builds its own files and checks every overlay against its write log, the EXE against `data/exe_ranges.txt`, no Japanese in any `en`, no Japanese without `en` unless dead. `batches.py` also compares control codes and full glossary terms; `fit.py` refuses an added page of 3 words or fewer and a one-word last row. Memory-card title is `ＥＳＣＡＦＬＯＷＮＥ` (same 21 bytes). Scan of the original code for branches into the overwritten spans: none. `jp_left.py --sjis`: 0 runs in the EXE and all 9 overlays. Full warp 146/146 on the English build (`work/qa/warp_p7`), smoke ok; 5,200-9,700 bytes left per overlay.
+- **Next (phase 8):**
+  - **Graphics text is untouched and is most of the phase.** The art still shows Japanese (seen on `work/qa/warp_p7/_proof/sheet_5.png`: chapter card, credits). `docs/re/graphics.md` rows 1-6: title logo, copyright, 7 chapter cards, staff roll (LZ TIMs in `PRG/STAFF.BIN`), `ST_TITL`, `作成中`. D3 and D5 want them English. Credit names need romanizing.
+  - Then the visual QA gate (`qa_gate.py`), verdicts by a fresh read-only pass; extra pages against voice clips; a partner prompt shown (`common_097-102`); the game's own route to a choice box.
 - **Open bugs:** none.
 - **Not verified:**
-  - Translation review was not independent: nested workers refused, `codex exec` over its limit until 2026-11-11, so the implementer read it (`docs/review-phase6.md`). syo07_152-333 got the weakest read. Phase 9's story pass must be a different reader.
+  - Translation review is provisional (review I1): external review 35% by hand, then a fresh session read the rest, skipping lines under 12 JP characters and choice boxes outside `SYO01`, `SYO02` and `SYO03` up to 324. Same model family; nested workers refused, `codex exec` over its limit until 2026-11-11 (retried today, still limited). Phase 9's story pass should use a different reader if one exists.
   - The user hasn't approved a pilot in-game, as the skill asks; the run's brief pre-approves checkpoints.
   - Long lines now run on to extra pages. Voice clips are timed to the JP pages; nobody has heard whether speech and the extra pages still line up.
-  - "Jechia", "Getin", "Dilate", "Rampant", "Godashim", "Zegu", "Kaja", "Refine" are best-effort spellings of names with no source I could check.
+  - "Jechia", "Getin", "Helio", "Zodia", "Gimle", "Theo", "Dilate", "Rampant", "Godashim", "Zegu", "Kaja", "Refine" are best-effort spellings of names with no source I could check. ギムル "Gimle" may be the game's misspelling of ギメル "Guimel".
   - Keyboard input in the PCSX-Redux GUI (Step 0 asks for it): this run is headless, nobody pressed a key. Scripted input and Lua are proven.
   - `choice_box` pokes a real choice string into a window to prove the box draws. The game's own route to it (partner trigger, then yes/no) wasn't run, nor was picking a choice. Phase 8's story-order run covers it.
   - `battle_ch7_57` and `battle_ch7_58` show identical frames; the call sites pass different stages. Guess: shared stage data.
@@ -28,7 +32,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase 5's proof sheets and stress frames were read by the implementer only. `codex exec` hit its usage limit (until 2026-11-11) and nested reviewers are refused here, so no independent read happened; phase 8's visual QA is the first one.
   - Partner prompts (`common_097-102`) never shown: partner_pick closes the menu in chapter 1 with no candidate. Budget read from the code (window 0); phase 8 must show one.
   - Hook memory trap-tested on 9 scenes, not all 146; the full warp passing is the only other evidence.
-  - Whether the game reads the memory-card title back when loading. If the title changes in phase 7, rerun `warp_all.py save_game` and the load warp.
+  - How the BIOS card screen draws the new title: `work/saves/ch1_save.mcd` holds it, and `save_game` and `load_game` both pass, but no shot of the BIOS screen was taken.
+  - `load_game` read a card the same build wrote. A save made on the unpatched game has the Japanese title; the game should load it, since the title looks display-only, but that wasn't run.
 - **Facts to carry:**
   - **Byte budgets:** `tools/insert.py` raises when text won't fit. Shared block: 404 bytes for `common_001-014`, 1,028 for `common_015-046`, 572 for the 49 names, 168 for the prompts. Marker fill left 193-1,093 bytes per overlay at 160-184 px, not a forecast for English. If a chapter overflows, the gap after an overlay isn't proven free (`docs/re/free-space.md`): trap-test it first.
   - `{` can't be used in English text (it opens a token); the font has it, nothing needs it.
@@ -47,7 +52,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Full warp run takes about 15 minutes at `--jobs 5`, longer if other emulators share the machine.
   - `README.md` is still the template with placeholders; fill it at release (phase 9).
 - **Waiting on the user (non-blocking, defaults in force):**
+  - D2 amendment (review I6): `glossary.md` has a rule for game-original names that D2 doesn't; options and default in `docs/decisions.md`, open questions.
   - FMVs (57 videos, ~21 min of spoken Japanese, no text on screen). Subtitling means re-encoding video with jPSXdec, and the disc's streams must keep their timing. Default: leave unsubtitled for v1.0, list it in the README as a known limit; revisit after phase 9 if time remains.
   - Voiced lines stay Japanese audio under English text.
   - `奉` on the shrine box in chapter 1 map art (`docs/re/graphics.md`): default leave as scenery, since D5 names titles, menus, banners and cards.
-  - レフィーヌ as "Refine" reads like the English verb ("Refine...? Who is she, anyway"). Default keeps it; "Lefine" is the alternative. One edit in `glossary.md`, `tbl/names.tsv` and the lines naming her.
