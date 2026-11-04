@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: not started (phase 7 done; phase 6 review findings fixed, see Not verified for what stays provisional).
+- **Phase:** 9. Release: not started (phase 8 done; see Not verified for what stays provisional).
 - **Done:**
   - Step 0: dump pinned, tools fetched (`AGENTS.md` lists versions and URLs), hook and check active, guard proven, original boots to title on real BIOS.
   - Phase 1: `docs/re/` holds encoding, opcodes, references, text ranges, engine, free-space candidates, LZ codec, graphics survey. Start at `docs/re/README.md`.
@@ -12,11 +12,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase 5: `asm/vwf.asm` draws proportional ASCII plus two-letter codes, pixel-placed, through the original pacing and buffers (`docs/re/engine.md`); `tests/test_vwf.py` runs it under unicorn. `tools/build.py --marker` shows every line as its id and filler; `build/escaflowne_marker` passed the full warp, and `jp_left.py` finds only the memory-card title. Hook memory trap-tested (`docs/re/free-space.md`). Budgets per box in `data/windows.json`, stress build `tools/debug/width_gate.py`, glyph torture read clean.
   - Phase 6: every line in English (`tl` authored, `en` game tokens, in `script/*.json`): 2,201 unique lines in `work/tl/b001`-`b022`, menus in `b000`, 226 identical lines follow their first copy, fixes in `r01`-`r03`. `tools/batches.py` (split, check, merge), `tools/fit.py` (wraps to the measured boxes, extra pages at sentence ends), `tools/pairs.py` (chapter review files). `tests/test_translation.py` keeps every merged line passing its check. `docs/synopsis.md`, `docs/style-reference.md`, glossary with rules for 運命, 想い and 引力, all agent briefs in `docs/`. Review in `docs/review-phase6.md`, Minors in `docs/polish.md`.
   - Phase 6 review (`H:\translation\.harness\reviews\tenkuu-no-escaflowne-en-phase6.md`, 0 Critical, 7 Important): all fixed except what needs someone else (I1's independence, I6's ruling). `work/tl/r04`; `docs/review-phase6.md`.
-  - Phase 7: `tests/test_romdiff.py` builds its own files and checks every overlay against its write log, the EXE against `data/exe_ranges.txt`, no Japanese in any `en`, no Japanese without `en` unless dead. `batches.py` also compares control codes and full glossary terms; `fit.py` refuses an added page of 3 words or fewer and a last row under 6 characters (longer one-word last rows ship, 301 of them, e.g. `syo01_116` `happen,`; accepted). Memory-card title is `ＥＳＣＡＦＬＯＷＮＥ` (same 21 bytes). `jp_left.py --sjis`: 0 runs in the EXE and all 9 overlays. Full warp 146/146 on the English build (`work/qa/warp_p7`), smoke ok; 5,229-10,447 bytes left per overlay.
+  - Phase 7: `tests/test_romdiff.py` builds its own files and checks every overlay against its write log, the EXE against `data/exe_ranges.txt`, no Japanese in any `en`, no Japanese without `en` unless dead. `batches.py` also compares control codes and full glossary terms; `fit.py` refuses an added page of 3 words or fewer and a last row under 6 characters. Memory-card title is `ＥＳＣＡＦＬＯＷＮＥ` (same 21 bytes). `jp_left.py --sjis`: 0 runs in the EXE and all 9 overlays. Full warp 146/146 on the English build (`work/qa/warp_p7`), smoke ok; 5,229-10,447 bytes left per overlay.
   - Phase 7 review (`H:\translation\.harness\reviews\tenkuu-no-escaflowne-en-phase7.md`, 0 Critical, 2 Important, 9 Minor): all fixed. `batches.py` now measures menus, fragments and names against `data/windows.json` (fit.py loads its budgets from there); `tests/test_romdiff.py` gates refs resolving, no stale reader, whole tables, no swallowed branch target, each failing on a mutated build; a skipped test now fails the check unless `ALLOW_SKIP=1`.
-- **Next (phase 8):**
-  - **Graphics text is untouched and is most of the phase.** The art still shows Japanese (seen on `work/qa/warp_p7/_proof/sheet_5.png`: chapter card, credits). `docs/re/graphics.md` rows 1-6: title logo, copyright, 7 chapter cards, staff roll (LZ TIMs in `PRG/STAFF.BIN`), `ST_TITL`, `作成中`. D3 and D5 want them English. Credit names need romanizing.
-  - Then the visual QA gate (`qa_gate.py`), verdicts by a fresh read-only pass; extra pages against voice clips; a partner prompt shown (`common_097-102`); the game's own route to a choice box.
+  - Phase 8 (build `ab23657`): graphics text in English: title logo, copyright, 7 chapter cards, staff roll, placeholder picture (`tools/gfx.py`, `tools/staff.py`), logo in the opening video (`tools/fmv.py`). Partner prompt and choice box reached by the game's own route, option picked (`partner_prompt`, `partner_choice`, `partner_answer`). Full warp 150/150 (`work/qa/tour`); `qa_gate.py check` exits 0, 40 sheets with ok verdicts from read-only `visual-qa` agents (`work/qa/verdicts`); zoomed cold-boot proofs in `work/qa/proof`, `sheet_proof_*`; smoke ok; `jp_left.py` 0 runs on the EXE and all ESCA/PRG files.
+- **Next (phase 9):**
+  - Story pass: one verdict per chapter (`work/qa/story/manifest.tsv`, `references/translation.md` §Review), by a different reader if one exists; `docs/polish.md` must end with no unticked line.
+  - Write `tools/release.py`: run `qa_gate.py check` on every manifest, `jp_left.py`, build, split at track 1's end, patch track 1 only, re-apply and verify; zip of patch + README. Debug tool must be off in the release build. Fill `README.md`: base hashes, known limits. Never publish.
 - **Open bugs:** none.
 - **Not verified:**
   - Translation review is provisional (review I1): external review 35% by hand, then a fresh session read the rest, skipping lines under 12 JP characters and choice boxes outside `SYO01`, `SYO02` and `SYO03` up to 324. Same model family; nested workers refused, `codex exec` over its limit until 2026-11-11 (retried today, still limited). Phase 9's story pass should use a different reader if one exists.
@@ -24,15 +25,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Long lines now run on to extra pages. Voice clips are timed to the JP pages; nobody has heard whether speech and the extra pages still line up.
   - "Jechia", "Getin", "Helio", "Zodia", "Gimle", "Theo", "Dilate", "Rampant", "Godashim", "Zegu", "Kaja", "Refine" are best-effort spellings of names with no source I could check. ギムル "Gimle" may be the game's misspelling of ギメル "Guimel".
   - Keyboard input in the PCSX-Redux GUI (Step 0 asks for it): this run is headless, nobody pressed a key. Scripted input and Lua are proven.
-  - `choice_box` pokes a real choice string into a window to prove the box draws. The game's own route to it (partner trigger, then yes/no) wasn't run, nor was picking a choice. Phase 8's story-order run covers it.
+  - Choice boxes reached by the game's own route: the partner one only. Partner scenes start from a poked flag (`mask=2`), not from earlier story play. `choice_box` still pokes its string.
+  - Known difference: the opening video's glare over the logo frames is missing; cosmetic, accepted.
   - `battle_ch7_57` and `battle_ch7_58` show identical frames; the call sites pass different stages. Guess: shared stage data.
   - Eight tiles show a generic prompt, GAME OVER or a dark frame, so the picture can't tell which checkpoint it is (`ch1_sm5`, `ch1_sm7`, `ch2_sm3`, `ch3_sm4`, `ch5_sm10`, `ch7_sm2`, `ch7_sm5`, `ch7_sm7`): the warp reached the table slot, not necessarily a useful scene.
   - Ending branches: the code selects FMV 0x2C, 0x37 or 0x38 from 0x8009AE6C and 0x8009AE40, and all three warps reach an FMV and the staff roll, but no run compared which FMV played.
   - Voice clips and music after a file moves: file-relative by static read; the shifted-disc warp checks pictures only.
   - Whether BATTLE's `文字列` ever shows on screen, and whether the 61 `dead` entries are truly unreachable: static read only. The marker build should show `battle_001` if it draws.
-  - Phase 5's proof sheets and stress frames were read by the implementer only. `codex exec` hit its usage limit (until 2026-11-11) and nested reviewers are refused here, so no independent read happened; phase 8's visual QA is the first one.
-  - Partner prompts (`common_097-102`) never shown: partner_pick closes the menu in chapter 1 with no candidate. Budget read from the code (window 0); phase 8 must show one.
-  - Hook memory trap-tested on 9 scenes, not all 146; the full warp passing is the only other evidence.
+  - Phase 5's stress frames were read by the implementer only (`codex exec` over its limit until 2026-11-11). Phase 8's visual QA read the game's own screens, not the stress builds. Its `visual-qa` agents are the same model family as the implementer.
+  - Hook memory trap-tested on 9 scenes, not all 150; the full warp passing is the only other evidence.
   - How the BIOS card screen draws the new title: `work/saves/ch1_save.mcd` holds it, and `save_game` and `load_game` both pass, but no shot of the BIOS screen was taken.
   - `load_game` read a card the same build wrote. A save made on the unpatched game has the Japanese title; the game should load it, since the title looks display-only, but that wasn't run.
 - **Facts to carry:**
@@ -52,6 +53,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - `warp.lua` holds each overlay's table address and first word. If phase 7 moves the tables or changes their contents, update `TABLES` there and in `tools/debug/gen_scenes.py`, then regenerate `scenes.tsv`.
   - Full warp run takes about 15 minutes at `--jobs 5`, longer if other emulators share the machine.
   - `README.md` is still the template with placeholders; fill it at release (phase 9).
+  - The build needs `work/jp.idx` and Java: `tools/fmv.py` re-encodes the opening's logo with jPSXdec (about 16 s). The opening video isn't in `layout.xml` edits; `tools/gfx.py` `edited()` writes it. Rerun `tools/batches.py refit` after any `tools/fit.py` change.
 - **Waiting on the user (non-blocking, defaults in force):**
   - D2 amendment (review I6): `glossary.md` has a rule for game-original names that D2 doesn't; options and default in `docs/decisions.md`, open questions.
   - FMVs (57 videos, ~21 min of spoken Japanese, no text on screen). Subtitling means re-encoding video with jPSXdec, and the disc's streams must keep their timing. Default: leave unsubtitled for v1.0, list it in the README as a known limit; revisit after phase 9 if time remains.
