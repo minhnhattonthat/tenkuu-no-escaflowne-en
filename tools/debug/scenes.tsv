@@ -1,21 +1,21 @@
 name	chapter	scene	jump	frames	mash	route	expect	flags	pokes	say	say_win	say_wait	proof
-title	0	0	-	1800	0	-	-	-	-	-	-	-	title menu
+title	0	0	-	2700	0	-	-	-	-	-	-	-	title menu
 title_load	0	0	-	2300	0	150 -;8 down;30 -;8 circle;300 -	-	-	-	-	-	-	LOAD/EXIT window
 title_load_confirm	0	0	-	2600	0	150 -;8 down;30 -;8 circle;300 -;8 circle;300 -	-	-	-	-	-	-	LOAD yes/no window
 ch1_card	1	0	-	2400	0	-	0	-	-	-	-	-	chapter card
-ch1_menu	1	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch1_menu	1	-1	-	2700	0	-	-1	-	-	-	-	-	scene-select menu
 ch2_card	2	0	-	2400	0	-	0	-	-	-	-	-	chapter card
-ch2_menu	2	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch2_menu	2	-1	-	2700	0	-	-1	-	-	-	-	-	scene-select menu
 ch3_card	3	0	-	2400	0	-	0	-	-	-	-	-	chapter card
-ch3_menu	3	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch3_menu	3	-1	-	2700	0	-	-1	-	-	-	-	-	scene-select menu
 ch4_card	4	0	-	2400	0	-	0	-	-	-	-	-	chapter card
-ch4_menu	4	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch4_menu	4	-1	-	2700	0	-	-1	-	-	-	-	-	scene-select menu
 ch5_card	5	0	-	2400	0	-	0	-	-	-	-	-	chapter card
-ch5_menu	5	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch5_menu	5	-1	-	2700	0	-	-1	-	-	-	-	-	scene-select menu
 ch6_card	6	0	-	2400	0	-	0	-	-	-	-	-	chapter card
-ch6_menu	6	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch6_menu	6	-1	-	2700	0	-	-1	-	-	-	-	-	scene-select menu
 ch7_card	7	0	-	2400	0	-	0	-	-	-	-	-	chapter card
-ch7_menu	7	-1	-	1800	0	-	-1	-	-	-	-	-	scene-select menu
+ch7_menu	7	-1	-	2700	0	-	-1	-	-	-	-	-	scene-select menu
 ch1_sm10	1	-10	-	3000	1	-	-	-	-	-	-	-	scene start
 ch1_sm8	1	-8	-	3000	1	-	-	-	-	-	-	-	scene start
 ch1_sm7	1	-7	-	3000	1	-	-	-	-	-	-	-	scene start
@@ -139,6 +139,7 @@ save_game	1	0	0x800db980	4200	0	400 -;8 circle;240 -;8 circle;240 -;8 circle;300
 load_game	0	0	-	4400	0	150 -;8 down;30 -;8 circle;300 -;8 circle;300 -;8 circle;300 -;8 circle;300 -;8 circle;300 -;8 down;30 -;8 circle;1100 -	-	-	-	-	-	-	LOAD messages, EXIT, then the saved chapter
 free_roam	1	0	0x800db834	2800	0	-	-	-	-	-	-	-	free roam
 partner_menu	1	0	0x800db834	3000	0	600 -;8 triangle;240 -	-	-	-	-	-	-	partner menu
+partner_pick	1	0	0x800db834	3400	0	600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -	-	-	-	-	-	-	partner menu, first row picked
 choice_box	1	0	0x800db834	3600	0	600 -;8 triangle;1500 -	-	-	-	0x800dccb2	1	900	dialogue choice box
 credits	7	0	0x800d6910	6000	0	-	-	-	-	-	-	-	staff roll
 ending_tie	7	0	0x800d687c	9000	0	-	-	-	0x8009AE6C=0 0x8009AE40=0	-	-	-	ending FMV 0x2C then staff roll

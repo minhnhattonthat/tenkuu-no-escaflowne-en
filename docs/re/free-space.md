@@ -1,6 +1,6 @@
 # Free space
 
-**All of these are candidates, none trap-tested.** Zero at one moment proves nothing: 0x800A01A8-A21A8 and others are BSS the game may fill later. Measured on `work/qa/r1/ram_003600.bin` and `ram_005400.bin` (chapter 1, first scene). Before use: fill with a trap value, tour, and search code for references.
+**Candidates unless marked trap-tested.** Zero at one moment proves nothing: 0x800A01A8-A21A8 and others are BSS the game may fill later. Measured on `work/qa/r1/ram_003600.bin` and `ram_005400.bin` (chapter 1, first scene). Before use: fill with a trap value, tour, and search code for references.
 
 ## Inside a SYO overlay
 
@@ -32,7 +32,15 @@ EXE loads 0x80010000-0x8009B000. Internal zero runs (file offset):
 | 0x072820 | 0x80082020 | 4,208 (RAM dump shows 0x80082090-80082DD0 still zero) |
 | 0x071D4C | 0x8008154C | 1,044 |
 
-0x800491EA-0x8004A214 is still zero at runtime in the middle of code and is the first choice for the hook (~1-2 KB). 0x80082090 is the first choice for font data (~3 KB).
+**These zero runs are live images, trap-tested (`tools/lua/trap.lua`, `work/qa/trap`):** 0x80082090 is wiped at boot, and 0x80083750-952 is read by libgpu at 0x8006542C and 0x80065498. Don't use them.
+
+**In use by the hook (trap-tested, `work/qa/trap2`: 9 scenes covering dialogue, menus, battle, save, load, credits; only the BIOS loader and the hook itself touch them):**
+
+| VA | Bytes | Holds |
+|---|---|---|
+| 0x80010254-0x800104AC | 600 | hook parts 1 and 3 |
+| 0x80011C28-0x80011F50 | 808 | hook part 2, pair table; was libgpu's debug format strings, read only by its dump calls at debug level > 0 |
+| 0x80039AD4-0x8003A1A8 | 1,748 | smaller renderer, then the font (1,235 bytes) |
 
 **Other low RAM:** 0x8000BED2-0x8000E000 (8,494) and 0x8000E5A0-0x80010000 (6,752) below the EXE are zero at runtime, but the BIOS and libraries may use them. Not loadable from the EXE image without extending the load range. Avoid.
 

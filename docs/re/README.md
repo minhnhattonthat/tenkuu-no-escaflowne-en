@@ -14,8 +14,8 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 |---|---|---|
 | `disc.md` | Disc layout, files, load addresses, prior work, identity build, file lookup by name | verified (dump, RAM dumps, `tests/test_identity.py`, shifted-disc warp) |
 | `text.md` | Encoding, control codes, string references, text ranges | verified (`tests/test_extract.py`); dead strings static read only |
-| `engine.md` | Text renderer, window fields, VWF plan | draw path verified by breakpoint; plan is a proposal |
-| `free-space.md` | RAM and disc room for English and hook code | candidates only, none trap-tested |
+| `engine.md` | Text renderer, window fields, the VWF hook, width gate | verified (`tests/test_vwf.py`, full marker warp, `tools/debug/width_gate.py`) |
+| `free-space.md` | RAM and disc room for English and hook code | the hook's three areas trap-tested; the rest candidates |
 | `compression.md` | Game LZ codec | decoder verified on 15,207 TIMs; encoder not written |
 | `graphics.md` | Graphics-text survey (every image with text) | static sweep done; runtime confirmation left to phase 2 warps |
 | `warp.md` | Game flow, chapter and scene words, debug tool | verified by warps from cold boot (`tools/debug/warp_all.py`) |

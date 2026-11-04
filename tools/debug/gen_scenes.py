@@ -13,12 +13,12 @@ rows = []
 def add(name, chapter, scene=0, jump=None, frames=2400, mash=0, route=None, expect=None, flags=None, pokes=None, say=None, say_win=None, say_wait=None, proof="x"):
     rows.append([name, chapter, scene, hex(jump) if jump else "-", frames, mash, route or "-", "-" if expect is None else expect, flags or "-", pokes or "-", hex(say) if say else "-", "-" if say_win is None else say_win, "-" if say_wait is None else say_wait, proof])
 
-add("title", 0, frames=1800, proof="title menu")
+add("title", 0, frames=2700, proof="title menu")  # the title comes up as late as frame 2027 when no mash skips the FMVs
 add("title_load", 0, frames=2300, route="150 -;8 down;30 -;8 circle;300 -", proof="LOAD/EXIT window")
 add("title_load_confirm", 0, frames=2600, route="150 -;8 down;30 -;8 circle;300 -;8 circle;300 -", proof="LOAD yes/no window")
 for c in range(1, 8):
     add(f"ch{c}_card", c, 0, frames=2400, expect=0, proof="chapter card")
-    add(f"ch{c}_menu", c, -1, frames=1800, expect=-1, proof="scene-select menu")
+    add(f"ch{c}_menu", c, -1, frames=2700, expect=-1, proof="scene-select menu")
 for c, (va, n, addv) in TABLE.items():
     d = (PRG / f"SYO{c:02d}.BIN").read_bytes()
     t = [struct.unpack_from("<I", d, va - B + 4 * i)[0] for i in range(n)]
@@ -71,6 +71,7 @@ add("save_game", 1, 0, jump=0x800DB980, frames=4200, route="400 -;8 circle;240 -
 add("load_game", 0, frames=4400, route="150 -;8 down;30 -;8 circle;300 -;8 circle;300 -;8 circle;300 -;8 circle;300 -;8 circle;300 -;8 down;30 -;8 circle;1100 -", proof="LOAD messages, EXIT, then the saved chapter")
 add("free_roam", 1, 0, jump=0x800DB834, frames=2800, proof="free roam")
 add("partner_menu", 1, 0, jump=0x800DB834, frames=3000, route="600 -;8 triangle;240 -", proof="partner menu")
+add("partner_pick", 1, 0, jump=0x800DB834, frames=3400, route="600 -;8 triangle;240 -;8 circle;240 -;8 circle;240 -", proof="partner menu, first row picked")
 # The real 1)-4) string (0x800DCCB2, shown by 0x800CD750 in window 1), poked while the partner menu keeps the window array alive: the array is freed when text closes.
 add("choice_box", 1, 0, jump=0x800DB834, frames=3600, route="600 -;8 triangle;1500 -", say=0x800DCCB2, say_win=1, say_wait=900, proof="dialogue choice box")
 add("credits", 7, 0, jump=0x800D6910, frames=6000, proof="staff roll")

@@ -1,0 +1,58 @@
+{
+  "_note": "Measured budgets per box variant; px counts font.Font().width, a fullwidth indent is 12 px. Rows count every row of a page, the name tag's too. Scenes: tools/debug/width_gate.py, run work/qa/gate. How read: docs/re/engine.md.",
+  "dialogue": {
+    "forms": ["dlg", "narration", "bark"],
+    "x0": 56,
+    "px": 224,
+    "px_body": 208,
+    "rows": 3,
+    "state": "measured: ch1_sm10, W x28 (223 px) shows its last column at x=278; wait arrow at x 267-276, y 195-207, so body rows stop at x=264; a 4th row is cut in half",
+    "same_in": "battle_ch1_2 (same window, same x0, same arrow)"
+  },
+  "name_tag": {
+    "forms": ["dlg", "choice"],
+    "x0": 56,
+    "px": 224,
+    "rows": 1,
+    "state": "measured: same row as dialogue row 0; 28-character name in width_gate's syo01_258"
+  },
+  "choice": {
+    "forms": ["choice"],
+    "x0": 47,
+    "px": 224,
+    "rows": 7,
+    "state": "measured: choice_box, name + question + 4 options + one wrapped row, all inside the frame; a longer row wraps and pushes the rest down; px includes the row's fullwidth indent"
+  },
+  "scene_menu": {
+    "forms": ["menu"],
+    "ids": "the 3-line scene selects at each overlay's menu span",
+    "x0": 56,
+    "px": 224,
+    "rows": 3,
+    "state": "measured: ch1_menu shows 3 rows at x0; px from the dialogue window, which this is (no ruler run here)"
+  },
+  "card_menu": {
+    "forms": ["menu"],
+    "ids": "common_006-common_046: LOAD, SAVE, slot and memory-card messages",
+    "x0": 59,
+    "px": 224,
+    "rows": 6,
+    "state": "measured: load_game and save_game, slot-pick screens: 6 rows, and ruler rows common_011 and common_033 (36 px indent + 188 px) inside the box, inner edge at x=282; px includes the row's fullwidth indent"
+  },
+  "partner_menu": {
+    "forms": ["menu"],
+    "ids": "common_001-common_005",
+    "x0": 59,
+    "px": 140,
+    "rows": 4,
+    "state": "measured: partner_menu, box inner edge at x=200; text past it is drawn over the frame; px includes the 12 px indent"
+  },
+  "partner_prompt": {
+    "forms": ["fragment"],
+    "ids": "common_097-common_102, joined after a name at runtime",
+    "x0": 56,
+    "px": 224,
+    "rows": 3,
+    "state": "guess: queued on window 0 by 0x800C59E8 (static read), the dialogue window; partner_pick can't reach it in chapter 1; phase 8's story run must show it"
+  }
+}

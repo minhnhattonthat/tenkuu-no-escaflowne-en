@@ -2,14 +2,15 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build, not started (phase 4 done).
+- **Phase:** 6. Translation, not started (phase 5 done).
 - **Done:**
   - Step 0: dump pinned, tools fetched (`AGENTS.md` lists versions and URLs), hook and check active, guard proven, original boots to title on real BIOS.
   - Phase 1: `docs/re/` holds encoding, opcodes, references, text ranges, engine, free-space candidates, LZ codec, graphics survey. Start at `docs/re/README.md`.
   - Phase 2: `tools/debug/warp_all.py` reaches 145 scenes from cold boot by RAM poke, on the original disc: title, LOAD, SAVE, memory-card save and load back into the saved chapter, partner menu, choice box, all 7 chapter cards and scene menus, every scene-table entry, all 43 battle sites (types 0-3), game over (direct and by losing), winning a battle, credits, 3 endings. How it works: `docs/re/warp.md`. Proof sheets read by the implementer and independently by `codex exec`; that read caught a false pass on `choice_box` and thin proofs for save and load, all fixed.
   - Phase 3: `tools/build.py` rebuilds a byte-identical disc; `tests/test_identity.py` proves it on each check and fails when one tree byte is flipped. Build boots (`--smoke`). Files are found by name and track 2 is never played, so files may grow: `tools/build.py --shift 1000` passed the full warp, 145/145 (`docs/re/disc.md`).
   - Phase 4: `tools/extract.py` writes `script/*.json` (2,787 entries: 102 shared, translated once and written to all 8 overlays; 2,553 for translators, the rest `debug`, `numbers` or control codes). `tests/test_extract.py`: all 3,501 string copies re-encode to the disc's bytes, every text range covered, text outside the ranges fails the check two ways, and the check is proven to fail on a shrunk range. Findings in `docs/re/text.md`.
-- **Next (phase 5):** VWF spike per `docs/re/engine.md` (ASCII digits are proven name-tag-only, so the 0x8003AE14 hook is safe); marker build replacing every line with `[id] marker text`; measure every box variant (the width gate).
+  - Phase 5: `asm/vwf.asm` draws proportional ASCII plus two-letter codes, pixel-placed, through the original pacing and buffers (`docs/re/engine.md`); `tests/test_vwf.py` runs it under unicorn. `tools/build.py --marker` shows every line as its id and filler; `build/escaflowne_marker` passed the full warp, and `jp_left.py` finds only the memory-card title. Hook memory trap-tested (`docs/re/free-space.md`). Budgets per box in `data/windows.json`, stress build `tools/debug/width_gate.py`, glyph torture read clean.
+- **Next (phase 6):** style and glossary checks, then translator batches, per the skill. Translators write to `data/windows.json`: 208 px per body row, 3 rows a page counting the name. Then phase 7: `tools/dte.py --build` from the English, width lint from `data/windows.json`, and `tools/build.py`.
 - **Open bugs:** none.
 - **Not verified:**
   - Keyboard input in the PCSX-Redux GUI (Step 0 asks for it): this run is headless, nobody pressed a key. Scripted input and Lua are proven.
@@ -19,8 +20,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Ending branches: the code selects FMV 0x2C, 0x37 or 0x38 from 0x8009AE6C and 0x8009AE40, and all three warps reach an FMV and the staff roll, but no run compared which FMV played.
   - Voice clips and music after a file moves: file-relative by static read; the shifted-disc warp checks pictures only.
   - Whether BATTLE's `文字列` ever shows on screen, and whether the 61 `dead` entries are truly unreachable: static read only. The marker build should show `battle_001` if it draws.
+  - Phase 5's proof sheets and stress frames were read by the implementer only. `codex exec` hit its usage limit (until 2026-11-11) and nested reviewers are refused here, so no independent read happened; phase 8's visual QA is the first one.
+  - Partner prompts (`common_097-102`) never shown: partner_pick closes the menu in chapter 1 with no candidate. Budget read from the code (window 0); phase 8 must show one.
+  - Hook memory trap-tested on 9 scenes, not all 146; the full warp passing is the only other evidence.
   - Whether the game reads the memory-card title back when loading. If the title changes in phase 7, rerun `warp_all.py save_game` and the load warp.
 - **Facts to carry:**
+  - **Byte budgets:** `tools/insert.py` raises when text won't fit. Shared block: 404 bytes for `common_001-014`, 1,028 for `common_015-046`, 572 for the 49 names, 168 for the prompts. Marker fill left 193-1,093 bytes per overlay at 160-184 px, not a forecast for English. If a chapter overflows, the gap after an overlay isn't proven free (`docs/re/free-space.md`): trap-test it first.
+  - `{` can't be used in English text (it opens a token); the font has it, nothing needs it.
+  - A long marker fill ending early in a box isn't a clip: SYO01's filler is 160 px because of bytes. Judge width from `work/qa/gate`.
   - **Rerunning `tools/extract.py` after translation starts:** it refuses once an entry holds `en`, by design. Use `--out` to a temp dir.
   - **Insertion must rewrite only `refs` from `script/*.json`.** The 4 `addiu $a1` before the loader are not text refs even though they point into script bytes (`docs/re/text.md`); the raw `mips.lui_pairs` output still lists them.
   - Partner prompts are `fragment`s joined after a name at runtime: English needs a rewording or a change to the join (`docs/re/text.md`).

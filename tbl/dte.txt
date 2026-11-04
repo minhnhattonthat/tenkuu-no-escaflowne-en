@@ -1,0 +1,95 @@
+# Two-letter codes: common English pairs until tools/dte.py --build has a translation to count. Between | so a space shows.
+|e |
+| t|
+|th|
+|he|
+|s |
+|d |
+| a|
+|t |
+|in|
+|er|
+|an|
+|n |
+|re|
+|on|
+|ou|
+| h|
+|r |
+| s|
+|y |
+|at|
+|to|
+|o |
+|ha|
+|en|
+|nd|
+| w|
+|is|
+|ng|
+|it|
+|g |
+|or|
+|me|
+| i|
+|es|
+| m|
+|st|
+|ve|
+|te|
+|, |
+|as|
+| y|
+|yo|
+|hi|
+|ar|
+|le|
+|ll|
+|se|
+|ne|
+|of|
+|f |
+|l |
+|wa|
+|be|
+|no|
+| b|
+| f|
+| o|
+|ed|
+| c|
+|ea|
+|a |
+|k |
+|ot|
+|u |
+|so|
+|wh|
+|ti|
+|de|
+| n|
+|ow|
+|ro|
+|li|
+| d|
+|do|
+|om|
+|ri|
+|sh|
+|m |
+|ut|
+|ma|
+|ca|
+|I |
+|. |
+|h |
+|ce|
+|ho|
+|la|
+|go|
+| l|
+|ee|
+|ai|
+|us|
+|we|
+|si|

@@ -55,7 +55,7 @@ do
 end
 if not sc then error("unknown SCENE: " .. tostring(SCENE)) end
 local chapter, scene = tonumber(sc.chapter), tonumber(sc.scene)
-local jump, say = tonumber(sc.jump), tonumber(sc.say)
+local jump, say = tonumber(sc.jump), SAY or tonumber(sc.say)  -- SAY: the string's address on this build (warp_all.py)
 local tab = chapter > 0 and TABLES[chapter] or nil
 local flags = sc.flags or ""
 local god = (GOD or 0) ~= 0 or flags:find("god")

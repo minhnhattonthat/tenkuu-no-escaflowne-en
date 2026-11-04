@@ -8,6 +8,7 @@ no non-blank frame after the warp. <out>/_proof/<scene>.png is the last non-blan
 --states writes work/states/<scene>.sstate from a passing run (regenerate after any rebuild). Exit 1 if any run fails.
 """
 import argparse
+import functools
 import re
 import shutil
 import subprocess
@@ -57,6 +58,13 @@ def proof_frame(out, log):
     return None
 
 
+@functools.cache
+def vamap(cue):
+    """{old string address: new}, from the .vamap tools/build.py writes beside a build that moved text."""
+    p = Path(cue).with_suffix(".vamap")
+    return dict(ln.split("\t") for ln in p.read_text().splitlines()) if p.exists() else {}
+
+
 def run(a, sc):
     name = sc["name"]
     out = Path(a.out) / name
@@ -64,6 +72,14 @@ def run(a, sc):
            "--script", str(ROOT / "tools" / "debug" / "warp.lua"), "--var", f"SCENE='{name}'",
            "--var", f"ROOT='{ROOT.as_posix()}/'", "--frames", str(a.frames or int(sc["frames"])),
            "--shot-every", str(a.shot_every), "--sheet", "--timeout", str(a.timeout)]
+    if sc.get("say", "-") != "-" and sc["say"] in vamap(a.cue):
+        cmd += ["--var", f"SAY={vamap(a.cue)[sc['say']]}"]
+    for s in a.script:
+        cmd += ["--script", s]
+    for v in a.var:
+        cmd += ["--var", v]
+    if a.debugger:
+        cmd.append("--debugger")
     if sc["mash"] == "1":
         cmd += ["--mash", "60", "--mash-key", "circle"]
     # A fresh card per run: the emulator's portable card persists, so one run's save would change another's LOAD screen.
@@ -98,6 +114,9 @@ def main():
     ap.add_argument("--shot-every", type=int, default=300)
     ap.add_argument("--timeout", type=int, default=600)
     ap.add_argument("--states", action="store_true")
+    ap.add_argument("--script", action="append", default=[], help="extra Lua probe for every run")
+    ap.add_argument("--var", action="append", default=[], help="extra NAME=LUA for the probe")
+    ap.add_argument("--debugger", action="store_true", help="for probes that set breakpoints")
     a = ap.parse_args()
     table = scene_table()
     if a.scenes:
