@@ -1,2 +1,3 @@
 # SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
-<sha1>  rom/<file>
+4083350077d56992c714d2ed90a23a5e57ac3b72  rom/Tenkuu no Escaflowne (Japan) (Track 1).bin
+5c876b512b0b57ca4ccc5fa2f8ee285788d56c7d  rom/Tenkuu no Escaflowne (Japan) (Track 2).bin
