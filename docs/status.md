@@ -2,13 +2,14 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4. Extract, not started (phase 3 done).
+- **Phase:** 5. Engine spike and marker build, not started (phase 4 done).
 - **Done:**
   - Step 0: dump pinned, tools fetched (`AGENTS.md` lists versions and URLs), hook and check active, guard proven, original boots to title on real BIOS.
   - Phase 1: `docs/re/` holds encoding, opcodes, references, text ranges, engine, free-space candidates, LZ codec, graphics survey. Start at `docs/re/README.md`.
   - Phase 2: `tools/debug/warp_all.py` reaches 145 scenes from cold boot by RAM poke, on the original disc: title, LOAD, SAVE, memory-card save and load back into the saved chapter, partner menu, choice box, all 7 chapter cards and scene menus, every scene-table entry, all 43 battle sites (types 0-3), game over (direct and by losing), winning a battle, credits, 3 endings. How it works: `docs/re/warp.md`. Proof sheets read by the implementer and independently by `codex exec`; that read caught a false pass on `choice_box` and thin proofs for save and load, all fixed.
   - Phase 3: `tools/build.py` rebuilds a byte-identical disc; `tests/test_identity.py` proves it on each check and fails when one tree byte is flipped. Build boots (`--smoke`). Files are found by name and track 2 is never played, so files may grow: `tools/build.py --shift 1000` passed the full warp, 145/145 (`docs/re/disc.md`).
-- **Next (phase 4):** extract the script to `script/` (JSON) with `tools/tbl.py`: `encode(decode())` roundtrip test on every string, coverage test on the text ranges in `docs/re/text.md`, non-text marked. Start from `tools/text_recon.py`.
+  - Phase 4: `tools/extract.py` writes `script/*.json` (2,787 entries: 102 shared, translated once and written to all 8 overlays; 2,553 for translators, the rest `debug`, `numbers` or control codes). `tests/test_extract.py`: all 3,501 string copies re-encode to the disc's bytes, every text range covered, text outside the ranges fails the check two ways, and the check is proven to fail on a shrunk range. Findings in `docs/re/text.md`.
+- **Next (phase 5):** VWF spike per `docs/re/engine.md` (ASCII digits are proven name-tag-only, so the 0x8003AE14 hook is safe); marker build replacing every line with `[id] marker text`; measure every box variant (the width gate).
 - **Open bugs:** none.
 - **Not verified:**
   - Keyboard input in the PCSX-Redux GUI (Step 0 asks for it): this run is headless, nobody pressed a key. Scripted input and Lua are proven.
@@ -17,7 +18,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Eight tiles show a generic prompt, GAME OVER or a dark frame, so the picture can't tell which checkpoint it is (`ch1_sm5`, `ch1_sm7`, `ch2_sm3`, `ch3_sm4`, `ch5_sm10`, `ch7_sm2`, `ch7_sm5`, `ch7_sm7`): the warp reached the table slot, not necessarily a useful scene.
   - Ending branches: the code selects FMV 0x2C, 0x37 or 0x38 from 0x8009AE6C and 0x8009AE40, and all three warps reach an FMV and the staff roll, but no run compared which FMV played.
   - Voice clips and music after a file moves: file-relative by static read; the shifted-disc warp checks pictures only.
+  - Whether BATTLE's `文字列` ever shows on screen, and whether the 61 `dead` entries are truly unreachable: static read only. The marker build should show `battle_001` if it draws.
+  - Whether the game reads the memory-card title back when loading. If the title changes in phase 7, rerun `warp_all.py save_game` and the load warp.
 - **Facts to carry:**
+  - **Rerunning `tools/extract.py` after translation starts:** it refuses once an entry holds `en`, by design. Use `--out` to a temp dir.
+  - **Insertion must rewrite only `refs` from `script/*.json`.** The 4 `addiu $a1` before the loader are not text refs even though they point into script bytes (`docs/re/text.md`); the raw `mips.lui_pairs` output still lists them.
+  - Partner prompts are `fragment`s joined after a name at runtime: English needs a rewording or a change to the join (`docs/re/text.md`).
+  - Form `numbers` (fullwidth digits in SYO01), `debug` (SYO00 labels) and any `data` entry stay as they are; the translator batches should skip them.
   - **`work/tree` must stay the pristine unpack:** the identity test rebuilds from it. Phase 5/7 builds must put edited files in a copy and point a layout at it, or `tools/check.py` fails.
   - `tools/build.py` writes one .bin with both tracks, but the player's dump has two. Phase 9 must split at track 1's end (the cue's track 2 INDEX 00) and patch track 1 only, so the player keeps track 2 and their cue.
   - File growth changes frame timing everywhere (seek time), so same-frame pixel diffs against the original don't work; a battle can even play out differently. Compare by scene.

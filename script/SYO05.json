@@ -1,0 +1,4760 @@
+{
+ "file": "ESCA/PRG/SYO05.BIN",
+ "base": "0x800c1c28",
+ "entries": [
+  {
+   "id": "syo05_001",
+   "region": "menu",
+   "off": "0xd40",
+   "size": 21,
+   "jp": "{clear}{mark8}第５章　{mark10}戻る{nl2}{end}",
+   "form": "choice",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800d0380",
+     "va": "0x800c2968",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_002",
+   "region": "menu",
+   "off": "0xd58",
+   "size": 41,
+   "jp": "{mark1}シーン１　{mark2}シーン１０　{mark3}シーン２０{nl2}{end}",
+   "form": "choice",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800d0390",
+     "va": "0x800c2980",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_003",
+   "region": "menu",
+   "off": "0xd84",
+   "size": 27,
+   "jp": "{mark4}シーン３０　{mark5}シーン４０{end}",
+   "form": "choice",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800d03a0",
+     "va": "0x800c29ac",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_004",
+   "region": "menu",
+   "off": "0xda0",
+   "size": 5,
+   "jp": "{menuwait}{clear}{end}",
+   "data": "control",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800d03b0",
+     "va": "0x800c29c8",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_005",
+   "region": "script",
+   "off": "0xf500",
+   "size": 233,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「遂に、遂にこの時が来た。{wait}{clear}{nl2}長き日々、想い描いたこの日が…。{nl2}運命、改変！！{wait}{clear}{nl2}ふふふふふ…、さぁ、私に見せてお{nl2}くれ、我が夢、我が理想…！！{wait}{clear}{nl2}どうした、なぜ動かぬ！！{nl2}こ、これは…？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5540",
+     "va": "0x800d1128",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_006",
+   "region": "script",
+   "off": "0xf5e9",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「ひとみ！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5874",
+     "va": "0x800d1211",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_007",
+   "region": "script",
+   "off": "0xf612",
+   "size": 65,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「アレンさん、バァン、ここは…？{nl2}{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5884",
+     "va": "0x800d123a",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_008",
+   "region": "script",
+   "off": "0xf653",
+   "size": 51,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「どうなってるんだ？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5894",
+     "va": "0x800d127b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_009",
+   "region": "script",
+   "off": "0xf686",
+   "size": 81,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「よくぞ来た。{nl2}　竜の運命に結ばれし者達よ。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c58f0",
+     "va": "0x800d12ae",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_010",
+   "region": "script",
+   "off": "0xf6d7",
+   "size": 61,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「お前が、俺達を呼んだのか？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5918",
+     "va": "0x800d12ff",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_011",
+   "region": "script",
+   "off": "0xf714",
+   "size": 63,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「そう、全ては運命の誘い。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5928",
+     "va": "0x800d133c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_012",
+   "region": "script",
+   "off": "0xf753",
+   "size": 39,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「運命？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5938",
+     "va": "0x800d137b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_013",
+   "region": "script",
+   "off": "0xf77a",
+   "size": 137,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}{voice:30303030}「私は、ガイアを未来へ、導く者。{nl2}　ザイバッハ帝国の指導者…。{wait}{clear}{nl2}{voice:30303031}名は、ドルンカーク。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5948",
+     "va": "0x800d13a2",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0b28",
+     "va": "0x800d13a2",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_014",
+   "region": "script",
+   "off": "0xf803",
+   "size": 65,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「我々は、ザイバッハの中枢へ？！{nl2}{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5990",
+     "va": "0x800d142b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_015",
+   "region": "script",
+   "off": "0xf844",
+   "size": 47,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「ザイバッハ…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c59b8",
+     "va": "0x800d146c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_016",
+   "region": "script",
+   "off": "0xf873",
+   "size": 97,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「こんな奴が…、ザイバッハの指導{nl2}　者？{wait}{clear}{nl2}兄上は、こいつを…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c59e0",
+     "va": "0x800d149b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_017",
+   "region": "script",
+   "off": "0xf8d4",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「バァン！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c59f0",
+     "va": "0x800d14fc",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_018",
+   "region": "script",
+   "off": "0xf8fd",
+   "size": 73,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「貴様を倒せば、ガイアの悲劇は終{nl2}　わる！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5a00",
+     "va": "0x800d1525",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_019",
+   "region": "script",
+   "off": "0xf946",
+   "size": 51,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「そうかな…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5a28",
+     "va": "0x800d156e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_020",
+   "region": "script",
+   "off": "0xf979",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「なに！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5a38",
+     "va": "0x800d15a1",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_021",
+   "region": "script",
+   "off": "0xf9a2",
+   "size": 139,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「いつの世、どこの場所でも争いが{nl2}　生まれる。{wait}{clear}{nl2}戦こそは、人間の持つ救いようのな{nl2}い運命なのだ…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5a48",
+     "va": "0x800d15ca",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_022",
+   "region": "script",
+   "off": "0xfa2d",
+   "size": 75,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「貴様に、人の運命などがわかるも{nl2}　のか！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5a58",
+     "va": "0x800d1655",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_023",
+   "region": "script",
+   "off": "0xfa78",
+   "size": 129,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「私には、運命を見通す力がある。{nl2}{wait}{clear}{nl2}かつてのアトランティス人がそうで{nl2}あったようにな…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5a68",
+     "va": "0x800d16a0",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_024",
+   "region": "script",
+   "off": "0xfaf9",
+   "size": 79,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303033}「もしかして、あなた、アイザック{nl2}　さん？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5a90",
+     "va": "0x800d1721",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0b40",
+     "va": "0x800d1721",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_025",
+   "region": "script",
+   "off": "0xfb48",
+   "size": 103,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}{voice:30303034}「懐かしい響きよ。{wait}{clear}{nl2}{voice:30303035}アイザックは、地球での私の名。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5ab8",
+     "va": "0x800d1770",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0b58",
+     "va": "0x800d1770",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_026",
+   "region": "script",
+   "off": "0xfbaf",
+   "size": 79,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303036}「幻の月の人間が…、ザイバッハの{nl2}　王？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5ae0",
+     "va": "0x800d17d7",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0b70",
+     "va": "0x800d17d7",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_027",
+   "region": "script",
+   "off": "0xfbfe",
+   "size": 77,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「父上が出会った、アイザックと言{nl2}　うのは？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5b08",
+     "va": "0x800d1826",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_028",
+   "region": "script",
+   "off": "0xfc4b",
+   "size": 155,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「そうか、お前がレオンの…。{nl2}　これも、運命の導き。{wait}{clear}{nl2}奴も、哀れな男だ。{nl2}アトランティスの秘密さえ、明かせ{nl2}ば…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5b18",
+     "va": "0x800d1873",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_029",
+   "region": "script",
+   "off": "0xfce6",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「貴様！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5b28",
+     "va": "0x800d190e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_030",
+   "region": "script",
+   "off": "0xfd0f",
+   "size": 143,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「しかし、私は解き明かした。{nl2}　アトランティスの謎を…。{wait}{clear}{nl2}アトランティスマシーンは、私が完{nl2}成させた！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5b38",
+     "va": "0x800d1937",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_031",
+   "region": "script",
+   "off": "0xfd9e",
+   "size": 141,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303037}「あなたは…。{wait}{clear}{nl2}{voice:30303038}あなたは、なぜガイアに来たの？{nl2}あなたが来なければ、みんな幸せだ{nl2}ったのに！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5b60",
+     "va": "0x800d19c6",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0b88",
+     "va": "0x800d19c6",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_032",
+   "region": "script",
+   "off": "0xfe2b",
+   "size": 597,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「違うな…。{nl2}　娘よ。{wait}{clear}{nl2}このガイアも、血にまみれておる。{nl2}戦いで流れる血に…。{nl2}私が来る以前から。{wait}{clear}{nl2}地球と同じように。{nl2}そう、地球での事だ。{wait}{clear}{nl2}ある日、私はひとつの疑問に取り付{nl2}かれた。{wait}{clear}{nl2}全ての物体の共通する原理がある。{nl2}物体には、その質量に対して引き合{nl2}う力が生まれる。{wait}{clear}{nl2}これが、引力。{nl2}この見えない力は、一体なぜにこの{nl2}世に存在するのか？{wait}{clear}{nl2}人と人とが惹かれ合い、人と人とが{nl2}殺し合うのも世の定め。{wait}{clear}{nl2}死が連綿と繰り返され、あらゆる秩{nl2}序が、この世に存在する。{nl2}その秩序の源とは何か？{wait}{clear}{nl2}そう、それは運命…宇宙を律する根{nl2}源の力…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5b70",
+     "va": "0x800d1a53",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_033",
+   "region": "script",
+   "off": "0x10080",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「運命…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5b80",
+     "va": "0x800d1ca8",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_034",
+   "region": "script",
+   "off": "0x100a9",
+   "size": 1335,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「運命とは…、その定義は何か？{wait}{clear}{nl2}法則はあるのか？{nl2}私は、その謎を解き明かそうと、全{nl2}てを研究と実験に捧げた。{wait}{clear}{nl2}しかし、その結論、解を導きだすこ{nl2}とは出来なかった。{wait}{clear}{nl2}我が想いは、死の床に於いても衰え{nl2}ることはなく、より一層強く高まっ{nl2}た。{wait}{clear}{nl2}知りたい…、{nl2}運命の原理を知りたい…。{wait}{clear}{nl2}気が付くと見知らぬ地に来ていた。{nl2}空に月と青い月が浮かぶ荒れ果てた{nl2}大地。{wait}{clear}{nl2}そこが、ガイア界ザイバッハ。{wait}{clear}{nl2}やせた土、厳しい気候、わずかな恵{nl2}みを拾い集める様に暮らす民。{wait}{clear}{nl2}彼らは繰り返される侵略におびえ、{nl2}苦しんでいた…。{nl2}何と過酷な運命。{wait}{clear}{nl2}私は悟った。{nl2}この民を救う為に私は、この地に来{nl2}たのだと。{wait}{clear}{nl2}私は、彼らに自分の持ち得るすべて{nl2}を、与えた。{nl2}科学という名の知恵を！{wait}{clear}{nl2}自然に打ち勝て！{nl2}私の知る科学は、民の為に有る{nl2}と。{wait}{clear}{nl2}敵を打ち払え！{nl2}運命に従うのではなく、運命を自ら{nl2}の手で、切り開くのだと。{wait}{clear}{nl2}私の想いに民は従い、絶対なる理想{nl2}の国、ザイバッハ帝国は完成した！{nl2}{wait}{clear}{nl2}そして私は知った、ガイア界創造に{nl2}まつわるアトランティス伝説を！{wait}{clear}{nl2}これこそ、私の理想。{nl2}運命を創る事の出来るアトランティ{nl2}スの技。{wait}{clear}{nl2}以来、私は持てる知識の全てを注ぎ{nl2}込み、その原理を探求し続け、{wait}{clear}{nl2}ついに創り上げた…、運命を生み出{nl2}す装置を！{wait}{clear}{nl2}アトランティスの民は、人の想いを{nl2}力に変え、運命をも自由にしたと言{nl2}う。{wait}{clear}{nl2}そう、このガイア界もアトランティ{nl2}スの創造のたまもの…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5ba8",
+     "va": "0x800d1cd1",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_035",
+   "region": "script",
+   "off": "0x105e0",
+   "size": 65,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「ガイア界がアトランティスの？！{nl2}{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5bd0",
+     "va": "0x800d2208",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_036",
+   "region": "script",
+   "off": "0x10621",
+   "size": 301,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「その素晴らしき力を生む装置を動{nl2}　かすには、{wait}{clear}{nl2}アトランティスの力…、ガイアに残{nl2}るパワースポットを探し出さねばな{nl2}らなかった。{wait}{clear}{nl2}それもフレイド攻略により、かなえ{nl2}られた。{nl2}そして、最後の鍵、竜…。{wait}{clear}{nl2}エスカフローネも運命の糸にたぐら{nl2}れ、我が元へ来た！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5be0",
+     "va": "0x800d2249",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_037",
+   "region": "script",
+   "off": "0x1074e",
+   "size": 53,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「エスカフローネが？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5c08",
+     "va": "0x800d2376",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_038",
+   "region": "script",
+   "off": "0x10783",
+   "size": 135,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「我が長き日、想い描いた伝説のア{nl2}　トランティスマシーン。{wait}{clear}{nl2}運命改変装置は、完成したのだ！！{nl2}{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5c18",
+     "va": "0x800d23ab",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_039",
+   "region": "script",
+   "off": "0x1080a",
+   "size": 49,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「運命改変装置？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5c28",
+     "va": "0x800d2432",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_040",
+   "region": "script",
+   "off": "0x1083b",
+   "size": 135,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「そんなの変よ！{wait}{clear}{nl2}運命を機械を使って変えるなんて。{nl2}その為に大勢の人を不幸にして…。{nl2}そんなの変よ！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5c50",
+     "va": "0x800d2463",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_041",
+   "region": "script",
+   "off": "0x108c2",
+   "size": 191,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「新たな運命の為に、犠牲は必要な{nl2}　る因子。{wait}{clear}{nl2}小さな不幸は、大いなる幸福の為の{nl2}礎。{wait}{clear}{nl2}完全なる運命を生み出せば、完全な{nl2}る幸運に恵まれる事となる。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5c60",
+     "va": "0x800d24ea",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_042",
+   "region": "script",
+   "off": "0x10981",
+   "size": 125,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「そんなこと…。{wait}{clear}{nl2}そんなの…、違う！！{nl2}機械に操られた運命で、幸せになる{nl2}なんて間違ってる！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5c80",
+     "va": "0x800d25a9",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_043",
+   "region": "script",
+   "off": "0x109fe",
+   "size": 87,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}{voice:30303039}「我と共に見るが良い、新たな人の{nl2}　運命を…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6078",
+     "va": "0x800d2626",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0ba0",
+     "va": "0x800d2626",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_044",
+   "region": "script",
+   "off": "0x10a55",
+   "size": 121,
+   "jp": "{clear}{nameon}{color3}26ドライデン{expr:3133}{nameoff}{color2}{nl2}「いつまでも見ててもしょうがない{nl2}　ぜ。{wait}{clear}{nl2}アストリアに戻る。{nl2}ガデスも、了承した。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドライデン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c63d0",
+     "va": "0x800d267d",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_045",
+   "region": "script",
+   "off": "0x10ace",
+   "size": 77,
+   "jp": "{clear}{nameon}{color3}26ミラーナ{expr:3038}{nameoff}{color2}{nl2}「見捨てると言うのですか！{nl2}　アレン達を？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ミラーナ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c63f8",
+     "va": "0x800d26f6",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_046",
+   "region": "script",
+   "off": "0x10b1b",
+   "size": 145,
+   "jp": "{clear}{nameon}{color3}26ドライデン{expr:3133}{nameoff}{color2}{nl2}「あいつらが何処へ飛ばされたかな{nl2}　んて、調べようがねぇ。{wait}{clear}{nl2}こんな船でうろついていても、時間{nl2}の無駄だよ。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドライデン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6408",
+     "va": "0x800d2743",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_047",
+   "region": "script",
+   "off": "0x10bac",
+   "size": 75,
+   "jp": "{clear}{nameon}{color3}26ミラーナ{expr:3038}{nameoff}{color2}{nl2}「時間の無駄って…。{nl2}　あなたって人は…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ミラーナ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6418",
+     "va": "0x800d27d4",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_048",
+   "region": "script",
+   "off": "0x10bf7",
+   "size": 55,
+   "jp": "{clear}{nameon}{color3}26ドライデン{expr:3133}{nameoff}{color2}{nl2}「そう、俺は商人よ。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドライデン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6428",
+     "va": "0x800d281f",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_049",
+   "region": "script",
+   "off": "0x10c2e",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26ミラーナ{expr:3038}{nameoff}{color2}{nl2}「え…？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ミラーナ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6438",
+     "va": "0x800d2856",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_050",
+   "region": "script",
+   "off": "0x10c57",
+   "size": 173,
+   "jp": "{clear}{nameon}{color3}26ドライデン{expr:3133}{nameoff}{color2}{nl2}「ザイバッハの奴ら本気でガイア界{nl2}　を破滅させる気だ。{wait}{clear}{nl2}俺は、それをくい止めてみせる。{nl2}俺のやり方でな。{nl2}あいつらは、必ず戻ってくる。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドライデン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6448",
+     "va": "0x800d287f",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_051",
+   "region": "script",
+   "off": "0x10d04",
+   "size": 49,
+   "jp": "{clear}{nameon}{color3}26ミラーナ{expr:3038}{nameoff}{color2}{nl2}「ドライデン…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ミラーナ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6458",
+     "va": "0x800d292c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_052",
+   "region": "script",
+   "off": "0x10d35",
+   "size": 157,
+   "jp": "{clear}{nameon}{color3}26ドライデン{expr:3133}{nameoff}{color2}{nl2}「想いってのは、どっかでつながっ{nl2}　てるもんなんだろ。{wait}{clear}{nl2}きっとな…。{nl2}俺の想いも、いつか通じると信じて{nl2}るんだがな…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドライデン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6468",
+     "va": "0x800d295d",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_053",
+   "region": "script",
+   "off": "0x10dd2",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26ミラーナ{expr:3038}{nameoff}{color2}{nl2}「……………。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ミラーナ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6478",
+     "va": "0x800d29fa",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_054",
+   "region": "script",
+   "off": "0x10dff",
+   "size": 109,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「私、またヴィジョンを…。{wait}{clear}{nl2}大地が崩壊して、世界が吹き飛んで{nl2}しまうの…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c684c",
+     "va": "0x800d2a27",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_055",
+   "region": "script",
+   "off": "0x10e6c",
+   "size": 81,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「アトランティス滅亡のイメージが{nl2}　見えたのでは？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6874",
+     "va": "0x800d2a94",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_056",
+   "region": "script",
+   "off": "0x10ebd",
+   "size": 73,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「わからない…。{nl2}　でも、もっと大きな…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6884",
+     "va": "0x800d2ae5",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_057",
+   "region": "script",
+   "off": "0x10f06",
+   "size": 87,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「もしかしたら…、ガイアの未来を{nl2}　見たんじゃないのか？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c68ac",
+     "va": "0x800d2b2e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_058",
+   "region": "script",
+   "off": "0x10f5d",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「まさか…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c68bc",
+     "va": "0x800d2b85",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_059",
+   "region": "script",
+   "off": "0x10f88",
+   "size": 221,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「アトランティスの力は、今はまだ{nl2}　目覚めさせては、いけない。{wait}{clear}{nl2}母上は、そう言っていた。{wait}{clear}{nl2}運命改変装置を作動させると、この{nl2}ガイアもアトランティスと同じ運命{nl2}をたどるのかもしれない。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c68cc",
+     "va": "0x800d2bb0",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_060",
+   "region": "script",
+   "off": "0x11065",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「そんな…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c68f4",
+     "va": "0x800d2c8d",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_061",
+   "region": "script",
+   "off": "0x1108e",
+   "size": 99,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「ひとみ。{nl2}　　{mark1}{color4}１）{color2}　話しかける{nl2}　　{mark2}{color4}２）{color2}　話しかけない{menuwait}{close}{nl2}{end}",
+   "form": "choice",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c692c",
+     "va": "0x800d2cb6",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_062",
+   "region": "script",
+   "off": "0x110f1",
+   "size": 171,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「ひとみ、{nl2}　　{mark1}{color4}１）{color2}　アレンが、心配してたぞ。{nl2}　　{mark2}{color4}２）{color2}　何とかして、ここから抜け{nl2}　　　　出そう。{nl2}　　{mark3}{color4}３）{color2}　大丈夫か。{menuwait}{close}{nl2}{end}",
+   "form": "choice",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6964",
+     "va": "0x800d2d19",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_063",
+   "region": "script",
+   "off": "0x1119c",
+   "size": 49,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「いや、何でもない。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6a10",
+     "va": "0x800d2dc4",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_064",
+   "region": "script",
+   "off": "0x111cd",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「アレンさん…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c69c0",
+     "va": "0x800d2df5",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_065",
+   "region": "script",
+   "off": "0x111fa",
+   "size": 89,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「うん。{wait}{clear}{nl2}　何とかして、逃げ出す方法を考えな{nl2}　いと…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c69dc",
+     "va": "0x800d2e22",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_066",
+   "region": "script",
+   "off": "0x11253",
+   "size": 65,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「ありがとう、バァン。{nl2}　大丈夫よ。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c69f4",
+     "va": "0x800d2e7b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_067",
+   "region": "script",
+   "off": "0x11294",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「ぐうぅ～ぅ！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6df8",
+     "va": "0x800d2ebc",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_068",
+   "region": "script",
+   "off": "0x112c1",
+   "size": 67,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「バァン、どうしたの？{nl2}　バァーン！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6e20",
+     "va": "0x800d2ee9",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_069",
+   "region": "script",
+   "off": "0x11304",
+   "size": 77,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「奴ら、エスカフローネを分解しは{nl2}　じめたな。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6e48",
+     "va": "0x800d2f2c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_070",
+   "region": "script",
+   "off": "0x11351",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「そんな…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6e70",
+     "va": "0x800d2f79",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_071",
+   "region": "script",
+   "off": "0x1137c",
+   "size": 49,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「うおぉぉぉー！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6e98",
+     "va": "0x800d2fa4",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_072",
+   "region": "script",
+   "off": "0x113ad",
+   "size": 73,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「バァン、しっかりして！！{wait}{clear}{nl2}　あっ？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6ec0",
+     "va": "0x800d2fd5",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_073",
+   "region": "script",
+   "off": "0x113f6",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「どうした？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6ee8",
+     "va": "0x800d301e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_074",
+   "region": "script",
+   "off": "0x11421",
+   "size": 179,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「そうよ、バァン。{wait}{clear}{nl2}エスカフローネの痛みを感じるなら{nl2}その逆も出来るはずだわ！{wait}{clear}{nl2}想いが届けば、離れていてもエスカ{nl2}フローネを動かせるはずよ！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6f10",
+     "va": "0x800d3049",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_075",
+   "region": "script",
+   "off": "0x114d4",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「ひとみ…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6f38",
+     "va": "0x800d30fc",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_076",
+   "region": "script",
+   "off": "0x114ff",
+   "size": 81,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「私も手伝う、力を合わせれば、き{nl2}　っと出来るわ！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6f48",
+     "va": "0x800d3127",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_077",
+   "region": "script",
+   "off": "0x11550",
+   "size": 81,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「それは、危険だ！{nl2}　君も感応に、巻き込まれるぞ！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6fa4",
+     "va": "0x800d3178",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_078",
+   "region": "script",
+   "off": "0x115a1",
+   "size": 71,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「そうだ、お前まで苦しむことはな{nl2}　い。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6fb4",
+     "va": "0x800d31c9",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_079",
+   "region": "script",
+   "off": "0x115e8",
+   "size": 133,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「何言ってんのよ。{wait}{clear}{nl2}このままじゃ、バァンが死んじゃう{nl2}かもしれないじゃない。{nl2}早く、手を出して…！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c6fdc",
+     "va": "0x800d3210",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_080",
+   "region": "script",
+   "off": "0x1166d",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「ひとみ…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7004",
+     "va": "0x800d3295",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_081",
+   "region": "script",
+   "off": "0x11698",
+   "size": 65,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「大丈夫。{nl2}　バァンなら、きっと…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7014",
+     "va": "0x800d32c0",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_082",
+   "region": "script",
+   "off": "0x116d9",
+   "size": 59,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「何をしようというのか？{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7280",
+     "va": "0x800d3301",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_083",
+   "region": "script",
+   "off": "0x11714",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「うぐっ！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7664",
+     "va": "0x800d333c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_084",
+   "region": "script",
+   "off": "0x1173f",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「ひとみ？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c76c0",
+     "va": "0x800d3367",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_085",
+   "region": "script",
+   "off": "0x1176a",
+   "size": 123,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「平気です…。バァン、エスカフロ{nl2}　ーネを想って！！{wait}{clear}{nl2}強く想って。{nl2}届いて…！{nl2}お願い。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c76e8",
+     "va": "0x800d3392",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_086",
+   "region": "script",
+   "off": "0x117e5",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「……………。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c76f8",
+     "va": "0x800d340d",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_087",
+   "region": "script",
+   "off": "0x11812",
+   "size": 55,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「動け！{nl2}　動いてくれ！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7720",
+     "va": "0x800d343a",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_088",
+   "region": "script",
+   "off": "0x11849",
+   "size": 77,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「エスカフローネ！{nl2}　お願い！{wait}{clear}{nl2}　動いて！！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7730",
+     "va": "0x800d3471",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_089",
+   "region": "script",
+   "off": "0x11896",
+   "size": 57,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}{voice:30303130}「エスカフローネ…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7ba8",
+     "va": "0x800d34be",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0bb8",
+     "va": "0x800d34be",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_090",
+   "region": "script",
+   "off": "0x118cf",
+   "size": 69,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303131}「やった！{nl2}　やったわ、バァン！！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7bd0",
+     "va": "0x800d34f7",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0bd0",
+     "va": "0x800d34f7",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_091",
+   "region": "script",
+   "off": "0x11914",
+   "size": 79,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}{voice:30303132}「バァン、とりあえず、ここから脱{nl2}　出だ！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4604",
+     "va": "0x800d353c",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0be8",
+     "va": "0x800d353c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_092",
+   "region": "script",
+   "off": "0x11963",
+   "size": 53,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303133}「わかってる！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c462c",
+     "va": "0x800d358b",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0c00",
+     "va": "0x800d358b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_093",
+   "region": "script",
+   "off": "0x11998",
+   "size": 73,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303134}「ガイメレフ！{nl2}　アレン、ひとみを！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4654",
+     "va": "0x800d35c0",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0c18",
+     "va": "0x800d35c0",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_094",
+   "region": "script",
+   "off": "0x119e1",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}{voice:30303135}「よし。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4664",
+     "va": "0x800d3609",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0c30",
+     "va": "0x800d3609",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_095",
+   "region": "script",
+   "off": "0x11a0e",
+   "size": 81,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303136}「ここは、俺が！{nl2}　ひとみを頼む！アレン！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c468c",
+     "va": "0x800d3636",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0c48",
+     "va": "0x800d3636",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_096",
+   "region": "script",
+   "off": "0x11a5f",
+   "size": 49,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303137}「バァン！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c46b4",
+     "va": "0x800d3687",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0c60",
+     "va": "0x800d3687",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_097",
+   "region": "script",
+   "off": "0x11a90",
+   "size": 89,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303138}「先に行け！！{nl2}　屋上から脱出する！{wait}{clear}{nl2}{voice:30303139}行け！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c46dc",
+     "va": "0x800d36b8",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0c78",
+     "va": "0x800d36b8",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_098",
+   "region": "script",
+   "off": "0x11ae9",
+   "size": 95,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303230}「わかった。{nl2}　気を付けて！{wait}{clear}{nl2}{voice:30303231}アレンさん、屋上へ！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c46ec",
+     "va": "0x800d3711",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0c90",
+     "va": "0x800d3711",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_099",
+   "region": "script",
+   "off": "0x11b48",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「あ、ああ！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4724",
+     "va": "0x800d3770",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_100",
+   "region": "script",
+   "off": "0x11b73",
+   "size": 65,
+   "jp": "{clear}{nameon}{color3}26レフィーヌ{expr:3232}{nameoff}{color2}{nl2}{voice:30303232}「待ちな！{nl2}　バァン！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "レフィーヌ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4928",
+     "va": "0x800d379b",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0ca8",
+     "va": "0x800d379b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_101",
+   "region": "script",
+   "off": "0x11bb4",
+   "size": 59,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303233}「お前は、レフィーヌ！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4950",
+     "va": "0x800d37dc",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0cc0",
+     "va": "0x800d37dc",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_102",
+   "region": "script",
+   "off": "0x11bef",
+   "size": 115,
+   "jp": "{clear}{nameon}{color3}26レフィーヌ{expr:3232}{nameoff}{color2}{nl2}{voice:30303234}「今日こそ、お前との決着を付けて{nl2}　やるよ。{wait}{clear}{nl2}{voice:30303235}覚悟しな、バァン！！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "レフィーヌ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4960",
+     "va": "0x800d3817",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0cd8",
+     "va": "0x800d3817",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_103",
+   "region": "script",
+   "off": "0x11c62",
+   "size": 85,
+   "jp": "{clear}{nameon}{color3}26レフィーヌ{expr:3232}{nameoff}{color2}{nl2}{voice:30303236}「くっ、くそぅ！{nl2}　ディ、ディランドゥ様ッ！！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "レフィーヌ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4a78",
+     "va": "0x800d388a",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0cf0",
+     "va": "0x800d388a",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_104",
+   "region": "script",
+   "off": "0x11cb7",
+   "size": 57,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「バァンは、無事だろうか。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7f44",
+     "va": "0x800d38df",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_105",
+   "region": "script",
+   "off": "0x11cf0",
+   "size": 69,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「大丈夫だと思います。{nl2}　バァンなら。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7f6c",
+     "va": "0x800d3918",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_106",
+   "region": "script",
+   "off": "0x11d35",
+   "size": 65,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「信じているんだな。{nl2}　バァンを。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7f7c",
+     "va": "0x800d395d",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_107",
+   "region": "script",
+   "off": "0x11d76",
+   "size": 39,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「えっ？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7f8c",
+     "va": "0x800d399e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_108",
+   "region": "script",
+   "off": "0x11d9d",
+   "size": 51,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「いや…、いいんだ。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7f9c",
+     "va": "0x800d39c5",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_109",
+   "region": "script",
+   "off": "0x11dd0",
+   "size": 55,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「なんだか、さびしい街。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7fe8",
+     "va": "0x800d39f8",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_110",
+   "region": "script",
+   "off": "0x11e07",
+   "size": 37,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「え？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c7ff8",
+     "va": "0x800d3a2f",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_111",
+   "region": "script",
+   "off": "0x11e2c",
+   "size": 75,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「本当に幸せ、なのかな。{nl2}　ザイバッハの人達。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c8008",
+     "va": "0x800d3a54",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_112",
+   "region": "script",
+   "off": "0x11e77",
+   "size": 55,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「アレン、ひとみ、早く！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c812c",
+     "va": "0x800d3a9f",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0d08",
+     "va": "0x800d3a9f",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_113",
+   "region": "script",
+   "off": "0x11eae",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「バァン！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c8154",
+     "va": "0x800d3ad6",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0d20",
+     "va": "0x800d3ad6",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_114",
+   "region": "script",
+   "off": "0x11ed9",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「さぁ、早く！！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c8164",
+     "va": "0x800d3b01",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0d38",
+     "va": "0x800d3b01",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_115",
+   "region": "script",
+   "off": "0x11f06",
+   "size": 61,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「よし！{nl2}　振り落とされるな！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c862c",
+     "va": "0x800d3b2e",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0d50",
+     "va": "0x800d3b2e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_116",
+   "region": "script",
+   "off": "0x11f43",
+   "size": 51,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「追いつかれるぞ！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c871c",
+     "va": "0x800d3b6b",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0d68",
+     "va": "0x800d3b6b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_117",
+   "region": "script",
+   "off": "0x11f76",
+   "size": 77,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「エスカフローネ、もっと速く！{nl2}　もっと速く！！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c8744",
+     "va": "0x800d3b9e",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0d80",
+     "va": "0x800d3b9e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_118",
+   "region": "script",
+   "off": "0x11fc3",
+   "size": 163,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}{voice:30303333}「竜と少女が近づくとき、未来図は{nl2}　揺らぐ。{wait}{clear}{nl2}{voice:30303334}地球の少女が、すべてを解き明かす{nl2}鍵！{nl2}あの二人を、引き離さねば！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c89b8",
+     "va": "0x800d3beb",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0d98",
+     "va": "0x800d3beb",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_119",
+   "region": "script",
+   "off": "0x12066",
+   "size": 103,
+   "jp": "{clear}{nameon}{color3}04ザイバッハ兵{nameoff}{color2}{nl2}「首都方向より接近するものあり！{nl2}{wait}{clear}{nl2}異常な速度です！{nl2}警戒されたし！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ザイバッハ兵",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c8c70",
+     "va": "0x800d3c8e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_120",
+   "region": "script",
+   "off": "0x120cd",
+   "size": 99,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「ひとみ。{nl2}　　{mark1}{color4}１）{color2}　話しかける{nl2}　　{mark2}{color4}２）{color2}　話しかけない{menuwait}{close}{nl2}{end}",
+   "form": "choice",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c8fbc",
+     "va": "0x800d3cf5",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_121",
+   "region": "script",
+   "off": "0x12130",
+   "size": 193,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「ひとみ、{nl2}　　{mark1}{color4}１）{color2}　俺にしっかりつかまっていろ！{nl2}　　{mark2}{color4}２）{color2}　アレンにしっかりつかまってい{nl2}　　　　ろ！{nl2}　　{mark3}{color4}３）{color2}　俺はドルンカークを必ず倒す！{menuwait}{close}{nl2}{end}",
+   "form": "choice",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c8ff4",
+     "va": "0x800d3d58",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_122",
+   "region": "script",
+   "off": "0x121f1",
+   "size": 49,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「いや、何でもない。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c90a0",
+     "va": "0x800d3e19",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_123",
+   "region": "script",
+   "off": "0x12222",
+   "size": 37,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「うん。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c9050",
+     "va": "0x800d3e4a",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_124",
+   "region": "script",
+   "off": "0x12247",
+   "size": 37,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「うん。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c9074",
+     "va": "0x800d3e6f",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_125",
+   "region": "script",
+   "off": "0x1226c",
+   "size": 59,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「無茶しないでね。{nl2}　バァン。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c9090",
+     "va": "0x800d3e94",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_126",
+   "region": "script",
+   "off": "0x122a7",
+   "size": 109,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「ザイバッハの皇帝ドルンカーク、{nl2}　幻の月の人、{wait}{clear}{nl2}これが、私達の運命の糸。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c90c8",
+     "va": "0x800d3ecf",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_127",
+   "region": "script",
+   "off": "0x12314",
+   "size": 93,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「後ろから攻撃？！{wait}{clear}{nl2}ひとみ、アレン、着陸してやりすご{nl2}そう。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c92e0",
+     "va": "0x800d3f3c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_128",
+   "region": "script",
+   "off": "0x12371",
+   "size": 65,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「何とか、やり過ごせたようだな。{nl2}{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4d44",
+     "va": "0x800d3f99",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0db0",
+     "va": "0x800d3f99",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_129",
+   "region": "script",
+   "off": "0x123b2",
+   "size": 55,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「いや、前から何か来る！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4d8c",
+     "va": "0x800d3fda",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0dc8",
+     "va": "0x800d3fda",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_130",
+   "region": "script",
+   "off": "0x123e9",
+   "size": 73,
+   "jp": "{clear}{nameon}{color3}26みづる{expr:3233}{nameoff}{color2}{nl2}「遂に見つけたよ！{nl2}　バァン・ファーネル！！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "みづる",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4e3c",
+     "va": "0x800d4011",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0de0",
+     "va": "0x800d4011",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_131",
+   "region": "script",
+   "off": "0x12432",
+   "size": 115,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「ひとみ、後は俺にまかせてアレン{nl2}　と一緒に、安全な所へ！{wait}{clear}{nl2}アレン、頼んだぞ！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c50c4",
+     "va": "0x800d405a",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0df8",
+     "va": "0x800d405a",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_132",
+   "region": "script",
+   "off": "0x124a5",
+   "size": 39,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「ああ！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c50ec",
+     "va": "0x800d40cd",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0e10",
+     "va": "0x800d40cd",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_133",
+   "region": "script",
+   "off": "0x124cc",
+   "size": 119,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303431}「やめてー！！{nl2}　もう、やめて！！{wait}{clear}{nl2}{voice:30303432}みづる！{nl2}もう戦うのをやめてーっ！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c51dc",
+     "va": "0x800d40f4",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0e28",
+     "va": "0x800d40f4",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_134",
+   "region": "script",
+   "off": "0x12543",
+   "size": 77,
+   "jp": "{clear}{nameon}{color3}26みづる{expr:3233}{nameoff}{color2}{nl2}{voice:30303433}「うるさいっ！{nl2}　私は、バァンを倒す！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "みづる",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c5204",
+     "va": "0x800d416b",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0e40",
+     "va": "0x800d416b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_135",
+   "region": "script",
+   "off": "0x12590",
+   "size": 67,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303434}「みづる。{nl2}　大丈夫、みづる。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c9714",
+     "va": "0x800d41b8",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0e58",
+     "va": "0x800d41b8",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_136",
+   "region": "script",
+   "off": "0x125d3",
+   "size": 53,
+   "jp": "{clear}{nameon}{color3}26みづる{expr:3233}{nameoff}{color2}{nl2}{voice:30303435}「あっ、ひとみ。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "みづる",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c9930",
+     "va": "0x800d41fb",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0e70",
+     "va": "0x800d41fb",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_137",
+   "region": "script",
+   "off": "0x12608",
+   "size": 123,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303436}「良かった、みづる、元に戻ったの{nl2}　ね。{wait}{clear}{nl2}{voice:30303437}でも、どうしてみづるがガイアに？{nl2}{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c9958",
+     "va": "0x800d4230",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0e88",
+     "va": "0x800d4230",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_138",
+   "region": "script",
+   "off": "0x12683",
+   "size": 243,
+   "jp": "{clear}{nameon}{color3}26みづる{expr:3233}{nameoff}{color2}{nl2}{voice:30303438}「私もよく覚えてないんだけど…、{nl2}{wait}{clear}{nl2}{voice:30303439}学校の帰り道、突然、まぶしい光に{nl2}包まれて、気が付いたらこの世界に{nl2}来ていたのよ。{wait}{clear}{nl2}{voice:30303530}その後はバァンを倒せって言われて、{nl2}あのロボットに乗って戦ったの。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "みづる",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c9980",
+     "va": "0x800d42ab",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0ea0",
+     "va": "0x800d42ab",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_139",
+   "region": "script",
+   "off": "0x12776",
+   "size": 127,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303531}「ザイバッハって許せない！{wait}{clear}{nl2}{voice:30303532}何の関係も無い、みづるまで巻き込{nl2}んで…。{nl2}許せない！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c99a8",
+     "va": "0x800d439e",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0eb8",
+     "va": "0x800d439e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_140",
+   "region": "script",
+   "off": "0x127f5",
+   "size": 133,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}{voice:30303533}「事を荒立てずとも、{wait}{clear}{nl2}{voice:30303534}幻の月の少女に、少々別の引力を作{nl2}用させれば良いだけのこと。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c9c9c",
+     "va": "0x800d441d",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0ed0",
+     "va": "0x800d441d",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_141",
+   "region": "script",
+   "off": "0x1287a",
+   "size": 61,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}{voice:30303535}「別の引力とな…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c9cac",
+     "va": "0x800d44a2",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0ee8",
+     "va": "0x800d44a2",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_142",
+   "region": "script",
+   "off": "0x128b7",
+   "size": 113,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}{voice:30303536}「はい…、男と女の引き合う力…、{nl2}　名付けて、{wait}{clear}{nl2}{voice:30303537}恋の黄金律作戦。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c9cbc",
+     "va": "0x800d44df",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0f00",
+     "va": "0x800d44df",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_143",
+   "region": "script",
+   "off": "0x12928",
+   "size": 219,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「ザイバッハを脱出してから、３週{nl2}　間。{wait}{clear}{nl2}私たちは、ようやくアストリアに戻{nl2}って来た。{wait}{clear}{nl2}クルゼードのみんなも、同じ事を考{nl2}えたみたいで、こうして無事再会す{nl2}る事が出来たんだけど…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca1dc",
+     "va": "0x800d4550",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_144",
+   "region": "script",
+   "off": "0x12a03",
+   "size": 111,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303538}「えー！！{nl2}　結婚？！{wait}{clear}{nl2}{voice:30303539}ドライデンさんとミラーナさんが、{nl2}結婚。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca1ec",
+     "va": "0x800d462b",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0f18",
+     "va": "0x800d462b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_145",
+   "region": "script",
+   "off": "0x12a72",
+   "size": 211,
+   "jp": "{clear}{nameon}{color3}26ドライデン{expr:3133}{nameoff}{color2}{nl2}「俺の良さが彼女にも、わかったっ{nl2}　てやつよ。{wait}{clear}{nl2}おかしいかい？{nl2}俺に王様は、お似合いだと思うぜ。{nl2}{wait}{clear}{nl2}アストリアの国力と、俺の財力があ{nl2}ればザイバッハも手はだせねえよ。{nl2}{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドライデン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca21c",
+     "va": "0x800d469a",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_146",
+   "region": "script",
+   "off": "0x12b45",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「はあ…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca22c",
+     "va": "0x800d476d",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_147",
+   "region": "script",
+   "off": "0x12b6e",
+   "size": 89,
+   "jp": "{clear}{nameon}{color3}26ドライデン{expr:3133}{nameoff}{color2}{nl2}「戦はな、力だけじゃないんだよ、{nl2}　頭をつかわんとな。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドライデン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca254",
+     "va": "0x800d4796",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_148",
+   "region": "script",
+   "off": "0x12bc7",
+   "size": 71,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「そんな考えが、通じる相手ではな{nl2}　い！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca27c",
+     "va": "0x800d47ef",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_149",
+   "region": "script",
+   "off": "0x12c0e",
+   "size": 57,
+   "jp": "{clear}{nameon}{color3}26ドライデン{expr:3133}{nameoff}{color2}{nl2}「言ってくれるねェ…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドライデン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca2a4",
+     "va": "0x800d4836",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_150",
+   "region": "script",
+   "off": "0x12c47",
+   "size": 179,
+   "jp": "{clear}{nameon}{color3}03エリーズ{nameoff}{color2}{nl2}「元々、二人は許嫁同士。{wait}{clear}{nl2}ドライデンが、アストリア王家を継{nl2}ぐのは、自然な流れです。{wait}{clear}{nl2}ましてや、今までのあなた方の罪を{nl2}全て水に流す為には…、{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリーズ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca2cc",
+     "va": "0x800d486f",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_151",
+   "region": "script",
+   "off": "0x12cfa",
+   "size": 39,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「罪…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca2f4",
+     "va": "0x800d4922",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_152",
+   "region": "script",
+   "off": "0x12d21",
+   "size": 121,
+   "jp": "{clear}{nameon}{color3}03エリーズ{nameoff}{color2}{nl2}「アレンの国に対する反逆、{wait}{clear}{nl2}あなた達が我が国との同盟国、{nl2}ザイバッハに、たてついた罪…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリーズ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca31c",
+     "va": "0x800d4949",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_153",
+   "region": "script",
+   "off": "0x12d9a",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「そんな…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca344",
+     "va": "0x800d49c2",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_154",
+   "region": "script",
+   "off": "0x12dc5",
+   "size": 155,
+   "jp": "{clear}{nameon}{color3}03エリーズ{nameoff}{color2}{nl2}「しかも、ミラーナが国を出てしま{nl2}　ってから、{wait}{clear}{nl2}お父様は心労で病の床へ…。{wait}{clear}{nl2}あなた達が、ミラーナを連れ出した{nl2}から…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリーズ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca354",
+     "va": "0x800d49ed",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_155",
+   "region": "script",
+   "off": "0x12e60",
+   "size": 47,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「エリーズさん。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca364",
+     "va": "0x800d4a88",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_156",
+   "region": "script",
+   "off": "0x12e8f",
+   "size": 91,
+   "jp": "{clear}{nameon}{color3}26ミラーナ{expr:3038}{nameoff}{color2}{nl2}「お姉様！！{wait}{clear}{nl2}　お喋りは、そのくらいになさった{nl2}　ら。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ミラーナ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca38c",
+     "va": "0x800d4ab7",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_157",
+   "region": "script",
+   "off": "0x12eea",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}03エリーズ{nameoff}{color2}{nl2}「ミラーナ…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリーズ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca39c",
+     "va": "0x800d4b12",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_158",
+   "region": "script",
+   "off": "0x12f15",
+   "size": 51,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「ミラーナ…さん…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca3c4",
+     "va": "0x800d4b3d",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_159",
+   "region": "script",
+   "off": "0x12f48",
+   "size": 75,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「ご成婚おめでとうございます。{nl2}　ミラーナ姫。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca3ec",
+     "va": "0x800d4b70",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_160",
+   "region": "script",
+   "off": "0x12f93",
+   "size": 177,
+   "jp": "{clear}{nameon}{color3}26ミラーナ{expr:3038}{nameoff}{color2}{nl2}「結婚の事でしょ？{wait}{clear}{nl2}いいじゃない。{nl2}お金持ちって、頭が良くて、それに{nl2}ハンサムで…。{wait}{clear}{nl2}きっとドライデンは、私の事を幸せ{nl2}にしてくれるわ。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ミラーナ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca76c",
+     "va": "0x800d4bbb",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_161",
+   "region": "script",
+   "off": "0x13044",
+   "size": 375,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「うそっ！！{wait}{clear}{nl2}みんな大人過ぎるよ！！{nl2}自分の気持ちをごまかして、結婚だ{nl2}なんて！！{wait}{clear}{nl2}そんなのドライデンさんだって、か{nl2}わいそうじゃない！！{wait}{clear}{nl2}あきらめちゃダメ、アレンさんのこ{nl2}と！！{wait}{clear}{nl2}あきらめちゃったら、ミラーナさん{nl2}一生後悔…。{wait}{clear}{nl2}（ドライデンさんと、ミラーナさん{nl2}　が結婚すれば、アレンさんは…。{nl2}　何、言ってんだろう、私）{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca794",
+     "va": "0x800d4c6c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_162",
+   "region": "script",
+   "off": "0x131bb",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26ミラーナ{expr:3038}{nameoff}{color2}{nl2}「子供ね…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ミラーナ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca7a4",
+     "va": "0x800d4de3",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_163",
+   "region": "script",
+   "off": "0x131e8",
+   "size": 51,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「ご、ごめんなさい。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca7b4",
+     "va": "0x800d4e10",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_164",
+   "region": "script",
+   "off": "0x1321b",
+   "size": 73,
+   "jp": "{clear}{nameon}{color3}26ミラーナ{expr:3038}{nameoff}{color2}{nl2}「ねぇ、占ってくれない。{nl2}　私の未来…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ミラーナ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca7c4",
+     "va": "0x800d4e43",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_165",
+   "region": "script",
+   "off": "0x13264",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「未来…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca7d4",
+     "va": "0x800d4e8c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_166",
+   "region": "script",
+   "off": "0x1328d",
+   "size": 91,
+   "jp": "{clear}{nameon}{color3}26ミラーナ{expr:3038}{nameoff}{color2}{nl2}「わからなくなっちゃったの。{nl2}　これで、いいのかなって…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ミラーナ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca7e4",
+     "va": "0x800d4eb5",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_167",
+   "region": "script",
+   "off": "0x132e8",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「えっ？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca7f4",
+     "va": "0x800d4f10",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_168",
+   "region": "script",
+   "off": "0x13311",
+   "size": 85,
+   "jp": "{clear}{nameon}{color3}26ミラーナ{expr:3038}{nameoff}{color2}{nl2}「あなたの顔を見てたら、わからな{nl2}　くなっちゃって。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ミラーナ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca804",
+     "va": "0x800d4f39",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_169",
+   "region": "script",
+   "off": "0x13366",
+   "size": 49,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「ミラーナさん…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca814",
+     "va": "0x800d4f8e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_170",
+   "region": "script",
+   "off": "0x13397",
+   "size": 83,
+   "jp": "{clear}{nameon}{color3}26ミラーナ{expr:3038}{nameoff}{color2}{nl2}「だから、占って欲しいの。{nl2}　わたくしの未来を…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ミラーナ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca824",
+     "va": "0x800d4fbf",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_171",
+   "region": "script",
+   "off": "0x133ea",
+   "size": 101,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「今、あたし…、その…、タロット{nl2}　持ってないから…。{wait}{clear}{nl2}後でねっ！！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ca928",
+     "va": "0x800d5012",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_172",
+   "region": "script",
+   "off": "0x1344f",
+   "size": 235,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「私…、私…、こんな嫌なヤツだっ{nl2}　たんだ。{wait}{clear}{nl2}結婚するミラーナさんを見て、ホッ{nl2}とする自分が居て…。{wait}{clear}{nl2}あきらめないでなんて、歯の浮くよ{nl2}うな事言って。{nl2}あげくのはて、逃げ出すなんて。{wait}{clear}{nl2}サイテー。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cacc0",
+     "va": "0x800d5077",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_173",
+   "region": "script",
+   "off": "0x1353a",
+   "size": 103,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「いかん。{wait}{clear}{nl2}このままでは、竜と幻の月の少女が{nl2}接近してしまう。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb954",
+     "va": "0x800d5162",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_174",
+   "region": "script",
+   "off": "0x135a1",
+   "size": 53,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「ご安心ください。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb97c",
+     "va": "0x800d51c9",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_175",
+   "region": "script",
+   "off": "0x135d6",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「んっ？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb98c",
+     "va": "0x800d51fe",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_176",
+   "region": "script",
+   "off": "0x13603",
+   "size": 81,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「竜はまだ、一線を越える度胸はあ{nl2}　りません。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb99c",
+     "va": "0x800d522b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_177",
+   "region": "script",
+   "off": "0x13654",
+   "size": 55,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「一線…、とな…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb9ac",
+     "va": "0x800d527c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_178",
+   "region": "script",
+   "off": "0x1368b",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「はい…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb9bc",
+     "va": "0x800d52b3",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_179",
+   "region": "script",
+   "off": "0x136b6",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「自己嫌悪？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cbd10",
+     "va": "0x800d52de",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_180",
+   "region": "script",
+   "off": "0x136e1",
+   "size": 99,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「超嫌な奴なの私。{nl2}　いい子ぶって、お節介で…、{wait}{clear}{nl2}バッカみたい。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cbd38",
+     "va": "0x800d5309",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_181",
+   "region": "script",
+   "off": "0x13744",
+   "size": 95,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「不安気な顔してると本当に、悪い{nl2}　事に引き寄せられてしまうぞ。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cbd48",
+     "va": "0x800d536c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_182",
+   "region": "script",
+   "off": "0x137a3",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「えっ？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cbd70",
+     "va": "0x800d53cb",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_183",
+   "region": "script",
+   "off": "0x137cc",
+   "size": 73,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}「落ち込んだ顔なんて、お前らしく{nl2}　ない。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cbdbc",
+     "va": "0x800d53f4",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_184",
+   "region": "script",
+   "off": "0x13815",
+   "size": 65,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「こいつ…、慰めてくれてるんだ。{nl2}{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cbdcc",
+     "va": "0x800d543d",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_185",
+   "region": "script",
+   "off": "0x13856",
+   "size": 97,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303630}「ひとみ。{wait}{clear}{nl2}{voice:30303631}これからずっと、俺の側にいて欲し{nl2}い。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cbe18",
+     "va": "0x800d547e",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0f30",
+     "va": "0x800d547e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_186",
+   "region": "script",
+   "off": "0x138b7",
+   "size": 69,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303632}「バ、バァン…。{nl2}　今、何て…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cbe28",
+     "va": "0x800d54df",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_187",
+   "region": "script",
+   "off": "0x138fc",
+   "size": 81,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303633}「だから、ずっとお前に、側にいて{nl2}　欲しい。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cbe74",
+     "va": "0x800d5524",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0f48",
+     "va": "0x800d5524",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_188",
+   "region": "script",
+   "off": "0x1394d",
+   "size": 47,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303634}「えっ？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cbe84",
+     "va": "0x800d5575",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0f60",
+     "va": "0x800d5575",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_189",
+   "region": "script",
+   "off": "0x1397c",
+   "size": 53,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303635}「お前が欲しい！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cbed0",
+     "va": "0x800d55a4",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0f78",
+     "va": "0x800d55a4",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_190",
+   "region": "script",
+   "off": "0x139b1",
+   "size": 47,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303636}「えっ？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cbef8",
+     "va": "0x800d55d9",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0f90",
+     "va": "0x800d55d9",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_191",
+   "region": "script",
+   "off": "0x139e0",
+   "size": 57,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303637}「お前の…、お前の…{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc0b0",
+     "va": "0x800d5608",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0fa8",
+     "va": "0x800d5608",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_192",
+   "region": "script",
+   "off": "0x13a19",
+   "size": 53,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303638}「そ、そんな…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc0c0",
+     "va": "0x800d5641",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0fc0",
+     "va": "0x800d5641",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_193",
+   "region": "script",
+   "off": "0x13a4e",
+   "size": 53,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303639}「力が欲しい！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc0d0",
+     "va": "0x800d5676",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0fd8",
+     "va": "0x800d5676",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_194",
+   "region": "script",
+   "off": "0x13a83",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}{voice:30303730}「はぁ？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc0e0",
+     "va": "0x800d56ab",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d0ff0",
+     "va": "0x800d56ab",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_195",
+   "region": "script",
+   "off": "0x13ab0",
+   "size": 277,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303731}「一緒に、ザイバッハを倒しに行こ{nl2}　う！！{wait}{clear}{nl2}{voice:30303732}奴らに勝つためには、お前の…アト{nl2}ランティスの力が必要なんだ！！{wait}{clear}{nl2}{voice:30303733}エスカフローネだって、もっと凄い{nl2}能力を引き出せるかもしれない！{wait}{clear}{nl2}{voice:30303734}だから俺に力を貸してくれ、頼む！{nl2}{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc0f0",
+     "va": "0x800d56d8",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d1008",
+     "va": "0x800d56d8",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_196",
+   "region": "script",
+   "off": "0x13bc5",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「……………！！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc118",
+     "va": "0x800d57ed",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_197",
+   "region": "script",
+   "off": "0x13bf2",
+   "size": 111,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「ふむ、危ないところであった。{wait}{clear}{nl2}フォルケン…、{nl2}作戦はどうなっておる？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc5c4",
+     "va": "0x800d581a",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_198",
+   "region": "script",
+   "off": "0x13c61",
+   "size": 189,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「はい、準備は整っております。{wait}{clear}{nl2}運命改変装置のパワーは、まだ完{nl2}全ではありません。{wait}{clear}{nl2}ですが、移ろいやすい人の心ならば{nl2}動かす事が、可能と考えます。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc5ec",
+     "va": "0x800d5889",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_199",
+   "region": "script",
+   "off": "0x13d1e",
+   "size": 53,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「人の…、心…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc5fc",
+     "va": "0x800d5946",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_200",
+   "region": "script",
+   "off": "0x13d53",
+   "size": 265,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「はい、外側から愛という引力を注{nl2}　ぎ込み、幻の月の少女の心を、{wait}{clear}{nl2}竜以外の男のベクトルに、作用させ{nl2}るのです。{wait}{clear}{nl2}幸いにも私は、あの二人の一部を入{nl2}手しています。{wait}{clear}{nl2}運命改変装置とこの素材があれば、{nl2}それもまた容易かと…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc60c",
+     "va": "0x800d597b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_201",
+   "region": "script",
+   "off": "0x13e5c",
+   "size": 47,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}「うむ…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc61c",
+     "va": "0x800d5a84",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_202",
+   "region": "script",
+   "off": "0x13e8b",
+   "size": 91,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「その為には、どちらか、私の相手{nl2}　を務めてもらいたい。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc644",
+     "va": "0x800d5ab3",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_203",
+   "region": "script",
+   "off": "0x13ee6",
+   "size": 75,
+   "jp": "{clear}{nameon}{color3}26エリヤ{expr:3136}{nameoff}{color2}{nl2}「はい、フォルケン様。{nl2}　承知しております。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリヤ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc66c",
+     "va": "0x800d5b0e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_204",
+   "region": "script",
+   "off": "0x13f31",
+   "size": 55,
+   "jp": "{clear}{nameon}{color3}26ナリア{expr:3135}{nameoff}{color2}{nl2}「エリヤ、恨みっこなし！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ナリア",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc694",
+     "va": "0x800d5b59",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_205",
+   "region": "script",
+   "off": "0x13f68",
+   "size": 55,
+   "jp": "{clear}{nameon}{color3}26ナリア{expr:3135}{nameoff}{color2}{nl2}「ふふ…、望むところよ。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ナリア",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc6a4",
+     "va": "0x800d5b90",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_206",
+   "region": "script",
+   "off": "0x13f9f",
+   "size": 63,
+   "jp": "{clear}{nameon}{color3}26エリヤ{expr:3136}{nameoff}{color2}{nl2}「どちらの幸運が、強いか…勝負！{nl2}{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリヤ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc6b4",
+     "va": "0x800d5bc7",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_207",
+   "region": "script",
+   "off": "0x13fde",
+   "size": 55,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「やみそうも、ないなぁ…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cc9c0",
+     "va": "0x800d5c06",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_208",
+   "region": "script",
+   "off": "0x14015",
+   "size": 115,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「良いか、エリヤよ。{wait}{clear}{nl2}私たちは、アレン・シェザールと、{nl2}ひとみ・神崎となる。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ccd0c",
+     "va": "0x800d5c3d",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_209",
+   "region": "script",
+   "off": "0x14088",
+   "size": 79,
+   "jp": "{clear}{nameon}{color3}26エリヤ{expr:3136}{nameoff}{color2}{nl2}「はい、フォルケン様。{wait}{clear}{nl2}いえ、アレンさん…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリヤ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ccd34",
+     "va": "0x800d5cb0",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_210",
+   "region": "script",
+   "off": "0x140d7",
+   "size": 137,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「ふむ、それで良い。{wait}{clear}{nl2}舞台も、揃った！{nl2}役者も、揃った…。{wait}{clear}{nl2}今こそ、心のベクトルを動かす時。{nl2}{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ccd44",
+     "va": "0x800d5cff",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_211",
+   "region": "script",
+   "off": "0x14160",
+   "size": 57,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}{voice:30303735}「運命…改変！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ccd54",
+     "va": "0x800d5d88",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d1020",
+     "va": "0x800d5d88",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_212",
+   "region": "script",
+   "off": "0x14199",
+   "size": 47,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「ひとみ…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ccd6c",
+     "va": "0x800d5dc1",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d1038",
+     "va": "0x800d5dc1",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_213",
+   "region": "script",
+   "off": "0x141c8",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26エリヤ{expr:3136}{nameoff}{color2}{nl2}{voice:30303737}「アレン。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリヤ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ccd7c",
+     "va": "0x800d5df0",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d1050",
+     "va": "0x800d5df0",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_214",
+   "region": "script",
+   "off": "0x141f5",
+   "size": 129,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}{voice:30303738}「おおお、回る、回る。{nl2}　運命の輪が、回る。{wait}{clear}{nl2}{voice:30303739}そして、始まる…。{nl2}何もかも…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ccff8",
+     "va": "0x800d5e1d",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d1068",
+     "va": "0x800d5e1d",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_215",
+   "region": "script",
+   "off": "0x14276",
+   "size": 51,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「想いを高めて。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cd420",
+     "va": "0x800d5e9e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_216",
+   "region": "script",
+   "off": "0x142a9",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26エリヤ{expr:3136}{nameoff}{color2}{nl2}「アレン…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリヤ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cd448",
+     "va": "0x800d5ed1",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_217",
+   "region": "script",
+   "off": "0x142d2",
+   "size": 175,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「何処、ここ…。{wait}{clear}{nl2}いやだなあ、何も見えなくなっちゃ{nl2}ってぇ…。{nl2}早く、帰んなきゃ。{wait}{clear}{nl2}何処へ…？{nl2}誰の所へ…？{nl2}私に、帰る所なんて…ある…？{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cd750",
+     "va": "0x800d5efa",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_218",
+   "region": "script",
+   "off": "0x14381",
+   "size": 59,
+   "jp": "{clear}{nameon}{color3}26メルル{expr:3034}{nameoff}{color2}{nl2}{voice:30303830}「バァン様、どこへ！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "メルル",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cdb90",
+     "va": "0x800d5fa9",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d1080",
+     "va": "0x800d5fa9",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_219",
+   "region": "script",
+   "off": "0x143bc",
+   "size": 63,
+   "jp": "{clear}{nameon}{color3}26バァン{expr:3030}{nameoff}{color2}{nl2}{voice:30303831}「ひとみを、探してくる！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "バァン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cdbe0",
+     "va": "0x800d5fe4",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d1098",
+     "va": "0x800d5fe4",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_220",
+   "region": "script",
+   "off": "0x143fb",
+   "size": 47,
+   "jp": "{clear}{nameon}{color3}26メルル{expr:3034}{nameoff}{color2}{nl2}{voice:30303832}「えっ？！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "メルル",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cdbf8",
+     "va": "0x800d6023",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d10b0",
+     "va": "0x800d6023",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_221",
+   "region": "script",
+   "off": "0x1442a",
+   "size": 103,
+   "jp": "{clear}{nameon}{color3}26メルル{expr:3034}{nameoff}{color2}{nl2}{voice:30303833}「え、ほっとけばいいのに！！{wait}{clear}{nl2}{voice:30303834}カゼ、ひいちゃうんだから！！{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "メルル",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cdcf4",
+     "va": "0x800d6052",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d10c8",
+     "va": "0x800d6052",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_222",
+   "region": "script",
+   "off": "0x14491",
+   "size": 199,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「何やってんだろ、あたし。{wait}{clear}{nl2}いつの間にか、こんな生活に慣れち{nl2}ゃって…、この世界の人、好きにな{nl2}っちゃって…。{wait}{clear}{nl2}あたし、何やってんだろう…。{wait}{clear}{nl2}こんな所で…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ce6c0",
+     "va": "0x800d60b9",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_223",
+   "region": "script",
+   "off": "0x14558",
+   "size": 47,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「アレンさん…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ce81c",
+     "va": "0x800d6180",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_224",
+   "region": "script",
+   "off": "0x14587",
+   "size": 109,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}{voice:30303835}「さぁ、見せておくれ。{wait}{clear}{nl2}{voice:30303836}たがいに引き合う、運命の力を…。{nl2}{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ce950",
+     "va": "0x800d61af",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d10e0",
+     "va": "0x800d61af",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_225",
+   "region": "script",
+   "off": "0x145f4",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「ひとみ。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cecb8",
+     "va": "0x800d621c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_226",
+   "region": "script",
+   "off": "0x1461f",
+   "size": 79,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「なぜだろう…、君が側にいると心{nl2}　が安らぐ…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cf02c",
+     "va": "0x800d6247",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_227",
+   "region": "script",
+   "off": "0x1466e",
+   "size": 63,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「あたたかい、先輩の匂いがする。{nl2}{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cf054",
+     "va": "0x800d6296",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_228",
+   "region": "script",
+   "off": "0x146ad",
+   "size": 97,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「雑念を払うのだ、エリヤ。{wait}{clear}{nl2}一心に想うのだ、私を想うのだ。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cf3bc",
+     "va": "0x800d62d5",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_229",
+   "region": "script",
+   "off": "0x1470e",
+   "size": 61,
+   "jp": "{clear}{nameon}{color3}26エリヤ{expr:3136}{nameoff}{color2}{nl2}「フォルケン様。{nl2}　私には…。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリヤ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cf3e4",
+     "va": "0x800d6336",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_230",
+   "region": "script",
+   "off": "0x1474b",
+   "size": 79,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「苦しいだろうが、想ってくれ。{nl2}　私の事を。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cf3f4",
+     "va": "0x800d6373",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_231",
+   "region": "script",
+   "off": "0x1479a",
+   "size": 47,
+   "jp": "{clear}{nameon}{color3}26エリヤ{expr:3136}{nameoff}{color2}{nl2}「フォルケン様…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリヤ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cf404",
+     "va": "0x800d63c2",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_232",
+   "region": "script",
+   "off": "0x147c9",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「どうして？{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cf86c",
+     "va": "0x800d63f1",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_233",
+   "region": "script",
+   "off": "0x147f4",
+   "size": 133,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「ごめんなさい。{wait}{clear}{nl2}だって…。{nl2}知ってるから…。{wait}{clear}{nl2}私、ミラーナさんの気持ち、知って{nl2}るからっ！！{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cf920",
+     "va": "0x800d641c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_234",
+   "region": "script",
+   "off": "0x14879",
+   "size": 81,
+   "jp": "{clear}{nameon}{color3}26アレン{expr:3033}{nameoff}{color2}{nl2}「私には、君しか見えない…。{nl2}　ひとみ、君だけだ。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "アレン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cf930",
+     "va": "0x800d64a1",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_235",
+   "region": "script",
+   "off": "0x148ca",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「そ、そんな…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cf948",
+     "va": "0x800d64f2",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_236",
+   "region": "script",
+   "off": "0x148f7",
+   "size": 45,
+   "jp": "{clear}{nameon}{color3}26フォルケン{expr:3036}{nameoff}{color2}{nl2}「ひとみ。{wait}{clear}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "フォルケン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cff64",
+     "va": "0x800d651f",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_237",
+   "region": "script",
+   "off": "0x14924",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26エリヤ{expr:3136}{nameoff}{color2}{nl2}「アレン…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリヤ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cff8c",
+     "va": "0x800d654c",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_238",
+   "region": "script",
+   "off": "0x1494d",
+   "size": 153,
+   "jp": "{clear}{nameon}{color3}26ドルンカーク{expr:3037}{nameoff}{color2}{nl2}{voice:30303837}「おおぉー、素晴らしい。{nl2}　運命が、動き出した。{wait}{clear}{nl2}{voice:30303838}新たな運命が…。{nl2}フフフフフ…。{nl2}ファハハハハハ…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドルンカーク",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800d01f4",
+     "va": "0x800d6575",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800d10f8",
+     "va": "0x800d6575",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_239",
+   "region": "script",
+   "off": "0x149e6",
+   "size": 53,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「どうしたの…、バァン。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb490",
+     "va": "0x800d660e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_240",
+   "region": "script",
+   "off": "0x14a1b",
+   "size": 65,
+   "jp": "{clear}{nameon}{color3}02ガデス{nameoff}{color2}{nl2}「王様、隊長を見かけませんでした{nl2}　か？{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ガデス",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb4a0",
+     "va": "0x800d6643",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_241",
+   "region": "script",
+   "off": "0x14a5c",
+   "size": 49,
+   "jp": "{clear}{nameon}{color3}26ドライデン{expr:3133}{nameoff}{color2}{nl2}「よぉ、バァン。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドライデン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb4b0",
+     "va": "0x800d6684",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_242",
+   "region": "script",
+   "off": "0x14a8d",
+   "size": 53,
+   "jp": "{clear}{nameon}{color3}03エリーズ{nameoff}{color2}{nl2}「あなたは、確か…バァン。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリーズ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb4c4",
+     "va": "0x800d66b5",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_243",
+   "region": "script",
+   "off": "0x14ac2",
+   "size": 41,
+   "jp": "{clear}{nameon}{color3}26ひとみ{expr:3031}{nameoff}{color2}{nl2}「バァン…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ひとみ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb584",
+     "va": "0x800d66ea",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_244",
+   "region": "script",
+   "off": "0x14aeb",
+   "size": 43,
+   "jp": "{clear}{nameon}{color3}02ガデス{nameoff}{color2}{nl2}「行こうぜ、王様。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ガデス",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb5c4",
+     "va": "0x800d6713",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_245",
+   "region": "script",
+   "off": "0x14b16",
+   "size": 59,
+   "jp": "{clear}{nameon}{color3}26ドライデン{expr:3133}{nameoff}{color2}{nl2}「何処へ行くんだ、バァン。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドライデン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb604",
+     "va": "0x800d673e",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_246",
+   "region": "script",
+   "off": "0x14b51",
+   "size": 63,
+   "jp": "{clear}{nameon}{color3}03エリーズ{nameoff}{color2}{nl2}「わかりました。{nl2}　まいりましょう。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリーズ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800cb644",
+     "va": "0x800d6779",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_247",
+   "region": "script",
+   "off": "0x14b90",
+   "size": 67,
+   "jp": "{clear}{nameon}{color3}02ガデス{nameoff}{color2}{nl2}「ひとみちゃんなら、橋の方へ行っ{nl2}　たぜ。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ガデス",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ce1b4",
+     "va": "0x800d67b8",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_248",
+   "region": "script",
+   "off": "0x14bd3",
+   "size": 79,
+   "jp": "{clear}{nameon}{color3}26ドライデン{expr:3133}{nameoff}{color2}{nl2}「ひとみなら、山小屋へ行くって言{nl2}　ってたぞ。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドライデン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ce1c4",
+     "va": "0x800d67fb",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_249",
+   "region": "script",
+   "off": "0x14c22",
+   "size": 81,
+   "jp": "{clear}{nameon}{color3}03エリーズ{nameoff}{color2}{nl2}「ひとみ？{nl2}　いいえ…、見かけませんでしたけ{nl2}　ど…。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリーズ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ce1d8",
+     "va": "0x800d684a",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_250",
+   "region": "script",
+   "off": "0x14c73",
+   "size": 87,
+   "jp": "{clear}{nameon}{color3}02ガデス{nameoff}{color2}{nl2}「わかりやした。{wait}{clear}{nl2}一緒に、ひとみちゃんをさがしま{nl2}しょう。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ガデス",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ce290",
+     "va": "0x800d689b",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_251",
+   "region": "script",
+   "off": "0x14cca",
+   "size": 73,
+   "jp": "{clear}{nameon}{color3}26ドライデン{expr:3133}{nameoff}{color2}{nl2}「わかった。{nl2}　一緒に、ひとみを探そう。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "ドライデン",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ce2d0",
+     "va": "0x800d68f2",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "syo05_252",
+   "region": "script",
+   "off": "0x14d13",
+   "size": 77,
+   "jp": "{clear}{nameon}{color3}03エリーズ{nameoff}{color2}{nl2}「わかりました。{nl2}　一緒にひとみをさがしましょう。{pageend}{nl2}{end}",
+   "form": "dlg",
+   "speaker": "エリーズ",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800ce310",
+     "va": "0x800d693b",
+     "delta": 0
+    }
+   ]
+  }
+ ],
+ "data": [
+  {
+   "off": "0x1a0",
+   "size": 16,
+   "why": "debug tags \"bu00:\" / \"bu10:\"; never translate",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c300c",
+     "va": "0x800c1dc8",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3014",
+     "va": "0x800c1dcc",
+     "delta": 4
+    },
+    {
+     "kind": "code",
+     "site": "0x800c302c",
+     "va": "0x800c1dd0",
+     "delta": 8
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3034",
+     "va": "0x800c1dd4",
+     "delta": 12
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3618",
+     "va": "0x800c1dc8",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3620",
+     "va": "0x800c1dcc",
+     "delta": 4
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3638",
+     "va": "0x800c1dd0",
+     "delta": 8
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3640",
+     "va": "0x800c1dd4",
+     "delta": 12
+    }
+   ]
+  },
+  {
+   "off": "0x5b4",
+   "size": 24,
+   "why": "loader path \"\\ESCA\\PRG\\SYO00.BIN;1\"; never translate",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3fc4",
+     "va": "0x800c21dc",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "off": "0xda8",
+   "size": 22,
+   "why": "loader path \"\\ESCA\\PRG\\SYO06.BIN;1\"; never translate",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800d0acc",
+     "va": "0x800c29d0",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "off": "0x14d60",
+   "size": 12,
+   "why": "dummy sentinel \"???\" + script-end word",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3c20",
+     "va": "0x800d6990",
+     "delta": 8
+    }
+   ]
+  }
+ ]
+}

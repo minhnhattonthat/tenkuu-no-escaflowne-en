@@ -1,0 +1,10206 @@
+{
+ "file": "ESCA/PRG/SYO00-07.BIN",
+ "base": "0x800c1c28",
+ "note": "shared block, identical in all 8 overlays, spans 0xc-0x1a0, 0x1b0-0x5b4, 0x5cc-0x808, 0x808-0x8b0",
+ "entries": [
+  {
+   "id": "common_001",
+   "region": "common",
+   "off": "0xc",
+   "size": 25,
+   "jp": "{clear}{mark1}　パートナーを組む{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4668",
+     "va": "0x800c1c34",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5d44",
+     "va": "0x800c1c34",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4b70",
+     "va": "0x800c1c34",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c474c",
+     "va": "0x800c1c34",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c47bc",
+     "va": "0x800c1c34",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c434c",
+     "va": "0x800c1c34",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4518",
+     "va": "0x800c1c34",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c48cc",
+     "va": "0x800c1c34",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_002",
+   "region": "common",
+   "off": "0x28",
+   "size": 23,
+   "jp": "{mark2}　パートナーを終了{nl2}{end}",
+   "form": "menu",
+   "dead": true
+  },
+  {
+   "id": "common_003",
+   "region": "common",
+   "off": "0x40",
+   "size": 21,
+   "jp": "{mark3}　Ｓ　Ａ　Ｖ　Ｅ{nl2}{end}",
+   "form": "menu",
+   "dead": true
+  },
+  {
+   "id": "common_004",
+   "region": "common",
+   "off": "0x58",
+   "size": 23,
+   "jp": "{mark4}　Ｌ　Ｏ　Ａ　Ｄ{menuwait}{close}{end}",
+   "form": "menu",
+   "dead": true
+  },
+  {
+   "id": "common_005",
+   "region": "common",
+   "off": "0x70",
+   "size": 25,
+   "jp": "{mark2}　パートナーを終了{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c467c",
+     "va": "0x800c1c98",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5d58",
+     "va": "0x800c1c98",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4b84",
+     "va": "0x800c1c98",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4760",
+     "va": "0x800c1c98",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c47d0",
+     "va": "0x800c1c98",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4360",
+     "va": "0x800c1c98",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c452c",
+     "va": "0x800c1c98",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c48e0",
+     "va": "0x800c1c98",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_006",
+   "region": "common",
+   "off": "0x8c",
+   "size": 11,
+   "jp": "{clear}　{nl2}　{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c31d4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c322c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3290",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c338c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33e8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3440",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34a4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3520",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c354c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3570",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3590",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35e0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3668",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36ac",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36cc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3708",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37e8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3840",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38a0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3998",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39f4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3aa8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b28",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b54",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b78",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b98",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3be8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c5c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d28",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d5c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d80",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3dc4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3df8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e3c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e78",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c48b0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4908",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c496c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4a68",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4ac4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4b1c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4b80",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4bfc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4c28",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4c4c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4c6c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4cbc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4d44",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4d88",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4da8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4de4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4ec4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4f1c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4f7c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5074",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c50d0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5184",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5204",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5230",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5254",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5274",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c52c4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5338",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5404",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5438",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c545c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c54a0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c54d4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5518",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5554",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36dc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3734",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3798",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3894",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38f0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3948",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39ac",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a28",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a54",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a78",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a98",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ae8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b70",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3bb4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3bd4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c10",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cf0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d48",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3da8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ea0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3efc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3fb0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4030",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c405c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4080",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c40a0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c40f0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4164",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4230",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4264",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4288",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c42cc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4300",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4344",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4380",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c32b8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3310",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3374",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3470",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34cc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3524",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3588",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3604",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3630",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3654",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3674",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36c4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c374c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3790",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37b0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37ec",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38cc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3924",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3984",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a7c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ad8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b8c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c0c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c38",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c5c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c7c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ccc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d40",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e0c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e40",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e64",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ea8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3edc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f20",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f5c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3328",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3380",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33e4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34e0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c353c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3594",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35f8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3674",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36a0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36c4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36e4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3734",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37bc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3800",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3820",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c385c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c393c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3994",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39f4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3aec",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b48",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3bfc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c7c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ca8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ccc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cec",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d3c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3db0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e7c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3eb0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ed4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f18",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f4c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f90",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3fcc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c2eb8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c2f10",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c2f74",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3070",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c30cc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3124",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3188",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3204",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3230",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3254",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3274",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c32c4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c334c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3390",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33b0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33ec",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34cc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3524",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3584",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c367c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36d8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c378c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c380c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3838",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c385c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c387c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38cc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3940",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a0c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a40",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a64",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3aa8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3adc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b20",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b5c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3084",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c30dc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3140",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c323c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3298",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c32f0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3354",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33d0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33fc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3420",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3440",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3490",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3518",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c355c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c357c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35b8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3698",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36f0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3750",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3848",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38a4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3958",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39d8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a04",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a28",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a48",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a98",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b0c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3bd8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c0c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c30",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c74",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ca8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cec",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d28",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3438",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3490",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34f4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35f0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c364c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36a4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3708",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3784",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37b0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37d4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37f4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3844",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38cc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3910",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3930",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c396c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a4c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3aa4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b04",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3bfc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c58",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d0c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d8c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3db8",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ddc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3dfc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e4c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ec0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f8c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3fc0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3fe4",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4028",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c405c",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c40a0",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c40dc",
+     "va": "0x800c1cb4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_007",
+   "region": "common",
+   "off": "0x98",
+   "size": 27,
+   "jp": "　　　　　　　{mark4}ＬＯＡＤ{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c31e4",
+     "va": "0x800c1cc0",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c48c0",
+     "va": "0x800c1cc0",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36ec",
+     "va": "0x800c1cc0",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c32c8",
+     "va": "0x800c1cc0",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3338",
+     "va": "0x800c1cc0",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c2ec8",
+     "va": "0x800c1cc0",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3094",
+     "va": "0x800c1cc0",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3448",
+     "va": "0x800c1cc0",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_008",
+   "region": "common",
+   "off": "0xb4",
+   "size": 29,
+   "jp": "　　　　　　　{mark5}ＥＸＩＴ{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c31f4",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3808",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c48d0",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4ee4",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36fc",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d10",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c32d8",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38ec",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3348",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c395c",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c2ed8",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34ec",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c30a4",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36b8",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3458",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a6c",
+     "va": "0x800c1cdc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_009",
+   "region": "common",
+   "off": "0xd4",
+   "size": 35,
+   "jp": "　　　　　ＬＯＡＤしますか？{nl2}　{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c323c",
+     "va": "0x800c1cfc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4918",
+     "va": "0x800c1cfc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3744",
+     "va": "0x800c1cfc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3320",
+     "va": "0x800c1cfc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3390",
+     "va": "0x800c1cfc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c2f20",
+     "va": "0x800c1cfc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c30ec",
+     "va": "0x800c1cfc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34a0",
+     "va": "0x800c1cfc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_010",
+   "region": "common",
+   "off": "0xf8",
+   "size": 33,
+   "jp": "　　　　　{mark1}ＹＥＳ　　{mark2}ＮＯ{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c324c",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3470",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3860",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a78",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4928",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4b4c",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4f3c",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5154",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3754",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3978",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d68",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f80",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3330",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3554",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3944",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b5c",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33a0",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35c4",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39b4",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3bcc",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c2f30",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3154",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3544",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c375c",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c30fc",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3320",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3710",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3928",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34b0",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36d4",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ac4",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cdc",
+     "va": "0x800c1d20",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_011",
+   "region": "common",
+   "off": "0x11c",
+   "size": 35,
+   "jp": "　　　どちらをＬＯＡＤしますか？{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c32a4",
+     "va": "0x800c1d44",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4980",
+     "va": "0x800c1d44",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37ac",
+     "va": "0x800c1d44",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3388",
+     "va": "0x800c1d44",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33f8",
+     "va": "0x800c1d44",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c2f88",
+     "va": "0x800c1d44",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3154",
+     "va": "0x800c1d44",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3508",
+     "va": "0x800c1d44",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_012",
+   "region": "common",
+   "off": "0x140",
+   "size": 33,
+   "jp": "　　　{mark1}メモリーカード差込口１{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c32b4",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38c4",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4990",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4fa0",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37bc",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3dcc",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3398",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39a8",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3408",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a18",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c2f98",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35a8",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3164",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3774",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3518",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b28",
+     "va": "0x800c1d68",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_013",
+   "region": "common",
+   "off": "0x164",
+   "size": 33,
+   "jp": "　　　{mark2}メモリーカード差込口２{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c32c4",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38d4",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c49a0",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4fb0",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37cc",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ddc",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33a8",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39b8",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3418",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a28",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c2fa8",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35b8",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3174",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3784",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3528",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b38",
+     "va": "0x800c1d8c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_014",
+   "region": "common",
+   "off": "0x188",
+   "size": 21,
+   "jp": "　　　{mark3}ＥＸＩＴ{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c32d4",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38e4",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c49b0",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4fc0",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37dc",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3dec",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33b8",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39c8",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3428",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a38",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c2fb8",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35c8",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3184",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3794",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3538",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b48",
+     "va": "0x800c1db0",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_015",
+   "region": "common",
+   "off": "0x1b0",
+   "size": 33,
+   "jp": "　　{mark1}メモリーカードが差されて{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c339c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33f8",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35a0",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39a8",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a04",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ba8",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c6c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4a78",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4ad4",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4c7c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5084",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c50e0",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5284",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5348",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38a4",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3900",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3aa8",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3eb0",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f0c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c40b0",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4174",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3480",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34dc",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3684",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a8c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ae8",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c8c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d50",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34f0",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c354c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36f4",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3afc",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b58",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cfc",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3dc0",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3080",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c30dc",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3284",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c368c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36e8",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c388c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3950",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c324c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c32a8",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3450",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3858",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38b4",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a58",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b1c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3600",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c365c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3804",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c0c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c68",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e0c",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ed0",
+     "va": "0x800c1dd8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_016",
+   "region": "common",
+   "off": "0x1d4",
+   "size": 19,
+   "jp": "　　いませんので{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c33ac",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3408",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35b0",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39b8",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a14",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3bb8",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c7c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4a88",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4ae4",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4c8c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5094",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c50f0",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5294",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5358",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38b4",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3910",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ab8",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ec0",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f1c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c40c0",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4184",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3490",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34ec",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3694",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a9c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3af8",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c9c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d60",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3500",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c355c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3704",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b0c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b68",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d0c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3dd0",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3090",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c30ec",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3294",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c369c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36f8",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c389c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3960",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c325c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c32b8",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3460",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3868",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38c4",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a68",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b2c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3610",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c366c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3814",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c1c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c78",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e1c",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ee0",
+     "va": "0x800c1dfc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_017",
+   "region": "common",
+   "off": "0x1e8",
+   "size": 27,
+   "jp": "　　ＬＯＡＤできません{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c33bc",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3418",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4a98",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4af4",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38c4",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3920",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34a0",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34fc",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3510",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c356c",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c30a0",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c30fc",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c326c",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c32c8",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3620",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c367c",
+     "va": "0x800c1e10",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_018",
+   "region": "common",
+   "off": "0x204",
+   "size": 35,
+   "jp": "　　　フォーマットされていません{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3450",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a58",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4b2c",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5134",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3958",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f60",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3534",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b3c",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35a4",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3bac",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3134",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c373c",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3300",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3908",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36b4",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cbc",
+     "va": "0x800c1e2c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_019",
+   "region": "common",
+   "off": "0x228",
+   "size": 35,
+   "jp": "　　　フォーマットしますか？{nl2}　{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3460",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a68",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4b3c",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5144",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3968",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f70",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3544",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b4c",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35b4",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3bbc",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3144",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c374c",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3310",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3918",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36c4",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ccc",
+     "va": "0x800c1e50",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_020",
+   "region": "common",
+   "off": "0x24c",
+   "size": 33,
+   "jp": "　　　　{mark1}フォーマットします{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c34b4",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ab8",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4b90",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5194",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39bc",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3fc0",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3598",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b9c",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3608",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c0c",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3198",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c379c",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3364",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3968",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3718",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d1c",
+     "va": "0x800c1e74",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_021",
+   "region": "common",
+   "off": "0x270",
+   "size": 39,
+   "jp": "　　{mark1}フォーマットできませんでした{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3530",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3580",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b38",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b88",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4c0c",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4c5c",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5214",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5264",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a38",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a88",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4040",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4090",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3614",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3664",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c1c",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c6c",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3684",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36d4",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c8c",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cdc",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3214",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3264",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c381c",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c386c",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33e0",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3430",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39e8",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a38",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3794",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37e4",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d9c",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3dec",
+     "va": "0x800c1e98",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_022",
+   "region": "common",
+   "off": "0x298",
+   "size": 35,
+   "jp": "　　　　{mark1}フォーマットしました{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c355c",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b64",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4c38",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5240",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a64",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c406c",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3640",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c48",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36b0",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cb8",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3240",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3848",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c340c",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a14",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37c0",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3dc8",
+     "va": "0x800c1ec0",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_023",
+   "region": "common",
+   "off": "0x2bc",
+   "size": 31,
+   "jp": "　　フォーマットできません{menuwait}{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c35c0",
+     "va": "0x800c1ee4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4c9c",
+     "va": "0x800c1ee4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ac8",
+     "va": "0x800c1ee4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36a4",
+     "va": "0x800c1ee4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3714",
+     "va": "0x800c1ee4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c32a4",
+     "va": "0x800c1ee4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3470",
+     "va": "0x800c1ee4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3824",
+     "va": "0x800c1ee4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_024",
+   "region": "common",
+   "off": "0x2dc",
+   "size": 41,
+   "jp": "　　　{mark1}メモリーカードが壊れているので{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c35f0",
+     "va": "0x800c1f04",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4ccc",
+     "va": "0x800c1f04",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3af8",
+     "va": "0x800c1f04",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36d4",
+     "va": "0x800c1f04",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3744",
+     "va": "0x800c1f04",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c32d4",
+     "va": "0x800c1f04",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34a0",
+     "va": "0x800c1f04",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3854",
+     "va": "0x800c1f04",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_025",
+   "region": "common",
+   "off": "0x308",
+   "size": 23,
+   "jp": "　　　壊れているので{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3600",
+     "va": "0x800c1f30",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4cdc",
+     "va": "0x800c1f30",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b08",
+     "va": "0x800c1f30",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36e4",
+     "va": "0x800c1f30",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3754",
+     "va": "0x800c1f30",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c32e4",
+     "va": "0x800c1f30",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34b0",
+     "va": "0x800c1f30",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3864",
+     "va": "0x800c1f30",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_026",
+   "region": "common",
+   "off": "0x320",
+   "size": 27,
+   "jp": "　　　ロードできません{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3614",
+     "va": "0x800c1f48",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4cf0",
+     "va": "0x800c1f48",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b1c",
+     "va": "0x800c1f48",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36f8",
+     "va": "0x800c1f48",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3768",
+     "va": "0x800c1f48",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c32f8",
+     "va": "0x800c1f48",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34c4",
+     "va": "0x800c1f48",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3878",
+     "va": "0x800c1f48",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_027",
+   "region": "common",
+   "off": "0x33c",
+   "size": 33,
+   "jp": "　　　　　{mark1}ＬＯＡＤしました{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3678",
+     "va": "0x800c1f64",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4d54",
+     "va": "0x800c1f64",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b80",
+     "va": "0x800c1f64",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c375c",
+     "va": "0x800c1f64",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37cc",
+     "va": "0x800c1f64",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c335c",
+     "va": "0x800c1f64",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3528",
+     "va": "0x800c1f64",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38dc",
+     "va": "0x800c1f64",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_028",
+   "region": "common",
+   "off": "0x360",
+   "size": 35,
+   "jp": "　　　{mark1}ＬＯＡＤに失敗しました{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c36bc",
+     "va": "0x800c1f88",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4d98",
+     "va": "0x800c1f88",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3bc4",
+     "va": "0x800c1f88",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37a0",
+     "va": "0x800c1f88",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3810",
+     "va": "0x800c1f88",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33a0",
+     "va": "0x800c1f88",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c356c",
+     "va": "0x800c1f88",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3920",
+     "va": "0x800c1f88",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_029",
+   "region": "common",
+   "off": "0x384",
+   "size": 33,
+   "jp": "　　　　{mark1}データがありません{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c36e0",
+     "va": "0x800c1fac",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4dbc",
+     "va": "0x800c1fac",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3be8",
+     "va": "0x800c1fac",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37c4",
+     "va": "0x800c1fac",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3834",
+     "va": "0x800c1fac",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33c4",
+     "va": "0x800c1fac",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3590",
+     "va": "0x800c1fac",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3944",
+     "va": "0x800c1fac",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_030",
+   "region": "common",
+   "off": "0x3a8",
+   "size": 35,
+   "jp": "　　　{mark1}ＬＯＡＤしませんでした{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3718",
+     "va": "0x800c1fd0",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4df4",
+     "va": "0x800c1fd0",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c20",
+     "va": "0x800c1fd0",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c37fc",
+     "va": "0x800c1fd0",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c386c",
+     "va": "0x800c1fd0",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c33fc",
+     "va": "0x800c1fd0",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c35c8",
+     "va": "0x800c1fd0",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c397c",
+     "va": "0x800c1fd0",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_031",
+   "region": "common",
+   "off": "0x3cc",
+   "size": 27,
+   "jp": "　　　　　　　{mark3}ＳＡＶＥ{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c37f8",
+     "va": "0x800c1ff4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4ed4",
+     "va": "0x800c1ff4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d00",
+     "va": "0x800c1ff4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38dc",
+     "va": "0x800c1ff4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c394c",
+     "va": "0x800c1ff4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c34dc",
+     "va": "0x800c1ff4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36a8",
+     "va": "0x800c1ff4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a5c",
+     "va": "0x800c1ff4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_032",
+   "region": "common",
+   "off": "0x3e8",
+   "size": 33,
+   "jp": "　　　　　セーブしますか？{nl2}　{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3850",
+     "va": "0x800c2010",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4f2c",
+     "va": "0x800c2010",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d58",
+     "va": "0x800c2010",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3934",
+     "va": "0x800c2010",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39a4",
+     "va": "0x800c2010",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3534",
+     "va": "0x800c2010",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3700",
+     "va": "0x800c2010",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ab4",
+     "va": "0x800c2010",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_033",
+   "region": "common",
+   "off": "0x40c",
+   "size": 37,
+   "jp": "　　　どちらにＳＡＶＥしますか？　{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c38b4",
+     "va": "0x800c2034",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4f90",
+     "va": "0x800c2034",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3dbc",
+     "va": "0x800c2034",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3998",
+     "va": "0x800c2034",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a08",
+     "va": "0x800c2034",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3598",
+     "va": "0x800c2034",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3764",
+     "va": "0x800c2034",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b18",
+     "va": "0x800c2034",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_034",
+   "region": "common",
+   "off": "0x434",
+   "size": 27,
+   "jp": "　　ＳＡＶＥできません{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c39c8",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a24",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c8c",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c50a4",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5100",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5368",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ed0",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f2c",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4194",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3aac",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b08",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d70",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b1c",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b78",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3de0",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c36ac",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3708",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3970",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3878",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38d4",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b3c",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c2c",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c88",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ef0",
+     "va": "0x800c205c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_035",
+   "region": "common",
+   "off": "0x450",
+   "size": 7,
+   "jp": "{clear}　{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3a48",
+     "va": "0x800c2078",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5124",
+     "va": "0x800c2078",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f50",
+     "va": "0x800c2078",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b2c",
+     "va": "0x800c2078",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b9c",
+     "va": "0x800c2078",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c372c",
+     "va": "0x800c2078",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38f8",
+     "va": "0x800c2078",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cac",
+     "va": "0x800c2078",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_036",
+   "region": "common",
+   "off": "0x458",
+   "size": 31,
+   "jp": "　　フォーマットできません{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3bc8",
+     "va": "0x800c2080",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c52a4",
+     "va": "0x800c2080",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c40d0",
+     "va": "0x800c2080",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cac",
+     "va": "0x800c2080",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d1c",
+     "va": "0x800c2080",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38ac",
+     "va": "0x800c2080",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a78",
+     "va": "0x800c2080",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e2c",
+     "va": "0x800c2080",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_037",
+   "region": "common",
+   "off": "0x478",
+   "size": 33,
+   "jp": "　　　{mark1}メモリーカードが壊れて{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3bf8",
+     "va": "0x800c20a0",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c52d4",
+     "va": "0x800c20a0",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4100",
+     "va": "0x800c20a0",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cdc",
+     "va": "0x800c20a0",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d4c",
+     "va": "0x800c20a0",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38dc",
+     "va": "0x800c20a0",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3aa8",
+     "va": "0x800c20a0",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e5c",
+     "va": "0x800c20a0",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_038",
+   "region": "common",
+   "off": "0x49c",
+   "size": 17,
+   "jp": "　　　いるので{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3c08",
+     "va": "0x800c20c4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c52e4",
+     "va": "0x800c20c4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4110",
+     "va": "0x800c20c4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cec",
+     "va": "0x800c20c4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d5c",
+     "va": "0x800c20c4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c38ec",
+     "va": "0x800c20c4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ab8",
+     "va": "0x800c20c4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e6c",
+     "va": "0x800c20c4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_039",
+   "region": "common",
+   "off": "0x4b0",
+   "size": 27,
+   "jp": "　　　セーブできません{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3c1c",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e1c",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c52f8",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c54f8",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4124",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4324",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d00",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f00",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d70",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f70",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3900",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b00",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3acc",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ccc",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e80",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4080",
+     "va": "0x800c20d8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_040",
+   "region": "common",
+   "off": "0x4cc",
+   "size": 13,
+   "jp": "{clear}　　{nl2}　{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3cb4",
+     "va": "0x800c20f4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5390",
+     "va": "0x800c20f4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c41bc",
+     "va": "0x800c20f4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d98",
+     "va": "0x800c20f4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e08",
+     "va": "0x800c20f4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3998",
+     "va": "0x800c20f4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b64",
+     "va": "0x800c20f4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f18",
+     "va": "0x800c20f4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_041",
+   "region": "common",
+   "off": "0x4dc",
+   "size": 29,
+   "jp": "　　　　　上書きしますか？{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3cc4",
+     "va": "0x800c2104",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c53a0",
+     "va": "0x800c2104",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c41cc",
+     "va": "0x800c2104",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3da8",
+     "va": "0x800c2104",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e18",
+     "va": "0x800c2104",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39a8",
+     "va": "0x800c2104",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b74",
+     "va": "0x800c2104",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f28",
+     "va": "0x800c2104",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_042",
+   "region": "common",
+   "off": "0x4fc",
+   "size": 35,
+   "jp": "　　　　　　{mark1}ＹＥＳ　　{mark2}ＮＯ{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3cd4",
+     "va": "0x800c2124",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c53b0",
+     "va": "0x800c2124",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c41dc",
+     "va": "0x800c2124",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3db8",
+     "va": "0x800c2124",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e28",
+     "va": "0x800c2124",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c39b8",
+     "va": "0x800c2124",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b84",
+     "va": "0x800c2124",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f38",
+     "va": "0x800c2124",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_043",
+   "region": "common",
+   "off": "0x520",
+   "size": 33,
+   "jp": "　　　　　{mark1}ＳＡＶＥしました{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3d38",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3dd4",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5414",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c54b0",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4240",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c42dc",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e1c",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3eb8",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e8c",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f28",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a1c",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ab8",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3be8",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c84",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f9c",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4038",
+     "va": "0x800c2148",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_044",
+   "region": "common",
+   "off": "0x544",
+   "size": 35,
+   "jp": "　　　{mark1}ＳＡＶＥに失敗しました{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3d6c",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e50",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5448",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c552c",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4274",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4358",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e50",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f34",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ec0",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3fa4",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a50",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b34",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c1c",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d00",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3fd0",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c40b4",
+     "va": "0x800c216c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_045",
+   "region": "common",
+   "off": "0x568",
+   "size": 35,
+   "jp": "　　　{mark1}ＳＡＶＥしませんでした{menuwait}{close}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3d90",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e8c",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c546c",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5568",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4298",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4394",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3e74",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f70",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ee4",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3fe0",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3a74",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3b70",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3c40",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3d3c",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3ff4",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c40f0",
+     "va": "0x800c2190",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_046",
+   "region": "common",
+   "off": "0x58c",
+   "size": 37,
+   "jp": "　　　{mark1}空きブロックが足りないので{nl2}{end}",
+   "form": "menu",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c3e08",
+     "va": "0x800c21b4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c54e4",
+     "va": "0x800c21b4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4310",
+     "va": "0x800c21b4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3eec",
+     "va": "0x800c21b4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3f5c",
+     "va": "0x800c21b4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3aec",
+     "va": "0x800c21b4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c3cb8",
+     "va": "0x800c21b4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c406c",
+     "va": "0x800c21b4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_047",
+   "region": "names",
+   "off": "0x5cc",
+   "size": 7,
+   "jp": "カジャ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6db4",
+     "va": "0x800c21f4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2b00",
+     "va": "0x800c21f4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbf18",
+     "va": "0x800c21f4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33d4",
+     "va": "0x800c21f4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8330",
+     "va": "0x800c21f4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6df4",
+     "va": "0x800c21f4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b94",
+     "va": "0x800c21f4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de204",
+     "va": "0x800c21f4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_048",
+   "region": "names",
+   "off": "0x5d4",
+   "size": 7,
+   "jp": "若い女{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6db0",
+     "va": "0x800c21fc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2afc",
+     "va": "0x800c21fc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbf14",
+     "va": "0x800c21fc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33d0",
+     "va": "0x800c21fc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e832c",
+     "va": "0x800c21fc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6df0",
+     "va": "0x800c21fc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b90",
+     "va": "0x800c21fc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de200",
+     "va": "0x800c21fc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_049",
+   "region": "names",
+   "off": "0x5dc",
+   "size": 7,
+   "jp": "若い男{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6dac",
+     "va": "0x800c2204",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2af8",
+     "va": "0x800c2204",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbf10",
+     "va": "0x800c2204",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33cc",
+     "va": "0x800c2204",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8328",
+     "va": "0x800c2204",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6dec",
+     "va": "0x800c2204",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b8c",
+     "va": "0x800c2204",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1fc",
+     "va": "0x800c2204",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_050",
+   "region": "names",
+   "off": "0x5e4",
+   "size": 15,
+   "jp": "ザイバッハ兵士{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6da8",
+     "va": "0x800c220c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2af4",
+     "va": "0x800c220c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbf0c",
+     "va": "0x800c220c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33c8",
+     "va": "0x800c220c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8324",
+     "va": "0x800c220c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6de8",
+     "va": "0x800c220c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b88",
+     "va": "0x800c220c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1f8",
+     "va": "0x800c220c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_051",
+   "region": "names",
+   "off": "0x5f4",
+   "size": 7,
+   "jp": "セレナ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6da4",
+     "va": "0x800c221c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2af0",
+     "va": "0x800c221c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbf08",
+     "va": "0x800c221c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33c4",
+     "va": "0x800c221c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8320",
+     "va": "0x800c221c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6de4",
+     "va": "0x800c221c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b84",
+     "va": "0x800c221c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1f4",
+     "va": "0x800c221c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_052",
+   "region": "names",
+   "off": "0x5fc",
+   "size": 11,
+   "jp": "ジャジュカ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6da0",
+     "va": "0x800c2224",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2aec",
+     "va": "0x800c2224",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbf04",
+     "va": "0x800c2224",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33c0",
+     "va": "0x800c2224",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e831c",
+     "va": "0x800c2224",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6de0",
+     "va": "0x800c2224",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b80",
+     "va": "0x800c2224",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1f0",
+     "va": "0x800c2224",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_053",
+   "region": "names",
+   "off": "0x608",
+   "size": 13,
+   "jp": "アデルフォス{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d9c",
+     "va": "0x800c2230",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2ae8",
+     "va": "0x800c2230",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbf00",
+     "va": "0x800c2230",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33bc",
+     "va": "0x800c2230",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8318",
+     "va": "0x800c2230",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6ddc",
+     "va": "0x800c2230",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b7c",
+     "va": "0x800c2230",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1ec",
+     "va": "0x800c2230",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_054",
+   "region": "names",
+   "off": "0x618",
+   "size": 7,
+   "jp": "みずる{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d98",
+     "va": "0x800c2240",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2ae4",
+     "va": "0x800c2240",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbefc",
+     "va": "0x800c2240",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33b8",
+     "va": "0x800c2240",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8314",
+     "va": "0x800c2240",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6dd8",
+     "va": "0x800c2240",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b78",
+     "va": "0x800c2240",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1e8",
+     "va": "0x800c2240",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_055",
+   "region": "names",
+   "off": "0x620",
+   "size": 11,
+   "jp": "アイザック{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d94",
+     "va": "0x800c2248",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2ae0",
+     "va": "0x800c2248",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbef8",
+     "va": "0x800c2248",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33b4",
+     "va": "0x800c2248",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8310",
+     "va": "0x800c2248",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6dd4",
+     "va": "0x800c2248",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b74",
+     "va": "0x800c2248",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1e4",
+     "va": "0x800c2248",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_056",
+   "region": "names",
+   "off": "0x62c",
+   "size": 29,
+   "jp": "少女（ひとみのおばあちゃん）{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d90",
+     "va": "0x800c2254",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2adc",
+     "va": "0x800c2254",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbef4",
+     "va": "0x800c2254",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33b0",
+     "va": "0x800c2254",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e830c",
+     "va": "0x800c2254",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6dd0",
+     "va": "0x800c2254",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b70",
+     "va": "0x800c2254",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1e0",
+     "va": "0x800c2254",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_057",
+   "region": "names",
+   "off": "0x64c",
+   "size": 7,
+   "jp": "レオン{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d8c",
+     "va": "0x800c2274",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2ad8",
+     "va": "0x800c2274",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbef0",
+     "va": "0x800c2274",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33ac",
+     "va": "0x800c2274",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8308",
+     "va": "0x800c2274",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6dcc",
+     "va": "0x800c2274",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b6c",
+     "va": "0x800c2274",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1dc",
+     "va": "0x800c2274",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_058",
+   "region": "names",
+   "off": "0x654",
+   "size": 7,
+   "jp": "エリヤ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d88",
+     "va": "0x800c227c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2ad4",
+     "va": "0x800c227c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbeec",
+     "va": "0x800c227c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33a8",
+     "va": "0x800c227c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8304",
+     "va": "0x800c227c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6dc8",
+     "va": "0x800c227c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b68",
+     "va": "0x800c227c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1d8",
+     "va": "0x800c227c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_059",
+   "region": "names",
+   "off": "0x65c",
+   "size": 7,
+   "jp": "ナリア{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d84",
+     "va": "0x800c2284",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2ad0",
+     "va": "0x800c2284",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbee8",
+     "va": "0x800c2284",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33a4",
+     "va": "0x800c2284",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8300",
+     "va": "0x800c2284",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6dc4",
+     "va": "0x800c2284",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b64",
+     "va": "0x800c2284",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1d4",
+     "va": "0x800c2284",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_060",
+   "region": "names",
+   "off": "0x664",
+   "size": 15,
+   "jp": "イスパーノ職人{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d80",
+     "va": "0x800c228c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2acc",
+     "va": "0x800c228c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbee4",
+     "va": "0x800c228c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e33a0",
+     "va": "0x800c228c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82fc",
+     "va": "0x800c228c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6dc0",
+     "va": "0x800c228c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b60",
+     "va": "0x800c228c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1d0",
+     "va": "0x800c228c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_061",
+   "region": "names",
+   "off": "0x674",
+   "size": 17,
+   "jp": "フレイド公国僧兵{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d7c",
+     "va": "0x800c229c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2ac8",
+     "va": "0x800c229c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbee0",
+     "va": "0x800c229c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e339c",
+     "va": "0x800c229c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82f8",
+     "va": "0x800c229c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6dbc",
+     "va": "0x800c229c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b5c",
+     "va": "0x800c229c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1cc",
+     "va": "0x800c229c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_062",
+   "region": "names",
+   "off": "0x688",
+   "size": 13,
+   "jp": "フレイド公王{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d78",
+     "va": "0x800c22b0",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2ac4",
+     "va": "0x800c22b0",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbedc",
+     "va": "0x800c22b0",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3398",
+     "va": "0x800c22b0",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82f4",
+     "va": "0x800c22b0",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6db8",
+     "va": "0x800c22b0",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b58",
+     "va": "0x800c22b0",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1c8",
+     "va": "0x800c22b0",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_063",
+   "region": "names",
+   "off": "0x698",
+   "size": 7,
+   "jp": "ボリス{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d74",
+     "va": "0x800c22c0",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2ac0",
+     "va": "0x800c22c0",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbed8",
+     "va": "0x800c22c0",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3394",
+     "va": "0x800c22c0",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82f0",
+     "va": "0x800c22c0",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6db4",
+     "va": "0x800c22c0",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b54",
+     "va": "0x800c22c0",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1c4",
+     "va": "0x800c22c0",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_064",
+   "region": "names",
+   "off": "0x6a0",
+   "size": 11,
+   "jp": "プラクトゥ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d70",
+     "va": "0x800c22c8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2abc",
+     "va": "0x800c22c8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbed4",
+     "va": "0x800c22c8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3390",
+     "va": "0x800c22c8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82ec",
+     "va": "0x800c22c8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6db0",
+     "va": "0x800c22c8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b50",
+     "va": "0x800c22c8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1c0",
+     "va": "0x800c22c8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_065",
+   "region": "names",
+   "off": "0x6ac",
+   "size": 7,
+   "jp": "ゾンギ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d6c",
+     "va": "0x800c22d4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2ab8",
+     "va": "0x800c22d4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbed0",
+     "va": "0x800c22d4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e338c",
+     "va": "0x800c22d4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82e8",
+     "va": "0x800c22d4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6dac",
+     "va": "0x800c22d4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b4c",
+     "va": "0x800c22d4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1bc",
+     "va": "0x800c22d4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_066",
+   "region": "names",
+   "off": "0x6b4",
+   "size": 13,
+   "jp": "採掘場指揮官{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d68",
+     "va": "0x800c22dc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2ab4",
+     "va": "0x800c22dc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbecc",
+     "va": "0x800c22dc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3388",
+     "va": "0x800c22dc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82e4",
+     "va": "0x800c22dc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6da8",
+     "va": "0x800c22dc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b48",
+     "va": "0x800c22dc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1b8",
+     "va": "0x800c22dc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_067",
+   "region": "names",
+   "off": "0x6c4",
+   "size": 9,
+   "jp": "メイデン{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d64",
+     "va": "0x800c22ec",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2ab0",
+     "va": "0x800c22ec",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbec8",
+     "va": "0x800c22ec",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3384",
+     "va": "0x800c22ec",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82e0",
+     "va": "0x800c22ec",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6da4",
+     "va": "0x800c22ec",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b44",
+     "va": "0x800c22ec",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1b4",
+     "va": "0x800c22ec",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_068",
+   "region": "names",
+   "off": "0x6d0",
+   "size": 11,
+   "jp": "アストン王{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d60",
+     "va": "0x800c22f8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2aac",
+     "va": "0x800c22f8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbec4",
+     "va": "0x800c22f8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3380",
+     "va": "0x800c22f8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82dc",
+     "va": "0x800c22f8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6da0",
+     "va": "0x800c22f8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b40",
+     "va": "0x800c22f8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1b0",
+     "va": "0x800c22f8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_069",
+   "region": "names",
+   "off": "0x6dc",
+   "size": 5,
+   "jp": "テオ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d5c",
+     "va": "0x800c2304",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2aa8",
+     "va": "0x800c2304",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbec0",
+     "va": "0x800c2304",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e337c",
+     "va": "0x800c2304",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82d8",
+     "va": "0x800c2304",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d9c",
+     "va": "0x800c2304",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b3c",
+     "va": "0x800c2304",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1ac",
+     "va": "0x800c2304",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_070",
+   "region": "names",
+   "off": "0x6e4",
+   "size": 13,
+   "jp": "ドルンカーク{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d58",
+     "va": "0x800c230c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2aa4",
+     "va": "0x800c230c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbebc",
+     "va": "0x800c230c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3378",
+     "va": "0x800c230c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82d4",
+     "va": "0x800c230c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d98",
+     "va": "0x800c230c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b38",
+     "va": "0x800c230c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1a8",
+     "va": "0x800c230c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_071",
+   "region": "names",
+   "off": "0x6f4",
+   "size": 7,
+   "jp": "ギメル{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d54",
+     "va": "0x800c231c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2aa0",
+     "va": "0x800c231c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbeb8",
+     "va": "0x800c231c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3374",
+     "va": "0x800c231c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82d0",
+     "va": "0x800c231c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d94",
+     "va": "0x800c231c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b34",
+     "va": "0x800c231c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1a4",
+     "va": "0x800c231c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_072",
+   "region": "names",
+   "off": "0x6fc",
+   "size": 9,
+   "jp": "ダレット{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d50",
+     "va": "0x800c2324",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a9c",
+     "va": "0x800c2324",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbeb4",
+     "va": "0x800c2324",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3370",
+     "va": "0x800c2324",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82cc",
+     "va": "0x800c2324",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d90",
+     "va": "0x800c2324",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b30",
+     "va": "0x800c2324",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de1a0",
+     "va": "0x800c2324",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_073",
+   "region": "names",
+   "off": "0x708",
+   "size": 9,
+   "jp": "ガァティ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d4c",
+     "va": "0x800c2330",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a98",
+     "va": "0x800c2330",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbeb0",
+     "va": "0x800c2330",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e336c",
+     "va": "0x800c2330",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82c8",
+     "va": "0x800c2330",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d8c",
+     "va": "0x800c2330",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b2c",
+     "va": "0x800c2330",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de19c",
+     "va": "0x800c2330",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_074",
+   "region": "names",
+   "off": "0x714",
+   "size": 9,
+   "jp": "シェスタ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d48",
+     "va": "0x800c233c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a94",
+     "va": "0x800c233c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbeac",
+     "va": "0x800c233c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3368",
+     "va": "0x800c233c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82c4",
+     "va": "0x800c233c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d88",
+     "va": "0x800c233c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b28",
+     "va": "0x800c233c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de198",
+     "va": "0x800c233c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_075",
+   "region": "names",
+   "off": "0x720",
+   "size": 7,
+   "jp": "ミゲル{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d44",
+     "va": "0x800c2348",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a90",
+     "va": "0x800c2348",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbea8",
+     "va": "0x800c2348",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3364",
+     "va": "0x800c2348",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82c0",
+     "va": "0x800c2348",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d84",
+     "va": "0x800c2348",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b24",
+     "va": "0x800c2348",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de194",
+     "va": "0x800c2348",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_076",
+   "region": "names",
+   "off": "0x728",
+   "size": 7,
+   "jp": "天野進{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d40",
+     "va": "0x800c2350",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a8c",
+     "va": "0x800c2350",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbea4",
+     "va": "0x800c2350",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3360",
+     "va": "0x800c2350",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82bc",
+     "va": "0x800c2350",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d80",
+     "va": "0x800c2350",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b20",
+     "va": "0x800c2350",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de190",
+     "va": "0x800c2350",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_077",
+   "region": "names",
+   "off": "0x730",
+   "size": 17,
+   "jp": "ファーネリア兵士{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d3c",
+     "va": "0x800c2358",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a88",
+     "va": "0x800c2358",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbea0",
+     "va": "0x800c2358",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e335c",
+     "va": "0x800c2358",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82b8",
+     "va": "0x800c2358",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d7c",
+     "va": "0x800c2358",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b1c",
+     "va": "0x800c2358",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de18c",
+     "va": "0x800c2358",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_078",
+   "region": "names",
+   "off": "0x744",
+   "size": 17,
+   "jp": "ファーネリア司祭{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d38",
+     "va": "0x800c236c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a84",
+     "va": "0x800c236c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe9c",
+     "va": "0x800c236c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3358",
+     "va": "0x800c236c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82b4",
+     "va": "0x800c236c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d78",
+     "va": "0x800c236c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b18",
+     "va": "0x800c236c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de188",
+     "va": "0x800c236c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_079",
+   "region": "names",
+   "off": "0x758",
+   "size": 7,
+   "jp": "近衛兵{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d34",
+     "va": "0x800c2380",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a80",
+     "va": "0x800c2380",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe98",
+     "va": "0x800c2380",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3354",
+     "va": "0x800c2380",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82b0",
+     "va": "0x800c2380",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d74",
+     "va": "0x800c2380",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b14",
+     "va": "0x800c2380",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de184",
+     "va": "0x800c2380",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_080",
+   "region": "names",
+   "off": "0x760",
+   "size": 7,
+   "jp": "ギムル{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d30",
+     "va": "0x800c2388",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a7c",
+     "va": "0x800c2388",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe94",
+     "va": "0x800c2388",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3350",
+     "va": "0x800c2388",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82ac",
+     "va": "0x800c2388",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d70",
+     "va": "0x800c2388",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b10",
+     "va": "0x800c2388",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de180",
+     "va": "0x800c2388",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_081",
+   "region": "names",
+   "off": "0x768",
+   "size": 13,
+   "jp": "ディランドゥ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d2c",
+     "va": "0x800c2390",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a78",
+     "va": "0x800c2390",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe90",
+     "va": "0x800c2390",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e334c",
+     "va": "0x800c2390",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82a8",
+     "va": "0x800c2390",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d6c",
+     "va": "0x800c2390",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b0c",
+     "va": "0x800c2390",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de17c",
+     "va": "0x800c2390",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_082",
+   "region": "names",
+   "off": "0x778",
+   "size": 11,
+   "jp": "レフィーヌ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d28",
+     "va": "0x800c23a0",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a74",
+     "va": "0x800c23a0",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe8c",
+     "va": "0x800c23a0",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3348",
+     "va": "0x800c23a0",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82a4",
+     "va": "0x800c23a0",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d68",
+     "va": "0x800c23a0",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b08",
+     "va": "0x800c23a0",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de178",
+     "va": "0x800c23a0",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_083",
+   "region": "names",
+   "off": "0x784",
+   "size": 5,
+   "jp": "地竜{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d24",
+     "va": "0x800c23ac",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a70",
+     "va": "0x800c23ac",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe88",
+     "va": "0x800c23ac",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3344",
+     "va": "0x800c23ac",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e82a0",
+     "va": "0x800c23ac",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d64",
+     "va": "0x800c23ac",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b04",
+     "va": "0x800c23ac",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de174",
+     "va": "0x800c23ac",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_084",
+   "region": "names",
+   "off": "0x78c",
+   "size": 11,
+   "jp": "ドライデン{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d20",
+     "va": "0x800c23b4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a6c",
+     "va": "0x800c23b4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe84",
+     "va": "0x800c23b4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3340",
+     "va": "0x800c23b4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e829c",
+     "va": "0x800c23b4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d60",
+     "va": "0x800c23b4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8b00",
+     "va": "0x800c23b4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de170",
+     "va": "0x800c23b4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_085",
+   "region": "names",
+   "off": "0x798",
+   "size": 9,
+   "jp": "シド王子{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d1c",
+     "va": "0x800c23c0",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a68",
+     "va": "0x800c23c0",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe80",
+     "va": "0x800c23c0",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e333c",
+     "va": "0x800c23c0",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8298",
+     "va": "0x800c23c0",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d5c",
+     "va": "0x800c23c0",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8afc",
+     "va": "0x800c23c0",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de16c",
+     "va": "0x800c23c0",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_086",
+   "region": "names",
+   "off": "0x7a4",
+   "size": 9,
+   "jp": "エリーズ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d18",
+     "va": "0x800c23cc",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a64",
+     "va": "0x800c23cc",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe7c",
+     "va": "0x800c23cc",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3338",
+     "va": "0x800c23cc",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8294",
+     "va": "0x800c23cc",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d58",
+     "va": "0x800c23cc",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8af8",
+     "va": "0x800c23cc",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de168",
+     "va": "0x800c23cc",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_087",
+   "region": "names",
+   "off": "0x7b0",
+   "size": 9,
+   "jp": "ミラーナ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d14",
+     "va": "0x800c23d8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a60",
+     "va": "0x800c23d8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe78",
+     "va": "0x800c23d8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3334",
+     "va": "0x800c23d8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8290",
+     "va": "0x800c23d8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d54",
+     "va": "0x800c23d8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8af4",
+     "va": "0x800c23d8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de164",
+     "va": "0x800c23d8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_088",
+   "region": "names",
+   "off": "0x7bc",
+   "size": 7,
+   "jp": "メルル{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d10",
+     "va": "0x800c23e4",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a5c",
+     "va": "0x800c23e4",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe74",
+     "va": "0x800c23e4",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3330",
+     "va": "0x800c23e4",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e828c",
+     "va": "0x800c23e4",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d50",
+     "va": "0x800c23e4",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8af0",
+     "va": "0x800c23e4",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de160",
+     "va": "0x800c23e4",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_089",
+   "region": "names",
+   "off": "0x7c4",
+   "size": 9,
+   "jp": "モグラ男{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d0c",
+     "va": "0x800c23ec",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a58",
+     "va": "0x800c23ec",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe70",
+     "va": "0x800c23ec",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e332c",
+     "va": "0x800c23ec",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8288",
+     "va": "0x800c23ec",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d4c",
+     "va": "0x800c23ec",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8aec",
+     "va": "0x800c23ec",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de15c",
+     "va": "0x800c23ec",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_090",
+   "region": "names",
+   "off": "0x7d0",
+   "size": 7,
+   "jp": "ガデス{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d08",
+     "va": "0x800c23f8",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a54",
+     "va": "0x800c23f8",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe6c",
+     "va": "0x800c23f8",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3328",
+     "va": "0x800c23f8",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8284",
+     "va": "0x800c23f8",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d48",
+     "va": "0x800c23f8",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8ae8",
+     "va": "0x800c23f8",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de158",
+     "va": "0x800c23f8",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_091",
+   "region": "names",
+   "off": "0x7d8",
+   "size": 11,
+   "jp": "フォルケン{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d04",
+     "va": "0x800c2400",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a50",
+     "va": "0x800c2400",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe68",
+     "va": "0x800c2400",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3324",
+     "va": "0x800c2400",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8280",
+     "va": "0x800c2400",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d44",
+     "va": "0x800c2400",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8ae4",
+     "va": "0x800c2400",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de154",
+     "va": "0x800c2400",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_092",
+   "region": "names",
+   "off": "0x7e4",
+   "size": 7,
+   "jp": "アレン{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6d00",
+     "va": "0x800c240c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a4c",
+     "va": "0x800c240c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe64",
+     "va": "0x800c240c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3320",
+     "va": "0x800c240c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e827c",
+     "va": "0x800c240c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d40",
+     "va": "0x800c240c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8ae0",
+     "va": "0x800c240c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de150",
+     "va": "0x800c240c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_093",
+   "region": "names",
+   "off": "0x7ec",
+   "size": 9,
+   "jp": "バルガス{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6cfc",
+     "va": "0x800c2414",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a48",
+     "va": "0x800c2414",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe60",
+     "va": "0x800c2414",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e331c",
+     "va": "0x800c2414",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8278",
+     "va": "0x800c2414",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d3c",
+     "va": "0x800c2414",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8adc",
+     "va": "0x800c2414",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de14c",
+     "va": "0x800c2414",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_094",
+   "region": "names",
+   "off": "0x7f8",
+   "size": 7,
+   "jp": "ひとみ{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6cf8",
+     "va": "0x800c2420",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a44",
+     "va": "0x800c2420",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe5c",
+     "va": "0x800c2420",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3318",
+     "va": "0x800c2420",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8274",
+     "va": "0x800c2420",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d38",
+     "va": "0x800c2420",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8ad8",
+     "va": "0x800c2420",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de148",
+     "va": "0x800c2420",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_095",
+   "region": "names",
+   "off": "0x800",
+   "size": 7,
+   "jp": "バァン{end}",
+   "form": "name",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x800c6cf4",
+     "va": "0x800c2428",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e2a40",
+     "va": "0x800c2428",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800dbe58",
+     "va": "0x800c2428",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e3314",
+     "va": "0x800c2428",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800e8270",
+     "va": "0x800c2428",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d6d34",
+     "va": "0x800c2428",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800d8ad4",
+     "va": "0x800c2428",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "word",
+     "site": "0x800de144",
+     "va": "0x800c2428",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_096",
+   "region": "prompt",
+   "off": "0x808",
+   "size": 3,
+   "jp": "{clear}{end}",
+   "data": "control",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4324",
+     "va": "0x800c2430",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5a00",
+     "va": "0x800c2430",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c482c",
+     "va": "0x800c2430",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4408",
+     "va": "0x800c2430",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4478",
+     "va": "0x800c2430",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4008",
+     "va": "0x800c2430",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c41d4",
+     "va": "0x800c2430",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4588",
+     "va": "0x800c2430",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_097",
+   "region": "prompt",
+   "off": "0x80c",
+   "size": 25,
+   "jp": "をパートナーにしますか？{end}",
+   "form": "fragment",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c435c",
+     "va": "0x800c2434",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5a38",
+     "va": "0x800c2434",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4864",
+     "va": "0x800c2434",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4440",
+     "va": "0x800c2434",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c44b0",
+     "va": "0x800c2434",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4040",
+     "va": "0x800c2434",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c420c",
+     "va": "0x800c2434",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c45c0",
+     "va": "0x800c2434",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_098",
+   "region": "prompt",
+   "off": "0x828",
+   "size": 7,
+   "jp": "から、{end}",
+   "form": "fragment",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c4380",
+     "va": "0x800c2450",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5a5c",
+     "va": "0x800c2450",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4888",
+     "va": "0x800c2450",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4464",
+     "va": "0x800c2450",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c44d4",
+     "va": "0x800c2450",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4064",
+     "va": "0x800c2450",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4230",
+     "va": "0x800c2450",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c45e4",
+     "va": "0x800c2450",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_099",
+   "region": "prompt",
+   "off": "0x830",
+   "size": 33,
+   "jp": "に、{nl2}パートナーを交代しますか？{end}",
+   "form": "fragment",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c43ac",
+     "va": "0x800c2458",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5a88",
+     "va": "0x800c2458",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c48b4",
+     "va": "0x800c2458",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4490",
+     "va": "0x800c2458",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4500",
+     "va": "0x800c2458",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4090",
+     "va": "0x800c2458",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c425c",
+     "va": "0x800c2458",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4610",
+     "va": "0x800c2458",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_100",
+   "region": "prompt",
+   "off": "0x854",
+   "size": 25,
+   "jp": "{nl2}　{mark1}はい　{mark2}いいえ{menuwait}{close}{end}",
+   "form": "fragment",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800c43bc",
+     "va": "0x800c247c",
+     "delta": 0,
+     "file": "SYO00.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c5a98",
+     "va": "0x800c247c",
+     "delta": 0,
+     "file": "SYO01.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c48c4",
+     "va": "0x800c247c",
+     "delta": 0,
+     "file": "SYO02.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c44a0",
+     "va": "0x800c247c",
+     "delta": 0,
+     "file": "SYO03.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4510",
+     "va": "0x800c247c",
+     "delta": 0,
+     "file": "SYO04.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c40a0",
+     "va": "0x800c247c",
+     "delta": 0,
+     "file": "SYO05.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c426c",
+     "va": "0x800c247c",
+     "delta": 0,
+     "file": "SYO06.BIN"
+    },
+    {
+     "kind": "code",
+     "site": "0x800c4620",
+     "va": "0x800c247c",
+     "delta": 0,
+     "file": "SYO07.BIN"
+    }
+   ]
+  },
+  {
+   "id": "common_101",
+   "region": "prompt",
+   "off": "0x870",
+   "size": 35,
+   "jp": "とのパートナー行動を終了しますか？{end}",
+   "form": "fragment",
+   "dead": true
+  },
+  {
+   "id": "common_102",
+   "region": "prompt",
+   "off": "0x894",
+   "size": 27,
+   "jp": "{nl2}　{mark1}はい{nl2}　{mark2}いいえ{menuwait}{close}{end}",
+   "form": "fragment",
+   "dead": true
+  }
+ ]
+}

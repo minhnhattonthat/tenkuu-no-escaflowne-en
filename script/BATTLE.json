@@ -1,0 +1,38 @@
+{
+ "file": "ESCA/PRG/BATTLE.BIN",
+ "base": "0x801d8000",
+ "entries": [
+  {
+   "id": "battle_001",
+   "region": "battle",
+   "off": "0x1b8",
+   "size": 7,
+   "jp": "文字列{end}",
+   "form": "battle",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x801ef3e4",
+     "va": "0x801d81b8",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "id": "battle_002",
+   "region": "battle",
+   "off": "0x1d8",
+   "size": 3,
+   "jp": "{close}{end}",
+   "data": "control",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x801ef708",
+     "va": "0x801d81d8",
+     "delta": 0
+    }
+   ]
+  }
+ ]
+}

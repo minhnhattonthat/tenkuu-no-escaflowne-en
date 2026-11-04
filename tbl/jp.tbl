@@ -1,0 +1,61 @@
+# jp.tbl: the Japanese text engine's layout codes (Tenkuu no Escaflowne, PS1).
+#
+# Text is Shift-JIS (cp932) plus the fullwidth glyphs the engine reuses as opcodes below.
+# Anything not listed here decodes as its cp932 character; bytes that cp932 would not
+# re-encode to the same value, and bytes 01-1F other than 0A, decode as [XX] so that
+# encode(decode(bytes)) == bytes (tests/test_extract.py proves it on every string).
+#
+# Provenance: docs/re/text.md, read from the interpreter at 0x8003A3AC-0x8003AF1C
+# (draw-path breakpoint, work/qa/draw). `extract.py --verbose` lists the ones strings use;
+# the rest (glyph, nl, style*, color1/5-8, mark7/9) are in the switch but in no string.
+#
+# `{glyph:XXYY}` = the next two bytes draw as one glyph (819B/818F rule).
+
+00={end}
+0A={nl}
+
+# --- window control (verified states in docs/re/text.md) ---
+8173={nameon}
+8174={nameoff}
+818F={glyph:2}
+8194={expr:2}
+8196={star}
+8197={voice:4}
+819D={clear}
+81A0={menuwait}
+81A3={pageend}
+81A4={wait}
+81AA={close}
+81AB={nl2}
+
+# --- text colour, w+0xC6 = 1-8 (8740-8747) ---
+8740={color1}
+8741={color2}
+8742={color3}
+8743={color4}
+8744={color5}
+8745={color6}
+8746={color7}
+8747={color8}
+
+# --- font flags, w+0xC4 (8748-874F) ---
+8748={style1}
+8749={style2}
+874A={style3}
+874B={style4}
+874C={style5}
+874D={style6}
+874E={style7}
+874F={style8}
+
+# --- menu item markers, row stored at w+0x4D8 (8754-875D = I-X) ---
+8754={mark1}
+8755={mark2}
+8756={mark3}
+8757={mark4}
+8758={mark5}
+8759={mark6}
+875A={mark7}
+875B={mark8}
+875C={mark9}
+875D={mark10}

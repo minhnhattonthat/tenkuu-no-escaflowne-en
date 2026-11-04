@@ -1,0 +1,61 @@
+{
+ "file": "SLPS_010.15",
+ "base": "0x8000f800",
+ "entries": [
+  {
+   "id": "slps_010_001",
+   "region": "memcard",
+   "off": "0x6fc84",
+   "size": 21,
+   "jp": "天空のエスカフローネ{end}",
+   "form": "memcard"
+  }
+ ],
+ "data": [
+  {
+   "off": "0x209a4",
+   "size": 4,
+   "why": "jal instruction, a jump-table target that decodes as a kanji; code, not text",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x80010d90",
+     "va": "0x800301a4",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "off": "0x209f8",
+   "size": 4,
+   "why": "jal instruction, a jump-table target that decodes as a kanji; code, not text",
+   "refs": [
+    {
+     "kind": "word",
+     "site": "0x80010da0",
+     "va": "0x800301f8",
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "off": "0x74b10",
+   "size": 4,
+   "why": "kanji ROM lead-byte table, not text",
+   "refs": [
+    {
+     "kind": "code",
+     "site": "0x800680e4",
+     "va": "0x80084310",
+     "delta": 0
+    },
+    {
+     "kind": "code",
+     "site": "0x800680f0",
+     "va": "0x80084312",
+     "delta": 2
+    }
+   ]
+  }
+ ]
+}

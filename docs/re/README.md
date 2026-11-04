@@ -13,7 +13,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | File | Covers | State |
 |---|---|---|
 | `disc.md` | Disc layout, files, load addresses, prior work, identity build, file lookup by name | verified (dump, RAM dumps, `tests/test_identity.py`, shifted-disc warp) |
-| `text.md` | Encoding, control codes, string references, text ranges | encoding/opcodes verified; dead strings guess |
+| `text.md` | Encoding, control codes, string references, text ranges | verified (`tests/test_extract.py`); dead strings static read only |
 | `engine.md` | Text renderer, window fields, VWF plan | draw path verified by breakpoint; plan is a proposal |
 | `free-space.md` | RAM and disc room for English and hook code | candidates only, none trap-tested |
 | `compression.md` | Game LZ codec | decoder verified on 15,207 TIMs; encoder not written |

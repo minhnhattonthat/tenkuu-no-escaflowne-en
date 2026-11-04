@@ -1,0 +1,81 @@
+# Text ranges: every byte of every overlay's text, and nothing else.
+#
+# file	start	end	region	note
+#   file `*` = the shared block: the same bytes in all eight SYO00-07 overlays,
+#        translated once and written eight times (tools/extract.py proves the copies match).
+#   region common  = menu / SAVE / LOAD / memory-card text (shared block)
+#          names   = the character name table (shared block)
+#          prompt  = pieces the code joins to a name at runtime (shared block)
+#          menu    = the chapter's scene-select menu
+#          script  = the chapter's dialogue, in one packed block after the overlay's code
+#          bark    = a battle bark embedded between script records (declare each string)
+#          block   = a text area interleaved with record bytes; the extractor skips everything
+#                    that is not a whole string and reports how much it skipped. Write it as
+#                    "block+<tag>" (e.g. block+numbers) so the entries keep their own region.
+#          debug   = internal labels (fullwidth Latin, already readable; not player text)
+#          numbers = a table of fullwidth numerals the engine prints (no translation)
+#          battle  = a string BATTLE.BIN sends to a text window
+#          memcard = the save title the BIOS memory-card screen draws: Shift-JIS only, 64-byte field
+#          data    = bytes that are NOT text to translate (loader paths, tables, sentinels)
+# Ends are one past the last string's NUL. Proven: tools/extract.py --check walks every range,
+# every byte of every text region is covered by a string, and no text is found outside them.
+#
+# --- shared block (identical in all 8 overlays; phase 1 notes said 0x00C-0x8AE) ---
+*	0x00000C	0x0001A0	common	partner menu: partner join/leave, SAVE, LOAD
+*	0x0001A0	0x0001B0	data	debug tags "bu00:" / "bu10:"; never translate
+*	0x0001B0	0x0005B4	common	memory-card messages: LOAD/SAVE/format, slot pick, errors
+*	0x0005B4	0x0005CC	data	loader path "\ESCA\PRG\SYO00.BIN;1"; never translate
+*	0x0005CC	0x000808	names	character name table (49 names, reached by a word table)
+*	0x000808	0x0008B0	prompt	partner prompts, joined to a name at runtime
+#
+# --- chapter 0: the shell overlay (menus only) ---
+SYO00.BIN	0x0008B0	0x00095C	data	the seven loader paths "\ESCA\PRG\SYO0n.BIN;1"; never translate
+SYO00.BIN	0x00095C	0x000978	data	chapter dispatch table: 7 code pointers, stride 0x18 (tools/syo_map.py)
+SYO00.BIN	0x000978	0x001163	debug	127 battle/stage labels "TEST", "M1B1".."M9E7"; already Latin, keep
+#
+# --- chapter overlays ---
+SYO01.BIN	0x000943	0x00110C	block+numbers	100-entry table "0".."99" (20-byte records); digits only, keep
+SYO01.BIN	0x001B9C	0x001BC3	bark	chapter 1 battle bark (Refine)
+SYO01.BIN	0x001BF8	0x001C17	bark	chapter 1 battle bark (Van)
+SYO01.BIN	0x001C18	0x001C3B	bark	chapter 1 battle bark (Refine)
+SYO01.BIN	0x001CBC	0x001CDF	bark	chapter 1 battle bark (Refine)
+SYO01.BIN	0x001CE0	0x001CFD	bark	chapter 1 battle bark (Van)
+SYO01.BIN	0x001D68	0x001D8F	bark	chapter 1 battle bark (Refine)
+SYO01.BIN	0x001D90	0x001DB5	bark	chapter 1 battle bark (Van)
+SYO01.BIN	0x002758	0x0027C5	menu	chapter 1 scene select
+SYO01.BIN	0x0027C8	0x0027DE	data	loader path "\ESCA\PRG\SYO02.BIN;1"; never translate
+SYO01.BIN	0x01A5F8	0x020A6B	script	chapter 1
+SYO01.BIN	0x020A6B	0x020A78	data	dummy sentinel "???" + script-end word
+SYO02.BIN	0x001580	0x0015D5	menu	chapter 2 scene select
+SYO02.BIN	0x0015D8	0x0015EE	data	loader path "\ESCA\PRG\SYO03.BIN;1"; never translate
+SYO02.BIN	0x012C7C	0x019E81	script	chapter 2
+SYO02.BIN	0x019E81	0x019E90	data	dummy sentinel "???" + script-end word
+SYO03.BIN	0x0008B0	0x0008BE	data	debug print "battle stop \n"; never translate
+SYO03.BIN	0x0010F4	0x00115B	menu	chapter 3 scene select
+SYO03.BIN	0x00115C	0x001172	data	loader path "\ESCA\PRG\SYO04.BIN;1"; never translate
+SYO03.BIN	0x017978	0x02133E	script	chapter 3
+SYO03.BIN	0x02133E	0x02134C	data	dummy sentinel "???" + script-end word
+SYO04.BIN	0x0010D0	0x001145	menu	chapter 4 scene select
+SYO04.BIN	0x001148	0x00115E	data	loader path "\ESCA\PRG\SYO05.BIN;1"; never translate
+SYO04.BIN	0x01C4D8	0x02629B	script	chapter 4
+SYO04.BIN	0x02629B	0x0262A8	data	dummy sentinel "???" + script-end word
+SYO05.BIN	0x000D40	0x000DA5	menu	chapter 5 scene select
+SYO05.BIN	0x000DA8	0x000DBE	data	loader path "\ESCA\PRG\SYO06.BIN;1"; never translate
+SYO05.BIN	0x00F500	0x014D60	script	chapter 5
+SYO05.BIN	0x014D60	0x014D6C	data	dummy sentinel "???" + script-end word
+SYO06.BIN	0x000F64	0x000FC5	menu	chapter 6 scene select
+SYO06.BIN	0x000FC8	0x000FDE	data	loader path "\ESCA\PRG\SYO07.BIN;1"; never translate
+SYO06.BIN	0x0113E4	0x016AFE	script	chapter 6
+SYO06.BIN	0x016AFE	0x016B08	data	dummy sentinel "???" + script-end word
+SYO07.BIN	0x001244	0x0012B9	menu	chapter 7 scene select
+SYO07.BIN	0x0154FC	0x01C16D	script	chapter 7
+SYO07.BIN	0x001C16D	0x001C17C	data	dummy sentinel "???" + script-end word
+#
+# --- other programs (0x8003... engine shared; docs/re/disc.md has their load addresses) ---
+BATTLE.BIN	0x0001B8	0x0001BF	battle	"文字列" ("string"): sent to window 0 at 0x801EF3E4; whether it shows is unchecked (marker build)
+BATTLE.BIN	0x0001D8	0x0001DB	battle	close-window code sent at 0x801EF708
+TITLE.BIN	0x000298	0x0002A0	data	2 stray SJIS words a debug routine stores to a local at 0x801DEE20; never drawn
+SLPS_010.15	0x0209A4	0x0209A8	data	jal instruction, a jump-table target that decodes as a kanji; code, not text
+SLPS_010.15	0x0209F8	0x0209FC	data	jal instruction, a jump-table target that decodes as a kanji; code, not text
+SLPS_010.15	0x06FC84	0x06FC99	memcard	save title 天空のエスカフローネ; header "SC 13 01" precedes it
+SLPS_010.15	0x074B10	0x074B14	data	kanji ROM lead-byte table, not text

@@ -4,6 +4,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 
 ## Commands (run from repo root)
 - Unpack: `python -X utf8 tools/unpack.py` -> work/tree + work/layout.xml (dumpsxiso)
+- Extract: `python -X utf8 tools/extract.py` -> script/*.json from `tbl/text_ranges.tsv` + `tbl/jp.tbl` (refuses to overwrite translations; `--check` verifies only)
 - Build:  `python -X utf8 tools/build.py` -> build/escaflowne_en.bin + .cue (checks the dump against `rom.sha1` first; one .bin holding both tracks)
 - Check:  `python -X utf8 tools/check.py` (tests + lint; the pre-commit hook runs this; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:  `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/escaflowne_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke`
