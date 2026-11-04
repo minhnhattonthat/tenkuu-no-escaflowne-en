@@ -40,6 +40,8 @@ def check_log(sc, log):
     words = re.findall(r"chapter=(-?\d+) scene=(-?\d+)", log)
     if sc["expect"] != "-" and (not words or words[-1][1] != sc["expect"]):
         return f"scene word {words[-1][1] if words else '?'}, expected {sc['expect']}"
+    if sc.get("say", "-") != "-" and not re.search(r"\d+ say ", log):
+        return "string was never queued (window array freed?)"
     return ""
 
 
@@ -77,6 +79,8 @@ def run(a, sc):
         shutil.copy(shot, Path(a.out) / "_proof" / f"{name}.png")
     elif not err:
         err = "every frame after the warp is blank"
+    if name == "save_game" and not err and b"BISLPS" not in (out / "memcard1.mcd").read_bytes():
+        err = "no save on the card"  # the last frame is the port menu either way, so the picture can't prove this
     if name == "save_game" and not err:  # the game's own save, so format and checksums are right
         CH1_SAVE.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(out / "memcard1.mcd", CH1_SAVE)

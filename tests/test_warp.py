@@ -24,6 +24,12 @@ def test_wrong_scene_word_fails_and_last_word_counts():
     assert warp_all.check_log({"chapter": "1", "expect": "0"}, log)
 
 
+def test_say_scene_fails_if_string_never_queued():
+    sc = {"chapter": "1", "expect": "-", "say": "0x800dccb2"}
+    assert warp_all.check_log(sc, "1460 overlay present\n")
+    assert warp_all.check_log(sc, "1460 overlay present\n2386 say 800DCCB2 window 1\n") == ""
+
+
 def test_scene_list_is_well_formed():
     rows = warp_all.scene_table()
     names = [r["name"] for r in rows]
