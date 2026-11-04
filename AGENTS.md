@@ -17,6 +17,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
   - `tools/pcsx/` PCSX-Redux nightly 30264.20261103.29 (`fetch_emu.py pcsx`), BIOS `tools/bios/scph5500.bin` (`fetch_emu.py psx-bios`)
   - `tools/mkpsxiso/` mkpsxiso/dumpsxiso 2.30 (github.com/Lameguy64/mkpsxiso/releases/download/v2.30/mkpsxiso-2.30-win64.zip)
   - `tools/armips/` armips 0.11.0 (github.com/Kingcom/armips/releases/download/v0.11.0/armips-v0.11.0-windows-x86.7z)
+  - `tools/jpsxdec/` jPSXdec 2.1 beta (github.com/m35/jpsxdec/releases/download/v2.1/jpsxdec_v2.1-beta.zip; index: `java -jar <jar> -f <Track 1 .bin> -x work/jp.idx`)
 - Savestates: `work/states/`. Text: `script/` (JSON). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings

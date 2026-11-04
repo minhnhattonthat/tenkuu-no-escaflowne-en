@@ -12,4 +12,12 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| <text.md> | <encoding, control codes, pointer tables> | <verified / partly guessed> |
+| `disc.md` | Disc layout, files, load addresses, prior work, identity build plan | verified (dump, RAM dumps) |
+| `text.md` | Encoding, control codes, string references, text ranges | encoding/opcodes verified; dead strings guess |
+| `engine.md` | Text renderer, window fields, VWF plan | draw path verified by breakpoint; plan is a proposal |
+| `free-space.md` | RAM and disc room for English and hook code | candidates only, none trap-tested |
+| `compression.md` | Game LZ codec | decoder verified on 15,207 TIMs; encoder not written |
+| `graphics.md` | Graphics-text survey (every image with text) | static sweep done; runtime confirmation left to phase 2 warps |
+
+Recon helpers: `tools/mips.py` (disassembly, lui/addiu xref, hex), `tools/sjis_scan.py`, `tools/text_recon.py`,
+`tools/ramfind.py`, `tools/timscan.py`, `tools/gfx_sweep.py`, `tools/fmv_sample.py`, `tools/lua/drawlog.lua`.
