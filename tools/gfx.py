@@ -37,6 +37,8 @@ CARDS = {
 }
 HEAD_PX, TITLE_PX, MIN_PX = 24, 26, 15
 LOGO_RECT = (0, 0, 240, 125)  # x0, y0, x1, y1: ESCA111's logo; the menu words below it stay
+SPHERE_CORE = 5  # radius of the sphere's own white centre
+LOGO_SPACING = 24  # px at the 200 px master, so F, L and O don't touch once squeezed into the logo's box
 COPYRIGHT = "SUNRISE / TV TOKYO"
 COPYRIGHT_TEXT_X = 18  # after the row's own (c) glyph
 COPYRIGHT_END_X = 160
@@ -155,23 +157,26 @@ def logo(arr, pal):
     yy, xx = np.indices(old.shape)
     r = np.hypot(yy - cy, xx - cx).astype(int)
     radius = 23
-    profile = {}
+    pale = col[old].sum(axis=2) > 540
+    # a glow: brightness per radius, darkening outward. Pale pixels past the core are the old letters' white
+    profile, last = {}, None
+    lum = col.sum(axis=1)
     for k in range(radius + 1):
-        vals = old[(r == k) & neutral]
+        vals = old[(r == k) & neutral & (~pale | (r <= SPHERE_CORE))]
         if vals.size:
-            profile[k] = int(np.bincount(vals).argmax())
+            pick = int(sorted(vals.tolist(), key=lambda i: lum[i])[vals.size // 2])
+            last = pick if last is None or lum[pick] <= lum[last] else last
+        profile[k] = last
     # the star's two hairlines: the row and column holding most neutral pixels. Other neutrals are the old letters' white
     frow, fcol = int(neutral.sum(axis=1).argmax()), int(neutral.sum(axis=0).argmax())
-    pale = col[old].sum(axis=2) > 540
     line_ix = int(np.bincount(old[neutral & ~pale & (r > radius)]).argmax())
     new = np.full_like(old, bg)
     new[frow, 1:-1] = np.where(old[frow, 1:-1] == bg, bg, line_ix)
     new[:, fcol] = np.where(old[:, fcol] == bg, bg, line_ix)
-    # the disc itself: its neutrals stay, except where an old letter's pale edge reaches in
+    # the disc itself, wholly from the profile: any pixel kept from the old art could be a letter's edge
     disc = r <= radius
-    new[disc & neutral & ~(pale & (r > 7))] = old[disc & neutral & ~(pale & (r > 7))]
-    for y, x in zip(*np.nonzero(disc & (old != bg) & (~neutral | (pale & (r > 7))))):
-        new[y, x] = profile.get(int(r[y, x]), bg)
+    for y, x in zip(*np.nonzero(disc)):
+        new[y, x] = profile[int(r[y, x])]
 
     # column colours from the big letters, the outline from their brightest colour
     big = (old != bg) & ~neutral & (yy > 48) & (col[old][:, :, 2] > col[old][:, :, 0])
@@ -185,11 +190,14 @@ def logo(arr, pal):
     for x in range(old.shape[1]):
         colour_at[x] = colour_at[have[np.abs(have - x).argmin()]]
 
-    def stamp(text, weight, cap_px, box, fill_of, edge=None):
+    def stamp(text, weight, cap_px, box, fill_of, edge=None, spacing=0):
         f = ImageFont.truetype(str(DISPLAY), 200)
         f.set_variation_by_axes([weight])
-        im = Image.new("L", (int(f.getlength(text)) + 40, 280), 0)
-        ImageDraw.Draw(im).text((20, 10), text, font=f, fill=255)
+        im = Image.new("L", (int(f.getlength(text)) + spacing * len(text) + 40, 280), 0)
+        pen = 20
+        for ch in text:
+            ImageDraw.Draw(im).text((pen, 10), ch, font=f, fill=255)
+            pen += f.getlength(ch) + spacing
         im = im.crop(im.getbbox())
         bx0, by0, bx1, by1 = box
         im = im.resize((bx1 - bx0 - cap_px, by1 - by0), Image.LANCZOS)
@@ -207,7 +215,7 @@ def logo(arr, pal):
 
     red = nearest(pal, used, (248, 0, 40))
     stamp("THE VISION OF", 700, 3, (56, 20, 214, 38), lambda _x: red)
-    stamp("ESCAFLOWNE", 700, 8, (6, 50, 234, 100), lambda x: int(colour_at[x]), outline)
+    stamp("ESCAFLOWNE", 700, 8, (6, 50, 234, 100), lambda x: int(colour_at[x]), outline, spacing=LOGO_SPACING)
     arr[y0:y1, x0:x1] = new
 
 
