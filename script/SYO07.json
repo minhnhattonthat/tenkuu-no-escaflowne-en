@@ -2582,8 +2582,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I've been here before. A city on the Mystic Moon. | So my will got through, and I reached the Mystic Moon. | All right! Let's look for Hitomi.\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I've been here before. A city on the{nl}Mystic Moon.{wait}{clear}{nl}So my will got through, and I reached{nl}the Mystic Moon.{wait}{clear}{nl}All right! Let's look for Hitomi.\"{pageend}{nl2}{end}"
+   "tl": "\"I've been here before. A city on the Mystic Moon. | So my feelings got through, and I reached the Mystic Moon. | All right! Let's look for Hitomi.\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"I've been here before. A city on the{nl}Mystic Moon.{wait}{clear}{nl}So my feelings got through, and I{nl}reached the Mystic Moon.{wait}{clear}{nl}All right! Let's look for Hitomi.\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_130",
@@ -4110,8 +4110,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Have faith in him. Van will surely come back. | Right, Merle...?\"",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Have faith in him. Van will surely{nl}come back.{wait}{clear}{nl}Right, Merle...?\"{pageend}{nl2}{end}"
+   "tl": "\"Believe in him. Van will surely come back. | Right, Merle...?\"",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}\"Believe in him. Van will surely{nl}come back.{wait}{clear}{nl}Right, Merle...?\"{pageend}{nl2}{end}"
   },
   {
    "id": "syo07_206",

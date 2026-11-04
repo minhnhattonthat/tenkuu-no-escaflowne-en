@@ -1970,8 +1970,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"O-okay!\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"O-okay!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"R-right!\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"R-right!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_100",
@@ -2020,8 +2020,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"You're Refine!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303233}\"You're Refine!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"It's you, Refine!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}{voice:30303233}\"It's you, Refine!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_102",
@@ -4420,8 +4420,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Heighten your will.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Heighten your will.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Heighten your feelings.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Heighten your feelings.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo05_216",

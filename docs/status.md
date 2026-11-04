@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release: not started (phase 8 done; see Not verified for what stays provisional).
+- **Phase:** 9. Release: done, v1.0 zip built and verified, not published (publishing is the user's call; see Not verified for what stays provisional).
 - **Done:**
   - Step 0: dump pinned, tools fetched (`AGENTS.md` lists versions and URLs), hook and check active, guard proven, original boots to title on real BIOS.
   - Phase 1: `docs/re/` holds encoding, opcodes, references, text ranges, engine, free-space candidates, LZ codec, graphics survey. Start at `docs/re/README.md`.
@@ -15,12 +15,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase 7: `tests/test_romdiff.py` builds its own files and checks every overlay against its write log, the EXE against `data/exe_ranges.txt`, no Japanese in any `en`, no Japanese without `en` unless dead. `batches.py` also compares control codes and full glossary terms; `fit.py` refuses an added page of 3 words or fewer and a last row under 6 characters. Memory-card title is `ＥＳＣＡＦＬＯＷＮＥ` (same 21 bytes). `jp_left.py --sjis`: 0 runs in the EXE and all 9 overlays. Full warp 146/146 on the English build (`work/qa/warp_p7`), smoke ok; 5,229-10,447 bytes left per overlay.
   - Phase 7 review (`H:\translation\.harness\reviews\tenkuu-no-escaflowne-en-phase7.md`, 0 Critical, 2 Important, 9 Minor): all fixed. `batches.py` now measures menus, fragments and names against `data/windows.json` (fit.py loads its budgets from there); `tests/test_romdiff.py` gates refs resolving, no stale reader, whole tables, no swallowed branch target, each failing on a mutated build; a skipped test now fails the check unless `ALLOW_SKIP=1`.
   - Phase 8 (build `ab23657`): graphics text in English: title logo, copyright, 7 chapter cards, staff roll, placeholder picture (`tools/gfx.py`, `tools/staff.py`), logo in the opening video (`tools/fmv.py`). Partner prompt and choice box reached by the game's own route, option picked (`partner_prompt`, `partner_choice`, `partner_answer`). Full warp 150/150 (`work/qa/tour`); `qa_gate.py check` exits 0, 40 sheets with ok verdicts from read-only `visual-qa` agents (`work/qa/verdicts`); zoomed cold-boot proofs in `work/qa/proof`, `sheet_proof_*`; smoke ok; `jp_left.py` 0 runs on the EXE and all ESCA/PRG files.
-- **Next (phase 9):**
-  - Story pass: one verdict per chapter (`work/qa/story/manifest.tsv`, `references/translation.md` §Review), by a different reader if one exists; `docs/polish.md` must end with no unticked line.
-  - Write `tools/release.py`: run `qa_gate.py check` on every manifest, `jp_left.py`, build, split at track 1's end, patch track 1 only, re-apply and verify; zip of patch + README. Debug tool must be off in the release build. Fill `README.md`: base hashes, known limits. Never publish.
+  - Phase 9 (build `673457db`, sha1 of `build/escaflowne_en.bin`): story pass of every chapter (`docs/review-phase9.md`, verdicts in `work/qa/story/verdicts`): 1 Important and 16 Minors fixed in `work/tl/r06`, `docs/polish.md` closed. Full warp 150/150 on this build (`work/qa/tour9`); only `sheet_013` changed, only by one fixed line, re-read ok. `tools/release.py` exits 0: build, 92 tests, smoke, `jp_left.py` 0 runs on the EXE and 10 overlays, both `qa_gate.py` manifests, polish, toured hash, patch, re-apply, smoke on the player's own files (`build/player`: patched Track 1, original Track 2 and cue). `release/Tenkuu_no_Escaflowne_EN_v1.0.zip`: xdelta + README.txt. Patched Track 1: CRC32 `2c839add`, SHA-1 `88073be8c0d98a844d5f7a9a7b521364ac1ef68c`. The debug tool is a Lua probe, never in the image. `README.md` filled.
+- **Next:** nothing in this run. The user decides on publishing; `references/pipeline.md` §Publish when they ask.
 - **Open bugs:** none.
 - **Not verified:**
-  - Translation review is provisional (review I1): external review 35% by hand, then a fresh session read the rest, skipping lines under 12 JP characters and choice boxes outside `SYO01`, `SYO02` and `SYO03` up to 324. Same model family; nested workers refused, `codex exec` over its limit until 2026-11-11 (retried today, still limited). Phase 9's story pass should use a different reader if one exists.
+  - Translation review stays same-model (review I1, `docs/review-phase9.md`): the phase 9 story pass read every line, in a session that didn't write the script, but nested workers are refused and `codex exec` is over its limit until 2026-11-11 (retried 2026-11-05). A reader from outside is still worth having.
+  - 16 of the 17 `r06` lines weren't seen on screen: warp stops at table slots, and these lines fall between shots. `batches.py` measured their wrap and fit; `syo02_124` was seen.
+  - The patch was applied with `xdelta3` only. The zip's README names Delta Patcher too, and nobody has run it on this patch; `-S djw` was chosen so it should read it.
   - The user hasn't approved a pilot in-game, as the skill asks; the run's brief pre-approves checkpoints.
   - Long lines now run on to extra pages. Voice clips are timed to the JP pages; nobody has heard whether speech and the extra pages still line up.
   - "Jechia", "Getin", "Helio", "Zodia", "Gimle", "Theo", "Dilate", "Rampant", "Godashim", "Zegu", "Kaja", "Refine" are best-effort spellings of names with no source I could check. ギムル "Gimle" may be the game's misspelling of ギメル "Guimel".
@@ -45,16 +46,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Partner prompts are `fragment`s joined after a name at runtime: English needs a rewording or a change to the join (`docs/re/text.md`).
   - Form `numbers` (fullwidth digits in SYO01), `debug` (SYO00 labels) and any `data` entry stay as they are; the translator batches should skip them.
   - **`work/tree` must stay the pristine unpack:** the identity test rebuilds from it. Phase 5/7 builds must put edited files in a copy and point a layout at it, or `tools/check.py` fails.
-  - `tools/build.py` writes one .bin with both tracks, but the player's dump has two. Phase 9 must split at track 1's end (the cue's track 2 INDEX 00) and patch track 1 only, so the player keeps track 2 and their cue.
+  - `tools/build.py` writes one .bin with both tracks, but the player's dump has two. `tools/release.py` splits at track 1's end (the cue's track 2 INDEX 00) and patches track 1 only; it refuses if the built track 2 differs from the dump's. Same build twice gives the same bytes (checked once).
   - File growth changes frame timing everywhere (seek time), so same-frame pixel diffs against the original don't work; a battle can even play out differently. Compare by scene.
   - `tools/*/` is gitignored, so a fresh clone needs the tools refetched: see `AGENTS.md`. `work/` too: rerun `python -X utf8 tools/unpack.py`; survey with `tools/gfx_sweep.py`, `tools/fmv_sample.py` (needs `work/jp.idx`). `work/saves/ch1_save.mcd` comes from `warp_all.py save_game`.
   - Orca runs: nested workers are refused, so use `codex exec` for independent reads (`codex exec --skip-git-repo-check --sandbox read-only -i a.png ... -- "prompt"`).
   - **There is no OPTION screen** (`docs/re/graphics.md`): the title has START and LOAD only.
   - `warp.lua` holds each overlay's table address and first word. If phase 7 moves the tables or changes their contents, update `TABLES` there and in `tools/debug/gen_scenes.py`, then regenerate `scenes.tsv`.
   - Full warp run takes about 15 minutes at `--jobs 5`, longer if other emulators share the machine.
-  - `README.md` is still the template with placeholders; fill it at release (phase 9).
   - The build needs `work/jp.idx` and Java: `tools/fmv.py` re-encodes the opening's logo with jPSXdec (about 16 s). The opening video isn't in `layout.xml` edits; `tools/gfx.py` `edited()` writes it. Rerun `tools/batches.py refit` after any `tools/fit.py` change.
 - **Waiting on the user (non-blocking, defaults in force):**
+  - Publishing v1.0: `release/Tenkuu_no_Escaflowne_EN_v1.0.zip` is ready. Repo visibility and `gh release create` are untouched, as the brief asks.
   - D2 amendment (review I6): `glossary.md` has a rule for game-original names that D2 doesn't; options and default in `docs/decisions.md`, open questions.
   - FMVs (57 videos, ~21 min of spoken Japanese, no text on screen). Subtitling means re-encoding video with jPSXdec, and the disc's streams must keep their timing. Default: leave unsubtitled for v1.0, list it in the README as a known limit; revisit after phase 9 if time remains.
   - Voiced lines stay Japanese audio under English text.

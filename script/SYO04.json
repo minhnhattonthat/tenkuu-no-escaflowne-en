@@ -6014,8 +6014,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"I am sorry, both of you. | Lend me, Folken, your strength.\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"I am sorry, both of you.{wait}{clear}{nl}Lend me, Folken, your strength.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"I am sorry, both of you. | Lend this Folken your strength.\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"I am sorry, both of you.{wait}{clear}{nl}Lend this Folken your strength.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_311",
@@ -8764,8 +8764,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"You... why? | Why do you still look just as you did then... | I see. So that's the mystery of Atlantis, the power of will... My will back then... | wasn't mistaken. | I want you... to keep this. | Wishes come true. However far apart, across time, across space...\"",
-   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"You... why?{wait}{clear}{nl}Why do you still look just as you{nl}did then...{wait}{clear}{nl}I see. So that's the mystery of Atlantis,{nl}the power of will... My will back then...{wait}{clear}{nl}wasn't mistaken.{wait}{clear}{nl}I want you... to keep this.{wait}{clear}{nl}Wishes come true. However far apart,{nl}across time, across space...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"You... why? | Why do you still look just as you did then... | I see. So that's the mystery of Atlantis, the power of will... What I felt back then... | wasn't mistaken. | I want you... to keep this. | Wishes come true. However far apart, across time, across space...\"",
+   "en": "{clear}{nameon}{color3}26Leon{expr:3137}{nameoff}{color2}{nl}\"You... why?{wait}{clear}{nl}Why do you still look just as you{nl}did then...{wait}{clear}{nl}I see. So that's the mystery of Atlantis,{nl}the power of will... What I felt{nl}back then...{wait}{clear}{nl}wasn't mistaken.{wait}{clear}{nl}I want you... to keep this.{wait}{clear}{nl}Wishes come true. However far apart,{nl}across time, across space...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo04_451",

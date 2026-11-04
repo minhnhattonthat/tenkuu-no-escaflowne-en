@@ -2940,8 +2940,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Believe in your own will... A person's will | is sure to come true...\"",
-   "en": "{clear}{nameon}{color3}26Hitomi's Grandma{expr:3138}{nameoff}{color2}{nl}\"Believe in your own will... A person's will{wait}{clear}{nl}is sure to come true...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Believe in your own wish... A person's wish | is sure to come true...\"",
+   "en": "{clear}{nameon}{color3}26Hitomi's Grandma{expr:3138}{nameoff}{color2}{nl}\"Believe in your own wish... A{nl}person's wish{wait}{clear}{nl}is sure to come true...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_152",
@@ -2959,8 +2959,8 @@
      "delta": 0
     }
    ],
-   "tl": "(Believe... in my own will...)",
-   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}(Believe... in my own will...){wait}{clear}{nl2}{end}"
+   "tl": "(Believe... in my own wish...)",
+   "en": "{clear}{nameon}{color3}26Hitomi{expr:3031}{nameoff}{color2}{nl}(Believe... in my own wish...){wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_153",
@@ -4094,8 +4094,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"It's fine to believe in your own will, but before long, | I'll have to lock you in a birdcage.\"",
-   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"It's fine to believe in your own will, but{nl}before long,{wait}{clear}{nl}I'll have to lock you in a birdcage.\"{wait}{clear}{nl2}{end}"
+   "tl": "\"It's fine to believe in your own feelings, but before long, | I'll have to lock you in a birdcage.\"",
+   "en": "{clear}{nameon}{color3}26Allen{expr:3033}{nameoff}{color2}{nl}\"It's fine to believe in your own feelings,{nl}but before long,{wait}{clear}{nl}I'll have to lock you in a birdcage.\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_208",
@@ -4808,8 +4808,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Do you hate me, Folken Fanel?\"",
-   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Do you hate me, Folken Fanel?\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Do you hate me? Do you hate this Folken Fanel?\"",
+   "en": "{clear}{nameon}{color3}26Folken{expr:3036}{nameoff}{color2}{nl}\"Do you hate me? Do you hate this{nl}Folken Fanel?\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo06_244",

@@ -10,7 +10,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Check:  `python -X utf8 tools/check.py` (tests + lint; the pre-commit hook runs this; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:  `python -X utf8 "$(python tools/skill.py)/scripts/emu.py" build/escaflowne_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:   `python -X utf8 tools/debug/warp_all.py --cue build/escaflowne_en.cue <scene>...` (no scene = all, `--states` saves `work/states/`; scene list `tools/debug/scenes.tsv`, how it works `docs/re/warp.md`; never ask the user to play to a scene)
-- Release: `python -X utf8 tools/release.py` (patch + verify; never publish without the user; written in phase 9)
+- Release: `python -X utf8 tools/release.py` (all gates, patch, re-apply, boots the player's files; `release/` zip; never publish without the user. After any text change: rerun the tour and sheets, `qa_gate.py init`, verdicts for changed sheets, then `sha1sum build/escaflowne_en.bin > work/qa/tour.sha1`)
 - Clean:  `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 
 ## Paths
@@ -19,6 +19,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
   - `tools/pcsx/` PCSX-Redux nightly 30264.20261103.29 (`fetch_emu.py pcsx`), BIOS `tools/bios/scph5500.bin` (`fetch_emu.py psx-bios`)
   - `tools/mkpsxiso/` mkpsxiso/dumpsxiso 2.30 (github.com/Lameguy64/mkpsxiso/releases/download/v2.30/mkpsxiso-2.30-win64.zip)
   - `tools/armips/` armips 0.11.0 (github.com/Kingcom/armips/releases/download/v0.11.0/armips-v0.11.0-windows-x86.7z)
+  - xdelta3 3.2.1 on PATH (github.com/jmacd/xdelta-gpl/releases), for `tools/release.py`
   - `tools/jpsxdec/` jPSXdec 2.1 beta (github.com/m35/jpsxdec/releases/download/v2.1/jpsxdec_v2.1-beta.zip; index: `java -jar <jar> -f <Track 1 .bin> -x work/jp.idx`). The build needs it and Java: `tools/fmv.py` re-encodes the opening's logo
 - Savestates: `work/states/`. Text: `script/` (JSON). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 

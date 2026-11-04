@@ -2313,8 +2313,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Stop it! Not here, fighting here...!\"",
-   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Stop it! Not here, fighting here...!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Stop it! We can't fight here!\"",
+   "en": "{clear}{nameon}{color3}26Van{expr:3030}{nameoff}{color2}{nl}\"Stop it! We can't fight here!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_125",
@@ -3198,8 +3198,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Earth, as in... we ended up on the Mystic Moon? | Van-samaaa! Can't Merle and you ever go back to Gaea now?! | Merle doesn't want that!!\"",
-   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Earth, as in... we ended up on the{nl}Mystic Moon?{wait}{clear}{nl}Van-samaaa! Can't Merle and you ever{nl}go back to Gaea now?!{wait}{clear}{nl}Merle doesn't want that!!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"Earth, as in... we ended up on the Mystic Moon? | Van-samaaa! Can't we ever go back to Gaea now?! | Merle doesn't want that!!\"",
+   "en": "{clear}{nameon}{color3}26Merle{expr:3034}{nameoff}{color2}{nl}\"Earth, as in... we ended up on the{nl}Mystic Moon?{wait}{clear}{nl}Van-samaaa! Can't we ever go back to{nl}Gaea now?!{wait}{clear}{nl}Merle doesn't want that!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_170",
@@ -5879,8 +5879,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"Even if I can see you, | it makes no difference!\"",
-   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303237}\"Even if I can see you,{wait}{clear}{nl}{voice:30303238}it makes no difference!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"So what if you can see us? | It makes no difference!\"",
+   "en": "{clear}{nameon}{color3}26Dilandau{expr:3035}{nameoff}{color2}{nl}{voice:30303237}\"So what if you can see us?{wait}{clear}{nl}{voice:30303238}It makes no difference!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo02_312",

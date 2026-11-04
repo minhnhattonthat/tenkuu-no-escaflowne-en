@@ -1,6 +1,6 @@
-# <Game title> English translation
+# Tenkuu no Escaflowne (The Vision of Escaflowne) English translation
 
-Unofficial English fan translation of **<Game title>** (<platform>, <publisher>, <year>): the source text and tools
+Unofficial English fan translation of **Tenkuu no Escaflowne** (PlayStation, Bandai, 1997): the source text and tools
 that build the patch.
 
 **Just want to play?** Download the patch from [Releases](../../releases) and follow its README. This repository holds
@@ -13,13 +13,35 @@ helps most.
 
 | Part | Status |
 |---|---|
-| <Dialogue / story> | <Translated> |
-| <Menus, items, skills, system messages> | <Translated> |
-| <Title screen, logos, graphics with text> | <Translated / Left in Japanese> |
-| <Name entry> | <Translated / Japanese kana only> |
-| <Songs, voiced lines, credits roll> | <Left in Japanese> |
+| Dialogue and story | Translated |
+| Menus and system messages | Translated |
+| Title screen, chapter cards, opening video's logo | Translated |
+| Staff roll | Translated |
+| Other videos (57, about 21 minutes of speech) | Japanese, no subtitles |
+| Voiced lines | Japanese audio under English text |
 
-Known issues: <none known / see [Issues](../../issues)>.
+Tested in PCSX-Redux on a Japanese BIOS, from a cold boot. The game has no name entry and no option screen.
+
+Known limits:
+
+- Long lines run on to extra pages. Voice clips are timed to the Japanese pages, and nobody has checked by ear that they still line up.
+- The glare over the logo in the opening video is missing.
+- The shrine box in chapter 1's map art keeps its Japanese character, as scenery.
+- Names the game invented, with no official spelling to follow, are best guesses: Jechia, Getin, Helio, Zodia, Gimle, Theo, Dilate, Rampant, Godashim, Zegu, Kaja, Refine.
+- Saves from the unpatched game haven't been tried on the patched one.
+
+See also [Issues](../../issues).
+
+## Base dump
+
+Tenkuu no Escaflowne (Japan), SLPS-01015. The patch applies to Track 1 only; keep your Track 2 and your .cue.
+
+| Track | Size | MD5 | SHA-1 |
+|---|---|---|---|
+| 1 | 515,612,496 bytes | `28f82df7fedcf5bcd719d793b7679e64` | `4083350077d56992c714d2ed90a23a5e57ac3b72` |
+| 2 | 32,986,800 bytes | `140001a90c546f8c20b644dbbac32ae6` | `5c876b512b0b57ca4ccc5fa2f8ee285788d56c7d` |
+
+CRC32s and the patched hashes are in the README inside the release zip.
 
 ## What's here
 
@@ -40,11 +62,13 @@ Known issues: <none known / see [Issues](../../issues)>.
 Needs Python 3.12+ and your own dump of the Japanese game.
 
 ```sh
-git clone https://github.com/minhnhattonthat/<repo>
-cd <repo>
-# copy your dump to: rom/<file>
-#   (<size> bytes, SHA-1 <sha1>; the build refuses any other dump, see rom.sha1)
-python -X utf8 tools/build.py                          # -> build/<game>_en.<ext>
+git clone https://github.com/minhnhattonthat/tenkuu-no-escaflowne-en
+cd tenkuu-no-escaflowne-en
+# copy your dump to rom/: "Tenkuu no Escaflowne (Japan).cue" and its two tracks
+#   (hashes above; the build refuses any other dump, see rom.sha1)
+# fetch the tools listed in AGENTS.md (mkpsxiso, armips, jPSXdec + Java, PCSX-Redux for the tests)
+python -X utf8 tools/unpack.py                         # -> work/tree, work/layout.xml
+python -X utf8 tools/build.py                          # -> build/escaflowne_en.bin + .cue
 python -X utf8 tools/check.py                          # tests + text lint
 ```
 
@@ -56,8 +80,8 @@ If you enjoy this translation, you can support my work on Ko-fi:
 
 ## Licence
 
-Tools and English translation: MIT. The original Japanese text in `script/` is <publisher>'s and is included only so
-the translation can be checked against it. <Game title> is (c) <publisher>; this project is not affiliated with them.
-Do not share patched ROMs.
+Tools and English translation: MIT. The original Japanese text in `script/` is the game publisher's and is included
+only so the translation can be checked against it. Tenkuu no Escaflowne is (c) Sunrise, TV Tokyo and Bandai; this
+project is not affiliated with them. Do not share patched images.
 
 The translation was made with extensive AI assistance (Claude by Anthropic). Corrections are very welcome.

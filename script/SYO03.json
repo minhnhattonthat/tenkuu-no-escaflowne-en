@@ -3383,8 +3383,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"My mother told me all about you, and I always looked up to you. | It's a pity. So Mother was lying to me too...\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"My mother told me all about you, and I{nl}always looked up to you.{wait}{clear}{nl}It's a pity. So Mother was lying to{nl}me too...\"{wait}{clear}{nl2}{end}"
+   "tl": "\"My mother told me all about you, and I always looked up to you. | I'm so disappointed. So Mother was lying to me too...\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"My mother told me all about you, and I{nl}always looked up to you.{wait}{clear}{nl}I'm so disappointed. So Mother was lying{nl}to me too...\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_177",
@@ -4535,8 +4535,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"What? Y-yes! | To your... To your heartbeat! That's it... harder! Harder!!\"",
-   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What? Y-yes!{wait}{clear}{nl}To your... To your heartbeat! That's it...{nl}harder! Harder!!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"What? Y-yes! | With your... In time with your own heartbeat! That's it... harder! Harder!!\"",
+   "en": "{clear}{nameon}{color3}26Millerna{expr:3038}{nameoff}{color2}{nl}\"What? Y-yes!{wait}{clear}{nl}With your... In time with your own{nl}heartbeat! That's it... harder! Harder!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_237",
@@ -4849,8 +4849,8 @@
      "delta": 0
     }
    ],
-   "tl": "\"One proves one's own innocence oneself. | They too shall follow the laws of the Duchy of Freid. I take responsibility for this!!\"",
-   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"One proves one's own{nl}innocence oneself.{wait}{clear}{nl}They too shall follow the laws of the{nl}Duchy of Freid. I take responsibility{nl}for this!!\"{wait}{clear}{nl2}{end}"
+   "tl": "\"The accused must clear their own names. | They too shall follow the laws of the Duchy of Freid. I take responsibility for this!!\"",
+   "en": "{clear}{nameon}{color3}26Chid{expr:3131}{nameoff}{color2}{nl}\"The accused must clear their{nl}own names.{wait}{clear}{nl}They too shall follow the laws of the{nl}Duchy of Freid. I take responsibility{nl}for this!!\"{wait}{clear}{nl2}{end}"
   },
   {
    "id": "syo03_254",
