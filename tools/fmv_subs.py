@@ -22,7 +22,7 @@ OUT = ROOT / "work/fmv/subs"
 STR_DIR = "ESCA/STR"
 FPS = 150 / 10.01  # 2x disc speed is 150 sectors a second; every video's index says 1001/100 sectors a frame
 FONT = ImageFont.truetype(str(ROOT / "fonts/LiberationSerif-Bold.ttf"), 15)
-MAX_W, LINE_H, BOTTOM = 296, 16, 232  # px on the 320x240 frame; BOTTOM keeps the last row inside TV overscan
+MAX_W, LINE_H, BOTTOM = 296, 16, 226  # px on the 320x240 frame; consumer CRTs can hide about 8 lines, so the last row clears 12
 JOBS = 6
 
 

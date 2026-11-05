@@ -32,7 +32,7 @@ def test_burn_stays_low_and_inside_the_frame():
     before = img.copy()
     fmv_subs.burn(img, "Finding happiness through a fate run by a machine is wrong!")
     box = Image.eval(Image.frombytes("L", img.size, bytes(a != b for a, b in zip(img.convert("L").tobytes(), before.convert("L").tobytes()))), lambda v: v * 255).getbbox()
-    assert box and box[1] >= 190 and box[3] <= 236 and box[0] >= 4 and box[2] <= 316
+    assert box and box[1] >= 180 and box[3] <= 230 and box[0] >= 4 and box[2] <= 316
 
 
 def test_frames_follow_the_disc_rate():
