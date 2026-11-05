@@ -1,6 +1,7 @@
 Tenkuu no Escaflowne (The Vision of Escaflowne), PlayStation: English patch v{version}
 
-Unofficial fan translation. It contains no game data: you need your own dump of the Japanese disc.
+Unofficial fan translation. It is not a copy of the game: you need your own dump of the Japanese disc. The patch does
+hold re-encoded frames of the game's videos, about 6 minutes, because the subtitles are burned into them.
 
 WHAT YOU NEED
   Tenkuu no Escaflowne (Japan), serial SLPS-01015, the standard edition, as a .cue with two .bin tracks:

@@ -14,6 +14,7 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D6 | 2026-11-04 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through every checkpoint. Never run `gh release create`, never change repo visibility; the run ends at a built and verified release zip. |
 | D7 | 2026-11-04 | Existing saves, memory cards, savestates | provide, none | None provided; build the debug tool as usual. |
 | D8 | 2026-11-05 | Subtitles for videos | leave unsubtitled (old default), subtitle those with spoken dialogue | Subtitle every video with dialogue voice, burned in. Songs stay unsubtitled by default: the ask names dialogue, and the user resumed without changing it when told. `docs/re/fmv-subs.md`. |
+| D9 | 2026-11-05 | Publishing | v1.1 public, v1.0 public, private release only | v1.1 public, knowing the patch holds about 6 minutes of re-encoded video frames (91 MB). Lifts D6's bar on `gh release create` and repo visibility for this release. |
 
 ## Open questions (no ruling yet; defaults in force)
 
