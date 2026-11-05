@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import extract  # noqa: E402
 import fmv  # noqa: E402
+import fmv_subs  # noqa: E402
 import font  # noqa: E402
 import gfx  # noqa: E402
 import lz  # noqa: E402
@@ -192,6 +193,18 @@ def test_opening_video_changes_only_the_logos_video_sectors(edited):
     assert changed and max(changed) < (fmv.FADE_OUT[1] + 1) * 11  # about 10 sectors a frame
     assert min(changed) >= fmv.FADE_IN[0] * 9
     assert not [s for s in changed if orig[s * size + 2] & 4], "an XA audio sector changed: the voices would go"
+
+
+@needs_tree
+def test_subtitles_change_only_video_sectors(edited):
+    size = 2336
+    for rows_video in fmv_subs.load():
+        orig = fmv_subs.source(rows_video).read_bytes()
+        new = edited[fmv_subs.source(rows_video).relative_to(extract.TREE).as_posix()]
+        assert len(orig) == len(new), rows_video
+        changed = [s for s in range(len(orig) // size) if orig[s * size:(s + 1) * size] != new[s * size:(s + 1) * size]]
+        assert changed, rows_video
+        assert not [s for s in changed if orig[s * size + 2] & 4], f"{rows_video}: an XA audio sector changed"
 
 
 @needs_tree

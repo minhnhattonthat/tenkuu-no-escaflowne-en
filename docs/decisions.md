@@ -13,6 +13,7 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D5 | 2026-11-04 | Graphics text left in Japanese | none (default), list | Translate all (titles, menus, banners, cards). Keep the original Japanese logo only if it has no official English version. |
 | D6 | 2026-11-04 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through every checkpoint. Never run `gh release create`, never change repo visibility; the run ends at a built and verified release zip. |
 | D7 | 2026-11-04 | Existing saves, memory cards, savestates | provide, none | None provided; build the debug tool as usual. |
+| D8 | 2026-11-05 | Subtitles for videos | leave unsubtitled (old default), subtitle those with spoken dialogue | Subtitle every video with dialogue voice, burned in. Songs stay unsubtitled by default: the ask names dialogue, and the user resumed without changing it when told. `docs/re/fmv-subs.md`. |
 
 ## Open questions (no ruling yet; defaults in force)
 

@@ -17,7 +17,7 @@ helps most.
 | Menus and system messages | Translated |
 | Title screen, chapter cards, opening video's logo | Translated |
 | Staff roll | Translated |
-| Other videos (57, about 21 minutes of speech) | Japanese, no subtitles |
+| Spoken video dialogue (37 of 57 videos) | English subtitles under Japanese speech; songs not subtitled |
 | Voiced lines | Japanese audio under English text |
 
 Tested in PCSX-Redux on a Japanese BIOS, from a cold boot. The game has no name entry and no option screen.

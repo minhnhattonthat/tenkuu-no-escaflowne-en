@@ -34,7 +34,7 @@ WHAT IS TRANSLATED
   Title, chapter cards      English
   Staff roll                English
   Opening video's logo      English
-  Other videos              Japanese speech, no subtitles (57 videos, about 21 minutes)
+  Spoken video dialogue     English subtitles under Japanese speech (songs not subtitled)
   Voiced lines              Japanese audio under English text
 
 KNOWN LIMITS

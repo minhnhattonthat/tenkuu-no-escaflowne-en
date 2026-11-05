@@ -65,4 +65,4 @@ The rule stays: a row counts as done only with a zoomed cold-boot shot in phase 
 
 **FMV text:** one frame per 45 of all 57 videos was read (`work/qa/fmv_dense`, frames every 3 s; the first survey's 3 a video missed this): the only text is the opening's logo, `SC01.STR` frames 66-148, with `(c) 1996 SUNRISE, INC.` in English. `tools/fmv.py` redraws it in English, cached in `work/fmv`; the build needs Java and `tools/jpsxdec` for that. It stays approximate in the fade-out's dimmest frames: Hitomi walks through it, thin slivers of the old letters survive around frames 135-138 and her navy collar picks up the plate's blue in 144-147.
 
-**FMV dialogue:** spoken Japanese, no subtitles. Subtitling them is optional engine work; see `docs/status.md`.
+**FMV dialogue:** spoken Japanese, English subtitles burned in; see `fmv-subs.md`.
